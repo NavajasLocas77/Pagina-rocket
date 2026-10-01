@@ -1,0 +1,4520 @@
+[
+  {
+    "id": "stage-1",
+    "act": "kanto",
+    "actNumber": 1,
+    "actTitle": "Acto I: Kanto",
+    "order": 1,
+    "location": "Isla Inta / Cueva Perdida",
+    "recommendedLevel": "Nv. 7 - Nv. 11",
+    "storySteps": [
+      "Despiertas en el cuartel novato del Team Rocket en Isla Inta. Habla con tus superiores para recibir tu asignación.",
+      "Enfréntate a tu Rival Andra en tu combate de graduación novata (Rival Andra Nv. 7).",
+      "Dirígete hacia la Cueva Perdida para tu primera misión de asalto oficial contra la Cónsul (Nv. 11).",
+      "Derrota a la Cónsul y asegúrate de recuperar el cargamento del Team Rocket."
+    ],
+    "availablePokemon": [
+      {
+        "name": "Zubat",
+        "method": "Salvaje",
+        "location": "Cueva Perdida",
+        "level": "Nv. 6 - 8",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 41
+      },
+      {
+        "name": "Meowth",
+        "method": "Salvaje",
+        "location": "Hierba exterior Isla Inta",
+        "level": "Nv. 6 - 7",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 52
+      },
+      {
+        "name": "Wooper",
+        "method": "Salvaje",
+        "location": "Zona marítima de Isla Inta",
+        "level": "Nv. 7 - 9",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": false,
+        "dexNum": 194
+      },
+      {
+        "name": "Mareep",
+        "method": "Salvaje",
+        "location": "Alrededores del cuartel",
+        "level": "Nv. 6 - 8",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 179
+      }
+    ],
+    "gifts": [
+      {
+        "id": "gift-phanpy",
+        "name": "Phanpy",
+        "dexNum": 231,
+        "level": "Nv. 8",
+        "heldItem": "Meteorito",
+        "npc": "Dependiente junto al Pilar Recuerdo",
+        "location": "Pilar Recuerdo (Isla Inta)",
+        "steps": [
+          "Habla con la persona lamentándose por la pérdida de su Onyx junto al Pilar Recuerdo.",
+          "Entra al Centro Pokémon de Isla Inta y derrota en combate al cocinero.",
+          "Regresa con la persona junto al pilar y entrégale las limonadas."
+        ],
+        "warning": "⚠️ LLEVA EL METEORITO EQUIPADO. No lo vendas ni tires: es el requisito para obtener a Duraludon Nv. 50 en Sevii."
+      }
+    ],
+    "sidequests": [
+      {
+        "id": "sq-1",
+        "name": "Las Limonadas del Pilar Recuerdo & Meteorito",
+        "status": "available_now",
+        "statusLabel": "🟢 Disponible ahora",
+        "npc": "Dependiente en Pilar Recuerdo",
+        "location": "Pilar Recuerdo (Isla Inta)",
+        "prerequisite": "Ninguno (accesible al inicio)",
+        "steps": [
+          "Hablar con el NPC junto al pilar que llora por su Onyx.",
+          "Derrotar al cocinero en el Centro Pokémon de Isla Inta para conseguir limonadas.",
+          "Volver al Pilar Recuerdo y entregarlas."
+        ],
+        "rewards": "Phanpy Nv. 8 (con Meteorito equipado)",
+        "questRefId": "quest-3"
+      }
+    ],
+    "bosses": [
+      {
+        "bossId": "boss-1",
+        "trainerName": "Rival Andra (1er encuentro)",
+        "title": "Bautismo Rocket",
+        "location": "Isla Inta",
+        "levelRange": "Nv. 7",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Equipo competitivo con IVs 31 y 252 EVs. Roster canónico sin alteraciones."
+      },
+      {
+        "bossId": "boss-2",
+        "trainerName": "Cónsul",
+        "title": "Asalto Oficial",
+        "location": "Cueva Perdida (Isla Inta)",
+        "levelRange": "Nv. 11",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Duelo estricto de nivel bajo. Usa movimientos de estado."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-exp-share",
+        "name": "Repartir Experiencia",
+        "location": "Cueva Perdida (Suelo tras vencer a la Cónsul)",
+        "category": "clave",
+        "isMissable": true
+      },
+      {
+        "id": "item-poke-balls-inta",
+        "name": "5x Poké Balls",
+        "location": "Cuartel Rocket Isla Inta",
+        "category": "otro",
+        "isMissable": false
+      },
+      {
+        "id": "item-potion-inta",
+        "name": "Poción",
+        "location": "Exterior del Centro Pokémon",
+        "category": "otro",
+        "isMissable": false
+      }
+    ],
+    "missables": [
+      {
+        "title": "⚠️ REPARTIR EXPERIENCIA EN CUEVA PERDIDA",
+        "warning": "Al derrotar a la Cónsul en Cueva Perdida, se le cae el Repartir Experiencia al suelo. Debes recogerlo antes de zarpar en el barco hacia Kanto, o quedará inaccesible.",
+        "checklist": [
+          "Recoger Repartir Experiencia del suelo de Cueva Perdida",
+          "Guardar el Meteorito equipado en Phanpy sin vender ni tirar"
+        ]
+      }
+    ],
+    "specialEvolutionNote": "Phanpy evoluciona a Donphan al nivel 25. En este hack, Donphan aprende Desarme y Terremoto por nivel.",
+    "beforeLeavingChecklist": [
+      "Derrotar al Rival Andra (Nv. 7)",
+      "Derrotar a la Cónsul en Cueva Perdida (Nv. 11)",
+      "Recoger el Repartir Experiencia del suelo",
+      "Completar la secundaria del Pilar Recuerdo y recibir a Phanpy Nv. 8 con Meteorito",
+      "Confirmar que el Meteorito está a salvo en la mochila"
+    ],
+    "nextStep": "Habla con el marinero del muelle de Isla Inta para zarpar en el carguero clandestino hacia Pueblo Paleta."
+  },
+  {
+    "id": "stage-2",
+    "act": "kanto",
+    "actNumber": 1,
+    "actTitle": "Acto I: Kanto",
+    "order": 2,
+    "location": "Pueblo Paleta & Rutas 1 y 22",
+    "recommendedLevel": "Nv. 8 - Nv. 12",
+    "storySteps": [
+      "Desembarco encubierto en Pueblo Paleta. Evita alertar a los civiles.",
+      "Infiltra el Laboratorio del Profesor Oak aprovechando la distracción de los ayudantes.",
+      "Roba a Bulbasaur de la mesa de investigación principal del laboratorio.",
+      "Explora la Ruta 22 al oeste de Ciudad Verde para combates de entrenamiento."
+    ],
+    "availablePokemon": [
+      {
+        "name": "Bulbasaur",
+        "method": "Robado en Laboratorio",
+        "location": "Laboratorio de Oak (Pueblo Paleta)",
+        "level": "Nv. 5",
+        "requirements": "Evento de infiltración",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 1
+      },
+      {
+        "name": "Pidgey",
+        "method": "Salvaje",
+        "location": "Ruta 1",
+        "level": "Nv. 2 - 5",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 16
+      },
+      {
+        "name": "Rattata",
+        "method": "Salvaje",
+        "location": "Ruta 1 y 22",
+        "level": "Nv. 2 - 5",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": false,
+        "dexNum": 19
+      },
+      {
+        "name": "Mankey",
+        "method": "Salvaje",
+        "location": "Ruta 22",
+        "level": "Nv. 3 - 6",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 56
+      }
+    ],
+    "gifts": [
+      {
+        "id": "gift-bulbasaur",
+        "name": "Bulbasaur",
+        "dexNum": 1,
+        "level": "Nv. 5",
+        "heldItem": "Ninguno",
+        "npc": "Mesa de Oak",
+        "location": "Laboratorio de Oak",
+        "steps": [
+          "Entrar al laboratorio",
+          "Interactuar con la pokéball de la izquierda",
+          "Robar a Bulbasaur"
+        ],
+        "warning": null
+      }
+    ],
+    "sidequests": [],
+    "bosses": [],
+    "items": [
+      {
+        "id": "item-potion-pc",
+        "name": "Poción",
+        "location": "PC de tu casa en Paleta",
+        "category": "otro",
+        "isMissable": false
+      },
+      {
+        "id": "item-mapa",
+        "name": "Mapa de Kanto",
+        "location": "Casa de Azul en Pueblo Paleta",
+        "category": "clave",
+        "isMissable": false
+      }
+    ],
+    "missables": [],
+    "specialEvolutionNote": "Mankey es fundamental para el primer gimnasio (Roca) gracias a Golpe Kárate y Patada Baja a nivel bajo.",
+    "beforeLeavingChecklist": [
+      "Robar a Bulbasaur en el Laboratorio de Oak",
+      "Atrapar un Mankey en Ruta 22 (recomendado para Brock)",
+      "Recoger la Poción del PC"
+    ],
+    "nextStep": "Avanza por la Ruta 2 hacia el norte hasta llegar a Ciudad Verde y la entrada de Bosque Verde."
+  },
+  {
+    "id": "stage-3",
+    "act": "kanto",
+    "actNumber": 1,
+    "actTitle": "Acto I: Kanto",
+    "order": 3,
+    "location": "Ciudad Verde & Bosque Verde",
+    "recommendedLevel": "Nv. 10 - Nv. 15",
+    "storySteps": [
+      "Pasa por Ciudad Verde. El gimnasio de momento se encuentra cerrado y fuertemente custodiado.",
+      "Adéntrate en Bosque Verde y despacha a los cazabichos locales.",
+      "Localiza a los Entrenadores Guay en el suroeste de Bosque Verde y derrótalos en combate doble.",
+      "Observa el acceso al agua en Ciudad Verde bloqueado por un NPC (Lodo Negro, disponible post 8 medallas)."
+    ],
+    "availablePokemon": [
+      {
+        "name": "Pinsir",
+        "method": "Misión Secundaria",
+        "location": "Suroeste de Bosque Verde",
+        "level": "Nv. 15",
+        "requirements": "Derrotar a Entrenadores Guay",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 127
+      },
+      {
+        "name": "Pikachu",
+        "method": "Salvaje",
+        "location": "Bosque Verde",
+        "level": "Nv. 3 - 5",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 25
+      },
+      {
+        "name": "Caterpie",
+        "method": "Salvaje",
+        "location": "Bosque Verde",
+        "level": "Nv. 3 - 5",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": false,
+        "dexNum": 10
+      },
+      {
+        "name": "Weedle",
+        "method": "Salvaje",
+        "location": "Bosque Verde",
+        "level": "Nv. 3 - 5",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": false,
+        "dexNum": 13
+      }
+    ],
+    "gifts": [],
+    "sidequests": [
+      {
+        "id": "sq-2",
+        "name": "Entrenadores Guay en Bosque Verde",
+        "status": "available_now",
+        "statusLabel": "🟢 Disponible ahora",
+        "npc": "Pareja de Entrenadores Guay",
+        "location": "Suroeste de Bosque Verde",
+        "prerequisite": "Llegar a Bosque Verde",
+        "steps": [
+          "Ir a la esquina suroeste de Bosque Verde.",
+          "Aceptar el desafío en combate doble contra ambos entrenadores.",
+          "Derrotarlos para recibir a Pinsir Nv. 15."
+        ],
+        "rewards": "Pinsir Nv. 15",
+        "questRefId": "quest-5"
+      }
+    ],
+    "bosses": [],
+    "items": [
+      {
+        "id": "item-antidoto",
+        "name": "Antídoto",
+        "location": "Bosque Verde (suelo)",
+        "category": "otro",
+        "isMissable": false
+      },
+      {
+        "id": "item-pokeball-forest",
+        "name": "Poké Ball",
+        "location": "Bosque Verde (suelo oculto)",
+        "category": "otro",
+        "isMissable": false
+      }
+    ],
+    "missables": [],
+    "specialEvolutionNote": "Butterfree aprende Confusión al Nv. 10 y Beedrill aprende Ataque Furia / Doble Ataque al Nv. 12.",
+    "beforeLeavingChecklist": [
+      "Completar la misión de los Entrenadores Guay en Bosque Verde",
+      "Reclamar a Pinsir Nv. 15",
+      "Opcional: Capturar un Pikachu en Bosque Verde (aparición baja)"
+    ],
+    "nextStep": "Sal del Bosque Verde hacia el norte para entrar en Ciudad Plateada."
+  },
+  {
+    "id": "stage-4",
+    "act": "kanto",
+    "actNumber": 1,
+    "actTitle": "Acto I: Kanto",
+    "order": 4,
+    "location": "Ciudad Plateada & Gimnasio Brock",
+    "recommendedLevel": "Nv. 14 - Nv. 18",
+    "storySteps": [
+      "Llega a Ciudad Plateada. Habla con el cazabichos en el jardín de las flores (misión de acceso al jardín de Carmín).",
+      "Visita la parte trasera del Museo: un científico menciona la Cinta Elegida (requiere 8 medallas).",
+      "Desafía al Líder Brock en el Gimnasio Oficial de Ciudad Plateada para consolidar tu reputación.",
+      "Derrota a Brock y hazte con la Medalla Roca y la MT39 Tumba Rocas."
+    ],
+    "availablePokemon": [],
+    "gifts": [],
+    "sidequests": [
+      {
+        "id": "sq-3",
+        "name": "Cazabichos en Ciudad Plateada",
+        "status": "available_now",
+        "statusLabel": "🟢 Disponible ahora (Iniciación)",
+        "npc": "Cazabichos",
+        "location": "Jardín de las flores de Ciudad Plateada",
+        "prerequisite": "Llegar a Ciudad Plateada",
+        "steps": [
+          "Hablar con el cazabichos en el jardín de flores de Plateada.",
+          "Te indicará que en Ciudad Carmín, en la casa sin puerta al norte, hay un pasadizo secreto.",
+          "Más adelante en Carmín, derrotar al Motorista Florín para desbloquear el jardín de bayas y mentas."
+        ],
+        "rewards": "Acceso al jardín secreto de bayas y mentas en Ciudad Carmín",
+        "questRefId": "quest-4"
+      }
+    ],
+    "bosses": [
+      {
+        "bossId": "boss-27",
+        "trainerName": "Líder Brock",
+        "title": "Medalla Roca",
+        "location": "Gimnasio Ciudad Plateada",
+        "levelRange": "Nv. 42 (Versión Misión de Líderes) / Nv. 14-16 inicial",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Geodude y Onix con defensas optimizadas y movimientos de cobertura."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-medalla-roca",
+        "name": "Medalla Roca",
+        "location": "Gimnasio de Plateada",
+        "category": "clave",
+        "isMissable": false
+      },
+      {
+        "id": "item-tm39",
+        "name": "MT39 Tumba Rocas",
+        "location": "Recompensa de Brock",
+        "category": "mt",
+        "isMissable": false
+      }
+    ],
+    "missables": [],
+    "specialEvolutionNote": "Geodude evoluciona a Graveler al Nv. 25 y a Golem mediante Cordón Unión en este juego.",
+    "beforeLeavingChecklist": [
+      "Hablar con el Cazabichos en el jardín de flores de Plateada para registrar su pista",
+      "Derrotar a Brock y obtener la Medalla Roca",
+      "Abastecerse de Pociones y Poké Balls en la Tienda Pokémon"
+    ],
+    "nextStep": "Toma la salida este de Ciudad Plateada hacia la Ruta 3 y el Centro Pokémon de Mt. Moon."
+  },
+  {
+    "id": "stage-5",
+    "act": "kanto",
+    "actNumber": 1,
+    "actTitle": "Acto I: Kanto",
+    "order": 5,
+    "location": "Ruta 3 & Centro Pokémon de Mt. Moon",
+    "recommendedLevel": "Nv. 15 - Nv. 19",
+    "storySteps": [
+      "Avanza derrotando a los entrenadores de la Ruta 3.",
+      "Llega al Centro Pokémon ubicado en la entrada de Mt. Moon.",
+      "⚠️ ¡OBLIGATORIO PARA EL 100%! Habla con el hombre sospechoso dentro del Centro Pokémon y CÓMPRALE EL MAGIKARP POR 500 POKÉS ('dejarse estafar').",
+      "Si no te dejas estafar aquí, la secundaria del Científico de Fucsia (Charmander, Snorlax, 200k Pokés) NUNCA se activará."
+    ],
+    "availablePokemon": [
+      {
+        "name": "Magikarp",
+        "method": "Compra (Estafa 500 Pokés)",
+        "location": "Centro Pokémon Mt. Moon",
+        "level": "Nv. 5",
+        "requirements": "Pagar 500 Pokés",
+        "isUnique": true,
+        "isMissable": true,
+        "is100Recommended": true,
+        "dexNum": 129
+      },
+      {
+        "name": "Nidoran♀",
+        "method": "Salvaje",
+        "location": "Ruta 3",
+        "level": "Nv. 6 - 8",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 29
+      },
+      {
+        "name": "Nidoran♂",
+        "method": "Salvaje",
+        "location": "Ruta 3",
+        "level": "Nv. 6 - 8",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 32
+      },
+      {
+        "name": "Jigglypuff",
+        "method": "Salvaje",
+        "location": "Ruta 3",
+        "level": "Nv. 5 - 7",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": false,
+        "dexNum": 39
+      }
+    ],
+    "gifts": [],
+    "sidequests": [],
+    "bosses": [],
+    "items": [
+      {
+        "id": "item-magikarp-500",
+        "name": "Magikarp de 500 Pokés (Activador Estafa)",
+        "location": "Centro Pokémon Mt. Moon",
+        "category": "clave",
+        "isMissable": true
+      }
+    ],
+    "missables": [
+      {
+        "title": "⚠️ ESTAFA DE MAGIKARP EN MT. MOON (CONDICIÓN CRÍTICA)",
+        "warning": "Debes hablar con el NPC vendedor en el Centro Pokémon y comprarle el Magikarp por 500 Pokés. Esto marca la flag interna necesaria para que el Científico de Fucsia te hable sobre los estafadores y te encomiende la misión de Mansión Canela.",
+        "checklist": [
+          "Entrar al Centro Pokémon de Mt. Moon",
+          "Hablar con el vendedor de Magikarp a la derecha",
+          "Comprar el Magikarp por 500 Pokés sin dudar"
+        ]
+      }
+    ],
+    "specialEvolutionNote": "Magikarp evoluciona a Gyarados al nivel 20, convirtiéndose en uno de los atacantes físicos más feroces de Kanto.",
+    "beforeLeavingChecklist": [
+      "Comprar el Magikarp de 500 Pokés en el Centro Pokémon de Mt. Moon",
+      "Verificar que tienes espacio en el equipo o en la caja",
+      "Curar a tu equipo antes de entrar a la cueva"
+    ],
+    "nextStep": "Entra a las profundidades de Mt. Moon para la misión de extracción de fósiles."
+  },
+  {
+    "id": "stage-6",
+    "act": "kanto",
+    "actNumber": 1,
+    "actTitle": "Acto I: Kanto",
+    "order": 6,
+    "location": "Mt. Moon (Extracción de Fósiles)",
+    "recommendedLevel": "Nv. 16 - Nv. 20",
+    "storySteps": [
+      "Incursión oficial del Team Rocket en Mt. Moon. Los reclutas están excavando en los pisos subterráneos.",
+      "Recoge la MT46 Ladrón en el suelo: movimiento indispensable en este hack para farmear dinero y robar objetos a entrenadores.",
+      "Derrota al Científico Miguel y avanza hasta el Alto Rango Frank.",
+      "Vence al Alto Rango Frank (Nv. 18-20) en el combate interno de jerarquía para asegurar los fósiles.",
+      "Elige tu fósil (Fósil Domo o Fósil Hélix) y recoge la Piedra Lunar oculta en las rocas."
+    ],
+    "availablePokemon": [
+      {
+        "name": "Geodude",
+        "method": "Salvaje",
+        "location": "Mt. Moon",
+        "level": "Nv. 8 - 11",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": false,
+        "dexNum": 74
+      },
+      {
+        "name": "Paras",
+        "method": "Salvaje",
+        "location": "Mt. Moon",
+        "level": "Nv. 8 - 10",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": false,
+        "dexNum": 46
+      },
+      {
+        "name": "Clefairy",
+        "method": "Salvaje",
+        "location": "Mt. Moon (Piso B2)",
+        "level": "Nv. 10 - 12",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 35
+      }
+    ],
+    "gifts": [],
+    "sidequests": [],
+    "bosses": [
+      {
+        "bossId": "boss-4",
+        "trainerName": "Alto Rango Frank (1er encuentro)",
+        "title": "Misión Fósiles",
+        "location": "Mt. Moon",
+        "levelRange": "Nv. 18 - 20",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Raticate y Golbat con naturaleza favorable y ataques con STAB de alto impacto."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-tm46",
+        "name": "MT46 Ladrón",
+        "location": "Mt. Moon Piso B1",
+        "category": "mt",
+        "isMissable": false
+      },
+      {
+        "id": "item-fosil",
+        "name": "Fósil Domo / Fósil Hélix",
+        "location": "Final de Mt. Moon",
+        "category": "clave",
+        "isMissable": false
+      },
+      {
+        "id": "item-piedra-lunar",
+        "name": "Piedra Lunar",
+        "location": "Mt. Moon (Cráteres ocultos)",
+        "category": "evolucion",
+        "isMissable": false
+      }
+    ],
+    "missables": [],
+    "specialEvolutionNote": "Nidorino y Nidorina evolucionan a Nidoking y Nidoqueen usando la Piedra Lunar encontrada aquí.",
+    "beforeLeavingChecklist": [
+      "Recoger la MT46 Ladrón",
+      "Derrotar al Alto Rango Frank",
+      "Elegir el fósil de la cueva",
+      "Recoger al menos 1 Piedra Lunar para evolucionar a tus Nidos o Clefairy"
+    ],
+    "nextStep": "Sal de Mt. Moon por la salida este y baja por la Ruta 4 hacia Ciudad Celeste."
+  },
+  {
+    "id": "stage-7",
+    "act": "kanto",
+    "actNumber": 1,
+    "actTitle": "Acto I: Kanto",
+    "order": 7,
+    "location": "Ciudad Celeste, Ruta 24 (Puente Pepita) & Jardín de Bill",
+    "recommendedLevel": "Nv. 20 - Nv. 25",
+    "storySteps": [
+      "Llega a Ciudad Celeste. La ciudad está llena de policías e informantes.",
+      "Desafía a Misty en el Gimnasio de Ciudad Celeste y obtén la Medalla Cascada.",
+      "Cruza el Puente Pepita en la Ruta 24 derrotando a los 5 entrenadores consecutivos. Al final, el recluta del puente te felicita.",
+      "Avanza por la Ruta 25 hasta la cabaña del investigador Bill.",
+      "Misión Oficial: Asalto al Jardín de Bill para robar la Patente de Teletransporte del PC.",
+      "Derrota al Coleccionista Bill (Nv. 22-24) y a Azul (Nv. 23-25) que aparece para defenderlo.",
+      "Consigue la Patente de Teletransporte para el Team Rocket."
+    ],
+    "availablePokemon": [
+      {
+        "name": "Abra",
+        "method": "Salvaje",
+        "location": "Ruta 24 y 25",
+        "level": "Nv. 10 - 12",
+        "requirements": "Usar Poké Ball rápida o ataque de sueño",
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 63
+      },
+      {
+        "name": "Bellsprout",
+        "method": "Salvaje",
+        "location": "Ruta 24",
+        "level": "Nv. 12 - 14",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": false,
+        "dexNum": 69
+      },
+      {
+        "name": "Oddish",
+        "method": "Salvaje",
+        "location": "Ruta 24",
+        "level": "Nv. 12 - 14",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": false,
+        "dexNum": 43
+      }
+    ],
+    "gifts": [],
+    "sidequests": [],
+    "bosses": [
+      {
+        "bossId": "boss-28",
+        "trainerName": "Líder Misty",
+        "title": "Medalla Cascada",
+        "location": "Gimnasio Ciudad Celeste",
+        "levelRange": "Nv. 44 (Misión Líderes) / Nv. 21 inicial",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Starmie con Hidropulso y Recuperación. Cuidado con su velocidad."
+      },
+      {
+        "bossId": "boss-5",
+        "trainerName": "Coleccionista Bill (1er encuentro)",
+        "title": "Misión Patente Teletransporte",
+        "location": "Jardín de Bill (Ruta 25)",
+        "levelRange": "Nv. 22 - 24",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Eeveelutions con movimientos de estado y bayas equipadas."
+      },
+      {
+        "bossId": "boss-6",
+        "trainerName": "Azul (1er encuentro)",
+        "title": "Defensa de Bill / S.S. Anne",
+        "location": "Cabaña de Bill / S.S. Anne",
+        "levelRange": "Nv. 23 - 25",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Pidgeotto, Kadabra y Raticate con cobertura variada."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-patente-bill",
+        "name": "Patente de Teletransporte",
+        "location": "Cabaña de Bill",
+        "category": "clave",
+        "isMissable": false
+      },
+      {
+        "id": "item-pepita-celeste",
+        "name": "Pepita",
+        "location": "Fin del Puente Pepita",
+        "category": "otro",
+        "isMissable": false
+      },
+      {
+        "id": "item-tm03",
+        "name": "MT03 Hidropulso",
+        "location": "Recompensa de Misty",
+        "category": "mt",
+        "isMissable": false
+      }
+    ],
+    "missables": [],
+    "specialEvolutionNote": "Kadabra evoluciona a Alakazam mediante Cordón Unión.",
+    "beforeLeavingChecklist": [
+      "Vencer a Misty y obtener la Medalla Cascada",
+      "Cruzar el Puente Pepita y recoger la Pepita",
+      "Derrotar a Bill y Azul en la Cabaña de Bill",
+      "Asegurar la Patente de Teletransporte"
+    ],
+    "nextStep": "Baja por la casa saqueada de Ciudad Celeste hacia la Ruta 5 y la Vía Subterránea con dirección a Ciudad Carmín."
+  },
+  {
+    "id": "stage-8",
+    "act": "kanto",
+    "actNumber": 1,
+    "actTitle": "Acto I: Kanto",
+    "order": 8,
+    "location": "Vía Subterránea & Ciudad Carmín (S.S. Anne)",
+    "recommendedLevel": "Nv. 22 - Nv. 28",
+    "storySteps": [
+      "En la Vía Subterránea rumbo a Ciudad Carmín, tu Rival Andra te sale al paso (Nv. 13-15).",
+      "Llega a Ciudad Carmín y habla con el Pescador que otorga la Caña Vieja (da Magikarp Nv. 5).",
+      "Visita la casa sin puerta al norte de Carmín: hay un pasadizo secreto hacia el jardín de bayas y mentas (derrota al Motorista Florín).",
+      "Aborda el trasatlántico S.S. Anne para la misión encubierta del Frasco Secreto del Capitán.",
+      "Combate contra el Capitán Edward (Nv. 24-26) y nuevamente contra Andra en el barco.",
+      "Consigue la MO01 Corte y el Frasco Secreto.",
+      "Desafía al Líder Lt. Surge en el Gimnasio de Carmín y gana la Medalla Trueno."
+    ],
+    "availablePokemon": [
+      {
+        "name": "Magikarp",
+        "method": "Regalo de Secundaria",
+        "location": "Casa del Pescador en Carmín",
+        "level": "Nv. 5",
+        "requirements": "Hablar con Pescador Caña Vieja",
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": false,
+        "dexNum": 129
+      },
+      {
+        "name": "Hitmonlee",
+        "method": "Secundaria Anciano Machamp",
+        "location": "Terreno plano de Carmín",
+        "level": "Nv. 20",
+        "requirements": "Obtener Alto Rango en Team Rocket",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 106
+      },
+      {
+        "name": "Diglett",
+        "method": "Salvaje",
+        "location": "Cueva Diglett",
+        "level": "Nv. 15 - 22",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 50
+      }
+    ],
+    "gifts": [
+      {
+        "id": "gift-bono-bici",
+        "name": "Bono Bici + Hitmonlee",
+        "dexNum": 106,
+        "level": "Nv. 20",
+        "heldItem": "Bono Bici",
+        "npc": "Anciano con su Machamp",
+        "location": "Terreno plano de Carmín",
+        "steps": [
+          "Obtener el Alto Rango en la historia",
+          "Hablar con el anciano en el solar de Carmín",
+          "Derrotar a los encargados de la tienda de bicis en Ciudad Celeste",
+          "Regresar para recibir Hitmonlee y Bono Bici"
+        ],
+        "warning": "Se desbloquea al ascender a Alto Rango en el Team Rocket."
+      }
+    ],
+    "sidequests": [
+      {
+        "id": "sq-4",
+        "name": "Encomienda del Pescador de Carmín",
+        "status": "available_now",
+        "statusLabel": "🟢 Disponible ahora",
+        "npc": "Gurú Pescador",
+        "location": "Casa junto al muelle de Ciudad Carmín",
+        "prerequisite": "Hablar con el pescador de la caña vieja",
+        "steps": [
+          "Hablar con el pescador de Carmín.",
+          "Derrotar al Domador Macuto en la Mansión Azulona.",
+          "Regresar a Carmín para recibir la recompensa."
+        ],
+        "rewards": "Magikarp Nv. 5 + Caña Vieja",
+        "questRefId": "quest-2"
+      },
+      {
+        "id": "sq-5",
+        "name": "Pasadizo Secreto del Jardín de Bayas de Carmín",
+        "status": "available_now",
+        "statusLabel": "🟢 Disponible ahora",
+        "npc": "Pasadizo casa sin puerta",
+        "location": "Norte de Ciudad Carmín",
+        "prerequisite": "Haber hablado con Cazabichos de Plateada",
+        "steps": [
+          "Entrar por la pared trasera de la casa sin puerta.",
+          "Derrotar al Motorista Florín en el jardín secreto.",
+          "Desbloquear el huerto de bayas y mentas de Carmín."
+        ],
+        "rewards": "Acceso libre al cultivo de Bayas y Mentas de Naturalezas",
+        "questRefId": "quest-4"
+      },
+      {
+        "id": "sq-6",
+        "name": "Venganza del Anciano con su Machamp",
+        "status": "unlocks_later",
+        "statusLabel": "🔒 Se completa al tener Alto Rango",
+        "npc": "Anciano con Machamp",
+        "location": "Terreno plano de Carmín",
+        "prerequisite": "Rango Ejecutivo / Alto Rango Rocket",
+        "steps": [
+          "Hablar con el anciano tras el asalto de Silph S.A.",
+          "Derrotar al Presidente del Club de Fans y al Domador de la Tienda de Bicis.",
+          "Regresar para recibir Hitmonlee Nv. 20 y el Bono Bici."
+        ],
+        "rewards": "Hitmonlee Nv. 20 + Bono Bici",
+        "questRefId": "quest-3"
+      }
+    ],
+    "bosses": [
+      {
+        "bossId": "boss-3",
+        "trainerName": "Rival Andra (2do encuentro)",
+        "title": "Emboscada Subterránea",
+        "location": "Vía Subterránea Carmín",
+        "levelRange": "Nv. 13 - 15",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Equipo mejor coordinado con movimientos prioritarios."
+      },
+      {
+        "bossId": "boss-7",
+        "trainerName": "Capitán Edward (1er encuentro)",
+        "title": "Misión Frasco Secreto",
+        "location": "S.S. Anne Camarote Principal",
+        "levelRange": "Nv. 24 - 26",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Poliwrath y Machoke con alta potencia física."
+      },
+      {
+        "bossId": "boss-29",
+        "trainerName": "Líder Lt. Surge",
+        "title": "Medalla Trueno",
+        "location": "Gimnasio Ciudad Carmín",
+        "levelRange": "Nv. 46 (Misión Líderes) / Nv. 24 inicial",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Raichu con Onda Trueno, Doble Equipo y Rayo con alta velocidad."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-frasco-capitan",
+        "name": "Frasco Secreto del Capitán",
+        "location": "S.S. Anne",
+        "category": "clave",
+        "isMissable": false
+      },
+      {
+        "id": "item-hm01",
+        "name": "MO01 Corte",
+        "location": "S.S. Anne Camarote",
+        "category": "clave",
+        "isMissable": false
+      },
+      {
+        "id": "item-medalla-trueno",
+        "name": "Medalla Trueno",
+        "location": "Gimnasio Carmín",
+        "category": "clave",
+        "isMissable": false
+      }
+    ],
+    "missables": [],
+    "specialEvolutionNote": "Dugtrio en Cueva Diglett se atrapa a nivel 29-31 y es el counter absoluto contra Lt. Surge.",
+    "beforeLeavingChecklist": [
+      "Derrotar a Andra en la Vía Subterránea",
+      "Completar el asalto al S.S. Anne y obtener el Frasco Secreto y MO01 Corte",
+      "Derrotar a Lt. Surge y ganar la Medalla Trueno",
+      "Desbloquear el jardín secreto de bayas y mentas en la casa sin puerta"
+    ],
+    "nextStep": "Corta el arbusto al este de Carmín para tomar la Ruta 11 hacia la Ruta 9 y el Túnel Roca."
+  },
+  {
+    "id": "stage-9",
+    "act": "kanto",
+    "actNumber": 1,
+    "actTitle": "Acto I: Kanto",
+    "order": 9,
+    "location": "Túnel Roca & Ruta 10",
+    "recommendedLevel": "Nv. 26 - Nv. 32",
+    "storySteps": [
+      "Avanza por la Ruta 9 derrotando a los montañeros y ornitólogos.",
+      "Cruza el Túnel Roca usando la linterna o MO Destello.",
+      "Misión secundaria interna de Túnel Roca: rescate del Kangaskhan perdido.",
+      "Combate contra la Entrenadora Guay Vero (Nv. 28) y el Científico Miguel (Nv. 29).",
+      "Encuentra al entrenador en el piso más hondo que guarda la MT32 Roca Afilada (requiere 8 medallas).",
+      "Al salir del túnel en la Ruta 10, tu Rival Andra te embosca de nuevo (Nv. 28-30)."
+    ],
+    "availablePokemon": [
+      {
+        "name": "Machop",
+        "method": "Salvaje",
+        "location": "Túnel Roca",
+        "level": "Nv. 16 - 18",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 66
+      },
+      {
+        "name": "Onix",
+        "method": "Salvaje",
+        "location": "Túnel Roca",
+        "level": "Nv. 15 - 17",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": false,
+        "dexNum": 95
+      },
+      {
+        "name": "Kangaskhan",
+        "method": "Salvaje / Evento",
+        "location": "Túnel Roca fondo",
+        "level": "Nv. 22 - 25",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 115
+      }
+    ],
+    "gifts": [],
+    "sidequests": [],
+    "bosses": [
+      {
+        "bossId": "boss-8",
+        "trainerName": "Andra (3er encuentro)",
+        "title": "Emboscada en Ruta 10",
+        "location": "Ruta 10 Exterior",
+        "levelRange": "Nv. 28 - 30",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Equipo evolucionado con coberturas potentes de tipo Fuego y Eléctrico."
+      },
+      {
+        "bossId": "boss-9",
+        "trainerName": "Entrenadora Guay Vero",
+        "title": "Misión Kangaskhan Perdido",
+        "location": "Túnel Roca",
+        "levelRange": "Nv. 28",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Batalla táctica con Kangaskhan y atacantes físicos."
+      },
+      {
+        "bossId": "boss-10",
+        "trainerName": "Científico Miguel (2do encuentro)",
+        "title": "Misión Kangaskhan Perdido",
+        "location": "Túnel Roca",
+        "levelRange": "Nv. 29",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Magneton y Electrode con ataques eléctricos y bomba sónica."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-max-ether-tunel",
+        "name": "Éter Máx.",
+        "location": "Túnel Roca B1",
+        "category": "otro",
+        "isMissable": false
+      },
+      {
+        "id": "item-revive-tunel",
+        "name": "Revivir",
+        "location": "Túnel Roca B2",
+        "category": "otro",
+        "isMissable": false
+      }
+    ],
+    "missables": [],
+    "specialEvolutionNote": "Machoke evoluciona a Machamp con Cordón Unión. Es una de las mejores opciones para el resto de Kanto.",
+    "beforeLeavingChecklist": [
+      "Superar el Túnel Roca y vencer a Vero y Miguel",
+      "Derrotar a Andra en la salida de Ruta 10",
+      "Descansar en el Centro Pokémon al salir del túnel"
+    ],
+    "nextStep": "Baja directamente al sur por la Ruta 10 hasta ingresar en Pueblo Lavanda."
+  },
+  {
+    "id": "stage-10",
+    "act": "kanto",
+    "actNumber": 1,
+    "actTitle": "Acto I: Kanto",
+    "order": 10,
+    "location": "Pueblo Lavanda & Torre Pokémon",
+    "recommendedLevel": "Nv. 28 - Nv. 34",
+    "storySteps": [
+      "Llega a Pueblo Lavanda. Se siente una densa niebla fantasmal en los alrededores.",
+      "Infiltra la Torre Pokémon por orden del Ejecutivo Protón.",
+      "Sube los pisos de la torre combatiendo a las exorcistas y cultistas esotéricos.",
+      "Combate contra el Criapokémon Fuji (Nv. 30), el Cultista 'M' (Nv. 31) y el espectro Maroghost (Nv. 32).",
+      "Rescata / neutraliza al Sr. Fuji y asegura el Silph Scope y la flauta en la cima de la torre.",
+      "Consigue la MT30 Bola Sombra."
+    ],
+    "availablePokemon": [
+      {
+        "name": "Gastly",
+        "method": "Salvaje",
+        "location": "Torre Pokémon",
+        "level": "Nv. 18 - 22",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 92
+      },
+      {
+        "name": "Haunter",
+        "method": "Salvaje",
+        "location": "Torre Pokémon Pisos 5-6",
+        "level": "Nv. 23 - 26",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 93
+      },
+      {
+        "name": "Cubone",
+        "method": "Salvaje",
+        "location": "Torre Pokémon",
+        "level": "Nv. 18 - 20",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 104
+      }
+    ],
+    "gifts": [],
+    "sidequests": [],
+    "bosses": [
+      {
+        "bossId": "boss-11",
+        "trainerName": "Criapokémon Fuji",
+        "title": "Misión Fuji y Protón",
+        "location": "Torre Pokémon",
+        "levelRange": "Nv. 30",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Equipo balanceado normal/hada con movimientos de soporte."
+      },
+      {
+        "bossId": "boss-12",
+        "trainerName": "Cultista 'M'",
+        "title": "Misión Fuji y Protón",
+        "location": "Torre Pokémon",
+        "levelRange": "Nv. 31",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Tipos siniestro y veneno con trampas de púas tóxicas."
+      },
+      {
+        "bossId": "boss-13",
+        "trainerName": "Maroghost",
+        "title": "Guardián de la Torre",
+        "location": "Torre Pokémon Cima",
+        "levelRange": "Nv. 32",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Inmune a ataques normales y lucha; golpea fuertemente con Huesomerang y Tinieblas."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-silph-scope",
+        "name": "Silph Scope",
+        "location": "Torre Pokémon Cima",
+        "category": "clave",
+        "isMissable": false
+      },
+      {
+        "id": "item-tm30",
+        "name": "MT30 Bola Sombra",
+        "location": "Torre Pokémon Piso 4",
+        "category": "mt",
+        "isMissable": false
+      }
+    ],
+    "missables": [],
+    "specialEvolutionNote": "Haunter evoluciona a Gengar mediante Cordón Unión.",
+    "beforeLeavingChecklist": [
+      "Despejar los 6 pisos de la Torre Pokémon",
+      "Derrotar a Criapokémon Fuji, Cultista 'M' y Maroghost",
+      "Recoger la MT30 Bola Sombra",
+      "Obtener el Silph Scope"
+    ],
+    "nextStep": "Toma la salida oeste de Pueblo Lavanda por la Ruta 8 y la Vía Subterránea hacia Ciudad Azulona."
+  },
+  {
+    "id": "stage-11",
+    "act": "kanto",
+    "actNumber": 1,
+    "actTitle": "Acto I: Kanto",
+    "order": 11,
+    "location": "Ciudad Azulona & Guarida Rocket del Casino",
+    "recommendedLevel": "Nv. 32 - Nv. 38",
+    "storySteps": [
+      "Llega a Ciudad Azulona, la gran metrópoli de ocio y base financiera de Kanto.",
+      "Entra al Casino Rocket y mueve el póster para abrir la compuerta de la Guarida Subterránea.",
+      "En la Base Profunda, enfréntate al Ejecutivo Rocket Frank (Nv. 34) y a tu Rival Andra (Nv. 35) por el liderazgo de escuadrón.",
+      "Visita el Centro Comercial de Azulona para comprar Piedras Evolutivas (Agua, Fuego, Hoja, Trueno) y MTs de cobertura.",
+      "Desafía a la Líder Erika en el Gimnasio de Ciudad Azulona y obtén la Medalla Arcoíris y la MT19 Gigadrenado."
+    ],
+    "availablePokemon": [
+      {
+        "name": "Eevee",
+        "method": "Regalo en Mansión Azulona",
+        "location": "Mansión Azulona Ático",
+        "level": "Nv. 25",
+        "requirements": "Entrar por la puerta trasera",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 133
+      },
+      {
+        "name": "Porygon",
+        "method": "Casino de Azulona",
+        "location": "Casino Rocket",
+        "level": "Nv. 26",
+        "requirements": "Comprar con fichas de monedas",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 137
+      },
+      {
+        "name": "Dratini",
+        "method": "Casino de Azulona",
+        "location": "Casino Rocket",
+        "level": "Nv. 24",
+        "requirements": "Fichas de monedas",
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 147
+      }
+    ],
+    "gifts": [
+      {
+        "id": "gift-eevee-azulona",
+        "name": "Eevee",
+        "dexNum": 133,
+        "level": "Nv. 25",
+        "heldItem": "Ninguno",
+        "npc": "Pokéball sobre la mesa",
+        "location": "Ático Mansión Azulona",
+        "steps": [
+          "Ir por el callejón trasero de la Mansión Azulona",
+          "Subir las escaleras hasta la azotea",
+          "Recoger la pokéball"
+        ],
+        "warning": null
+      }
+    ],
+    "sidequests": [],
+    "bosses": [
+      {
+        "bossId": "boss-14",
+        "trainerName": "Ejecutivo Rocket Frank",
+        "title": "Prueba de Mando",
+        "location": "Base Rocket Profunda",
+        "levelRange": "Nv. 34",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Raticate y Muk con movimientos tóxicos y Restos equipados."
+      },
+      {
+        "bossId": "boss-15",
+        "trainerName": "Andra (4to encuentro)",
+        "title": "Duelo en la Base",
+        "location": "Base Rocket Profunda",
+        "levelRange": "Nv. 35",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Inicial en fase 2 y coberturas perfeccionadas."
+      },
+      {
+        "bossId": "boss-30",
+        "trainerName": "Líder Erika",
+        "title": "Medalla Arcoíris",
+        "location": "Gimnasio Ciudad Azulona",
+        "levelRange": "Nv. 48 (Misión Líderes) / Nv. 30 inicial",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Vileplume con Somnífero, Danza Pétalo y Restos. Cuidado con Día Soleado."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-monedero",
+        "name": "Monedero",
+        "location": "Restaurante de Azulona",
+        "category": "clave",
+        "isMissable": false
+      },
+      {
+        "id": "item-medalla-arcoiris",
+        "name": "Medalla Arcoíris",
+        "location": "Gimnasio de Azulona",
+        "category": "clave",
+        "isMissable": false
+      },
+      {
+        "id": "item-tm19",
+        "name": "MT19 Gigadrenado",
+        "location": "Recompensa de Erika",
+        "category": "mt",
+        "isMissable": false
+      }
+    ],
+    "missables": [],
+    "specialEvolutionNote": "Eevee puede evolucionar a Vaporeon, Jolteon o Flareon con las piedras del Centro Comercial.",
+    "beforeLeavingChecklist": [
+      "Vencer a Frank y Andra en la Base Rocket del Casino",
+      "Recoger al Eevee del ático de la Mansión Azulona",
+      "Comprar el Monedero en el restaurante",
+      "Vencer a Erika y ganar la Medalla Arcoíris"
+    ],
+    "nextStep": "Dirígete hacia el puesto de guardia que conecta con Ciudad Azafrán entregando un Té de la anciana de Azulona."
+  },
+  {
+    "id": "stage-12",
+    "act": "kanto",
+    "actNumber": 1,
+    "actTitle": "Acto I: Kanto",
+    "order": 12,
+    "location": "Ciudad Azafrán & Asalto Central a Silph S.A.",
+    "recommendedLevel": "Nv. 35 - Nv. 42",
+    "storySteps": [
+      "Entrada en masa del Team Rocket al rascacielos de Silph S.A. en Ciudad Azafrán.",
+      "Despeja piso por piso utilizando las tarjetas magnéticas y portales de teletransporte.",
+      "En el Piso 7 combates contra Andra (Nv. 37) y el Trabajador Silph.",
+      "En el despacho presidencial combates contra el Presidente Silph y el Coleccionista Bill (Nv. 38).",
+      "Al completar el asalto con éxito, Giovanni te recompensa con la codiciada Master Ball.",
+      "Desafía el Gimnasio Psíquico de Sabrina y obtén la Medalla Pantano y la MT04 Paz Mental.",
+      "Secundaria: Habla con el Motorista al norte de Azafrán (disponible tras el asalto) para ganar a Hitmonchan Nv. 37."
+    ],
+    "availablePokemon": [
+      {
+        "name": "Lapras",
+        "method": "Regalo en Silph S.A.",
+        "location": "Piso 7 de Silph S.A.",
+        "level": "Nv. 25",
+        "requirements": "Hablar con empleado leal",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 131
+      },
+      {
+        "name": "Hitmonchan",
+        "method": "Secundaria Motorista",
+        "location": "Norte de Ciudad Azafrán",
+        "level": "Nv. 37",
+        "requirements": "Completar asalto a Silph S.A.",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 107
+      }
+    ],
+    "gifts": [
+      {
+        "id": "gift-lapras-silph",
+        "name": "Lapras",
+        "dexNum": 131,
+        "level": "Nv. 25",
+        "heldItem": "Ninguno",
+        "npc": "Empleado en sala secreta",
+        "location": "Silph S.A. Piso 7",
+        "steps": [
+          "Acceder mediante teletransportador",
+          "Hablar con el empleado asustado en la esquina"
+        ],
+        "warning": null
+      }
+    ],
+    "sidequests": [
+      {
+        "id": "sq-7",
+        "name": "Las Vías Subterráneas del Motorista de Azafrán",
+        "status": "available_now",
+        "statusLabel": "🟢 Disponible ahora",
+        "npc": "Motorista",
+        "location": "Norte de Ciudad Azafrán",
+        "prerequisite": "Haber completado el asalto a Silph S.A.",
+        "steps": [
+          "Hablar con el motorista al norte de Azafrán tras la toma de Silph.",
+          "Cumplir con las instrucciones en las vías subterráneas.",
+          "Regresar para recibir a Hitmonchan Nv. 37."
+        ],
+        "rewards": "Hitmonchan Nv. 37",
+        "questRefId": "quest-8"
+      }
+    ],
+    "bosses": [
+      {
+        "bossId": "boss-23",
+        "trainerName": "Andra (5to encuentro)",
+        "title": "Misión Silph S.A.",
+        "location": "Silph S.A. Piso 7",
+        "levelRange": "Nv. 37",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Equipo completo de 5 Pokémon con altos IVs y gran agresividad."
+      },
+      {
+        "bossId": "boss-24",
+        "trainerName": "Trabajador Silph",
+        "title": "Misión Silph S.A.",
+        "location": "Silph S.A. Piso 10",
+        "levelRange": "Nv. 36",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Porygon y Magneton con Rayo y Triataque."
+      },
+      {
+        "bossId": "boss-25",
+        "trainerName": "Presidente Silph (1er encuentro)",
+        "title": "Misión Silph S.A.",
+        "location": "Despacho Presidencial",
+        "levelRange": "Nv. 38",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Porygon2 y defensivos pesados."
+      },
+      {
+        "bossId": "boss-32",
+        "trainerName": "Líder Sabrina",
+        "title": "Medalla Pantano",
+        "location": "Gimnasio Ciudad Azafrán",
+        "levelRange": "Nv. 50 (Misión Líderes) / Nv. 38 inicial",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Alakazam con Psicocarga, Onda Certera y Banda Focus. No dejes que ataque primero."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-master-ball-silph",
+        "name": "Master Ball",
+        "location": "Despacho Presidencial de Silph S.A.",
+        "category": "clave",
+        "isMissable": false
+      },
+      {
+        "id": "item-tarjeta-magnetica",
+        "name": "Tarjeta Magnética",
+        "location": "Silph S.A. Piso 5",
+        "category": "clave",
+        "isMissable": false
+      },
+      {
+        "id": "item-medalla-pantano",
+        "name": "Medalla Pantano",
+        "location": "Gimnasio Azafrán",
+        "category": "clave",
+        "isMissable": false
+      }
+    ],
+    "missables": [],
+    "specialEvolutionNote": "Porygon evoluciona a Porygon2 con Mejora y Cordón Unión.",
+    "beforeLeavingChecklist": [
+      "Liberar todos los pisos de Silph S.A.",
+      "Recoger a Lapras en el piso 7",
+      "Obtener la Master Ball del Presidente Silph",
+      "Derrotar a Sabrina y ganar la Medalla Pantano",
+      "Completar la misión del Motorista de Azafrán y recibir a Hitmonchan Nv. 37"
+    ],
+    "nextStep": "Baja por la Ruta 17 (Ruta del Mágico Ciclismo) o las Rutas 12-15 rumbo a Ciudad Fucsia."
+  },
+  {
+    "id": "stage-13",
+    "act": "kanto",
+    "actNumber": 1,
+    "actTitle": "Acto I: Kanto",
+    "order": 13,
+    "location": "Ruta 12 & Ciudad Fucsia (El Gran Nexo de Misiones)",
+    "recommendedLevel": "Nv. 38 - Nv. 45",
+    "storySteps": [
+      "En la caseta de la Ruta 12 habla con el Gurú Pescador (da la misión de Squirtle).",
+      "Llega a Ciudad Fucsia y habla con el Pescador de Fucsia y el Guarda Safari de Slowpoke.",
+      "Vuelve a la Ruta 12 para recibir a Squirtle Nv. 5.",
+      "⚠️ ¡MOMENTO CRÍTICO DEL 100%! Habla con el Científico de Ciudad Fucsia en el paso principal que mira hacia Lapras. Si compraste el Magikarp en Mt. Moon por 500 Pokés, se activará la misión de los ladrones en la Mansión Canela.",
+      "Desafía al Líder Koga en el Gimnasio Ninja de Fucsia y obtén la Medalla Alma y la MT06 Tóxico."
+    ],
+    "availablePokemon": [
+      {
+        "name": "Squirtle",
+        "method": "Secundaria Gurú Pescador",
+        "location": "Ruta 12 Caseta",
+        "level": "Nv. 5",
+        "requirements": "Completar encomienda del pescador",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 7
+      },
+      {
+        "name": "Snorlax",
+        "method": "Salvaje con Poké Flauta",
+        "location": "Ruta 12 / Ruta 16",
+        "level": "Nv. 30",
+        "requirements": "Tocar la Poké Flauta",
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 143
+      },
+      {
+        "name": "Venomoth",
+        "method": "Salvaje",
+        "location": "Zona Safari Fucsia",
+        "level": "Nv. 26 - 30",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": false,
+        "dexNum": 49
+      }
+    ],
+    "gifts": [
+      {
+        "id": "gift-squirtle-r12",
+        "name": "Squirtle",
+        "dexNum": 7,
+        "level": "Nv. 5",
+        "heldItem": "Ninguno",
+        "npc": "Gurú Pescador",
+        "location": "Ruta 12 Caseta Sur",
+        "steps": [
+          "Hablar con el pescador en la caseta sur de Ruta 12.",
+          "Ir a Ciudad Fucsia y derrotar al Gurú Pescador de Fucsia y al Guarda Safari Slowpoke.",
+          "Regresar a la caseta de Ruta 12 para recibir a Squirtle Nv. 5."
+        ],
+        "warning": null
+      }
+    ],
+    "sidequests": [
+      {
+        "id": "sq-8",
+        "name": "El Pescador de Ciudad Fucsia (Squirtle)",
+        "status": "available_now",
+        "statusLabel": "🟢 Disponible ahora",
+        "npc": "Pescador Ruta 12",
+        "location": "Ruta 12 Caseta Sur",
+        "prerequisite": "Acceso a Ruta 12 y Fucsia",
+        "steps": [
+          "Hablar con el pescador de Ruta 12.",
+          "Derrotar al Pescador de Fucsia (boss-169) y al Guarda Safari (boss-170).",
+          "Regresar a la Ruta 12 para recibir a Squirtle Nv. 5."
+        ],
+        "rewards": "Squirtle Nv. 5",
+        "questRefId": "quest-6"
+      },
+      {
+        "id": "sq-9",
+        "name": "Los Estafadores de Kanto (Iniciación en Fucsia)",
+        "status": "must_complete",
+        "statusLabel": "⚠️ Debe hacerse antes de continuar",
+        "npc": "Científico mirando a Lapras",
+        "location": "Paso principal de Ciudad Fucsia",
+        "prerequisite": "Haber comprado el Magikarp de 500 Pokés en Mt. Moon",
+        "steps": [
+          "Hablar con el científico en Ciudad Fucsia mirando a Lapras.",
+          "Te encomienda dar con los estafadores que se han refugiado en la Mansión Pokémon de Isla Canela.",
+          "Ir a Isla Canela y batir a los 3 estafadores en combate triple."
+        ],
+        "rewards": "Charmander Nv. 5, Snorlax Nv. 30, 10 Proteínas, 3 Carameloraros y 200.000 Pokés",
+        "questRefId": "quest-7"
+      }
+    ],
+    "bosses": [
+      {
+        "bossId": "boss-31",
+        "trainerName": "Líder Koga",
+        "title": "Medalla Alma",
+        "location": "Gimnasio Ciudad Fucsia",
+        "levelRange": "Nv. 52 (Misión Líderes) / Nv. 43 inicial",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Muros invisibles. Weezing y Muk con Minas Tóxicas y Explosión."
+      },
+      {
+        "bossId": "boss-169",
+        "trainerName": "Gurú Pescador Fucsia",
+        "title": "Secundaria Squirtle",
+        "location": "Ciudad Fucsia",
+        "levelRange": "Nv. 35",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Gyarados y Cloyster con alta resistencia."
+      },
+      {
+        "bossId": "boss-170",
+        "trainerName": "Guarda Safari Slowpoke",
+        "title": "Secundaria Squirtle",
+        "location": "Ciudad Fucsia",
+        "levelRange": "Nv. 35",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Slowbro y Chansey defensivos."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-medalla-alma",
+        "name": "Medalla Alma",
+        "location": "Gimnasio Fucsia",
+        "category": "clave",
+        "isMissable": false
+      },
+      {
+        "id": "item-tm06",
+        "name": "MT06 Tóxico",
+        "location": "Recompensa de Koga",
+        "category": "mt",
+        "isMissable": false
+      },
+      {
+        "id": "item-dientes-oro",
+        "name": "Dientes de Oro",
+        "location": "Zona Safari Fucsia",
+        "category": "clave",
+        "isMissable": false
+      },
+      {
+        "id": "item-hm03",
+        "name": "MO03 Surf",
+        "location": "Casa Secreta Zona Safari",
+        "category": "clave",
+        "isMissable": false
+      }
+    ],
+    "missables": [
+      {
+        "title": "⚠️ ACTIVACIÓN DE LA MISIÓN DE ESTAFADORES",
+        "warning": "Es obligatorio hablar con el científico de Fucsia antes de ir a Isla Canela. Sin esta conversación, los ladrones no aparecerán dentro de la Mansión Pokémon.",
+        "checklist": [
+          "Hablar con el Científico de Fucsia mirando al estanque de Lapras",
+          "Asegurarse de que el diario actualice el objetivo hacia Mansión Canela"
+        ]
+      }
+    ],
+    "specialEvolutionNote": "Graveler, Haunter, Kadabra y Machoke pueden evolucionar a sus formas finales en este punto.",
+    "beforeLeavingChecklist": [
+      "Conseguir la MO03 Surf y Dientes de Oro en la Zona Safari",
+      "Derrotar a Koga y ganar la Medalla Alma",
+      "Completar la misión del Pescador y recibir a Squirtle Nv. 5",
+      "Activar la misión de los estafadores con el Científico mirando a Lapras"
+    ],
+    "nextStep": "Surfea por las Rutas 19 y 20 o por la Ruta 21 hacia las costas de Isla Canela."
+  },
+  {
+    "id": "stage-14",
+    "act": "kanto",
+    "actNumber": 1,
+    "actTitle": "Acto I: Kanto",
+    "order": 14,
+    "location": "Isla Canela & Mansión Pokémon (El Gran Botín)",
+    "recommendedLevel": "Nv. 42 - Nv. 48",
+    "storySteps": [
+      "Arribo a Isla Canela, la isla volcánica del sur de Kanto.",
+      "Adéntrate en la Mansión Pokémon para cumplir la misión del científico de Fucsia.",
+      "Localiza a los estafadores en el piso superior y derrótalos en combate triple consecutivo (boss-172, boss-173, boss-174).",
+      "Reclama el botín supremo: Charmander Nv. 5, Snorlax Nv. 30, 10 Proteínas, 3 Carameloraros y 200.000 Pokés.",
+      "⚠️ ¡CONSECUENCIA FUTURA! Esta victoria es el requisito estricto para que en Johto puedas entrar al almacén de contrabandistas de Olivo y recibir 2 Millones de Pokés.",
+      "Visita el Laboratorio de Canela: habla con el científico junto a la foto de Fuji (misión El robo de los Eevees) para recibir 5 Eevees Nv. 25.",
+      "Recoge la Llave Secreta en la Mansión, entra al Gimnasio y derrota al Líder Blaine (Medalla Volcán y MT38 Llamarada)."
+    ],
+    "availablePokemon": [
+      {
+        "name": "Charmander",
+        "method": "Recompensa Estafadores",
+        "location": "Mansión Canela",
+        "level": "Nv. 5",
+        "requirements": "Derrotar a los 3 estafadores",
+        "isUnique": true,
+        "isMissable": true,
+        "is100Recommended": true,
+        "dexNum": 4
+      },
+      {
+        "name": "Snorlax",
+        "method": "Recompensa Estafadores",
+        "location": "Mansión Canela",
+        "level": "Nv. 30",
+        "requirements": "Derrotar a los 3 estafadores",
+        "isUnique": true,
+        "isMissable": true,
+        "is100Recommended": true,
+        "dexNum": 143
+      },
+      {
+        "name": "Eevee (x5)",
+        "method": "Secundaria Científico Canela",
+        "location": "Laboratorio Isla Canela",
+        "level": "Nv. 25",
+        "requirements": "Hablar con científico junto a foto de Fuji",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 133
+      },
+      {
+        "name": "Magmar",
+        "method": "Salvaje",
+        "location": "Mansión Canela Pisos B1-1",
+        "level": "Nv. 32 - 35",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 126
+      }
+    ],
+    "gifts": [
+      {
+        "id": "gift-charmander-snorlax",
+        "name": "Charmander Nv. 5 + Snorlax Nv. 30",
+        "dexNum": 4,
+        "level": "Nv. 5 / Nv. 30",
+        "heldItem": "200.000 Pokés + 10 Proteínas + 3 Caramelos Raros",
+        "npc": "Científico de Fucsia",
+        "location": "Mansión Canela",
+        "steps": [
+          "Haberse dejado estafar en Mt. Moon por 500 Pokés.",
+          "Hablar con el científico de Fucsia mirando a Lapras.",
+          "Entrar en Mansión Canela y vencer a los 3 estafadores.",
+          "Recibir el lote completo de recompensas."
+        ],
+        "warning": "Desbloquea el evento de 2M de Pokés en Johto más adelante."
+      },
+      {
+        "id": "gift-5-eevees",
+        "name": "5x Eevees",
+        "dexNum": 133,
+        "level": "Nv. 25",
+        "heldItem": "Piedras evolutivas variadas",
+        "npc": "Científico Laboratorio Canela",
+        "location": "Laboratorio Isla Canela",
+        "steps": [
+          "Hablar con el científico junto a la foto de Fuji",
+          "Derrotar al Pokemaníaco Matías",
+          "Recibir los 5 Eevees"
+        ],
+        "warning": "Te permite conseguir todas las evoluciones de Eevee de golpe."
+      }
+    ],
+    "sidequests": [
+      {
+        "id": "sq-10",
+        "name": "El Robo de los Eevees",
+        "status": "available_now",
+        "statusLabel": "🟢 Disponible ahora",
+        "npc": "Científico en Laboratorio de Canela",
+        "location": "Laboratorio de Isla Canela",
+        "prerequisite": "Llegar a Isla Canela",
+        "steps": [
+          "Hablar con el científico junto a la foto de Fuji.",
+          "Cumplir con las pruebas de investigación.",
+          "Derrotar al Pokemaníaco Matías (boss-171).",
+          "Recibir los 5 Eevees Nv. 25."
+        ],
+        "rewards": "5x Eevees Nv. 25",
+        "questRefId": "quest-9"
+      }
+    ],
+    "bosses": [
+      {
+        "bossId": "boss-33",
+        "trainerName": "Líder Blaine",
+        "title": "Medalla Volcán",
+        "location": "Gimnasio Isla Canela",
+        "levelRange": "Nv. 54 (Misión Líderes) / Nv. 47 inicial",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Arcanine, Magmar y Rapidash con Fuego Sagrado, Llamarada y Hierba Lazo."
+      },
+      {
+        "bossId": "boss-172",
+        "trainerName": "Primer Estafador",
+        "title": "Combate Triple Mansión Canela",
+        "location": "Mansión Canela Piso 3",
+        "levelRange": "Nv. 42",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Gyarados agresivo."
+      },
+      {
+        "bossId": "boss-173",
+        "trainerName": "Segundo Estafador",
+        "title": "Combate Triple Mansión Canela",
+        "location": "Mansión Canela Piso 3",
+        "levelRange": "Nv. 42",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Snorlax tanque con Golpe Cuerpo y Descanso."
+      },
+      {
+        "bossId": "boss-174",
+        "trainerName": "Tercer Estafador",
+        "title": "Combate Triple Mansión Canela",
+        "location": "Mansión Canela Piso 3",
+        "levelRange": "Nv. 43",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Charizard con Lanzallamas y Terremoto."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-llave-secreta",
+        "name": "Llave Secreta",
+        "location": "Mansión Canela Piso B1",
+        "category": "clave",
+        "isMissable": false
+      },
+      {
+        "id": "item-medalla-volcan",
+        "name": "Medalla Volcán",
+        "location": "Gimnasio Isla Canela",
+        "category": "clave",
+        "isMissable": false
+      },
+      {
+        "id": "item-tm38",
+        "name": "MT38 Llamarada",
+        "location": "Recompensa de Blaine",
+        "category": "mt",
+        "isMissable": false
+      }
+    ],
+    "missables": [
+      {
+        "title": "⚠️ RECOMPENSA DE LOS ESTAFADORES Y ENLACE A JOHTO",
+        "warning": "Vencer a los estafadores aquí es imprescindible para poder entrar al almacén de Johto más adelante y llevarse 2.000.000 Pokés. ¡Asegúrate de vencerlos y recibir a Charmander y Snorlax!",
+        "checklist": [
+          "Vencer a los 3 estafadores en Mansión Canela",
+          "Recibir a Charmander Nv. 5 y Snorlax Nv. 30",
+          "Verificar el cobro de los 200.000 Pokés"
+        ]
+      }
+    ],
+    "specialEvolutionNote": "Magmar evoluciona a Magmortar mediante Magmatizador y Cordón Unión.",
+    "beforeLeavingChecklist": [
+      "Completar la misión de los estafadores y recibir el pack de Charmander + Snorlax + 200k",
+      "Completar la misión de los 5 Eevees en el laboratorio",
+      "Recoger la Llave Secreta en la Mansión",
+      "Vencer a Blaine y obtener la Medalla Volcán"
+    ],
+    "nextStep": "Inicia las operaciones de captura de las Aves Legendarias en Central de Energía e Islas Espuma."
+  },
+  {
+    "id": "stage-15",
+    "act": "kanto",
+    "actNumber": 1,
+    "actTitle": "Acto I: Kanto",
+    "order": 15,
+    "location": "Central de Energía e Islas Espuma (Caza Legendaria)",
+    "recommendedLevel": "Nv. 46 - Nv. 52",
+    "storySteps": [
+      "Misión especial del Team Rocket: asegurar las fuentes energéticas de Kanto.",
+      "Surfea hasta la Central de Energía en la Ruta 10. Enfréntate a los ingenieros y a Surge (boss-22) en su puesto avanzado.",
+      "En el corazón de los generadores, somete al ave eléctrica legendaria Zapdos (boss-21, Nv. 50).",
+      "Navega por la Ruta 20 hasta las profundidades gélidas de Islas Espuma.",
+      "Empuja las rocas con Fuerza para detener las corrientes marinas y desciende al piso helado.",
+      "Combate y somete a Articuno (boss-20, Nv. 50).",
+      "Encuentro en Ruta 13 con Azul (boss-18) y en Ruta 16 con Bruno (boss-19) antes de asegurar el perímetro."
+    ],
+    "availablePokemon": [
+      {
+        "name": "Zapdos",
+        "method": "Combate de Captura / Jefe",
+        "location": "Central de Energía",
+        "level": "Nv. 50",
+        "requirements": "Llegar al fondo de la central",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 145
+      },
+      {
+        "name": "Articuno",
+        "method": "Combate de Captura / Jefe",
+        "location": "Islas Espuma Piso B4",
+        "level": "Nv. 50",
+        "requirements": "Detener corrientes con Fuerza",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 144
+      },
+      {
+        "name": "Electabuzz",
+        "method": "Salvaje",
+        "location": "Central de Energía",
+        "level": "Nv. 32 - 36",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 125
+      },
+      {
+        "name": "Jynx",
+        "method": "Salvaje",
+        "location": "Islas Espuma",
+        "level": "Nv. 30 - 34",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": false,
+        "dexNum": 124
+      }
+    ],
+    "gifts": [],
+    "sidequests": [],
+    "bosses": [
+      {
+        "bossId": "boss-21",
+        "trainerName": "Zapdos",
+        "title": "Misión Zapdos",
+        "location": "Central de Energía",
+        "levelRange": "Nv. 50",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Rayo, Pico Taladro y Onda Trueno con estadística de ataque especial al máximo."
+      },
+      {
+        "bossId": "boss-22",
+        "trainerName": "Surge (1er encuentro avanzado)",
+        "title": "Misión Zapdos",
+        "location": "Central de Energía",
+        "levelRange": "Nv. 48",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Raichu y Electivire con Puño Trueno y Terremoto."
+      },
+      {
+        "bossId": "boss-20",
+        "trainerName": "Articuno",
+        "title": "Misión Articuno",
+        "location": "Islas Espuma",
+        "levelRange": "Nv. 50",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Rayo Hielo, Ventisca y Agilidad. Altísima defensa especial."
+      },
+      {
+        "bossId": "boss-18",
+        "trainerName": "Azul (2do encuentro)",
+        "title": "Ruta 13 Misión Articuno",
+        "location": "Ruta 13",
+        "levelRange": "Nv. 46",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Equipo muy potente con Alakazam y Gyarados."
+      },
+      {
+        "bossId": "boss-19",
+        "trainerName": "Bruno (1er encuentro)",
+        "title": "Ruta 16 Misión Articuno",
+        "location": "Ruta 16",
+        "levelRange": "Nv. 47",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Hitmonchan, Hitmonlee y Machamp con Roca Afilada."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-tm25-trueno",
+        "name": "MT25 Trueno",
+        "location": "Central de Energía fondo",
+        "category": "mt",
+        "isMissable": false
+      },
+      {
+        "id": "item-tm14-ventisca",
+        "name": "MT14 Ventisca",
+        "location": "Islas Espuma Piso B3",
+        "category": "mt",
+        "isMissable": false
+      }
+    ],
+    "missables": [],
+    "specialEvolutionNote": "Electabuzz evoluciona a Electivire mediante Electrizador y Cordón Unión.",
+    "beforeLeavingChecklist": [
+      "Capturar o neutralizar a Zapdos en la Central de Energía",
+      "Capturar o neutralizar a Articuno en Islas Espuma",
+      "Derrotar a Azul en Ruta 13 y a Bruno en Ruta 16",
+      "Recoger MT25 Trueno y MT14 Ventisca"
+    ],
+    "nextStep": "Regresa a Ciudad Verde: las puertas del octavo y último gimnasio de Kanto por fin se han abierto."
+  },
+  {
+    "id": "stage-16",
+    "act": "kanto",
+    "actNumber": 1,
+    "actTitle": "Acto I: Kanto",
+    "order": 16,
+    "location": "Ciudad Verde (Gimnasio Rocket) & Despacho de Atlas",
+    "recommendedLevel": "Nv. 50 - Nv. 56",
+    "storySteps": [
+      "El Gimnasio de Ciudad Verde desvela su verdadera identidad: el Cuartel General de Mando del Team Rocket.",
+      "Combate contra el Ejecutivo Protón (boss-34) y el Administrador Petrel (boss-35) en las antesalas.",
+      "En el estrado principal te espera el Administrador Jefe Rocket Atlas (boss-36, Nv. 54-56).",
+      "Demuestra que estás listo para liderar la organización batiendo a su poderoso equipo.",
+      "Recibe la 8ª Medalla de Kanto (Medalla Tierra) y el rango de Ejecutivo del Team Rocket.",
+      "🎉 ¡DESBLOQUEO SUPREMO! Al tener las 8 medallas de Kanto, SE ACTIVAN LOS 8 ENTRENADORES ESPECIALES DE OBJETOS COMPETITIVOS:"
+    ],
+    "availablePokemon": [],
+    "gifts": [],
+    "sidequests": [
+      {
+        "id": "sq-11",
+        "name": "Entrenadores Especiales de Objetos Competitivos (8 Medallas)",
+        "status": "available_now",
+        "statusLabel": "🟢 ¡Desbloqueados ahora!",
+        "npc": "8 Entrenadores repartidos por Kanto",
+        "location": "Todo Kanto",
+        "prerequisite": "Poseer las 8 Medallas de Kanto",
+        "steps": [
+          "Llamaesfera: Derrotar al anciano de Ciudad Azulona al cruzar el pequeño charco.",
+          "Lodo Negro: Derrotar al NPC en Ciudad Verde tras surfear el charco o cortar el árbol.",
+          "Gafas Elegidas: Derrotar a la Copiona en su casa de Ciudad Azafrán.",
+          "Cinta Elegida: Derrotar al científico en la parte trasera del museo de Ciudad Plateada.",
+          "Cinta Experto: Derrotar al cazabichos de Ciudad Fucsia observando al Kangaskhan.",
+          "Chaleco Asalto: Derrotar al científico en la sala de investigación de Isla Canela.",
+          "MT32 Roca Afilada: Derrotar al entrenador en lo profundo del Túnel Roca.",
+          "Vidaesfera: Derrotar al entrenador guay al final de Calle Victoria (accesible en la siguiente etapa)."
+        ],
+        "rewards": "Llamaesfera, Lodo Negro, Gafas Elegidas, Cinta Elegida, Cinta Experto, Chaleco Asalto, MT32 Roca Afilada",
+        "questRefId": "quest-especiales-kanto"
+      }
+    ],
+    "bosses": [
+      {
+        "bossId": "boss-34",
+        "trainerName": "Ejecutivo Rocket Protón",
+        "title": "Última Medalla",
+        "location": "Gimnasio Ciudad Verde",
+        "levelRange": "Nv. 52",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Golbat y Weezing con Niebla Tóxica y Bomba Fango."
+      },
+      {
+        "bossId": "boss-35",
+        "trainerName": "Administrador Rocket Petrel",
+        "title": "Última Medalla",
+        "location": "Gimnasio Ciudad Verde",
+        "levelRange": "Nv. 53",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Raticate y Houndoom con trampa rocas y persecución."
+      },
+      {
+        "bossId": "boss-36",
+        "trainerName": "Administrador Jefe Rocket Atlas",
+        "title": "Última Medalla (8ª)",
+        "location": "Gimnasio Ciudad Verde",
+        "levelRange": "Nv. 54 - 56",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Tyranitar, Steelix y Rhydon con Danza Dragón, Terremoto y Terremoto."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-medalla-tierra",
+        "name": "Medalla Tierra (8ª)",
+        "location": "Gimnasio de Ciudad Verde",
+        "category": "clave",
+        "isMissable": false
+      },
+      {
+        "id": "item-tm26-terremoto",
+        "name": "MT26 Terremoto",
+        "location": "Recompensa de Atlas",
+        "category": "mt",
+        "isMissable": false
+      },
+      {
+        "id": "item-lodo-negro",
+        "name": "Lodo Negro",
+        "location": "NPC Ciudad Verde charco",
+        "category": "competitivo",
+        "isMissable": false
+      },
+      {
+        "id": "item-cinta-elegida",
+        "name": "Cinta Elegida",
+        "location": "Científico Museo Plateada",
+        "category": "competitivo",
+        "isMissable": false
+      },
+      {
+        "id": "item-gafas-elegidas",
+        "name": "Gafas Elegidas",
+        "location": "Copiona Ciudad Azafrán",
+        "category": "competitivo",
+        "isMissable": false
+      },
+      {
+        "id": "item-cinta-experto",
+        "name": "Cinta Experto",
+        "location": "Cazabichos Ciudad Fucsia",
+        "category": "competitivo",
+        "isMissable": false
+      },
+      {
+        "id": "item-chaleco-asalto",
+        "name": "Chaleco Asalto",
+        "location": "Científico Laboratorio Canela",
+        "category": "competitivo",
+        "isMissable": false
+      },
+      {
+        "id": "item-llamaesfera",
+        "name": "Llamaesfera",
+        "location": "Anciano Ciudad Azulona charco",
+        "category": "competitivo",
+        "isMissable": false
+      },
+      {
+        "id": "item-tm32-roca-afilada",
+        "name": "MT32 Roca Afilada",
+        "location": "Entrenador hondo Túnel Roca",
+        "category": "mt",
+        "isMissable": false
+      }
+    ],
+    "missables": [],
+    "specialEvolutionNote": "Con Terremoto, Cinta Elegida y Chaleco Asalto, tu equipo alcanza calibre de Campeonato.",
+    "beforeLeavingChecklist": [
+      "Derrotar a Protón, Petrel y Atlas en el Gimnasio de Verde",
+      "Recibir la 8ª Medalla de Kanto y la MT26 Terremoto",
+      "Hacer el recorrido por Kanto para vencer a los 7 entrenadores especiales y recolectar sus objetos competitivos",
+      "Equipar Lodo Negro, Cinta Elegida, Gafas Elegidas o Chaleco Asalto en tus atacantes principales"
+    ],
+    "nextStep": "Toma la Ruta 22 hacia el oeste de Ciudad Verde rumbo a la entrada de la Calle Victoria."
+  },
+  {
+    "id": "stage-17",
+    "act": "kanto",
+    "actNumber": 1,
+    "actTitle": "Acto I: Kanto",
+    "order": 17,
+    "location": "Calle Victoria & Caza de Moltres",
+    "recommendedLevel": "Nv. 54 - Nv. 60",
+    "storySteps": [
+      "Pasa por el control de las 8 medallas oficiales en la Ruta 23.",
+      "Ingresa en la escarpada Calle Victoria de Kanto empujando rocas sobre interruptores.",
+      "En el piso 2 localiza y somete al ave legendaria de fuego Moltres (boss-25, Nv. 50).",
+      "Combate contra tu Rival Azul en el puente de roca (boss-37, Nv. 56-58).",
+      "Combate decisivo previo a la Liga contra tu Rival Andra (boss-38, Nv. 58-60).",
+      "Vence al Entrenador Guay al final de la cueva para reclamar la Vidaesfera (último entrenador especial de Kanto)."
+    ],
+    "availablePokemon": [
+      {
+        "name": "Moltres",
+        "method": "Combate de Captura / Jefe",
+        "location": "Calle Victoria Piso 2",
+        "level": "Nv. 50",
+        "requirements": "Mover rocas con Fuerza",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 146
+      },
+      {
+        "name": "Sandslash",
+        "method": "Salvaje",
+        "location": "Calle Victoria",
+        "level": "Nv. 40 - 44",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": false,
+        "dexNum": 28
+      },
+      {
+        "name": "Machamp",
+        "method": "Salvaje",
+        "location": "Calle Victoria",
+        "level": "Nv. 42 - 46",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 68
+      }
+    ],
+    "gifts": [],
+    "sidequests": [],
+    "bosses": [
+      {
+        "bossId": "boss-25",
+        "trainerName": "Moltres",
+        "title": "Misión Moltres",
+        "location": "Calle Victoria",
+        "levelRange": "Nv. 50",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Lanzallamas, Onda Ígnea y Respiro con máxima potencia especial."
+      },
+      {
+        "bossId": "boss-37",
+        "trainerName": "Azul",
+        "title": "Duelo Calle Victoria",
+        "location": "Calle Victoria",
+        "levelRange": "Nv. 56 - 58",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Pidgeot, Alakazam, Rhydon, Exeggutor y Gyarados con movimientos de cobertura completa."
+      },
+      {
+        "bossId": "boss-38",
+        "trainerName": "Rival Andra",
+        "title": "Duelo Calle Victoria",
+        "location": "Calle Victoria",
+        "levelRange": "Nv. 58 - 60",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Roster al completo con nivel 60. Inicial en fase final competitiva."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-vidaesfera",
+        "name": "Vidaesfera",
+        "location": "Entrenador Guay final Calle Victoria",
+        "category": "competitivo",
+        "isMissable": false
+      },
+      {
+        "id": "item-tm02-garra-dragon",
+        "name": "MT02 Garra Dragón",
+        "location": "Calle Victoria B1",
+        "category": "mt",
+        "isMissable": false
+      }
+    ],
+    "missables": [],
+    "specialEvolutionNote": "La Vidaesfera aumenta un 30% el poder de todos los ataques a cambio del 10% de PS por golpe: perfecta para tus sweepers.",
+    "beforeLeavingChecklist": [
+      "Capturar o derrotar a Moltres",
+      "Derrotar a Azul y Andra en Calle Victoria",
+      "Derrotar al Entrenador Guay y recoger la Vidaesfera",
+      "Curar y equipar al equipo antes de pisar la Meseta Añil"
+    ],
+    "nextStep": "Sal de la Calle Victoria hacia el norte e ingresa al palacio de la Meseta Añil."
+  },
+  {
+    "id": "stage-18",
+    "act": "kanto",
+    "actNumber": 1,
+    "actTitle": "Acto I: Kanto",
+    "order": 18,
+    "location": "Meseta Añil: Alto Mando, Campeón Rojo & Emperador Lance",
+    "recommendedLevel": "Nv. 60 - Nv. 70",
+    "storySteps": [
+      "Llega a la Meseta Añil. Compra Restaura Todos, Revivires y Pociones Máximas.",
+      "Sala 1: Alto Mando Lorelei (boss-39, Nv. 61-63) - Especialista en Hielo/Agua.",
+      "Sala 2: Alto Mando Bruno (boss-40, Nv. 62-64) - Especialista en Lucha/Roca.",
+      "Sala 3: Alto Mando Agatha (boss-41, Nv. 63-65) - Especialista en Fantasma/Veneno.",
+      "Sala 4: Alto Mando Lance (boss-42, Nv. 64-66) - Maestro Dragón.",
+      "Sala del Trono: Campeón Rojo (boss-43, Nv. 66-68) - El mítico entrenador de Pueblo Paleta.",
+      "🔥 ¡EL GRAN CLÍMAX DEL ACTO I! Tras caer Rojo, Lance desata el poder prohibido del clan dragón y se corona como Emperador Lance (boss-44, Nv. 67-70).",
+      "Derrota al Emperador Lance para reclamar el Hall de la Fama y proclamar el dominio indiscutible del Team Rocket sobre Kanto.",
+      "🎉 ¡FIN DEL ACTO I! Se desbloquea la Temporada 2: Archipiélago Sete (Islas Sete)."
+    ],
+    "availablePokemon": [],
+    "gifts": [],
+    "sidequests": [],
+    "bosses": [
+      {
+        "bossId": "boss-39",
+        "trainerName": "Alto Mando Lorelei",
+        "title": "Liga Pokémon de Kanto",
+        "location": "Meseta Añil",
+        "levelRange": "Nv. 61 - 63",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Lapras, Cloyster, Jynx con Rayo Hielo, Surf y Reflejo."
+      },
+      {
+        "bossId": "boss-40",
+        "trainerName": "Alto Mando Bruno",
+        "title": "Liga Pokémon de Kanto",
+        "location": "Meseta Añil",
+        "levelRange": "Nv. 62 - 64",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Machamp y Steelix con Terremoto y Avalancha."
+      },
+      {
+        "bossId": "boss-41",
+        "trainerName": "Alto Mando Agatha",
+        "title": "Liga Pokémon de Kanto",
+        "location": "Meseta Añil",
+        "levelRange": "Nv. 63 - 65",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Gengar con Hipnosis, Come Sueños, Bola Sombra y Bomba Lodo."
+      },
+      {
+        "bossId": "boss-42",
+        "trainerName": "Alto Mando Lance (1er encuentro)",
+        "title": "Liga Pokémon de Kanto",
+        "location": "Meseta Añil",
+        "levelRange": "Nv. 64 - 66",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Gyarados, Aerodactyl y Dragonite con Danza Dragón."
+      },
+      {
+        "bossId": "boss-43",
+        "trainerName": "Campeón Rojo",
+        "title": "Liga Pokémon de Kanto",
+        "location": "Meseta Añil",
+        "levelRange": "Nv. 66 - 68",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Pikachu, Charizard, Blastoise, Venusaur, Snorlax y Espeon con IVs perfectos."
+      },
+      {
+        "bossId": "boss-44",
+        "trainerName": "Emperador Lance",
+        "title": "Jefe Supremo de Kanto",
+        "location": "Meseta Añil",
+        "levelRange": "Nv. 67 - 70",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Dragonite forma suprema con Hiperrayo instantáneo, Terremoto y Enfado. Usa ataques Hielo con Vidaesfera o Banda Focus para sobrevivir."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-trofeo-campeon-kanto",
+        "name": "Título de Campeón de Kanto",
+        "location": "Meseta Añil Hall de la Fama",
+        "category": "clave",
+        "isMissable": false
+      }
+    ],
+    "missables": [],
+    "specialEvolutionNote": "¡Felicidades por conquistar Kanto! Tus Pokémon ya pueden superar el nivel 65 sin penalización de obediencia.",
+    "beforeLeavingChecklist": [
+      "Derrotar consecutivamente a Lorelei, Bruno, Agatha y Lance",
+      "Derrotar al Campeón Rojo",
+      "Vencer al Emperador Lance y registrar tu equipo en el Hall de la Fama",
+      "Guardar la partida tras los créditos de la Temporada 1"
+    ],
+    "nextStep": "Dirígete al puerto de Ciudad Carmín o Isla Inta para zarpar hacia la gran campaña de Islas Sete (Archi7)."
+  },
+  {
+    "id": "stage-19",
+    "act": "archi7",
+    "actNumber": 2,
+    "actTitle": "Acto II: Archi7",
+    "order": 19,
+    "location": "Isla Inta (Retorno) & Misión de Atlas con la Anciana",
+    "recommendedLevel": "Nv. 65 - Nv. 70",
+    "storySteps": [
+      "Regreso triunfal a Isla Inta tras coronarte Campeón de Kanto.",
+      "Combate de bienvenida contra Azul en Isla Inta (boss-45, Nv. 67).",
+      "Habla con el Administrador Jefe Atlas en el cuartel de Isla Inta.",
+      "Atlas te encomienda una misión de alta prioridad: investigar a una anciana sospechosa en Isla Sétima que custodia cajas secretas.",
+      "Prepárate para viajar entre las islas del archipiélago."
+    ],
+    "availablePokemon": [],
+    "gifts": [],
+    "sidequests": [
+      {
+        "id": "sq-12",
+        "name": "Atlas y la Anciana de Isla Sétima",
+        "status": "available_now",
+        "statusLabel": "🟢 Disponible ahora (Iniciación)",
+        "npc": "Administrador Atlas",
+        "location": "Isla Inta Cuartel",
+        "prerequisite": "Haber completado Kanto y viajar a Sevii",
+        "steps": [
+          "Hablar con Atlas en Isla Inta.",
+          "Viajar a Isla Sétima y resolver el incidente de las cajas con la anciana y la Líder Zoe.",
+          "Regresar a hablar con Atlas en Isla Inta para recibir la recompensa máxima."
+        ],
+        "rewards": "Bomushikaa Nv. 60, 300.000 Pokés y Medalla de Gimnasio Sevii",
+        "questRefId": "quest-13"
+      }
+    ],
+    "bosses": [
+      {
+        "bossId": "boss-45",
+        "trainerName": "Azul",
+        "title": "Regreso a Isla Inta",
+        "location": "Muelle de Isla Inta",
+        "levelRange": "Nv. 67",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Equipo completamente competitivo nivel 67 con coberturas."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-ticket-tri",
+        "name": "Ticket Triángulo Sevii",
+        "location": "Muelle de Sevii",
+        "category": "clave",
+        "isMissable": false
+      }
+    ],
+    "missables": [],
+    "specialEvolutionNote": "Bomushikaa (Turtonator en forma regional Rocket) es uno de los mejores tanques fuego/dragón del juego.",
+    "beforeLeavingChecklist": [
+      "Derrotar a Azul en el muelle de Isla Inta",
+      "Aceptar el encargo de Atlas sobre la anciana de Isla Sétima",
+      "Embarcar rumbo a Isla Prima"
+    ],
+    "nextStep": "Zarpa en el ferry hacia Isla Prima para sofocar las operaciones del Equipo Magma en Monte Ascuas."
+  },
+  {
+    "id": "stage-20",
+    "act": "archi7",
+    "actNumber": 2,
+    "actTitle": "Acto II: Archi7",
+    "order": 20,
+    "location": "Isla Prima, Playa Tesoro & Monte Ascuas",
+    "recommendedLevel": "Nv. 68 - Nv. 73",
+    "storySteps": [
+      "Llega a Isla Prima. En la esquina inferior izquierda del Centro Pokémon habla con los hombres trajeados (misión gruta secreta).",
+      "Ve a Playa Tesoro al sur: entra en la gruta oculta y derrota al Admin Devon Esmeralda (boss-175). Recibes a Nihilego Nv. 50 y la opción de atrapar a Guzzlord Nv. 50.",
+      "Sube por el Camino Candente hacia el volcán de Monte Ascuas.",
+      "⚠️ ¡SECUENCIA CRÍTICA PARA EVITAR SOFTLOCK EN SEVII! Sigue el orden exacto documentado:",
+      "1. Habla con Zeus en Isla Quarta. 2. Enfrenta a Tatiano (boss-48) y Magno (boss-49) en Monte Ascuas.",
+      "3. Ve a Valle Ruinas / Cueva Punteada en Isla Exta contra Aquiles. 4. Habla con Zeus en Cueva Cambiante. 5. Vuelve al interior de Monte Ascuas.",
+      "Derrota al Administrador Magma Tatiano (Nv. 71) y al Líder Magma Magno (Nv. 72-73)."
+    ],
+    "availablePokemon": [
+      {
+        "name": "Nihilego",
+        "method": "Secundaria Trajeados",
+        "location": "Gruta Secreta Playa Tesoro",
+        "level": "Nv. 50",
+        "requirements": "Derrotar a Admin Esmeralda",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 793
+      },
+      {
+        "name": "Guzzlord",
+        "method": "Captura en Gruta Secreta",
+        "location": "Gruta Secreta Playa Tesoro",
+        "level": "Nv. 50",
+        "requirements": "Tras vencer a Admin Esmeralda",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 799
+      },
+      {
+        "name": "Ponyta",
+        "method": "Salvaje",
+        "location": "Camino Candente",
+        "level": "Nv. 35 - 38",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": false,
+        "dexNum": 77
+      }
+    ],
+    "gifts": [
+      {
+        "id": "gift-nihilego",
+        "name": "Nihilego",
+        "dexNum": 793,
+        "level": "Nv. 50",
+        "heldItem": "Ultraente",
+        "npc": "Trajeado de Verde",
+        "location": "Playa Tesoro Gruta Secreta",
+        "steps": [
+          "Hablar con el trajeado de verde en Centro Pokémon de Isla Prima.",
+          "Surfear al sur hasta Playa Tesoro y encontrar la grieta en las rocas.",
+          "Derrotar a Admin Devon Esmeralda y recibir a Nihilego."
+        ],
+        "warning": null
+      }
+    ],
+    "sidequests": [
+      {
+        "id": "sq-13",
+        "name": "El Verdadero Tesoro de Playa Tesoro",
+        "status": "available_now",
+        "statusLabel": "🟢 Disponible ahora",
+        "npc": "Trajeados de Isla Prima",
+        "location": "Isla Prima Centro Pokémon & Playa Tesoro",
+        "prerequisite": "Llegar a Isla Prima",
+        "steps": [
+          "Hablar con el hombre de verde en el Centro Pokémon.",
+          "Ir a Playa Tesoro al sur y entrar a la gruta oculta.",
+          "Derrotar a Admin Devon Esmeralda.",
+          "Obtener a Nihilego Nv. 50 y capturar a Guzzlord Nv. 50."
+        ],
+        "rewards": "Nihilego Nv. 50 + Captura de Guzzlord Nv. 50",
+        "questRefId": "quest-11"
+      }
+    ],
+    "bosses": [
+      {
+        "bossId": "boss-48",
+        "trainerName": "Administrador Magma Tatiano",
+        "title": "Evento Equipo Magma",
+        "location": "Monte Ascuas",
+        "levelRange": "Nv. 71",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Camerupt y Magmortar con Llamarada y Terremoto."
+      },
+      {
+        "bossId": "boss-49",
+        "trainerName": "Líder Magma Magno",
+        "title": "Evento Equipo Magma",
+        "location": "Monte Ascuas Cúspide",
+        "levelRange": "Nv. 72 - 73",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Groudon réplica y Mega-Camerupt con Día Soleado activo."
+      },
+      {
+        "bossId": "boss-175",
+        "trainerName": "Administrador Devon Esmeralda",
+        "title": "Secundaria Playa Tesoro",
+        "location": "Gruta Secreta Playa Tesoro",
+        "levelRange": "Nv. 70",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Ultraentes agresivos con Ultraimpulso."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-rubi-sevii",
+        "name": "Rubí de Sevii",
+        "location": "Interior de Monte Ascuas",
+        "category": "clave",
+        "isMissable": false
+      }
+    ],
+    "missables": [
+      {
+        "title": "⚠️ SECUENCIA ESTRICTA DE SEVII",
+        "warning": "Para evitar bloqueos de avance en los scripts de Sevii: habla con Zeus en Isla 4 -> derrota a Magno en Mt. Ascuas -> derrota a Aquiles en Cueva Punteada -> habla con Zeus en Cueva Cambiante -> vuelve a Mt. Ascuas.",
+        "checklist": [
+          "Respetar el orden de interacción de las islas",
+          "Completar la misión de los trajeados antes de dejar Isla Prima"
+        ]
+      }
+    ],
+    "specialEvolutionNote": "Nihilego aprende Bomba Lodo y Joya de Luz al instante: un atacante especial demoledor.",
+    "beforeLeavingChecklist": [
+      "Completar la misión de Playa Tesoro y recibir a Nihilego + atrapar a Guzzlord",
+      "Derrotar a Tatiano y Magno en Monte Ascuas",
+      "Recoger el Rubí de Sevii"
+    ],
+    "nextStep": "Toma el barco hacia Isla Secunda e Isla Tera."
+  },
+  {
+    "id": "stage-21",
+    "act": "archi7",
+    "actNumber": 2,
+    "actTitle": "Acto II: Archi7",
+    "order": 21,
+    "location": "Isla Secunda, Isla Tera & Bosque Baya",
+    "recommendedLevel": "Nv. 70 - Nv. 74",
+    "storySteps": [
+      "En Isla Secunda visita la casa de la Exorcista al norte: derrótala para obtener el objeto competitivo Lupa.",
+      "En Isla Tera habla con los dos personajes juntos en la primera casa a la izquierda (Dueños de recreativos).",
+      "Despacha a los 3 ex-ejecutivos en combate triple para ganar: Cranidos Nv. 25, Skorupi Nv. 35 y Piplup Nv. 15.",
+      "Adéntrate en Bosque Baya en Isla Tera: localiza a una persona entrando por un pasaje secreto entre la arboleda.",
+      "Descubre el Gimnasio Psíquico secreto en el bosque: derrota al Líder Tera Morfeo (boss-179).",
+      "Gana la Medalla de Gimnasio Sevii, a Fennekin Nv. 15 y la oportunidad de capturar a Blacephalon Nv. 50."
+    ],
+    "availablePokemon": [
+      {
+        "name": "Cranidos",
+        "method": "Secundaria Recreativos",
+        "location": "Isla Tera",
+        "level": "Nv. 25",
+        "requirements": "Batir a ex-ejecutivos",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 408
+      },
+      {
+        "name": "Skorupi",
+        "method": "Secundaria Recreativos",
+        "location": "Isla Tera",
+        "level": "Nv. 35",
+        "requirements": "Batir a ex-ejecutivos",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 451
+      },
+      {
+        "name": "Piplup",
+        "method": "Secundaria Recreativos",
+        "location": "Isla Tera",
+        "level": "Nv. 15",
+        "requirements": "Batir a ex-ejecutivos",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 393
+      },
+      {
+        "name": "Fennekin",
+        "method": "Secundaria Bosque Baya",
+        "location": "Bosque Baya Secreto",
+        "level": "Nv. 15",
+        "requirements": "Vencer a Líder Morfeo",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 653
+      },
+      {
+        "name": "Blacephalon",
+        "method": "Captura en Bosque Baya",
+        "location": "Bosque Baya Secreto",
+        "level": "Nv. 50",
+        "requirements": "Tras vencer a Líder Morfeo",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 806
+      }
+    ],
+    "gifts": [],
+    "sidequests": [
+      {
+        "id": "sq-14",
+        "name": "Negocios en Sevii (Dueños de Recreativos)",
+        "status": "available_now",
+        "statusLabel": "🟢 Disponible ahora",
+        "npc": "Socios de los Recreativos",
+        "location": "Isla Tera primera casa izquierda",
+        "prerequisite": "Llegar a Isla Tera",
+        "steps": [
+          "Hablar con los dos personajes en la casa de Isla Tera.",
+          "Derrotar a los 3 ex-ejecutivos en combate triple (boss-176, 177, 178).",
+          "Recibir a Cranidos, Skorupi y Piplup."
+        ],
+        "rewards": "Cranidos Nv. 25, Skorupi Nv. 35 y Piplup Nv. 15",
+        "questRefId": "quest-12"
+      },
+      {
+        "id": "sq-15",
+        "name": "En lo Profundo del Bosque Baya",
+        "status": "available_now",
+        "statusLabel": "🟢 Disponible ahora",
+        "npc": "Entrada secreta arboleda",
+        "location": "Bosque Baya (Isla Tera)",
+        "prerequisite": "Llegar a Bosque Baya",
+        "steps": [
+          "Entrar por el pasadizo oculto entre los árboles.",
+          "Derrotar al Líder Tera Morfeo (boss-179).",
+          "Recibir Medalla Sevii, Fennekin Nv. 15 y atrapar a Blacephalon Nv. 50."
+        ],
+        "rewards": "Medalla Gimnasio Sevii, Fennekin Nv. 15 y Blacephalon Nv. 50",
+        "questRefId": "quest-14"
+      }
+    ],
+    "bosses": [
+      {
+        "bossId": "boss-176",
+        "trainerName": "Primer Ex-Ejecutivo Rocket",
+        "title": "Secundaria Recreativos",
+        "location": "Isla Secunda / Tera",
+        "levelRange": "Nv. 70",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Raticate y Houndoom ofensivos."
+      },
+      {
+        "bossId": "boss-179",
+        "trainerName": "Líder Tera Morfeo",
+        "title": "Gimnasio Psíquico Secreto",
+        "location": "Bosque Baya",
+        "levelRange": "Nv. 72",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Alakazam, Reuniclus y Gothitelle con Espacio Raro."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-lupa",
+        "name": "Lupa",
+        "location": "Exorcista casa norte Isla Secunda",
+        "category": "competitivo",
+        "isMissable": false
+      },
+      {
+        "id": "item-medalla-sevii-morfeo",
+        "name": "Medalla Sevii (Morfeo)",
+        "location": "Bosque Baya",
+        "category": "clave",
+        "isMissable": false
+      }
+    ],
+    "missables": [],
+    "specialEvolutionNote": "Skorupi evoluciona a Drapion al Nv. 40 (tipo Veneno/Siniestro, solo débil a Tierra).",
+    "beforeLeavingChecklist": [
+      "Derrotar a la Exorcista en Isla Secunda para recoger la Lupa",
+      "Completar la misión de los recreativos en Isla Tera (Cranidos, Skorupi, Piplup)",
+      "Completar el Gimnasio secreto de Bosque Baya (Medalla Sevii, Fennekin, Blacephalon)"
+    ],
+    "nextStep": "Navega hacia Isla Quarta e Isla Exta."
+  },
+  {
+    "id": "stage-22",
+    "act": "archi7",
+    "actNumber": 2,
+    "actTitle": "Acto II: Archi7",
+    "order": 22,
+    "location": "Isla Quarta & Isla Exta (El Meteorito y Duraludon)",
+    "recommendedLevel": "Nv. 70 - Nv. 74",
+    "storySteps": [
+      "En Isla Quarta entra a la Cueva Glaciar: habla con la anciana (misión especial de Cascada).",
+      "Habla con el Viajero Zeus en Isla 4 para registrar el paso 1 de la secuencia.",
+      "Llega a Isla Exta: ⚠️ ¡MOMENTO CRÍTICO DEL 100%! Desde el muelle de Isla Exta, surfea de inmediato hacia la izquierda.",
+      "Encontrarás una entrada secreta hacia una caleta oculta con una cabaña. Dentro está el Investigador.",
+      "Entrégale el **METEORITO** que venía equipado en el Phanpy que obtuviste en Isla Inta.",
+      "A cambio de tu meteorito te entrega a **Duraludon Nv. 50**.",
+      "Avanza hacia la Cueva Cambiante y Valle Ruinas / Cueva Punteada: enfréntate al Equipo Aqua.",
+      "Derrota al Almirante Tolo (boss-50, Nv. 71), al Líder Aquiles (boss-51, Nv. 72-73) y a Zeus en Cueva Cambiante (boss-47, Nv. 70)."
+    ],
+    "availablePokemon": [
+      {
+        "name": "Duraludon",
+        "method": "Secundaria Meteorito",
+        "location": "Cabaña oculta muelle Isla Exta",
+        "level": "Nv. 50",
+        "requirements": "Entregar el Meteorito de Phanpy",
+        "isUnique": true,
+        "isMissable": true,
+        "is100Recommended": true,
+        "dexNum": 884
+      },
+      {
+        "name": "Delibird",
+        "method": "Salvaje",
+        "location": "Cueva Glaciar Isla Quarta",
+        "level": "Nv. 35 - 38",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": false,
+        "dexNum": 225
+      },
+      {
+        "name": "Swinub",
+        "method": "Salvaje",
+        "location": "Cueva Glaciar",
+        "level": "Nv. 34 - 37",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 220
+      }
+    ],
+    "gifts": [
+      {
+        "id": "gift-duraludon",
+        "name": "Duraludon",
+        "dexNum": 884,
+        "level": "Nv. 50",
+        "heldItem": "Metal Compuesto",
+        "npc": "Científico en Cabaña Oculta",
+        "location": "Muelle de Isla Exta a la izquierda en surf",
+        "steps": [
+          "Llegar al muelle de Isla Exta.",
+          "Surfear hacia la izquierda pegado a la pared rocosa.",
+          "Entrar por la apertura hacia la cabaña oculta.",
+          "Entregar el Meteorito que vino con Phanpy en Isla Inta.",
+          "Recibir a Duraludon Nv. 50."
+        ],
+        "warning": "⚠️ Si vendiste o perdiste el Meteorito, no podrás conseguir a Duraludon."
+      }
+    ],
+    "sidequests": [
+      {
+        "id": "sq-16",
+        "name": "La Investigación del Científico Oculto de Isla Exta",
+        "status": "must_complete",
+        "statusLabel": "⚠️ Debe hacerse ahora (Meteorito)",
+        "npc": "Científico Oculto",
+        "location": "Cabaña al oeste del muelle de Isla Exta",
+        "prerequisite": "Tener el Meteorito del Phanpy de Isla Inta",
+        "steps": [
+          "Surfear a la izquierda del muelle de Isla Exta.",
+          "Entrar en la cabaña secreta.",
+          "Entregar el Meteorito para recibir a Duraludon Nv. 50."
+        ],
+        "rewards": "Duraludon Nv. 50",
+        "questRefId": "quest-10"
+      },
+      {
+        "id": "sq-17",
+        "name": "Anciana de Isla Quarta (Cueva Glaciar)",
+        "status": "unlocks_later",
+        "statusLabel": "🔒 Se completa al obtener Cascada",
+        "npc": "Anciana en Cueva Glaciar",
+        "location": "Isla Quarta",
+        "prerequisite": "Obtener MO Cascada más adelante",
+        "steps": [
+          "Hablar con la anciana en Cueva Glaciar.",
+          "Cuando consigas Cascada, subir la cascada interior y capturar al pokémon especial.",
+          "Mostrárselo a la anciana para recibir la MT Avalancha."
+        ],
+        "rewards": "MT Avalancha",
+        "questRefId": "quest-17"
+      }
+    ],
+    "bosses": [
+      {
+        "bossId": "boss-47",
+        "trainerName": "Viajero Zeus",
+        "title": "Anomalías en Cueva Cambiante",
+        "location": "Cueva Cambiante Isla Exta",
+        "levelRange": "Nv. 70",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Tyranitar y Metagross con movimientos de terremoto y avalancha."
+      },
+      {
+        "bossId": "boss-50",
+        "trainerName": "Almirante Tolo",
+        "title": "Evento Equipo Aqua",
+        "location": "Cueva Punteada",
+        "levelRange": "Nv. 71",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Sharpedo y Walrein con alta agresividad acuática."
+      },
+      {
+        "bossId": "boss-51",
+        "trainerName": "Líder Aqua Aquiles",
+        "title": "Evento Equipo Aqua",
+        "location": "Cueva Punteada / Valle Ruinas",
+        "levelRange": "Nv. 72 - 73",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Kyogre réplica y Mega-Sharpedo con Danza Lluvia activa."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-zafiro-sevii",
+        "name": "Zafiro de Sevii",
+        "location": "Cueva Punteada fondo",
+        "category": "clave",
+        "isMissable": false
+      }
+    ],
+    "missables": [
+      {
+        "title": "⚠️ ENTREGA DEL METEORITO POR DURALUDON",
+        "warning": "No olvides hacer el intercambio en la cabaña secreta a la izquierda del muelle de Isla Exta. Duraludon es un Pokémon único indispensable para el 100%.",
+        "checklist": [
+          "Surfear a la izquierda del muelle de Isla Exta",
+          "Entregar el Meteorito al investigador",
+          "Recibir a Duraludon Nv. 50"
+        ]
+      }
+    ],
+    "specialEvolutionNote": "Duraludon tipo Acero/Dragón tiene solo dos debilidades (Lucha y Tierra) y altísima defensa física.",
+    "beforeLeavingChecklist": [
+      "Conseguir a Duraludon Nv. 50 en la cabaña secreta de Isla Exta",
+      "Derrotar a Zeus en Cueva Cambiante",
+      "Derrotar a Tolo y Aquiles en Cueva Punteada",
+      "Asegurar el Zafiro de Sevii"
+    ],
+    "nextStep": "Navega hacia Isla Sétima para resolver la misión encomendada por Atlas."
+  },
+  {
+    "id": "stage-23",
+    "act": "archi7",
+    "actNumber": 2,
+    "actTitle": "Acto II: Archi7",
+    "order": 23,
+    "location": "Isla Sétima, Cañón Sétima & Misión de Atlas",
+    "recommendedLevel": "Nv. 72 - Nv. 75",
+    "storySteps": [
+      "Arribo a Isla Sétima, la isla más austral y rocosa del archipiélago.",
+      "Combate de rivalidad contra Andra en la explanada de Isla Sétima (boss-46, Nv. 69).",
+      "Al sur de Isla Sétima, cruza el puente y derrota al Entrenador Guay para ganar el Pañuelo Elegido.",
+      "Localiza a la anciana de las cajas mencionada por Atlas. Resuelve el incidente y vence a la Líder Sétima Zoe (boss-180) en el Gimnasio Normal.",
+      "Regresa de inmediato a Isla Inta y habla con Atlas en el cuartel.",
+      "Atlas te entrega la recompensa legendaria: **300.000 Pokés, Bomushikaa Nv. 60 y la Medalla de Gimnasio Sevii**."
+    ],
+    "availablePokemon": [
+      {
+        "name": "Bomushikaa",
+        "method": "Recompensa Atlas",
+        "location": "Cuartel Isla Inta",
+        "level": "Nv. 60",
+        "requirements": "Completar misión anciana Isla 7",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 776
+      },
+      {
+        "name": "Skarmory",
+        "method": "Salvaje",
+        "location": "Cañón Sétima",
+        "level": "Nv. 42 - 45",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 227
+      },
+      {
+        "name": "Phanpy",
+        "method": "Salvaje",
+        "location": "Cañón Sétima",
+        "level": "Nv. 40 - 43",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": false,
+        "dexNum": 231
+      }
+    ],
+    "gifts": [
+      {
+        "id": "gift-bomushikaa",
+        "name": "Bomushikaa (Turtonator Rocket)",
+        "dexNum": 776,
+        "level": "Nv. 60",
+        "heldItem": "300.000 Pokés",
+        "npc": "Administrador Atlas",
+        "location": "Isla Inta Cuartel",
+        "steps": [
+          "Haber iniciado la misión con Atlas en Isla Inta.",
+          "Resolver las cajas de la anciana y derrotar a Líder Zoe en Isla Sétima.",
+          "Regresar a hablar con Atlas en Isla Inta."
+        ],
+        "warning": null
+      }
+    ],
+    "sidequests": [],
+    "bosses": [
+      {
+        "bossId": "boss-46",
+        "trainerName": "Rival Andra",
+        "title": "Exploración Isla Sétima",
+        "location": "Isla Sétima",
+        "levelRange": "Nv. 69",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Inicial a nivel 69 con coberturas optimizadas."
+      },
+      {
+        "bossId": "boss-180",
+        "trainerName": "Líder Sétima Zoe",
+        "title": "Gimnasio Normal Sevii",
+        "location": "Isla Sétima",
+        "levelRange": "Nv. 72",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Snorlax, Slaking y Blissey con Restos y Campana Alivio."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-panuelo-elegido",
+        "name": "Pañuelo Elegido",
+        "location": "Entrenador Guay puente sur Isla Sétima",
+        "category": "competitivo",
+        "isMissable": false
+      },
+      {
+        "id": "item-medalla-sevii-zoe",
+        "name": "Medalla Sevii (Zoe)",
+        "location": "Isla Sétima Gimnasio",
+        "category": "clave",
+        "isMissable": false
+      }
+    ],
+    "missables": [],
+    "specialEvolutionNote": "El Pañuelo Elegido multiplica por 1.5 la Velocidad a cambio de encerrar en un solo ataque: ideal para tu revenge-killer.",
+    "beforeLeavingChecklist": [
+      "Derrotar a Andra en Isla Sétima",
+      "Vencer al Entrenador Guay del puente sur y conseguir el Pañuelo Elegido",
+      "Vencer a la Líder Zoe en Isla Sétima",
+      "Volver a Isla Inta y reclamar a Bomushikaa Nv. 60 y los 300.000 Pokés de Atlas"
+    ],
+    "nextStep": "Regresa a Kanto continental: se han reportado sublevaciones en los pisos subterráneos de Silph S.A. y en Pueblo Lavanda."
+  },
+  {
+    "id": "stage-24",
+    "act": "archi7",
+    "actNumber": 2,
+    "actTitle": "Acto II: Archi7",
+    "order": 24,
+    "location": "Silph S.A. Subterráneos, Culto de Lavanda & Roca Ombligo (Lugia)",
+    "recommendedLevel": "Nv. 73 - Nv. 75",
+    "storySteps": [
+      "Incursión en los pisos subterráneos secretos de Silph S.A.: desmantela a la resistencia civil.",
+      "Combate consecutivo contra el Presidente Silph (boss-52, Nv. 73), Científico Miguel (boss-53, Nv. 73) y Coleccionista Bill (boss-54, Nv. 73).",
+      "Dirígete al Culto esotérico de Pueblo Lavanda: derrota a Ghost (boss-55, Nv. 73), Cultista 'M' (boss-56, Nv. 74) y al Líder de la Secta Laireb (boss-57, Nv. 74).",
+      "Desbloquea las coordenadas navales hacia Roca Ombligo.",
+      "Desciende por los túneles verticales de Roca Ombligo hasta la caverna marina sagrada.",
+      "Combate y captura al titán legendario de los mares: **Lugia (boss-58, Nv. 75)**."
+    ],
+    "availablePokemon": [
+      {
+        "name": "Lugia",
+        "method": "Combate de Captura Legendario",
+        "location": "Roca Ombligo Fondo",
+        "level": "Nv. 75",
+        "requirements": "Completar eventos de Culto Lavanda",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 249
+      }
+    ],
+    "gifts": [],
+    "sidequests": [],
+    "bosses": [
+      {
+        "bossId": "boss-52",
+        "trainerName": "Presidente Silph",
+        "title": "Silph S.A. Pisos Subterráneos",
+        "location": "Silph S.A. Subterráneo",
+        "levelRange": "Nv. 73",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Porygon-Z con Adaptable y Triataque potenciado con Pañuelo Elegido."
+      },
+      {
+        "bossId": "boss-53",
+        "trainerName": "Científico Miguel",
+        "title": "Silph S.A. Pisos Subterráneos",
+        "location": "Silph S.A. Subterráneo",
+        "levelRange": "Nv. 73",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Magnezone y Electivire con Terremoto y Chispazo."
+      },
+      {
+        "bossId": "boss-54",
+        "trainerName": "Coleccionista Bill",
+        "title": "Silph S.A. Pisos Subterráneos",
+        "location": "Silph S.A. Subterráneo",
+        "levelRange": "Nv. 73",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Espeon y Umbreon con Deseo y Campana Alivio."
+      },
+      {
+        "bossId": "boss-55",
+        "trainerName": "Ghost",
+        "title": "Culto Pueblo Lavanda",
+        "location": "Pueblo Lavanda Cripta",
+        "levelRange": "Nv. 73",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Inmune a ataques físicos convencionales."
+      },
+      {
+        "bossId": "boss-56",
+        "trainerName": "Cultista 'M'",
+        "title": "Culto Pueblo Lavanda",
+        "location": "Pueblo Lavanda Cripta",
+        "levelRange": "Nv. 74",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Spiritomb y Drapion con trampas de púas tóxicas."
+      },
+      {
+        "bossId": "boss-57",
+        "trainerName": "Líder Secta Laireb",
+        "title": "Culto Pueblo Lavanda",
+        "location": "Pueblo Lavanda Cripta",
+        "levelRange": "Nv. 74",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Darkrai y Gengar con Brecha Negra y Maldición."
+      },
+      {
+        "bossId": "boss-58",
+        "trainerName": "Legendario Lugia",
+        "title": "Titán de los Mares",
+        "location": "Roca Ombligo",
+        "levelRange": "Nv. 75",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Aerochorro, Recuperación, Hidrobomba y Paz Mental. Lleva falsotortazo y parálisis/sueño."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-ticket-roca-ombligo",
+        "name": "Ticket Místico Roca Ombligo",
+        "location": "Cripta de Lavanda",
+        "category": "clave",
+        "isMissable": false
+      }
+    ],
+    "missables": [],
+    "specialEvolutionNote": "Lugia con Aerochorro y Paz Mental es una fuerza imparable para las campañas de Johto.",
+    "beforeLeavingChecklist": [
+      "Despejar los subterráneos de Silph S.A. derrotando a Silph, Miguel y Bill",
+      "Derrotar a Ghost, Cultista 'M' y Laireb en Lavanda",
+      "Viajar a Roca Ombligo y capturar a Lugia Nv. 75"
+    ],
+    "nextStep": "Giovanni te ha convocado de urgencia a su despacho privado en la Base Rocket Profunda."
+  },
+  {
+    "id": "stage-25",
+    "act": "archi7",
+    "actNumber": 2,
+    "actTitle": "Acto II: Archi7",
+    "order": 25,
+    "location": "Despacho Secreto de Giovanni & Cara Oculta de Mansión Canela",
+    "recommendedLevel": "Nv. 74 - Nv. 76",
+    "storySteps": [
+      "Baja al despacho privado del Jefe Supremo Giovanni en la Base Rocket Profunda.",
+      "Combate decisivo contra Giovanni (boss-59, Nv. 75) para evaluar tu valía como Comandante de Élite.",
+      "Tras superarle, Giovanni te encomienda desmantelar el laboratorio genético secreto en la Cara Oculta de la Mansión Canela.",
+      "Accede por el pasadizo inferior de la Mansión Canela: derrota a la Entrenadora Dalia (boss-60, Nv. 75), al Líder Blaine con sus experimentos de fuego (boss-61, Nv. 75) y al mismísimo Investigador Pokémon Oak (boss-62, Nv. 75).",
+      "Asegura los documentos de investigación genética del clon supremo.",
+      "🎉 ¡FIN DEL ACTO II! Giovanni te nombra Comandante de Élite del Team Rocket y te otorga vía libre para comandar la gran invasión de la región de Johto (Temporada 3)."
+    ],
+    "availablePokemon": [],
+    "gifts": [],
+    "sidequests": [],
+    "bosses": [
+      {
+        "bossId": "boss-59",
+        "trainerName": "Team Rocket Líder Giovanni",
+        "title": "Despacho Base Profunda",
+        "location": "Base Rocket Profunda",
+        "levelRange": "Nv. 75",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Rhyperior, Nidoking, Nidoqueen, Kangaskhan y Persian con vidasferas e IVs 31."
+      },
+      {
+        "bossId": "boss-60",
+        "trainerName": "Entrenadora Dalia",
+        "title": "Mansión Canela Cara Oculta",
+        "location": "Mansión Canela Cara Oculta",
+        "levelRange": "Nv. 75",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Blissey, Togekiss y Clefable con campana cura y masa cósmica."
+      },
+      {
+        "bossId": "boss-61",
+        "trainerName": "Líder Gimnasio Blaine",
+        "title": "Mansión Canela Cara Oculta",
+        "location": "Mansión Canela Cara Oculta",
+        "levelRange": "Nv. 75",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Magmortar, Typhlosion y Charizard con Envite Ígneo y Terremoto."
+      },
+      {
+        "bossId": "boss-62",
+        "trainerName": "Investigador Pkmn Oak",
+        "title": "Mansión Canela Cara Oculta",
+        "location": "Mansión Canela Cara Oculta",
+        "levelRange": "Nv. 75",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Tauros, Dragonite, Venusaur, Blastoise y Charizard nivel 75."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-pase-johto",
+        "name": "Pase de Embarque a Johto",
+        "location": "Despacho de Giovanni",
+        "category": "clave",
+        "isMissable": false
+      }
+    ],
+    "missables": [],
+    "specialEvolutionNote": "¡Rango Comandante de Élite alcanzado! Todo el contenido de Johto queda desbloqueado.",
+    "beforeLeavingChecklist": [
+      "Vencer a Giovanni en su despacho privado",
+      "Superar la Cara Oculta de Mansión Canela venciendo a Dalia, Blaine y Oak",
+      "Recoger el Pase a Johto",
+      "Guardar la partida tras finalizar el Acto II"
+    ],
+    "nextStep": "Toma el tren o el ferry hacia Pueblo Primavera y Ciudad Malva en la región de Johto."
+  },
+  {
+    "id": "stage-26",
+    "act": "johto",
+    "actNumber": 3,
+    "actTitle": "Acto III: Johto",
+    "order": 26,
+    "location": "Pueblo Primavera, Malva, Cueva Unión & Azalea",
+    "recommendedLevel": "Nv. 75 - Nv. 78",
+    "storySteps": [
+      "Desembarco del Team Rocket en Pueblo Primavera. Visita el laboratorio del Prof. Elm y neutralízalo (boss-190).",
+      "Avanza por la Ruta 30-31 hasta Ciudad Malva. Desafía la Torre Bellsprout y derrota al Maestro (boss-63, Nv. 76).",
+      "Asalta el Gimnasio de Malva y derrota al Líder Pegaso (boss-64, Nv. 76 / Medalla Céfiro).",
+      "Cruza la Cueva Unión neutralizando de nuevo a Elm (boss-65, Nv. 77).",
+      "En Pozo Slowpoke despacha al Pokemaníaco Louis (boss-66, Nv. 77) para asegurar el tráfico de colas Slowpoke.",
+      "En Pueblo Azalea desafía el Gimnasio y derrota al Líder César (boss-67, Nv. 78 / Medalla Colmena).",
+      "Secundaria: Cabaña noreste de Caoba (misión del carbón de Azalea) da a Litten Nv. 15 y Madaamu Nv. 70."
+    ],
+    "availablePokemon": [
+      {
+        "name": "Totodile",
+        "method": "Laboratorio Elm",
+        "location": "Pueblo Primavera",
+        "level": "Nv. 5",
+        "requirements": "Asalto laboratorio",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 158
+      },
+      {
+        "name": "Chikorita",
+        "method": "Salvaje Rutas de Johto",
+        "location": "Ruta 29",
+        "level": "Nv. 5 - 8",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": false,
+        "dexNum": 152
+      },
+      {
+        "name": "Cyndaquil",
+        "method": "Salvaje Rutas de Johto",
+        "location": "Ruta 30",
+        "level": "Nv. 5 - 8",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 155
+      },
+      {
+        "name": "Litten",
+        "method": "Secundaria Carbón de Azalea",
+        "location": "Cabaña noreste Caoba",
+        "level": "Nv. 15",
+        "requirements": "Completar misión ancianos",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 725
+      },
+      {
+        "name": "Madaamu",
+        "method": "Secundaria Carbón de Azalea",
+        "location": "Cabaña noreste Caoba",
+        "level": "Nv. 70",
+        "requirements": "Completar misión ancianos",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 865
+      }
+    ],
+    "gifts": [],
+    "sidequests": [
+      {
+        "id": "sq-18",
+        "name": "El Carbón de Azalea (Ancianos de Caoba)",
+        "status": "available_now",
+        "statusLabel": "🟢 Disponible ahora",
+        "npc": "Anciano en cabaña noreste Caoba",
+        "location": "Pueblo Caoba & Pueblo Azalea",
+        "prerequisite": "Acceso a Azalea y Caoba",
+        "steps": [
+          "Hablar con el anciano en la cabaña noreste de Caoba.",
+          "Derrotar al Empresario Carbón Azalea (boss-191).",
+          "Regresar a Caoba para recibir a Litten Nv. 15 y Madaamu Nv. 70."
+        ],
+        "rewards": "Litten Nv. 15 y Madaamu Nv. 70",
+        "questRefId": "quest-21"
+      }
+    ],
+    "bosses": [
+      {
+        "bossId": "boss-63",
+        "trainerName": "Maestro Torre Bellsprout",
+        "title": "Torre Bellsprout",
+        "location": "Ciudad Malva",
+        "levelRange": "Nv. 76",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Bellsprout, Weepinbell y Victreebel con Somnífero y Bomba Lodo."
+      },
+      {
+        "bossId": "boss-64",
+        "trainerName": "Líder Malva Pegaso",
+        "title": "Medalla Céfiro",
+        "location": "Ciudad Malva Gimnasio",
+        "levelRange": "Nv. 76",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Pidgeot, Noctowl y Swellow con Golpe Aéreo y Agilidad."
+      },
+      {
+        "bossId": "boss-65",
+        "trainerName": "Profesor Elm",
+        "title": "Cueva Unión",
+        "location": "Cueva Unión",
+        "levelRange": "Nv. 77",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Meganium, Typhlosion y Feraligatr nivel 77."
+      },
+      {
+        "bossId": "boss-66",
+        "trainerName": "Pokemaníaco Louis",
+        "title": "Pozo Slowpoke",
+        "location": "Pozo Slowpoke",
+        "levelRange": "Nv. 77",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Slowking y Slowbro con Escaldar y Onda Trueno."
+      },
+      {
+        "bossId": "boss-67",
+        "trainerName": "Líder Gimnasio Azalea César",
+        "title": "Medalla Colmena",
+        "location": "Pueblo Azalea Gimnasio",
+        "levelRange": "Nv. 78",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Scizor y Heracross con Danza Espada, Megacuerno y Puño Bala."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-medalla-cefiro",
+        "name": "Medalla Céfiro",
+        "location": "Gimnasio Malva",
+        "category": "clave",
+        "isMissable": false
+      },
+      {
+        "id": "item-medalla-colmena",
+        "name": "Medalla Colmena",
+        "location": "Gimnasio Azalea",
+        "category": "clave",
+        "isMissable": false
+      }
+    ],
+    "missables": [],
+    "specialEvolutionNote": "Litten evoluciona a Incineroar con Intimidación: uno de los mejores tanques y atacantes de Johto.",
+    "beforeLeavingChecklist": [
+      "Derrotar a Pegaso y ganar la Medalla Céfiro",
+      "Despejar el Pozo Slowpoke",
+      "Derrotar a César y ganar la Medalla Colmena",
+      "Completar la misión del carbón de Azalea para recibir a Litten y Madaamu"
+    ],
+    "nextStep": "Cruza el Encinar hacia el norte para entrar en la gran Ciudad Trigal."
+  },
+  {
+    "id": "stage-27",
+    "act": "johto",
+    "actNumber": 3,
+    "actTitle": "Acto III: Johto",
+    "order": 27,
+    "location": "Ciudad Trigal, Ruta 34 & Ciudad Iris (Torre Quemada)",
+    "recommendedLevel": "Nv. 78 - Nv. 82",
+    "storySteps": [
+      "Llega a Ciudad Trigal, centro neurálgico de Johto.",
+      "Desafía el Gimnasio de Valeria (boss-68, Nv. 80 / Medalla Planicie). Cuidado con su Miltank.",
+      "Secundaria Sur Ruta 34: al sur de Trigal navega por el mar hacia una cabaña escondida. Habla con la Exorcista: busca el colgante extraviado en lo profundo de Bosque Baya en Sevii para recibir a **Marshadow Nv. 80**.",
+      "Avanza por la Ruta 35-37 hacia Ciudad Iris.",
+      "En la Casa de Baile de Iris, supera a las 5 Chicas Kimono consecutivamente (boss-69 a 73, Nv. 80-81).",
+      "Secundaria Científico Ruinas Alfa: en la puerta de aspecto sospechoso a la derecha de la Torre Quemada, habla con el científico para recibir a Tirtouga Nv. 30 y Archen Nv. 35.",
+      "Baja al sótano de la Torre Quemada y combate contra el Viajero Zeus (boss-74, Nv. 82)."
+    ],
+    "availablePokemon": [
+      {
+        "name": "Marshadow",
+        "method": "Secundaria Exorcista Trigal",
+        "location": "Cabaña sur Ruta 34",
+        "level": "Nv. 80",
+        "requirements": "Colgante en Bosque Baya",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 802
+      },
+      {
+        "name": "Tirtouga",
+        "method": "Secundaria Científico Iris",
+        "location": "Laboratorio secreto Iris",
+        "level": "Nv. 30",
+        "requirements": "Hablar en Ruinas Alfa e Iris",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 564
+      },
+      {
+        "name": "Archen",
+        "method": "Secundaria Científico Iris",
+        "location": "Laboratorio secreto Iris",
+        "level": "Nv. 35",
+        "requirements": "Hablar en Ruinas Alfa e Iris",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 566
+      }
+    ],
+    "gifts": [],
+    "sidequests": [
+      {
+        "id": "sq-19",
+        "name": "El Colgante Extraviado de la Exorcista",
+        "status": "available_now",
+        "statusLabel": "🟢 Disponible ahora",
+        "npc": "Exorcista escondida",
+        "location": "Ruta 34 Mar al sur Cabaña",
+        "prerequisite": "Surf en Ruta 34",
+        "steps": [
+          "Bajar por Ruta 34 y surfear al sur sorteando rocas hasta la cabaña.",
+          "Viajar a Bosque Baya en Sevii y recoger el colgante en lo profundo.",
+          "Regresar con la exorcista para recibir a Marshadow Nv. 80."
+        ],
+        "rewards": "Marshadow Nv. 80",
+        "questRefId": "quest-19"
+      },
+      {
+        "id": "sq-20",
+        "name": "Estudio Secreto de Ruinas Alfa en Iris",
+        "status": "available_now",
+        "statusLabel": "🟢 Disponible ahora",
+        "npc": "Científico de sprite distinto",
+        "location": "Ciudad Iris al lado de Torre Quemada",
+        "prerequisite": "Hablar en Centro Investigación Ruinas Alfa",
+        "steps": [
+          "Hablar con el científico en el centro de investigación de Ruinas Alfa.",
+          "Ir a la puerta sospechosa al lado derecho de Torre Quemada en Iris.",
+          "Derrotar al Científico (boss-181).",
+          "Recibir a Tirtouga Nv. 30 y Archen Nv. 35."
+        ],
+        "rewards": "Tirtouga Nv. 30 y Archen Nv. 35",
+        "questRefId": "quest-18"
+      }
+    ],
+    "bosses": [
+      {
+        "bossId": "boss-68",
+        "trainerName": "Líder Gimnasio Trigal Valeria",
+        "title": "Medalla Planicie",
+        "location": "Ciudad Trigal Gimnasio",
+        "levelRange": "Nv. 80",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Miltank con Desenrollar acelerado, Batido y Restos."
+      },
+      {
+        "bossId": "boss-74",
+        "trainerName": "Viajero Zeus",
+        "title": "Torre Quemada",
+        "location": "Ciudad Iris Torre Quemada",
+        "levelRange": "Nv. 82",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Raikou, Entei y Suicune forma prueba nivel 82."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-medalla-planicie",
+        "name": "Medalla Planicie",
+        "location": "Gimnasio Trigal",
+        "category": "clave",
+        "isMissable": false
+      }
+    ],
+    "missables": [],
+    "specialEvolutionNote": "Marshadow cuenta con Robasombra, que roba los aumentos de características del rival antes de dañar.",
+    "beforeLeavingChecklist": [
+      "Derrotar a Valeria y ganar la Medalla Planicie",
+      "Completar la misión de la Exorcista y conseguir a Marshadow Nv. 80",
+      "Completar la misión del laboratorio secreto de Iris (Tirtouga y Archen)",
+      "Vencer a las 5 Chicas Kimono y a Zeus en la Torre Quemada"
+    ],
+    "nextStep": "Toma la salida oeste de Ciudad Iris por las Rutas 38 y 39 hacia Ciudad Olivo."
+  },
+  {
+    "id": "stage-28",
+    "act": "johto",
+    "actNumber": 3,
+    "actTitle": "Acto III: Johto",
+    "order": 28,
+    "location": "Ciudad Olivo, Orquídea & Toma de la Torre Radio",
+    "recommendedLevel": "Nv. 82 - Nv. 86",
+    "storySteps": [
+      "Llega a Ciudad Olivo. Sube al Faro de Olivo: derrota al Farero Kepler (boss-75, Nv. 82) y al Líder Crom (boss-76, Nv. 83 / Medalla Mineral).",
+      "Secundaria Poketráfico: habla con el motorista en el restaurante marino de Olivo. Desmantela la red en Trigal (boss-184) para ganar **Chimchar Nv. 15, Froakie Nv. 15 y 2.25 Millones de Pokés**.",
+      "⚠️ ¡ELECCIÓN CRÍTICA DE 2 MILLONES DE POKÉS! Surfea al sureste de Olivo usando atraviesa-corrientes hacia el almacén escondido de contrabandistas. Requiere haber vencido a los estafadores en Mansión Canela. Al interactuar, **SELECCIONA QUE 'SÍ'** para recibir los **2.000.000 de Pokés** (si seleccionas que no, no hay recompensa).",
+      "Surfea hacia Orquídea: en un islote entrena el discípulo de Pegaso (boss-188) que te entrega la **Pidgeotita**.",
+      "En Orquídea vence al Líder Aníbal (boss-78, Nv. 84 / Medalla Tormenta).",
+      "Regresa a Trigal para la gran toma de la Torre Radio contra el traidor Ejecutivo Protón (boss-79, Nv. 85).",
+      "🎉 Con 5 medallas consigues acceso al **Piso 2 de la Base Johto** (IVs perfectos 31 a cambio de 100k, Megapiedras y bayas)."
+    ],
+    "availablePokemon": [
+      {
+        "name": "Chimchar",
+        "method": "Secundaria Motorista Olivo",
+        "location": "Restaurante Marino Olivo",
+        "level": "Nv. 15",
+        "requirements": "Completar poketráfico Trigal",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 390
+      },
+      {
+        "name": "Froakie",
+        "method": "Secundaria Motorista Olivo",
+        "location": "Restaurante Marino Olivo",
+        "level": "Nv. 15",
+        "requirements": "Completar poketráfico Trigal",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 656
+      }
+    ],
+    "gifts": [
+      {
+        "id": "gift-motorista-olivo",
+        "name": "Chimchar + Froakie + 2.25M Pokés",
+        "dexNum": 390,
+        "level": "Nv. 15",
+        "heldItem": "2.250.000 Pokés",
+        "npc": "Motorista en Restaurante Marino",
+        "location": "Ciudad Olivo",
+        "steps": [
+          "Hablar con el motorista en la esquina del restaurante marino.",
+          "Ir a los subterráneos de Trigal y derrotar al Caballero dueño del poketráfico.",
+          "Regresar a Olivo para recibir a Chimchar, Froakie y 2.25M de dinero."
+        ],
+        "warning": null
+      }
+    ],
+    "sidequests": [
+      {
+        "id": "sq-21",
+        "name": "Poketráfico en Ciudad Olivo",
+        "status": "available_now",
+        "statusLabel": "🟢 Disponible ahora",
+        "npc": "Motorista",
+        "location": "Restaurante Marino de Ciudad Olivo",
+        "prerequisite": "Llegar a Ciudad Olivo",
+        "steps": [
+          "Hablar con el motorista en el restaurante.",
+          "Derrotar a la red de poketráfico en Trigal (boss-184).",
+          "Regresar para recibir los dos iniciales y 2.25M."
+        ],
+        "rewards": "Chimchar Nv. 15, Froakie Nv. 15 y 2.250.000 Pokés",
+        "questRefId": "quest-20"
+      },
+      {
+        "id": "sq-22",
+        "name": "Almacén Escondido de los Estafadores (2 Millones)",
+        "status": "must_complete",
+        "statusLabel": "⚠️ Decisión Crítica (Responder SÍ)",
+        "npc": "Estafadores",
+        "location": "Sureste de Ciudad Olivo cruzando corrientes",
+        "prerequisite": "Haber vencido a los estafadores en Mansión Canela",
+        "steps": [
+          "Surfear al sureste de Olivo.",
+          "Entrar al almacén escondido.",
+          "Derrotar a los 3 estafadores (boss-185, 186, 187).",
+          "⚠️ Al cuadro de diálogo, RESPONDER 'SÍ' para embolsarte los 2M."
+        ],
+        "rewards": "2.000.000 de Pokés",
+        "questRefId": "quest-22"
+      },
+      {
+        "id": "sq-23",
+        "name": "El Discípulo de Pegaso",
+        "status": "available_now",
+        "statusLabel": "🟢 Disponible ahora",
+        "npc": "Discípulo en islote",
+        "location": "Sureste de Ciudad Olivo en el mar",
+        "prerequisite": "Surf",
+        "steps": [
+          "Surfear al sureste de Olivo hasta el islote de entrenamiento.",
+          "Derrotar al Discípulo de Pegaso (boss-188) y a Sra. Aroma Shakura (boss-189).",
+          "Recibir la Pidgeotita."
+        ],
+        "rewards": "Pidgeotita",
+        "questRefId": "quest-23"
+      }
+    ],
+    "bosses": [
+      {
+        "bossId": "boss-76",
+        "trainerName": "Líder Gimnasio Olivo Crom",
+        "title": "Medalla Mineral",
+        "location": "Ciudad Olivo Faro / Gimnasio",
+        "levelRange": "Nv. 83",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Steelix y Skarmory con Robustez, Trampa Rocas y Terremoto."
+      },
+      {
+        "bossId": "boss-78",
+        "trainerName": "Líder Orquídea Aníbal",
+        "title": "Medalla Tormenta",
+        "location": "Ciudad Orquídea Gimnasio",
+        "levelRange": "Nv. 84",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Poliwrath y Machamp con Puño Dinámico y Tambor."
+      },
+      {
+        "bossId": "boss-79",
+        "trainerName": "Ejecutivo Rocket Protón",
+        "title": "Toma de la Torre Radio",
+        "location": "Ciudad Trigal Torre Radio",
+        "levelRange": "Nv. 85",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Roster Rocket élite nivel 85."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-medalla-mineral",
+        "name": "Medalla Mineral",
+        "location": "Gimnasio Olivo",
+        "category": "clave",
+        "isMissable": false
+      },
+      {
+        "id": "item-medalla-tormenta",
+        "name": "Medalla Tormenta",
+        "location": "Gimnasio Orquídea",
+        "category": "clave",
+        "isMissable": false
+      },
+      {
+        "id": "item-pidgeotita",
+        "name": "Pidgeotita",
+        "location": "Islote discípulo Pegaso",
+        "category": "evolucion",
+        "isMissable": false
+      }
+    ],
+    "missables": [
+      {
+        "title": "⚠️ ELECCIÓN EN EL ALMACÉN DE ESTAFADORES",
+        "warning": "En el almacén al sureste de Olivo, cuando te pregunten, responde 'SÍ'. Si eliges 'NO', perderás los 2.000.000 de Pokés para siempre.",
+        "checklist": [
+          "Llegar al almacén marítimo al sureste de Olivo",
+          "Vencer a los 3 estafadores",
+          "Seleccionar 'SÍ' en la opción de diálogo"
+        ]
+      }
+    ],
+    "specialEvolutionNote": "Con el P2 de la Base Johto desbloqueado, puedes poner IVs a 31 a cualquier Pokémon por 100k cada uno.",
+    "beforeLeavingChecklist": [
+      "Conseguir las Medallas Mineral y Tormenta",
+      "Cobrar los 2.25M + Chimchar y Froakie de la misión del restaurante de Olivo",
+      "Cobrar los 2M del almacén de estafadores respondiendo SÍ",
+      "Derrotar a Protón en la Torre Radio y desbloquear el P2 de la Base Johto"
+    ],
+    "nextStep": "Desplázate hacia Monte Plateado en la Ruta 28 y la Torre Campana en Ciudad Iris."
+  },
+  {
+    "id": "stage-29",
+    "act": "johto",
+    "actNumber": 3,
+    "actTitle": "Acto III: Johto",
+    "order": 29,
+    "location": "Monte Plateado & Cumbre de la Torre Campana",
+    "recommendedLevel": "Nv. 85 - Nv. 90",
+    "storySteps": [
+      "Expedición a la Ruta 28 y al interior del imponente Monte Plateado.",
+      "Combate de prueba contra Andra en la falda de la montaña (boss-80, Nv. 86).",
+      "En la cumbre más profunda de Monte Plateado te espera en silencio el mítico Entrenador Rojo (boss-81, Nv. 88).",
+      "Vence al equipo perfecto de Rojo (Pikachu, Snorlax, Charizard, Blastoise, Venusaur, Lapras Nv. 88).",
+      "Regresa a Ciudad Iris y sube los 10 pisos de la Torre Campana.",
+      "Combates consecutivos en la cima: Ex Alto Mando Agatha (boss-82, Nv. 87), Líder Jaden (boss-83, Nv. 88) y Viajero Zeus (boss-84, Nv. 89).",
+      "Desbloquea el paso hacia Pueblo Caoba y la Ruta 44."
+    ],
+    "availablePokemon": [
+      {
+        "name": "Larvitar",
+        "method": "Salvaje",
+        "location": "Monte Plateado",
+        "level": "Nv. 45 - 50",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 246
+      },
+      {
+        "name": "Misdreavus",
+        "method": "Salvaje",
+        "location": "Monte Plateado Noche",
+        "level": "Nv. 45 - 48",
+        "requirements": null,
+        "isUnique": false,
+        "isMissable": false,
+        "is100Recommended": false,
+        "dexNum": 200
+      }
+    ],
+    "gifts": [],
+    "sidequests": [],
+    "bosses": [
+      {
+        "bossId": "boss-80",
+        "trainerName": "Rival Andra",
+        "title": "Monte Plateado",
+        "location": "Ruta 28 Monte Plateado",
+        "levelRange": "Nv. 86",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Equipo nivel 86 con bandas focus y bayas zreza."
+      },
+      {
+        "bossId": "boss-81",
+        "trainerName": "Entrenador Rojo",
+        "title": "Cumbre de Monte Plateado",
+        "location": "Monte Plateado Interior",
+        "levelRange": "Nv. 88",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Granizo activo. Pikachu Nv. 88 con Bola Luminosa y Placaje Eléctrico. Snorlax con Maldición y Golpe Cuerpo."
+      },
+      {
+        "bossId": "boss-82",
+        "trainerName": "Ex Alto Mando Agatha",
+        "title": "Torre Campana",
+        "location": "Ciudad Iris Torre Campana",
+        "levelRange": "Nv. 87",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Mega-Gengar con Sombra Trampa."
+      },
+      {
+        "bossId": "boss-83",
+        "trainerName": "Líder Iris Jaden",
+        "title": "Torre Campana",
+        "location": "Ciudad Iris Torre Campana",
+        "levelRange": "Nv. 88",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Espeon y Gardevoir psíquicos."
+      },
+      {
+        "bossId": "boss-84",
+        "trainerName": "Viajero Zeus",
+        "title": "Cumbre Torre Campana",
+        "location": "Ciudad Iris Torre Campana",
+        "levelRange": "Nv. 89",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Metagross y Tyranitar nivel 89 con terremoto y meteoro puño."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-campana-clara",
+        "name": "Campana Clara",
+        "location": "Torre Campana Cima",
+        "category": "clave",
+        "isMissable": false
+      }
+    ],
+    "missables": [],
+    "specialEvolutionNote": "Larvitar evoluciona a Tyranitar al Nv. 55: con Chorro Arena es el pilar de climas.",
+    "beforeLeavingChecklist": [
+      "Derrotar a Andra y al Entrenador Rojo en Monte Plateado",
+      "Superar la Torre Campana batiendo a Agatha, Jaden y Zeus",
+      "Recoger la Campana Clara"
+    ],
+    "nextStep": "Avanza por la Ruta 42 hacia Pueblo Caoba, Ruta 44 y Ciudad Endrino."
+  },
+  {
+    "id": "stage-30",
+    "act": "johto",
+    "actNumber": 3,
+    "actTitle": "Acto III: Johto",
+    "order": 30,
+    "location": "Caoba, Endrino & Cámaras Selladas de Ruinas Alfa (Gran Clímax)",
+    "recommendedLevel": "Nv. 90 - Nv. 96",
+    "storySteps": [
+      "Desafía el Gimnasio de Caoba y derrota al Líder Fredo (boss-85, Nv. 90 / Medalla Glaciar).",
+      "En la Ruta 44 combate contra el Campeón de Teselia Mirto (boss-86, Nv. 91).",
+      "En la Guarida Dragón de Ciudad Endrino derrota al Maestro Dragón (boss-88, Nv. 92 / Medalla Dragón).",
+      "🔥 ¡EL GRAN CLÍMAX PRIMIGENIO DE JOHTO! Desciende a las Cámaras Selladas de las Ruinas Alfa.",
+      "Combate consecutivo contra los 5 Guardianes de las Ruinas (boss-89 a 93, Nv. 93).",
+      "Enfrenta al Unown Áureo (boss-94, Nv. 94), Ho-Oh Primigenio (boss-95, Nv. 95), Lugia Primigenio (boss-96, Nv. 95), Zeus (boss-97, Nv. 95), Rey Unown (boss-98, Nv. 95) y al mismísimo DIOS LAIREB (boss-99, Nv. 96).",
+      "🎉 ¡FIN DEL ACTO III! Conquistas la región de Johto y desbloqueas la Temporada 4: Las Conspiraciones del DLC."
+    ],
+    "availablePokemon": [
+      {
+        "name": "Ho-Oh Primigenio",
+        "method": "Combate Primigenio",
+        "location": "Ruinas Alfa Cámara 3",
+        "level": "Nv. 95",
+        "requirements": "Evento Ruinas Alfa",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 250
+      },
+      {
+        "name": "Lugia Primigenio",
+        "method": "Combate Primigenio",
+        "location": "Ruinas Alfa Cámara 4",
+        "level": "Nv. 95",
+        "requirements": "Evento Ruinas Alfa",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 249
+      },
+      {
+        "name": "Dratini Extremo",
+        "method": "Guarida Dragón",
+        "location": "Ciudad Endrino",
+        "level": "Nv. 15",
+        "requirements": "Velocidad Extrema",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 147
+      }
+    ],
+    "gifts": [],
+    "sidequests": [],
+    "bosses": [
+      {
+        "bossId": "boss-85",
+        "trainerName": "Líder Caoba Fredo",
+        "title": "Medalla Glaciar",
+        "location": "Pueblo Caoba Gimnasio",
+        "levelRange": "Nv. 90",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Mamoswine y Glalie con Ventisca y Terremoto."
+      },
+      {
+        "bossId": "boss-86",
+        "trainerName": "Campeón Teselia Mirto",
+        "title": "Duelo Ruta 44",
+        "location": "Ruta 44",
+        "levelRange": "Nv. 91",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Volcarona con Danza Aleteo, Zumbido y Danza Llama."
+      },
+      {
+        "bossId": "boss-88",
+        "trainerName": "Líder Endrino M. Dragón",
+        "title": "Medalla Dragón",
+        "location": "Ciudad Endrino Guarida Dragón",
+        "levelRange": "Nv. 92",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Kingdra, Dragonite y Salamence con Danza Dragón."
+      },
+      {
+        "bossId": "boss-95",
+        "trainerName": "Ho-Oh Primigenio",
+        "title": "Cámaras Selladas",
+        "location": "Ruinas Alfa",
+        "levelRange": "Nv. 95",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Fuego Sagrado de daño colosal y Recuperación."
+      },
+      {
+        "bossId": "boss-96",
+        "trainerName": "Lugia Primigenio",
+        "title": "Cámaras Selladas",
+        "location": "Ruinas Alfa",
+        "levelRange": "Nv. 95",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Aerochorro Primigenio e inmunidad a estados."
+      },
+      {
+        "bossId": "boss-99",
+        "trainerName": "Dios Laireb",
+        "title": "Clímax de Ruinas Alfa",
+        "location": "Ruinas Alfa Cámara Central",
+        "levelRange": "Nv. 96",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Deidad ancestral con equipo de 6 leyendas al Nv. 96."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-medalla-glaciar",
+        "name": "Medalla Glaciar",
+        "location": "Gimnasio Caoba",
+        "category": "clave",
+        "isMissable": false
+      },
+      {
+        "id": "item-medalla-dragon",
+        "name": "Medalla Dragón",
+        "location": "Guarida Dragón",
+        "category": "clave",
+        "isMissable": false
+      },
+      {
+        "id": "item-orbe-primigenio-alfa",
+        "name": "Orbe Primigenio de Johto",
+        "location": "Ruinas Alfa",
+        "category": "clave",
+        "isMissable": false
+      }
+    ],
+    "missables": [],
+    "specialEvolutionNote": "Desbloqueadas las infusiones primigenias para leyendas de Johto.",
+    "beforeLeavingChecklist": [
+      "Conseguir las Medallas Glaciar y Dragón",
+      "Derrotar a Mirto en Ruta 44",
+      "Superar las Cámaras Selladas de Ruinas Alfa y vencer al Dios Laireb",
+      "Guardar la partida tras la conclusión de Johto"
+    ],
+    "nextStep": "Atiende el comunicado secreto del Team Rocket: comienza la Temporada 4 (DLC de Johto)."
+  },
+  {
+    "id": "stage-31",
+    "act": "dlc",
+    "actNumber": 4,
+    "actTitle": "Acto IV: Expansión DLC",
+    "order": 31,
+    "location": "Lago de la Furia, Vías de Tren & Ruta 47 / Torre Dun",
+    "recommendedLevel": "Nv. 95 - Nv. 98",
+    "storySteps": [
+      "Giovanni te asigna 3 misiones simultáneas que debes completar al 100%:",
+      "Misión 1 (Lago de la Furia): Derrota al Admin Devon Amatista (boss-100, Nv. 96) y al Legendario Akueria (boss-101, Nv. 97). El pescador de la orilla te regala a Kurusu Nv. 15.",
+      "Misión 2 (Vías de Tren): Derrota a Pegaso (boss-102, Nv. 96) y al Ave Sagrada Zapdos-P (boss-103, Nv. 97).",
+      "Misión 3 (Ruta 47 y Torre Dun): Derrota a Eusine (boss-104), al Dragón Sagrado (boss-105) y a Andra (boss-106). Escala la Torre Dun batiendo a sus 4 Altos Mandos (boss-107 a 110) y al Gran Maestro (boss-111, Nv. 98).",
+      "Secundaria Ruta 50: Habla con la anciana al noroeste para recibir a Poipole Nv. 50.",
+      "Secundaria Agatha y su Maestra: En el bosque secreto de las vías del tren (tras vencer a Zapdos-P y Atlas) habla con Agatha para recibir a Calyrex Nv. 70.",
+      "⚠️ ¡REQUISITO ESTRICTO DE DESBLOQUEO! Una vez concluidas las 3 misiones, viaja a Ciudad Orquídea y presiona la escena con Tristana. Solo entonces sonará el teléfono de Giovanni."
+    ],
+    "availablePokemon": [
+      {
+        "name": "Kurusu",
+        "method": "Regalo Pescador Lago Furia",
+        "location": "Lago de la Furia",
+        "level": "Nv. 15",
+        "requirements": "Completar Misión 1",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 985
+      },
+      {
+        "name": "Poipole",
+        "method": "Secundaria Anciana Ruta 50",
+        "location": "Ruta 50 Noroeste",
+        "level": "Nv. 50",
+        "requirements": "Hablar con anciana",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 803
+      },
+      {
+        "name": "Calyrex",
+        "method": "Secundaria Agatha Vías Tren",
+        "location": "Bosque Secreto Vías Tren",
+        "level": "Nv. 70",
+        "requirements": "Vencer a Zapdos-P y Atlas",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 898
+      }
+    ],
+    "gifts": [
+      {
+        "id": "gift-kurusu",
+        "name": "Kurusu",
+        "dexNum": 985,
+        "level": "Nv. 15",
+        "heldItem": "Perla Grande",
+        "npc": "Pescador en la orilla",
+        "location": "Lago de la Furia",
+        "steps": [
+          "Completar la misión 1 batiendo a Amatista",
+          "Hablar con el pescador en la orilla del lago"
+        ],
+        "warning": null
+      }
+    ],
+    "sidequests": [
+      {
+        "id": "sq-24",
+        "name": "Viejas Leyendas (La Anciana de Ruta 50)",
+        "status": "available_now",
+        "statusLabel": "🟢 Disponible ahora",
+        "npc": "Anciana en cabaña",
+        "location": "Ruta 50 Noroeste",
+        "prerequisite": "Acceso al DLC",
+        "steps": [
+          "Ir a la cabaña noroeste de Ruta 50",
+          "Escuchar la leyenda",
+          "Recibir a Poipole Nv. 50."
+        ],
+        "rewards": "Poipole Nv. 50",
+        "questRefId": "quest-25"
+      },
+      {
+        "id": "sq-25",
+        "name": "Agatha y su Maestra (Bosque de las Vías)",
+        "status": "must_complete",
+        "statusLabel": "⚠️ Requisito: Vencer Zapdos-P y Atlas",
+        "npc": "Agatha",
+        "location": "Casa escondida bosque vías del tren",
+        "prerequisite": "Haber derrotado a Zapdos Primigenio y Atlas en vías",
+        "steps": [
+          "Derrotar a Zapdos Primigenio y Atlas en las vías del tren.",
+          "Entrar por la senda abierta hacia la casa del bosque.",
+          "Hablar con Agatha para recibir a Calyrex Nv. 70."
+        ],
+        "rewards": "Calyrex Nv. 70",
+        "questRefId": "quest-26"
+      }
+    ],
+    "bosses": [
+      {
+        "bossId": "boss-100",
+        "trainerName": "Administrador Devon Amatista",
+        "title": "Misión 1 - Lago Furia",
+        "location": "Lago Furia",
+        "levelRange": "Nv. 96",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Mega-Swampert con Danza Lluvia."
+      },
+      {
+        "bossId": "boss-103",
+        "trainerName": "Ave Sagrada Zapdos-P",
+        "title": "Misión 2 - Vías de Tren",
+        "location": "Vías de Tren",
+        "levelRange": "Nv. 97",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Chispazo primigenio y velocidad extrema."
+      },
+      {
+        "bossId": "boss-111",
+        "trainerName": "Gran Maestro Torre Dun",
+        "title": "Misión 3 - Torre Dun Cúspide",
+        "location": "Torre Dun",
+        "levelRange": "Nv. 98",
+        "difficultyNote": "🔴 MODO DIFÍCIL: 5 combates consecutivos sin curación."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-llave-dlc-fase1",
+        "name": "Permiso Especial Giovanni",
+        "location": "Despacho de Giovanni",
+        "category": "clave",
+        "isMissable": false
+      }
+    ],
+    "missables": [
+      {
+        "title": "⚠️ DIÁLOGO CON TRISTANA EN ORQUÍDEA",
+        "warning": "Para que Giovanni te llame a su despacho y continúe el DLC, debes haber completado Lago Furia, Vías de Tren y Torre Dun, y LUEGO presenciar la conversación con Tristana en Orquídea.",
+        "checklist": [
+          "Completar Lago de la Furia (Misión 1)",
+          "Completar Vías de Tren (Misión 2)",
+          "Completar Torre Dun (Misión 3)",
+          "Hablar con Tristana en Ciudad Orquídea"
+        ]
+      }
+    ],
+    "specialEvolutionNote": "Poipole evoluciona a Naganadel al aprender Pulso Dragón: un ultraente de velocidad abrumadora.",
+    "beforeLeavingChecklist": [
+      "Completar las 3 misiones del DLC",
+      "Recoger a Kurusu Nv. 15, Poipole Nv. 50 y Calyrex Nv. 70",
+      "Ver la escena de Tristana en Orquídea y recibir la llamada de Giovanni"
+    ],
+    "nextStep": "Preséntate en la Base Hoenn y en el Volcán de Isla Canela para las misiones 4 y 5."
+  },
+  {
+    "id": "stage-32",
+    "act": "dlc",
+    "actNumber": 4,
+    "actTitle": "Acto IV: Expansión DLC",
+    "order": 32,
+    "location": "Base Hoenn & Prototipos del Volcán de Isla Canela",
+    "recommendedLevel": "Nv. 98 - Nv. 100",
+    "storySteps": [
+      "Misión 4: Incursión en la Base Hoenn. Neutraliza las defensas del Admin Devon Rubí (boss-112, Nv. 98).",
+      "Misión 5: Infiltración en las instalaciones geotérmicas ultrasecretas del Volcán de Isla Canela.",
+      "Desactiva y supera en combate las 5 Cabinas de Seguridad (boss-113 a 117, Nv. 99).",
+      "En la cámara de incubación genética combate contra el Primer Prototipo de Nivel II (boss-118, Nv. 99).",
+      "Enfréntate a los Proyectos Prohibidos de Mewtwo (boss-119, Nv. 100).",
+      "Consigue los datos del genoma Rocket para desbloquear la Neo Central y los subterráneos."
+    ],
+    "availablePokemon": [],
+    "gifts": [],
+    "sidequests": [],
+    "bosses": [
+      {
+        "bossId": "boss-112",
+        "trainerName": "Administrador Devon Rubí",
+        "title": "Misión 4 - Base Hoenn",
+        "location": "Base Hoenn",
+        "levelRange": "Nv. 98",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Groudon réplica y Blaziken con Impulso."
+      },
+      {
+        "bossId": "boss-118",
+        "trainerName": "Primer Prototipo de Nivel II",
+        "title": "Misión 5 - Volcán Canela",
+        "location": "Volcán Isla Canela",
+        "levelRange": "Nv. 99",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Clon genético de alta potencia."
+      },
+      {
+        "bossId": "boss-119",
+        "trainerName": "Proyectos de Mewtwo",
+        "title": "Misión 5 - Volcán Canela",
+        "location": "Volcán Isla Canela Cámara Central",
+        "levelRange": "Nv. 100",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Mewtwo prototipo nivel 100 con Onda Certera, Psicoataque y Recuperación."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-datos-mewtwo",
+        "name": "Disco Datos Genoma Mewtwo",
+        "location": "Volcán Canela",
+        "category": "clave",
+        "isMissable": false
+      }
+    ],
+    "missables": [],
+    "specialEvolutionNote": "Usa ataques de tipo Siniestro o Fantasma con Banda Focus contra el Proyecto Mewtwo.",
+    "beforeLeavingChecklist": [
+      "Derrotar a Admin Rubí en Base Hoenn",
+      "Despejar las 5 cabinas del Volcán de Canela",
+      "Derrotar al Prototipo Nivel II y a los Proyectos Mewtwo Nv. 100",
+      "Recoger el disco de datos"
+    ],
+    "nextStep": "Dirígete a la Neo Central de Energía y a los túneles subterráneos de Kanto para las misiones 6 y 7."
+  },
+  {
+    "id": "stage-33",
+    "act": "dlc",
+    "actNumber": 4,
+    "actTitle": "Acto IV: Expansión DLC",
+    "order": 33,
+    "location": "Neo Central de Energía & Subterráneos de Kanto",
+    "recommendedLevel": "Nv. 100 - Nv. 101",
+    "storySteps": [
+      "Misión 6: La Neo Central de Energía ha sido saboteada. Enfréntate al Administrador Jefe Atlas (boss-120, Nv. 100).",
+      "Somete a Zapdos Primigenio (boss-121, Nv. 101) para estabilizar la red eléctrica de Trigal a Azafrán.",
+      "Misión 7: En los subterráneos de Kanto se desata una emboscada con explosivos dirigida por Lt. Surge (boss-122 y 123, Nv. 100).",
+      "Combate triple contra las bandas de motoristas rebeldes (boss-124 a 127).",
+      "En el fondo de los túneles derrota al Líder Koga (boss-128, Nv. 101) y al traidor Administrador Petrel (boss-129, Nv. 101).",
+      "Restablece el orden supremo del Team Rocket en los túneles subterráneos."
+    ],
+    "availablePokemon": [],
+    "gifts": [],
+    "sidequests": [],
+    "bosses": [
+      {
+        "bossId": "boss-120",
+        "trainerName": "Administrador Jefe Rocket Atlas",
+        "title": "Misión 6 - Neo Central Energía",
+        "location": "Neo Central Energía",
+        "levelRange": "Nv. 100",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Tyranitar Primigenio Nv. 100 con Danza Dragón."
+      },
+      {
+        "bossId": "boss-121",
+        "trainerName": "Zapdos Primigenio",
+        "title": "Misión 6 - Neo Central Energía",
+        "location": "Neo Central Energía",
+        "levelRange": "Nv. 101",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Campo Eléctrico permanente."
+      },
+      {
+        "bossId": "boss-129",
+        "trainerName": "Administrador Petrel",
+        "title": "Misión 7 - Final Subterráneos",
+        "location": "Subterráneos de Kanto",
+        "levelRange": "Nv. 101",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Weezing y Drapion con explosiones tóxicas."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-llave-subterranea-dlc",
+        "name": "Pase Maestro Subterráneo",
+        "location": "Subterráneos de Kanto",
+        "category": "clave",
+        "isMissable": false
+      }
+    ],
+    "missables": [],
+    "specialEvolutionNote": "Usa ataques de tipo Tierra inmunes a la electricidad para limpiar la Neo Central.",
+    "beforeLeavingChecklist": [
+      "Vencer a Atlas y Zapdos Primigenio en la Neo Central",
+      "Desmantelar las trampas de Lt. Surge y a los motoristas",
+      "Derrotar a Koga y Petrel en los subterráneos",
+      "Recibir las felicitaciones de la cúpula Rocket"
+    ],
+    "nextStep": "Ve de inmediato a Pueblo Lavanda para el asalto decisivo a la Torre Radio."
+  },
+  {
+    "id": "stage-34",
+    "act": "dlc",
+    "actNumber": 4,
+    "actTitle": "Acto IV: Expansión DLC",
+    "order": 34,
+    "location": "Cementerio de Lavanda & Torre Radio Lavanda (9 Pisos)",
+    "recommendedLevel": "Nv. 102 - Nv. 105",
+    "storySteps": [
+      "Misión 8: En el cementerio de Pueblo Lavanda derrota a Eusine (boss-130), al Entrenador Azul (boss-131, Nv. 102) y al temible Ghost Primigenio (boss-132, Nv. 103).",
+      "Misión 9: Asalto a los 9 pisos de la Torre Radio de Lavanda.",
+      "Despacha a Coleccionista Bill (boss-133) y al Científico Miguel (boss-134).",
+      "En el piso 8 derrota a **Mewtwo Armadura (boss-135, Nv. 104)**.",
+      "En el piso 9: ¡EL COMBATE DECISIVO! Enfrenta al Líder Supremo Giovanni (boss-136, Nv. 105).",
+      "🎉 ¡APERTURA DE LAS TIENDAS DEFINITIVAS EN PISO 9! Al vencer a Giovanni se abren los mostradores supremos:",
+      "- Piedras Rocket (2.5M) y Master Balls (300k).",
+      "- Venta de todas las Mentas de Naturalezas (20k cada una).",
+      "🎉 ¡FIN DEL ACTO IV! Se desbloquea la Temporada 5: El Frente de Hoenn."
+    ],
+    "availablePokemon": [
+      {
+        "name": "Mewtwo Armadura",
+        "method": "Jefe / Desbloqueo",
+        "location": "Torre Radio Lavanda Piso 8",
+        "level": "Nv. 104",
+        "requirements": "Derrotar en Misión 9",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 150
+      }
+    ],
+    "gifts": [],
+    "sidequests": [],
+    "bosses": [
+      {
+        "bossId": "boss-132",
+        "trainerName": "Ghost Primigenio",
+        "title": "Misión 8 - Cementerio Lavanda",
+        "location": "Cementerio Lavanda",
+        "levelRange": "Nv. 103",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Inmune a físico/lucha, ataques de tinieblas letales."
+      },
+      {
+        "bossId": "boss-135",
+        "trainerName": "Mewtwo Armadura",
+        "title": "Misión 9 - Torre Radio Lavanda Piso 8",
+        "location": "Torre Radio Lavanda",
+        "levelRange": "Nv. 104",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Onda Mental, Onda Certera y blindaje contra daño físico."
+      },
+      {
+        "bossId": "boss-136",
+        "trainerName": "Team Rocket Líder Giovanni",
+        "title": "Misión 9 - Torre Radio Lavanda Piso 9",
+        "location": "Torre Radio Lavanda Piso 9",
+        "levelRange": "Nv. 105",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Nidoking, Nidoqueen, Kangaskhan Mega y Rhyperior nivel 105 con IVs 31 y bayas maestras."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-tienda-piso9",
+        "name": "Acceso a Tienda Suprema Piso 9 (Piedras Rocket 2.5M, Master Balls 300k, Mentas 20k)",
+        "location": "Torre Radio Lavanda Piso 9",
+        "category": "clave",
+        "isMissable": false
+      }
+    ],
+    "missables": [],
+    "specialEvolutionNote": "En el Piso 9 puedes ajustar naturalezas con mentas y comprar Piedras Rocket para las formas supremas.",
+    "beforeLeavingChecklist": [
+      "Derrotar a Eusine, Azul y Ghost Primigenio en el cementerio",
+      "Superar los 9 pisos de la Torre Radio",
+      "Vencer a Mewtwo Armadura Nv. 104 y a Giovanni Nv. 105",
+      "Comprar las mentas y Piedras Rocket necesarias",
+      "Guardar la partida tras la conclusión del DLC"
+    ],
+    "nextStep": "Prepara tu equipo para la gran invasión de Hoenn (Temporada 5)."
+  },
+  {
+    "id": "stage-35",
+    "act": "hoenn",
+    "actNumber": 5,
+    "actTitle": "Acto V: Hoenn",
+    "order": 35,
+    "location": "Monte Cenizo, Ciudad Malvalona & Nao Abandonada",
+    "recommendedLevel": "Nv. 105 - Nv. 108",
+    "storySteps": [
+      "Desembarco en la región tropical de Hoenn.",
+      "Misión 1: Sube en teleférico a Monte Cenizo. Somete al coloso **Groudon Primigenio (boss-137, Nv. 120)** y vence a Candela (boss-138, Nv. 105).",
+      "Misión 2: En Ciudad Malvalona neutraliza al Dr. Rasmus (boss-139), al Líder Erico (boss-140, Nv. 106) y a la dueña del casino Ariana (boss-141, Nv. 107).",
+      "Misión 3: En la Nao Abandonada derrota al Admin Devon Zafiro (boss-142, Nv. 108).",
+      "Secundaria Puerto Portual: En el museo habla con el señor artista que bloquea la puerta. Recompensas: **1 Millón de Pokés y Relicanth Nv. 60**.",
+      "Secundaria Inquietud de Fuji: Habla con Fuji en el cementerio de Lavanda sobre el túnel roca (desbloquea acceso a una porción de la Zona Safari).",
+      "En la Base Hoenn se habilitan a la venta los **Supercaramelos (niveles 85 a 95)**."
+    ],
+    "availablePokemon": [
+      {
+        "name": "Groudon Primigenio",
+        "method": "Combate de Captura Legendario",
+        "location": "Monte Cenizo",
+        "level": "Nv. 120",
+        "requirements": "Misión 1 de Hoenn",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 383
+      },
+      {
+        "name": "Relicanth",
+        "method": "Secundaria Artista Portual",
+        "location": "Museo Ciudad Portual",
+        "level": "Nv. 60",
+        "requirements": "Hablar con artista",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 369
+      }
+    ],
+    "gifts": [],
+    "sidequests": [
+      {
+        "id": "sq-26",
+        "name": "El Artista de Ciudad Portual (1 Millón + Relicanth)",
+        "status": "available_now",
+        "statusLabel": "🟢 Disponible ahora",
+        "npc": "Señor Artista en Museo",
+        "location": "Museo de Ciudad Portual",
+        "prerequisite": "Llegar a Portual",
+        "steps": [
+          "Hablar con el artista que bloquea la puerta en el museo.",
+          "Derrotar a los Ases del Frente Fortunia, Sabino, Tactio y Destra (boss-198 a 200).",
+          "Recibir 1 Millón de Pokés y a Relicanth Nv. 60."
+        ],
+        "rewards": "1.000.000 de Pokés y Relicanth Nv. 60",
+        "questRefId": "quest-28"
+      },
+      {
+        "id": "sq-27",
+        "name": "Inquietud de Fuji sobre el Túnel Roca",
+        "status": "available_now",
+        "statusLabel": "🟢 Disponible ahora",
+        "npc": "Sr. Fuji",
+        "location": "Cementerio de Pueblo Lavanda",
+        "prerequisite": "Acceso a Hoenn",
+        "steps": [
+          "Hablar con Fuji en el cementerio de Lavanda.",
+          "Derrotar a la Neo Líder Shachiko (boss-194).",
+          "Desbloquear la porción secreta de la Zona Safari."
+        ],
+        "rewards": "Acceso a porción secreta de la Zona Safari",
+        "questRefId": "quest-27"
+      }
+    ],
+    "bosses": [
+      {
+        "bossId": "boss-137",
+        "trainerName": "Groudon Primigenio",
+        "title": "Misión 1 - Monte Cenizo",
+        "location": "Monte Cenizo",
+        "levelRange": "Nv. 120",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Tierra del Ocaso activa. Inmunidad a ataques tipo Agua. Terremoto y Filo del Abismo letales."
+      },
+      {
+        "bossId": "boss-138",
+        "trainerName": "Líder Lavacalda Candela",
+        "title": "Misión 1 - Monte Cenizo",
+        "location": "Monte Cenizo",
+        "levelRange": "Nv. 105",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Torkoal y Blaziken Mega."
+      },
+      {
+        "bossId": "boss-140",
+        "trainerName": "Líder Malvalona Erico",
+        "title": "Misión 2 - Ciudad Malvalona",
+        "location": "Ciudad Malvalona",
+        "levelRange": "Nv. 106",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Manectric Mega con Intimidación."
+      },
+      {
+        "bossId": "boss-142",
+        "trainerName": "Administrador Devon Zafiro",
+        "title": "Misión 3 - Nao Abandonada",
+        "location": "Nao Abandonada",
+        "levelRange": "Nv. 108",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Kyogre réplica y Milotic con Restos."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-supercaramelos-hoenn",
+        "name": "Supercaramelos (Nv. 85-95 a la venta)",
+        "location": "Base Hoenn",
+        "category": "clave",
+        "isMissable": false
+      }
+    ],
+    "missables": [],
+    "specialEvolutionNote": "Groudon Primigenio es el atacante físico más potente del juego.",
+    "beforeLeavingChecklist": [
+      "Capturar a Groudon Primigenio Nv. 120",
+      "Superar Malvalona y la Nao Abandonada",
+      "Completar la misión del Artista de Portual (1M Pokés y Relicanth)",
+      "Completar la misión de Fuji sobre el Túnel Roca"
+    ],
+    "nextStep": "Navega hacia Azuliza, Puntaneva, Arborada, Algaria y la Fosa Abisal."
+  },
+  {
+    "id": "stage-36",
+    "act": "hoenn",
+    "actNumber": 5,
+    "actTitle": "Acto V: Hoenn",
+    "order": 36,
+    "location": "Azuliza, Puntaneva, Arborada, Algaria & Fosa Abisal",
+    "recommendedLevel": "Nv. 108 - Nv. 120",
+    "storySteps": [
+      "Misión 4 (Azuliza): Derrota al Líder Marcial (boss-143) y al Admin Devon Esmeralda (boss-144).",
+      "Secundaria Azuliza: Habla con el niño en una de las casas; se queja de la niña de Portual donde venden aguas frescas. Recompensa: **Anorith Nv. 60**.",
+      "Misión 5 (Puntaneva): Vence a Dracón (boss-145), Admin Amatista (boss-146) y a la Líder Inverna (boss-147).",
+      "Misión 6 (Arborada): Desafía a la Líder Alana (boss-148).",
+      "Misión 7 (Algaria): Vence a los Líderes Vito y Leti en combate doble extremo (boss-149).",
+      "Misión 8 (Fosa Abisal): Desciende con Buceo a la fosa oceánica y somete a **Kyogre Primigenio (boss-150, Nv. 120)**.",
+      "Desbloquea las coordenadas de la Cámara Sellada de Hoenn."
+    ],
+    "availablePokemon": [
+      {
+        "name": "Kyogre Primigenio",
+        "method": "Combate de Captura Legendario",
+        "location": "Fosa Abisal",
+        "level": "Nv. 120",
+        "requirements": "Misión 8 Buceo",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 382
+      },
+      {
+        "name": "Anorith",
+        "method": "Secundaria Niño Azuliza",
+        "location": "Pueblo Azuliza",
+        "level": "Nv. 60",
+        "requirements": "Hablar con niña en Portual",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 347
+      }
+    ],
+    "gifts": [],
+    "sidequests": [
+      {
+        "id": "sq-28",
+        "name": "Queja del Niño de Pueblo Azuliza",
+        "status": "available_now",
+        "statusLabel": "🟢 Disponible ahora",
+        "npc": "Niño en casa de Azuliza",
+        "location": "Pueblo Azuliza & Ciudad Portual",
+        "prerequisite": "Acceso a Azuliza y Portual",
+        "steps": [
+          "Hablar con el niño en la casa de Azuliza.",
+          "Ir a la chica de aguas frescas en Portual y vencer a su padre y a ella (boss-196 y 197).",
+          "Regresar a Azuliza para recibir a Anorith Nv. 60."
+        ],
+        "rewards": "Anorith Nv. 60",
+        "questRefId": "quest-29"
+      }
+    ],
+    "bosses": [
+      {
+        "bossId": "boss-143",
+        "trainerName": "Líder Azuliza Marcial",
+        "title": "Misión 4 - Pueblo Azuliza",
+        "location": "Pueblo Azuliza Gimnasio",
+        "levelRange": "Nv. 108",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Hariyama y Lucario con Corpulencia y A Bocajarro."
+      },
+      {
+        "bossId": "boss-149",
+        "trainerName": "Líderes Vito y Leti (Combate Doble)",
+        "title": "Misión 7 - Calagua y Algaria",
+        "location": "Ciudad Algaria Gimnasio",
+        "levelRange": "Nv. 110",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Solrock y Lunatone con Pantalla Luz, Reflejo y Terremoto doble."
+      },
+      {
+        "bossId": "boss-150",
+        "trainerName": "Kyogre Primigenio",
+        "title": "Misión 8 - Fosa Abisal",
+        "location": "Fosa Abisal",
+        "levelRange": "Nv. 120",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Mar del Albor permanente. Inmunidad a Fuego. Pulso Primigenio con daño descomunal."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-orbe-azul-abismo",
+        "name": "Orbe Azul Primigenio",
+        "location": "Fosa Abisal",
+        "category": "clave",
+        "isMissable": false
+      }
+    ],
+    "missables": [],
+    "specialEvolutionNote": "Kyogre Primigenio bajo Mar del Albor y Trueno 100% certero es el rey de los océanos.",
+    "beforeLeavingChecklist": [
+      "Completar la misión del niño de Azuliza y recibir a Anorith",
+      "Derrotar a todos los líderes y administradores de la región",
+      "Capturar a Kyogre Primigenio Nv. 120 en la Fosa Abisal",
+      "Asegurar el Orbe Azul"
+    ],
+    "nextStep": "Ingresa a la Cámara Sellada de Hoenn para la gran batalla contra la cúpula de Devon."
+  },
+  {
+    "id": "stage-37",
+    "act": "hoenn",
+    "actNumber": 5,
+    "actTitle": "Acto V: Hoenn",
+    "order": 37,
+    "location": "La Gran Batalla de la Cámara Sellada de Hoenn",
+    "recommendedLevel": "Nv. 110 - Nv. 115",
+    "storySteps": [
+      "Misión 9: La alianza Devon Corporation y los Ases del Frente de Batalla se han atrincherado en la Cámara Sellada.",
+      "Combate 1: Administrador Devon Rubí (boss-151).",
+      "Combate 2: As del Frente Valente (boss-152).",
+      "Combate 3 (Doble): Administradores Devon Zafiro y Esmeralda (boss-153).",
+      "Combate 4 (Doble): Científico Miguel y Doctor Rasmus (boss-154).",
+      "Combate 5 (Doble): Administrador Jefe Devon Amatista (boss-155).",
+      "Combate 6: La Cronista Tristana (boss-156, Nv. 112) con Rayquaza y Salamence.",
+      "Al triunfar en la Cámara Sellada, obtienes la Tarjeta de Acceso a los Simuladores VR en el Laboratorio Secreto de Pueblo Paleta."
+    ],
+    "availablePokemon": [
+      {
+        "name": "Rayquaza",
+        "method": "Combate Tristana / Evento",
+        "location": "Cámara Sellada",
+        "level": "Nv. 112",
+        "requirements": "Derrotar a Tristana",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 384
+      }
+    ],
+    "gifts": [],
+    "sidequests": [],
+    "bosses": [
+      {
+        "bossId": "boss-151",
+        "trainerName": "Administrador Devon Rubí",
+        "title": "Misión 9 - Cámara Sellada",
+        "location": "Cámara Sellada Hoenn",
+        "levelRange": "Nv. 110",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Blaziken Mega con Impulso."
+      },
+      {
+        "bossId": "boss-152",
+        "trainerName": "As del Frente Valente",
+        "title": "Misión 9 - Cámara Sellada",
+        "location": "Cámara Sellada Hoenn",
+        "levelRange": "Nv. 110",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Regirock, Regice y Registeel con defensas máximas."
+      },
+      {
+        "bossId": "boss-153",
+        "trainerName": "Admins Zafiro y Esmeralda (Combate Doble)",
+        "title": "Misión 9 - Cámara Sellada",
+        "location": "Cámara Sellada Hoenn",
+        "levelRange": "Nv. 111",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Lluvia y Sol coordinados en doble."
+      },
+      {
+        "bossId": "boss-156",
+        "trainerName": "Cronista Tristana",
+        "title": "Cámara Sellada Final",
+        "location": "Cámara Sellada Hoenn",
+        "levelRange": "Nv. 112",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Mega-Rayquaza con Ascenso Draco y Salamence con Danza Dragón."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-tarjeta-vr-paleta",
+        "name": "Tarjeta Acceso Simulador VR Paleta",
+        "location": "Cámara Sellada Cima",
+        "category": "clave",
+        "isMissable": false
+      }
+    ],
+    "missables": [],
+    "specialEvolutionNote": "Mega-Rayquaza no requiere megapiedra: solo conocer Ascenso Draco.",
+    "beforeLeavingChecklist": [
+      "Derrotar a los 6 combates consecutivos en la Cámara Sellada",
+      "Derrotar a Tristana y su Mega-Rayquaza",
+      "Obtener la Tarjeta de Acceso a los Simuladores VR de Pueblo Paleta"
+    ],
+    "nextStep": "Regresa donde todo comenzó: al Laboratorio Secreto de Oak en Pueblo Paleta para el desafío definitivo."
+  },
+  {
+    "id": "stage-38",
+    "act": "hoenn",
+    "actNumber": 5,
+    "actTitle": "Acto V: El Combate Final",
+    "order": 38,
+    "location": "Pueblo Paleta (Laboratorio Secreto de Oak) & Combate Final",
+    "recommendedLevel": "Nv. 115 - Nv. 120+",
+    "storySteps": [
+      "Misión 10: La prueba suprema de maestría del juego.",
+      "Desciende al subsuelo cibernético del Laboratorio de Oak en Pueblo Paleta.",
+      "Supera en el Simulador VR de realidad virtual los desafíos de combate:",
+      "- Simulador Nivel 7 (boss-157).",
+      "- Simulador Nivel 8 (boss-158).",
+      "- Simulador Nivel 9 (boss-159).",
+      "- Simulador Nivel 10 (boss-160).",
+      "- Combate Doble contra Eusine y Coleccionista Bill (boss-161).",
+      "- El temido **Simulador Nivel Imposible en Combate Doble (boss-162)**.",
+      "🔥 ¡EL COMBATE FINAL Y BROCHE DE ORO SUPREMO DEL JUEGO! (boss-164):",
+      "COMBATE DOBLE DEFINITIVO: **INVESTIGADOR OAK Y JEFE ROCKET GIOVANNI** (Nv. 120+).",
+      "Enfrentarás a Arceus Primigenio, Mewtwo Definitivo, Charizard Vínculo, Tauros Supremo y las mayores leyendas.",
+      "Al vencerlos: ¡HAS COMPLETADO POKÉMON EDICIÓN TEAM ROCKET AL 100%!",
+      "Condecoración: Máximo rango de la historia del Team Rocket y Hall de Leyendas."
+    ],
+    "availablePokemon": [
+      {
+        "name": "Arceus Primigenio",
+        "method": "Reconocimiento Final",
+        "location": "Laboratorio de Oak",
+        "level": "Nv. 120",
+        "requirements": "Vencer Combate Final",
+        "isUnique": true,
+        "isMissable": false,
+        "is100Recommended": true,
+        "dexNum": 493
+      }
+    ],
+    "gifts": [],
+    "sidequests": [],
+    "bosses": [
+      {
+        "bossId": "boss-157",
+        "trainerName": "Simulador Nivel 7",
+        "title": "Misión 10 - VR Paleta",
+        "location": "Laboratorio Secreto Oak",
+        "levelRange": "Nv. 115",
+        "difficultyNote": "🔴 MODO DIFÍCIL: IA competitiva perfecta."
+      },
+      {
+        "bossId": "boss-160",
+        "trainerName": "Simulador Nivel 10",
+        "title": "Misión 10 - VR Paleta",
+        "location": "Laboratorio Secreto Oak",
+        "levelRange": "Nv. 118",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Equipos con cobertura de debilidades total."
+      },
+      {
+        "bossId": "boss-162",
+        "trainerName": "Simulador Nivel Imposible (Combate Doble)",
+        "title": "Misión 10 - VR Paleta",
+        "location": "Laboratorio Secreto Oak",
+        "levelRange": "Nv. 120",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Terremoto + Levitación, Viento Afín y Protección táctica."
+      },
+      {
+        "bossId": "boss-164",
+        "trainerName": "Investigador Oak y Jefe Rocket Giovanni (Combate Doble)",
+        "title": "🔥 COMBATE FINAL DEFINITIVO 🔥",
+        "location": "Laboratorio Secreto Oak Cúspide",
+        "levelRange": "Nv. 120+",
+        "difficultyNote": "🔴 MODO DIFÍCIL: Arceus Primigenio con Sentencia Omni-tipo, Mewtwo Supremo con Onda Mental, Kangaskhan Mega y Tauros vínculo. El combate más difícil y exigente de todo el hackrom."
+      }
+    ],
+    "items": [
+      {
+        "id": "item-medalla-maestria-100",
+        "name": "Condecoración Suprema del Team Rocket (100% Juego)",
+        "location": "Laboratorio de Oak",
+        "category": "clave",
+        "isMissable": false
+      }
+    ],
+    "missables": [],
+    "specialEvolutionNote": "¡HAS ALCANZADO LA GLORIA MÁXIMA DEL TEAM ROCKET!",
+    "beforeLeavingChecklist": [
+      "Superar los Simuladores VR 7, 8, 9 y 10",
+      "Superar el Simulador Nivel Imposible en combate doble",
+      "VENCER EL COMBATE FINAL CONTRA INVESTIGADOR OAK Y JEFE GIOVANNI",
+      "Reclamar la Condecoración Suprema del 100%"
+    ],
+    "nextStep": "🏆 ¡HAS COMPLETADO POKÉMON EDICIÓN TEAM ROCKET AL 100%! Consulta tus estadísticas finales en la pantalla de trofeo."
+  }
+]
