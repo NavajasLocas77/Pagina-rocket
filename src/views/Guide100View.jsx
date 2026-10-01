@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useEffect, useRef } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import walkthrough100Data from '../data/walkthrough_100_data.json';
 import bossesData from '../data/bosses.json';
 import sidequestsData from '../data/sidequests.json';
@@ -11,7 +11,6 @@ import {
   ArrowRight, 
   AlertTriangle, 
   MapPin, 
-  Skull, 
   Compass, 
   Gift, 
   Package, 
@@ -20,18 +19,14 @@ import {
   ChevronDown, 
   ExternalLink,
   Shield,
-  Zap,
-  Filter,
   Play,
   Search,
   Award,
   Sparkles,
   BookOpen,
-  Info,
   Check,
-  Flame,
   Swords,
-  Layers
+  Filter
 } from 'lucide-react';
 
 export default function Guide100View({ 
@@ -262,136 +257,262 @@ export default function Guide100View({
       const el = document.getElementById(`walkthrough-stage-${activeStage.id}`);
       if (el) {
         el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        el.classList.add('pulse-active');
-        setTimeout(() => el.classList.remove('pulse-active'), 3000);
       }
     }
   };
 
   return (
-    <div className="space-y-6 pb-20">
+    <div style={{ display: 'flex', flexDirection: 'column', gap: '24px', paddingBottom: '80px' }}>
+      
       {/* ========================================================================= */}
       {/* HERO HEADER: TITLE, DIFFICULTY SWITCHER & MAIN NAVIGATION TABS */}
       {/* ========================================================================= */}
-      <div className="bg-gradient-to-r from-red-950/70 via-gray-900 to-black p-6 rounded-2xl border border-red-900/40 shadow-2xl relative overflow-hidden">
-        <div className="absolute top-0 right-0 p-8 opacity-10 pointer-events-none">
-          <Target className="w-64 h-64 text-red-500" />
+      <div style={{
+        background: 'linear-gradient(135deg, rgba(139, 0, 0, 0.35) 0%, rgba(22, 23, 34, 0.95) 50%, rgba(9, 10, 15, 1) 100%)',
+        padding: '24px',
+        borderRadius: '16px',
+        border: '1px solid rgba(229, 57, 53, 0.35)',
+        boxShadow: '0 8px 32px rgba(0, 0, 0, 0.5)',
+        position: 'relative',
+        overflow: 'hidden'
+      }}>
+        <div style={{ position: 'absolute', top: '-20px', right: '-20px', opacity: 0.06, pointerEvents: 'none' }}>
+          <Target style={{ width: '240px', height: '240px', color: 'var(--color-rocket)' }} />
         </div>
 
-        <div className="relative z-10 space-y-4">
-          <div className="flex flex-wrap items-center justify-between gap-4">
-            <div className="flex items-center gap-3">
-              <div className="p-3 bg-red-600/20 border border-red-500/30 rounded-xl text-red-500 shadow-inner">
-                <Target className="w-8 h-8" />
+        <div style={{ position: 'relative', zIndex: 2, display: 'flex', flexDirection: 'column', gap: '16px' }}>
+          
+          {/* Top Bar: Title & Dual Difficulty Toggle */}
+          <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between', gap: '16px' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '14px' }}>
+              <div style={{
+                padding: '12px',
+                background: 'rgba(229, 57, 53, 0.15)',
+                border: '1px solid rgba(229, 57, 53, 0.3)',
+                borderRadius: '12px',
+                color: 'var(--color-rocket)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center'
+              }}>
+                <Target style={{ width: '28px', height: '28px' }} />
               </div>
               <div>
-                <div className="flex items-center gap-2">
-                  <span className="px-2.5 py-0.5 text-xs font-black uppercase tracking-wider rounded-full bg-red-600 text-white">
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                  <span style={{
+                    padding: '2px 8px',
+                    fontSize: '0.7rem',
+                    fontWeight: 900,
+                    textTransform: 'uppercase',
+                    letterSpacing: '0.05em',
+                    borderRadius: '20px',
+                    background: 'var(--color-rocket)',
+                    color: '#fff'
+                  }}>
                     Walkthrough Real 100%
                   </span>
-                  <span className="text-xs text-gray-400">Edición Team Rocket</span>
+                  <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>Edición Team Rocket</span>
                 </div>
-                <h1 className="text-2xl md:text-3xl font-black text-white tracking-wide mt-1">
+                <h1 style={{ fontSize: '1.6rem', fontWeight: 900, color: '#fff', marginTop: '4px', letterSpacing: '0.02em' }}>
                   GUÍA 100% — RECORRIDO OFICIAL PASO A PASO
                 </h1>
               </div>
             </div>
 
             {/* DUAL DIFFICULTY TOGGLE */}
-            <div className="flex items-center bg-gray-950/80 p-1.5 rounded-xl border border-gray-800 shadow-lg">
+            <div style={{
+              display: 'flex',
+              alignItems: 'center',
+              background: '#0d0e15',
+              padding: '4px',
+              borderRadius: '12px',
+              border: '1px solid #232537'
+            }}>
               <button
                 onClick={() => setDifficulty('easy')}
-                className={`flex items-center gap-2 px-4 py-2 rounded-lg font-bold text-sm transition-all ${
-                  difficulty === 'easy'
-                    ? 'bg-green-600 text-white shadow-lg shadow-green-900/50 scale-102'
-                    : 'text-gray-400 hover:text-green-400'
-                }`}
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '8px',
+                  padding: '8px 16px',
+                  borderRadius: '8px',
+                  fontWeight: 700,
+                  fontSize: '0.85rem',
+                  border: 'none',
+                  cursor: 'pointer',
+                  transition: 'all 0.2s ease',
+                  background: difficulty === 'easy' ? '#16a34a' : 'transparent',
+                  color: difficulty === 'easy' ? '#fff' : '#9499ad',
+                  boxShadow: difficulty === 'easy' ? '0 4px 12px rgba(22, 163, 74, 0.4)' : 'none'
+                }}
               >
-                <div className={`w-2.5 h-2.5 rounded-full ${difficulty === 'easy' ? 'bg-white' : 'bg-green-500'}`} />
+                <div style={{
+                  width: '8px',
+                  height: '8px',
+                  borderRadius: '50%',
+                  background: difficulty === 'easy' ? '#fff' : '#22c55e'
+                }} />
                 <span>🟢 MODO FÁCIL</span>
               </button>
 
               <button
                 onClick={() => setDifficulty('hard')}
-                className={`flex items-center gap-2 px-4 py-2 rounded-lg font-bold text-sm transition-all ${
-                  difficulty === 'hard'
-                    ? 'bg-red-600 text-white shadow-lg shadow-red-900/50 scale-102'
-                    : 'text-gray-400 hover:text-red-400'
-                }`}
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '8px',
+                  padding: '8px 16px',
+                  borderRadius: '8px',
+                  fontWeight: 700,
+                  fontSize: '0.85rem',
+                  border: 'none',
+                  cursor: 'pointer',
+                  transition: 'all 0.2s ease',
+                  background: difficulty === 'hard' ? 'var(--color-rocket)' : 'transparent',
+                  color: difficulty === 'hard' ? '#fff' : '#9499ad',
+                  boxShadow: difficulty === 'hard' ? '0 4px 12px rgba(229, 57, 53, 0.4)' : 'none'
+                }}
               >
-                <div className={`w-2.5 h-2.5 rounded-full ${difficulty === 'hard' ? 'bg-white' : 'bg-red-500 animate-pulse'}`} />
+                <div style={{
+                  width: '8px',
+                  height: '8px',
+                  borderRadius: '50%',
+                  background: difficulty === 'hard' ? '#fff' : '#ef4444'
+                }} />
                 <span>🔴 MODO DIFÍCIL</span>
               </button>
             </div>
           </div>
 
-          <p className="text-gray-300 text-sm md:text-base max-w-4xl leading-relaxed">
+          <p style={{ fontSize: '0.9rem', color: '#c5c9db', lineHeight: '1.6', maxWidth: '900px' }}>
             {difficulty === 'hard' ? (
-              <span className="text-gray-200">
-                <strong className="text-red-400">Modo Difícil Activo:</strong> Recorrido cronológico integral optimizado para completar el 100% frente a equipos con IVs 31, 252 EVs y coberturas competitivas. Consulta en cada etapa la historia paso a paso, Pokémon obtenibles ahora, secundarias en su momento justo, objetos, batallas con sus fichas y contenido perdible.
+              <span>
+                <strong style={{ color: '#f87171' }}>Modo Difícil Activo:</strong> Recorrido cronológico integral optimizado para completar el 100% frente a equipos con IVs 31, 252 EVs y coberturas competitivas. Consulta en cada etapa la historia paso a paso, Pokémon obtenibles ahora, secundarias en su momento justo, objetos, batallas con sus fichas y contenido perdible.
               </span>
             ) : (
-              <span className="text-gray-200">
-                <strong className="text-green-400">Modo Fácil Activo:</strong> Recorrido guiado paso a paso con seguimiento independiente para completar el 100% de la historia, misiones y capturas.
+              <span>
+                <strong style={{ color: '#4ade80' }}>Modo Fácil Activo:</strong> Recorrido guiado paso a paso con seguimiento independiente para completar el 100% de la historia, misiones y capturas.
               </span>
             )}
           </p>
 
           {/* SUB-TABS NAVIGATION */}
-          <div className="flex flex-wrap items-center gap-2 pt-2 border-t border-gray-800/80">
+          <div style={{
+            display: 'flex',
+            flexWrap: 'wrap',
+            alignItems: 'center',
+            gap: '8px',
+            paddingTop: '12px',
+            borderTop: '1px solid rgba(255, 255, 255, 0.08)'
+          }}>
             <button
               onClick={() => setActiveTabSub('walkthrough')}
-              className={`flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold transition-all ${
-                activeTabSub === 'walkthrough'
-                  ? 'bg-gray-800 text-white border border-gray-700 shadow-md'
-                  : 'text-gray-400 hover:text-white hover:bg-gray-800/40'
-              }`}
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '8px',
+                padding: '8px 16px',
+                borderRadius: '10px',
+                fontSize: '0.85rem',
+                fontWeight: 700,
+                border: activeTabSub === 'walkthrough' ? '1px solid #3b3e58' : '1px solid transparent',
+                background: activeTabSub === 'walkthrough' ? '#202234' : 'transparent',
+                color: activeTabSub === 'walkthrough' ? '#fff' : '#9499ad',
+                cursor: 'pointer',
+                transition: 'all 0.15s ease'
+              }}
             >
-              <BookOpen className="w-4 h-4 text-red-400" />
+              <BookOpen style={{ width: '16px', height: '16px', color: 'var(--color-rocket)' }} />
               <span>🗺️ Recorrido Paso a Paso 100%</span>
             </button>
 
             <button
               onClick={() => setActiveTabSub('missables')}
-              className={`flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold transition-all ${
-                activeTabSub === 'missables'
-                  ? 'bg-gray-800 text-yellow-400 border border-yellow-700/50 shadow-md'
-                  : 'text-gray-400 hover:text-yellow-400 hover:bg-gray-800/40'
-              }`}
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '8px',
+                padding: '8px 16px',
+                borderRadius: '10px',
+                fontSize: '0.85rem',
+                fontWeight: 700,
+                border: activeTabSub === 'missables' ? '1px solid rgba(234, 179, 8, 0.4)' : '1px solid transparent',
+                background: activeTabSub === 'missables' ? 'rgba(234, 179, 8, 0.12)' : 'transparent',
+                color: activeTabSub === 'missables' ? '#facc15' : '#9499ad',
+                cursor: 'pointer',
+                transition: 'all 0.15s ease'
+              }}
             >
-              <AlertTriangle className="w-4 h-4 text-yellow-500" />
+              <AlertTriangle style={{ width: '16px', height: '16px', color: '#eab308' }} />
               <span>⚠️ Elementos Perdibles (Missables)</span>
             </button>
 
             <button
               onClick={() => setActiveTabSub('differences')}
-              className={`flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold transition-all ${
-                activeTabSub === 'differences'
-                  ? 'bg-gray-800 text-blue-400 border border-blue-700/50 shadow-md'
-                  : 'text-gray-400 hover:text-blue-400 hover:bg-gray-800/40'
-              }`}
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '8px',
+                padding: '8px 16px',
+                borderRadius: '10px',
+                fontSize: '0.85rem',
+                fontWeight: 700,
+                border: activeTabSub === 'differences' ? '1px solid rgba(96, 165, 250, 0.4)' : '1px solid transparent',
+                background: activeTabSub === 'differences' ? 'rgba(59, 130, 246, 0.12)' : 'transparent',
+                color: activeTabSub === 'differences' ? '#60a5fa' : '#9499ad',
+                cursor: 'pointer',
+                transition: 'all 0.15s ease'
+              }}
             >
-              <Shield className="w-4 h-4 text-blue-400" />
+              <Shield style={{ width: '16px', height: '16px', color: '#60a5fa' }} />
               <span>⚔️ Diferencias Documentadas</span>
             </button>
 
             {isGame100Completed && (
               <button
                 onClick={() => setActiveTabSub('trophy')}
-                className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-black bg-gradient-to-r from-yellow-500 to-amber-600 text-black shadow-lg animate-bounce ml-auto"
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '8px',
+                  padding: '8px 16px',
+                  borderRadius: '10px',
+                  fontSize: '0.85rem',
+                  fontWeight: 900,
+                  background: 'linear-gradient(135deg, #eab308 0%, #d97706 100%)',
+                  color: '#000',
+                  border: 'none',
+                  cursor: 'pointer',
+                  marginLeft: 'auto',
+                  boxShadow: '0 4px 14px rgba(234, 179, 8, 0.4)'
+                }}
               >
-                <Award className="w-4 h-4 text-black" />
+                <Award style={{ width: '16px', height: '16px', color: '#000' }} />
                 <span>🏆 ¡VER PANTALLA 100%!</span>
               </button>
             )}
 
             <button
               onClick={resetCurrentProgress}
-              className="flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold text-gray-500 hover:text-red-400 hover:bg-red-950/20 ml-auto transition-colors"
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '6px',
+                padding: '8px 12px',
+                borderRadius: '10px',
+                fontSize: '0.78rem',
+                fontWeight: 600,
+                background: 'transparent',
+                color: '#6b7280',
+                border: '1px solid transparent',
+                cursor: 'pointer',
+                marginLeft: isGame100Completed ? '8px' : 'auto',
+                transition: 'all 0.15s ease'
+              }}
               title="Reiniciar progreso del modo actual"
             >
-              <RotateCcw className="w-3.5 h-3.5" />
-              <span className="hidden sm:inline">Reiniciar {difficulty === 'easy' ? 'Fácil' : 'Difícil'}</span>
+              <RotateCcw style={{ width: '14px', height: '14px' }} />
+              <span>Reiniciar {difficulty === 'easy' ? 'Fácil' : 'Difícil'}</span>
             </button>
           </div>
         </div>
@@ -401,125 +522,186 @@ export default function Guide100View({
       {/* VISTA 1: WALKTHROUGH INTERACTIVO REAL */}
       {/* ========================================================================= */}
       {activeTabSub === 'walkthrough' && (
-        <div className="space-y-6">
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
+          
           {/* SYSTEM "¿QUÉ PUEDO HACER AHORA?" & "CONTINUAR MI PARTIDA" */}
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
+            gap: '16px'
+          }}>
             {/* WIDGET ¿QUÉ PUEDO HACER AHORA? */}
-            <div className="lg:col-span-2 bg-gradient-to-br from-gray-900 via-gray-950 to-black p-5 rounded-2xl border border-red-500/30 shadow-xl relative overflow-hidden">
-              <div className="flex items-center justify-between border-b border-gray-800 pb-3 mb-3">
-                <div className="flex items-center gap-2">
-                  <div className="w-3 h-3 rounded-full bg-red-500 animate-ping" />
-                  <span className="text-xs font-black uppercase tracking-wider text-red-400">
-                    📍 ¿QUÉ PUEDO HACER AHORA EN MI PARTIDA?
+            <div style={{
+              gridColumn: 'span 2',
+              background: '#13141f',
+              padding: '20px',
+              borderRadius: '16px',
+              border: '1px solid rgba(229, 57, 53, 0.35)',
+              boxShadow: '0 6px 20px rgba(0, 0, 0, 0.4)',
+              display: 'flex',
+              flexDirection: 'column',
+              justify: 'space-between',
+              gap: '16px'
+            }}>
+              <div>
+                <div style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'space-between',
+                  borderBottom: '1px solid #222436',
+                  paddingBottom: '10px',
+                  marginBottom: '12px'
+                }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                    <div style={{
+                      width: '10px',
+                      height: '10px',
+                      borderRadius: '50%',
+                      background: 'var(--color-rocket)',
+                      boxShadow: '0 0 10px var(--color-rocket)'
+                    }} />
+                    <span style={{ fontSize: '0.75rem', fontWeight: 900, textTransform: 'uppercase', letterSpacing: '0.05em', color: '#f87171' }}>
+                      📍 ¿QUÉ PUEDO HACER AHORA EN MI PARTIDA?
+                    </span>
+                  </div>
+                  <span style={{ fontSize: '0.75rem', fontWeight: 700, padding: '2px 8px', borderRadius: '12px', background: '#202234', color: '#9499ad', border: '1px solid #2e314a' }}>
+                    {activeStage.actTitle}
                   </span>
                 </div>
-                <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-gray-800 text-gray-300 border border-gray-700">
-                  {activeStage.actTitle}
-                </span>
-              </div>
 
-              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                <div>
-                  <div className="text-xs text-gray-400">Zona actual según tu avance:</div>
-                  <h3 className="text-xl font-black text-white flex items-center gap-2 mt-0.5">
-                    <MapPin className="w-5 h-5 text-red-500 shrink-0" />
-                    <span>{activeStage.location}</span>
-                  </h3>
-                  <div className="text-xs text-red-400 font-semibold mt-1">
-                    🎯 Nivel recomendado: <span className="text-white font-bold">{activeStage.recommendedLevel}</span>
+                <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between', gap: '16px' }}>
+                  <div>
+                    <div style={{ fontSize: '0.78rem', color: '#9499ad' }}>Zona actual según tu avance:</div>
+                    <h3 style={{ fontSize: '1.4rem', fontWeight: 900, color: '#fff', display: 'flex', alignItems: 'center', gap: '8px', marginTop: '2px' }}>
+                      <MapPin style={{ width: '20px', height: '20px', color: 'var(--color-rocket)' }} />
+                      <span>{activeStage.location}</span>
+                    </h3>
+                    <div style={{ fontSize: '0.8rem', color: '#f87171', fontWeight: 600, marginTop: '4px' }}>
+                      🎯 Nivel recomendado: <span style={{ color: '#fff', fontWeight: 800 }}>{activeStage.recommendedLevel}</span>
+                    </div>
                   </div>
-                </div>
 
-                <button
-                  onClick={scrollToActiveStage}
-                  className="flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-red-600 hover:bg-red-500 text-white font-black text-sm shadow-lg shadow-red-900/40 transition-all transform hover:scale-103 shrink-0"
-                >
-                  <Play className="w-4 h-4 fill-white" />
-                  <span>▶ CONTINUAR EN ESTA ZONA</span>
-                </button>
+                  <button
+                    onClick={scrollToActiveStage}
+                    style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '8px',
+                      padding: '12px 20px',
+                      borderRadius: '12px',
+                      background: 'var(--color-rocket)',
+                      color: '#fff',
+                      fontWeight: 900,
+                      fontSize: '0.88rem',
+                      border: 'none',
+                      cursor: 'pointer',
+                      boxShadow: '0 4px 16px rgba(229, 57, 53, 0.4)',
+                      transition: 'transform 0.15s ease'
+                    }}
+                  >
+                    <Play style={{ width: '16px', height: '16px', fill: '#fff' }} />
+                    <span>▶ CONTINUAR EN ESTA ZONA</span>
+                  </button>
+                </div>
               </div>
 
               {/* QUICK COUNTERS AT THIS EXACT STAGE */}
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-2 mt-4 pt-3 border-t border-gray-800/80">
-                <div className="p-2 bg-gray-900/80 rounded-lg border border-gray-800 text-center">
-                  <span className="text-xs text-gray-400 block">Secundarias</span>
-                  <span className="text-sm font-black text-green-400">
-                    🟢 {activeStage.sidequests.length} Disp.
-                  </span>
+              <div style={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(auto-fit, minmax(100px, 1fr))',
+                gap: '8px',
+                paddingTop: '12px',
+                borderTop: '1px solid #222436'
+              }}>
+                <div style={{ background: '#191b29', padding: '8px', borderRadius: '8px', border: '1px solid #25283d', textAlign: 'center' }}>
+                  <span style={{ fontSize: '0.7rem', color: '#9499ad', display: 'block' }}>Secundarias</span>
+                  <span style={{ fontSize: '0.85rem', fontWeight: 900, color: '#4ade80' }}>🟢 {activeStage.sidequests.length} Disp.</span>
                 </div>
-                <div className="p-2 bg-gray-900/80 rounded-lg border border-gray-800 text-center">
-                  <span className="text-xs text-gray-400 block">Pokémon</span>
-                  <span className="text-sm font-black text-blue-400">
-                    🐾 {activeStage.availablePokemon.length} Nuevos
-                  </span>
+                <div style={{ background: '#191b29', padding: '8px', borderRadius: '8px', border: '1px solid #25283d', textAlign: 'center' }}>
+                  <span style={{ fontSize: '0.7rem', color: '#9499ad', display: 'block' }}>Pokémon</span>
+                  <span style={{ fontSize: '0.85rem', fontWeight: 900, color: '#60a5fa' }}>🐾 {activeStage.availablePokemon.length} Nuevos</span>
                 </div>
-                <div className="p-2 bg-gray-900/80 rounded-lg border border-gray-800 text-center">
-                  <span className="text-xs text-gray-400 block">Regalos</span>
-                  <span className="text-sm font-black text-yellow-400">
-                    🎁 {activeStage.gifts.length} Clave
-                  </span>
+                <div style={{ background: '#191b29', padding: '8px', borderRadius: '8px', border: '1px solid #25283d', textAlign: 'center' }}>
+                  <span style={{ fontSize: '0.7rem', color: '#9499ad', display: 'block' }}>Regalos</span>
+                  <span style={{ fontSize: '0.85rem', fontWeight: 900, color: '#facc15' }}>🎁 {activeStage.gifts.length} Clave</span>
                 </div>
-                <div className="p-2 bg-gray-900/80 rounded-lg border border-gray-800 text-center">
-                  <span className="text-xs text-gray-400 block">Batallas</span>
-                  <span className="text-sm font-black text-red-400">
-                    ⚔️ {activeStage.bosses.length} Jefes
-                  </span>
+                <div style={{ background: '#191b29', padding: '8px', borderRadius: '8px', border: '1px solid #25283d', textAlign: 'center' }}>
+                  <span style={{ fontSize: '0.7rem', color: '#9499ad', display: 'block' }}>Batallas</span>
+                  <span style={{ fontSize: '0.85rem', fontWeight: 900, color: '#f87171' }}>⚔️ {activeStage.bosses.length} Jefes</span>
                 </div>
-                <div className="p-2 bg-gray-900/80 rounded-lg border border-gray-800 text-center">
-                  <span className="text-xs text-gray-400 block">Objetos</span>
-                  <span className="text-sm font-black text-purple-400">
-                    🎒 {activeStage.items.length} Útiles
-                  </span>
+                <div style={{ background: '#191b29', padding: '8px', borderRadius: '8px', border: '1px solid #25283d', textAlign: 'center' }}>
+                  <span style={{ fontSize: '0.7rem', color: '#9499ad', display: 'block' }}>Objetos</span>
+                  <span style={{ fontSize: '0.85rem', fontWeight: 900, color: '#c084fc' }}>🎒 {activeStage.items.length} Útiles</span>
                 </div>
-                <div className="p-2 bg-gray-900/80 rounded-lg border border-gray-800 text-center">
-                  <span className="text-xs text-gray-400 block">Perdibles</span>
-                  <span className={`text-sm font-black ${activeStage.missables.length > 0 ? 'text-amber-400 animate-pulse' : 'text-gray-500'}`}>
-                    ⚠️ {activeStage.missables.length}
-                  </span>
+                <div style={{ background: '#191b29', padding: '8px', borderRadius: '8px', border: '1px solid #25283d', textAlign: 'center' }}>
+                  <span style={{ fontSize: '0.7rem', color: '#9499ad', display: 'block' }}>Perdibles</span>
+                  <span style={{ fontSize: '0.85rem', fontWeight: 900, color: activeStage.missables.length > 0 ? '#fbbf24' : '#6b7280' }}>⚠️ {activeStage.missables.length}</span>
                 </div>
               </div>
             </div>
 
             {/* GLOBAL 100% PROGRESS CARD */}
-            <div className="bg-gradient-to-br from-gray-900 via-gray-950 to-black p-5 rounded-2xl border border-gray-800 shadow-xl flex flex-col justify-between">
+            <div style={{
+              background: '#13141f',
+              padding: '20px',
+              borderRadius: '16px',
+              border: '1px solid #26283b',
+              boxShadow: '0 6px 20px rgba(0, 0, 0, 0.4)',
+              display: 'flex',
+              flexDirection: 'column',
+              justify: 'space-between',
+              gap: '12px'
+            }}>
               <div>
-                <div className="flex items-center justify-between mb-2">
-                  <span className="text-xs font-black uppercase text-gray-400">PROGRESO TOTAL {difficulty === 'hard' ? '🔴 DIFÍCIL' : '🟢 FÁCIL'}</span>
-                  <span className="text-lg font-black text-red-400">{stats.percent}%</span>
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '8px' }}>
+                  <span style={{ fontSize: '0.75rem', fontWeight: 900, textTransform: 'uppercase', color: '#9499ad' }}>
+                    PROGRESO TOTAL {difficulty === 'hard' ? '🔴 DIFÍCIL' : '🟢 FÁCIL'}
+                  </span>
+                  <span style={{ fontSize: '1.2rem', fontWeight: 900, color: 'var(--color-rocket)' }}>{stats.percent}%</span>
                 </div>
-                <div className="w-full bg-gray-800 h-3 rounded-full overflow-hidden p-0.5 border border-gray-700">
-                  <div 
-                    className={`h-full rounded-full transition-all duration-500 ${
-                      difficulty === 'hard' 
-                        ? 'bg-gradient-to-r from-red-600 via-red-500 to-amber-500' 
-                        : 'bg-gradient-to-r from-green-600 to-emerald-400'
-                    }`}
-                    style={{ width: `${stats.percent}%` }}
-                  />
+                
+                <div style={{ width: '100%', background: '#0d0e15', height: '12px', borderRadius: '10px', overflow: 'hidden', padding: '2px', border: '1px solid #222436' }}>
+                  <div style={{
+                    height: '100%',
+                    borderRadius: '8px',
+                    transition: 'width 0.5s ease',
+                    background: difficulty === 'hard' 
+                      ? 'linear-gradient(90deg, #dc2626 0%, #ef4444 50%, #f59e0b 100%)' 
+                      : 'linear-gradient(90deg, #16a34a 0%, #34d399 100%)',
+                    width: `${stats.percent}%`
+                  }} />
                 </div>
-                <div className="text-xs text-gray-400 mt-2 flex justify-between">
+
+                <div style={{ fontSize: '0.78rem', color: '#9499ad', marginTop: '8px', display: 'flex', justifyContent: 'space-between' }}>
                   <span>Hitos completados:</span>
-                  <span className="font-bold text-white">{stats.completedTasks} / {stats.totalTasks}</span>
+                  <span style={{ fontWeight: 700, color: '#fff' }}>{stats.completedTasks} / {stats.totalTasks}</span>
                 </div>
               </div>
 
               {/* STATS BREAKDOWN */}
-              <div className="grid grid-cols-2 gap-2 text-xs pt-3 border-t border-gray-800 mt-3">
-                <div className="flex justify-between text-gray-400">
+              <div style={{
+                display: 'grid',
+                gridTemplateColumns: '1fr 1fr',
+                gap: '8px',
+                fontSize: '0.75rem',
+                paddingTop: '12px',
+                borderTop: '1px solid #222436'
+              }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', color: '#9499ad' }}>
                   <span>⚔️ Jefes:</span>
-                  <span className="font-bold text-gray-200">{stats.completedBosses}/{stats.totalBosses}</span>
+                  <span style={{ fontWeight: 700, color: '#e2e8f0' }}>{stats.completedBosses}/{stats.totalBosses}</span>
                 </div>
-                <div className="flex justify-between text-gray-400">
+                <div style={{ display: 'flex', justifyContent: 'space-between', color: '#9499ad' }}>
                   <span>📜 Secundarias:</span>
-                  <span className="font-bold text-gray-200">{stats.completedQuests}/{stats.totalQuests}</span>
+                  <span style={{ fontWeight: 700, color: '#e2e8f0' }}>{stats.completedQuests}/{stats.totalQuests}</span>
                 </div>
-                <div className="flex justify-between text-gray-400">
+                <div style={{ display: 'flex', justifyContent: 'space-between', color: '#9499ad' }}>
                   <span>🐾 Pokémon:</span>
-                  <span className="font-bold text-gray-200">{stats.completedPokemon}/{stats.totalPokemon}</span>
+                  <span style={{ fontWeight: 700, color: '#e2e8f0' }}>{stats.completedPokemon}/{stats.totalPokemon}</span>
                 </div>
-                <div className="flex justify-between text-gray-400">
+                <div style={{ display: 'flex', justifyContent: 'space-between', color: '#9499ad' }}>
                   <span>🎁 Regalos:</span>
-                  <span className="font-bold text-gray-200">{stats.completedGifts}/{stats.totalGifts}</span>
+                  <span style={{ fontWeight: 700, color: '#e2e8f0' }}>{stats.completedGifts}/{stats.totalGifts}</span>
                 </div>
               </div>
             </div>
@@ -528,10 +710,20 @@ export default function Guide100View({
           {/* ========================================================================= */}
           {/* SEARCH & ACT FILTERS */}
           {/* ========================================================================= */}
-          <div className="bg-gray-900/60 p-4 rounded-xl border border-gray-800 flex flex-col md:flex-row items-center justify-between gap-4">
-            <div className="flex items-center gap-2 overflow-x-auto w-full md:w-auto pb-1 md:pb-0">
-              <span className="text-xs font-bold text-gray-400 uppercase tracking-wider shrink-0 flex items-center gap-1">
-                <Filter className="w-3.5 h-3.5" /> Acto:
+          <div style={{
+            background: '#13141f',
+            padding: '14px 20px',
+            borderRadius: '12px',
+            border: '1px solid #26283b',
+            display: 'flex',
+            flexWrap: 'wrap',
+            alignItems: 'center',
+            justify: 'space-between',
+            gap: '12px'
+          }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '6px', overflowX: 'auto', paddingBottom: '4px' }}>
+              <span style={{ fontSize: '0.75rem', fontWeight: 800, color: '#9499ad', textTransform: 'uppercase', display: 'flex', alignItems: 'center', gap: '4px', marginRight: '4px' }}>
+                <Filter style={{ width: '14px', height: '14px' }} /> Acto:
               </span>
               {[
                 { id: 'all', label: 'Todos' },
@@ -544,25 +736,41 @@ export default function Guide100View({
                 <button
                   key={act.id}
                   onClick={() => setActiveAct(act.id)}
-                  className={`px-3 py-1.5 rounded-lg text-xs font-bold shrink-0 transition-colors ${
-                    activeAct === act.id
-                      ? 'bg-red-600 text-white'
-                      : 'bg-gray-800 text-gray-400 hover:text-white'
-                  }`}
+                  style={{
+                    padding: '6px 12px',
+                    borderRadius: '8px',
+                    fontSize: '0.78rem',
+                    fontWeight: 700,
+                    border: 'none',
+                    cursor: 'pointer',
+                    whiteSpace: 'nowrap',
+                    transition: 'all 0.15s ease',
+                    background: activeAct === act.id ? 'var(--color-rocket)' : '#1f2130',
+                    color: activeAct === act.id ? '#fff' : '#9499ad'
+                  }}
                 >
                   {act.label}
                 </button>
               ))}
             </div>
 
-            <div className="relative w-full md:w-72">
-              <Search className="w-4 h-4 text-gray-400 absolute left-3 top-1/2 -translate-y-1/2" />
+            <div style={{ position: 'relative', minWidth: '240px', flex: '1', maxWidth: '320px' }}>
+              <Search style={{ width: '14px', height: '14px', color: '#9499ad', position: 'absolute', left: '12px', top: '50%', transform: 'translateY(-50%)' }} />
               <input
                 type="text"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                placeholder="Buscar ciudad, Pokémon, jefe u objeto..."
-                className="w-full bg-gray-950 border border-gray-800 rounded-lg pl-9 pr-3 py-1.5 text-xs text-white placeholder-gray-500 focus:outline-none focus:border-red-500"
+                placeholder="Buscar ciudad, Pokémon, jefe..."
+                style={{
+                  width: '100%',
+                  background: '#090a0f',
+                  border: '1px solid #282a3d',
+                  borderRadius: '8px',
+                  padding: '8px 12px 8px 34px',
+                  fontSize: '0.8rem',
+                  color: '#fff',
+                  outline: 'none'
+                }}
               />
             </div>
           </div>
@@ -570,7 +778,7 @@ export default function Guide100View({
           {/* ========================================================================= */}
           {/* STAGES LIST: 38 COMPREHENSIVE CHRONOLOGICAL STAGES */}
           {/* ========================================================================= */}
-          <div className="space-y-6">
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
             {filteredStages.map((stage) => {
               const isCollapsed = collapsedStages[stage.id];
               const stageMasterKey = `stage_${stage.id}`;
@@ -580,81 +788,162 @@ export default function Guide100View({
                 <div
                   key={stage.id}
                   id={`walkthrough-stage-${stage.id}`}
-                  className={`rounded-2xl border transition-all duration-300 overflow-hidden ${
-                    isStageCompleted
-                      ? 'bg-gray-950/60 border-gray-800/80 opacity-90'
-                      : 'bg-gray-900/90 border-gray-800 shadow-xl hover:border-red-500/40'
-                  }`}
+                  style={{
+                    borderRadius: '16px',
+                    border: isStageCompleted ? '1px solid #1f2130' : '1px solid #282a3d',
+                    background: isStageCompleted ? '#0e0f16' : '#13141f',
+                    opacity: isStageCompleted ? 0.85 : 1,
+                    boxShadow: '0 4px 16px rgba(0, 0, 0, 0.3)',
+                    overflow: 'hidden',
+                    transition: 'all 0.2s ease'
+                  }}
                 >
                   {/* STAGE HEADER */}
-                  <div className="p-4 sm:p-5 bg-gradient-to-r from-gray-950 via-gray-900 to-gray-950 border-b border-gray-800 flex flex-wrap items-center justify-between gap-3">
-                    <div className="flex items-center gap-3">
+                  <div style={{
+                    padding: '16px 20px',
+                    background: isStageCompleted ? '#11121b' : 'linear-gradient(90deg, #181a28 0%, #13141f 100%)',
+                    borderBottom: '1px solid #222436',
+                    display: 'flex',
+                    flexWrap: 'wrap',
+                    alignItems: 'center',
+                    justify: 'space-between',
+                    gap: '12px'
+                  }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
                       <button
                         onClick={() => toggleCheck(stageMasterKey)}
-                        className={`p-1.5 rounded-lg transition-transform hover:scale-110 ${
-                          isStageCompleted ? 'text-green-500' : 'text-gray-500 hover:text-red-400'
-                        }`}
+                        style={{
+                          background: 'transparent',
+                          border: 'none',
+                          cursor: 'pointer',
+                          color: isStageCompleted ? '#22c55e' : '#6b7280',
+                          display: 'flex',
+                          alignItems: 'center'
+                        }}
                         title={isStageCompleted ? "Etapa marcada como completada" : "Marcar etapa completa"}
                       >
                         {isStageCompleted ? (
-                          <CheckCircle2 className="w-7 h-7" />
+                          <CheckCircle2 style={{ width: '26px', height: '26px' }} />
                         ) : (
-                          <Circle className="w-7 h-7" />
+                          <Circle style={{ width: '26px', height: '26px' }} />
                         )}
                       </button>
 
                       <div>
-                        <div className="flex items-center gap-2">
-                          <span className="px-2 py-0.5 text-xs font-black uppercase rounded bg-red-950 text-red-400 border border-red-800/50">
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                          <span style={{
+                            padding: '2px 6px',
+                            fontSize: '0.68rem',
+                            fontWeight: 900,
+                            textTransform: 'uppercase',
+                            borderRadius: '4px',
+                            background: 'rgba(229, 57, 53, 0.2)',
+                            color: '#f87171',
+                            border: '1px solid rgba(229, 57, 53, 0.4)'
+                          }}>
                             Paso #{stage.order}
                           </span>
-                          <span className="text-xs font-semibold text-gray-400">
+                          <span style={{ fontSize: '0.75rem', fontWeight: 600, color: '#9499ad' }}>
                             {stage.actTitle}
                           </span>
                         </div>
-                        <h2 className={`text-lg sm:text-xl font-black mt-0.5 flex items-center gap-2 ${
-                          isStageCompleted ? 'line-through text-gray-500' : 'text-white'
-                        }`}>
-                          <MapPin className="w-4 h-4 text-red-500 shrink-0" />
+                        <h2 style={{
+                          fontSize: '1.25rem',
+                          fontWeight: 900,
+                          marginTop: '2px',
+                          display: 'flex',
+                          alignItems: 'center',
+                          gap: '8px',
+                          color: isStageCompleted ? '#6b7280' : '#fff',
+                          textDecoration: isStageCompleted ? 'line-through' : 'none'
+                        }}>
+                          <MapPin style={{ width: '18px', height: '18px', color: 'var(--color-rocket)' }} />
                           <span>{stage.location}</span>
                         </h2>
                       </div>
                     </div>
 
-                    <div className="flex items-center gap-3">
-                      <div className="text-right">
-                        <span className="text-xs text-gray-400 block">Nivel recomendado:</span>
-                        <span className="text-xs font-bold text-amber-400 bg-amber-950/40 px-2 py-0.5 rounded border border-amber-800/40">
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                      <div style={{ textAlign: 'right' }}>
+                        <span style={{ fontSize: '0.7rem', color: '#9499ad', display: 'block' }}>Nivel recomendado:</span>
+                        <span style={{
+                          fontSize: '0.75rem',
+                          fontWeight: 800,
+                          color: '#facc15',
+                          background: 'rgba(234, 179, 8, 0.15)',
+                          padding: '2px 8px',
+                          borderRadius: '4px',
+                          border: '1px solid rgba(234, 179, 8, 0.3)'
+                        }}>
                           {stage.recommendedLevel}
                         </span>
                       </div>
 
                       <button
                         onClick={() => toggleStageCollapse(stage.id)}
-                        className="p-2 rounded-lg bg-gray-800 hover:bg-gray-700 text-gray-300 transition-colors"
+                        style={{
+                          padding: '8px',
+                          borderRadius: '8px',
+                          background: '#1f2130',
+                          border: '1px solid #2e314a',
+                          color: '#c5c9db',
+                          cursor: 'pointer',
+                          display: 'flex',
+                          alignItems: 'center'
+                        }}
                         title={isCollapsed ? "Expandir etapa" : "Colapsar etapa"}
                       >
-                        {isCollapsed ? <ChevronDown className="w-5 h-5" /> : <ChevronRight className="w-5 h-5 rotate-90" />}
+                        {isCollapsed ? <ChevronDown style={{ width: '20px', height: '20px' }} /> : <ChevronRight style={{ width: '20px', height: '20px', transform: 'rotate(90deg)' }} />}
                       </button>
                     </div>
                   </div>
 
                   {/* STAGE ACCORDION CONTENT */}
                   {!isCollapsed && (
-                    <div className="p-4 sm:p-6 space-y-6">
+                    <div style={{ padding: '20px', display: 'flex', flexDirection: 'column', gap: '20px' }}>
+                      
                       {/* 1. 📖 HISTORIA PASO A PASO */}
-                      <div className="bg-gray-950/70 p-4 rounded-xl border border-gray-800/80">
-                        <h3 className="text-sm font-black uppercase tracking-wider text-red-400 flex items-center gap-2 mb-3">
-                          <BookOpen className="w-4 h-4" />
+                      <div style={{
+                        background: '#090a0f',
+                        padding: '16px',
+                        borderRadius: '12px',
+                        border: '1px solid #222436'
+                      }}>
+                        <h3 style={{
+                          fontSize: '0.82rem',
+                          fontWeight: 900,
+                          textTransform: 'uppercase',
+                          letterSpacing: '0.05em',
+                          color: '#f87171',
+                          display: 'flex',
+                          alignItems: 'center',
+                          gap: '8px',
+                          marginBottom: '12px'
+                        }}>
+                          <BookOpen style={{ width: '16px', height: '16px' }} />
                           <span>📖 HISTORIA PRINCIPAL — QUÉ HACER PASO A PASO</span>
                         </h3>
-                        <div className="space-y-2">
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
                           {stage.storySteps.map((step, idx) => (
-                            <div key={idx} className="flex items-start gap-2.5 text-sm text-gray-200">
-                              <span className="w-5 h-5 rounded-full bg-red-900/40 border border-red-700/50 text-red-300 text-xs font-bold flex items-center justify-center shrink-0 mt-0.5">
+                            <div key={idx} style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', fontSize: '0.85rem', color: '#e2e8f0' }}>
+                              <span style={{
+                                width: '20px',
+                                height: '20px',
+                                borderRadius: '50%',
+                                background: 'rgba(229, 57, 53, 0.2)',
+                                border: '1px solid rgba(229, 57, 53, 0.5)',
+                                color: '#f87171',
+                                fontSize: '0.72rem',
+                                fontWeight: 800,
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                                flexShrink: 0,
+                                marginTop: '2px'
+                              }}>
                                 {idx + 1}
                               </span>
-                              <p className="leading-relaxed">{step}</p>
+                              <p style={{ margin: 0, lineHeight: 1.5 }}>{step}</p>
                             </div>
                           ))}
                         </div>
@@ -662,18 +951,36 @@ export default function Guide100View({
 
                       {/* 2. 🐾 POKÉMON DISPONIBLES EN ESTE MOMENTO */}
                       {stage.availablePokemon.length > 0 && (
-                        <div className="bg-gray-950/70 p-4 rounded-xl border border-blue-900/30">
-                          <div className="flex items-center justify-between mb-3">
-                            <h3 className="text-sm font-black uppercase tracking-wider text-blue-400 flex items-center gap-2">
-                              <Compass className="w-4 h-4" />
+                        <div style={{
+                          background: '#090a0f',
+                          padding: '16px',
+                          borderRadius: '12px',
+                          border: '1px solid rgba(59, 130, 246, 0.25)'
+                        }}>
+                          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '12px' }}>
+                            <h3 style={{
+                              fontSize: '0.82rem',
+                              fontWeight: 900,
+                              textTransform: 'uppercase',
+                              letterSpacing: '0.05em',
+                              color: '#60a5fa',
+                              display: 'flex',
+                              alignItems: 'center',
+                              gap: '8px'
+                            }}>
+                              <Compass style={{ width: '16px', height: '16px' }} />
                               <span>🐾 POKÉMON QUE PUEDES CONSEGUIR EN ESTE MOMENTO</span>
                             </h3>
-                            <span className="text-xs text-gray-400">
+                            <span style={{ fontSize: '0.75rem', color: '#9499ad' }}>
                               {stage.availablePokemon.length} disponibles
                             </span>
                           </div>
 
-                          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+                          <div style={{
+                            display: 'grid',
+                            gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))',
+                            gap: '10px'
+                          }}>
                             {stage.availablePokemon.map((pkmn, idx) => {
                               const pkmnKey = `pkmn_${stage.id}_${pkmn.name}`;
                               const isPkmnChecked = !!currentChecked[pkmnKey];
@@ -681,49 +988,60 @@ export default function Guide100View({
                               return (
                                 <div
                                   key={idx}
-                                  className={`p-3 rounded-xl border transition-all flex items-center gap-3 ${
-                                    isPkmnChecked
-                                      ? 'bg-blue-950/20 border-blue-800/40 opacity-70'
-                                      : 'bg-gray-900 border-gray-800 hover:border-blue-500/50'
-                                  }`}
+                                  style={{
+                                    padding: '10px',
+                                    borderRadius: '10px',
+                                    border: isPkmnChecked ? '1px solid rgba(59, 130, 246, 0.3)' : '1px solid #222436',
+                                    background: isPkmnChecked ? 'rgba(59, 130, 246, 0.08)' : '#13141f',
+                                    opacity: isPkmnChecked ? 0.75 : 1,
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    gap: '10px'
+                                  }}
                                 >
                                   <button
                                     onClick={() => toggleCheck(pkmnKey)}
-                                    className="text-gray-500 hover:text-blue-400 shrink-0"
+                                    style={{ background: 'transparent', border: 'none', cursor: 'pointer', color: isPkmnChecked ? '#60a5fa' : '#6b7280' }}
                                     title="Marcar como obtenido"
                                   >
-                                    {isPkmnChecked ? (
-                                      <CheckCircle2 className="w-5 h-5 text-blue-400" />
-                                    ) : (
-                                      <Circle className="w-5 h-5" />
-                                    )}
+                                    {isPkmnChecked ? <CheckCircle2 style={{ width: '20px', height: '20px' }} /> : <Circle style={{ width: '20px', height: '20px' }} />}
                                   </button>
 
                                   <img
                                     src={getPokemonSprite(pkmn.name, pkmn.dexNum)}
                                     alt={pkmn.name}
-                                    className="w-12 h-12 object-contain bg-black/40 rounded-lg p-1 border border-gray-800 shrink-0 cursor-pointer"
+                                    style={{
+                                      width: '44px',
+                                      height: '44px',
+                                      objectFit: 'contain',
+                                      background: '#090a0f',
+                                      borderRadius: '8px',
+                                      padding: '4px',
+                                      border: '1px solid #282a3d',
+                                      cursor: 'pointer'
+                                    }}
                                     onClick={() => onSelectPokemon && onSelectPokemon(pkmn.name)}
                                     onError={(e) => { e.target.style.display = 'none'; }}
-                                />
+                                  />
 
-                                  <div className="min-w-0 flex-1">
-                                    <div className="flex items-center gap-1.5">
-                                      <span className="font-black text-sm text-white truncate cursor-pointer hover:text-blue-400"
+                                  <div style={{ minWidth: 0, flex: 1 }}>
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                                      <span
+                                        style={{ fontWeight: 800, fontSize: '0.85rem', color: '#fff', cursor: 'pointer', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}
                                         onClick={() => onSelectPokemon && onSelectPokemon(pkmn.name)}
                                       >
                                         {pkmn.name}
                                       </span>
                                       {pkmn.is100Recommended && (
-                                        <span className="text-[10px] px-1 rounded bg-amber-500/20 text-amber-300 font-bold border border-amber-500/30">
+                                        <span style={{ fontSize: '0.65rem', padding: '1px 4px', borderRadius: '4px', background: 'rgba(234, 179, 8, 0.2)', color: '#facc15', fontWeight: 800, border: '1px solid rgba(234, 179, 8, 0.4)' }}>
                                           100%
                                         </span>
                                       )}
                                     </div>
-                                    <div className="text-xs text-gray-400 mt-0.5 truncate">
+                                    <div style={{ fontSize: '0.72rem', color: '#9499ad', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
                                       {pkmn.method} • {pkmn.level}
                                     </div>
-                                    <div className="text-[11px] text-gray-500 truncate">
+                                    <div style={{ fontSize: '0.7rem', color: '#6b7280', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
                                       📍 {pkmn.location}
                                     </div>
                                   </div>
@@ -736,13 +1054,28 @@ export default function Guide100View({
 
                       {/* 3. 🎁 POKÉMON REGALADOS */}
                       {stage.gifts.length > 0 && (
-                        <div className="bg-gradient-to-r from-amber-950/40 to-gray-950 p-4 rounded-xl border border-amber-700/40">
-                          <h3 className="text-sm font-black uppercase tracking-wider text-amber-400 flex items-center gap-2 mb-3">
-                            <Gift className="w-4 h-4" />
+                        <div style={{
+                          background: 'linear-gradient(135deg, rgba(234, 179, 8, 0.08) 0%, rgba(9, 10, 15, 1) 100%)',
+                          padding: '16px',
+                          borderRadius: '12px',
+                          border: '1px solid rgba(234, 179, 8, 0.35)'
+                        }}>
+                          <h3 style={{
+                            fontSize: '0.82rem',
+                            fontWeight: 900,
+                            textTransform: 'uppercase',
+                            letterSpacing: '0.05em',
+                            color: '#facc15',
+                            display: 'flex',
+                            alignItems: 'center',
+                            gap: '8px',
+                            marginBottom: '12px'
+                          }}>
+                            <Gift style={{ width: '16px', height: '16px' }} />
                             <span>🎁 POKÉMON REGALADO DISPONIBLE EN ESTA ETAPA</span>
                           </h3>
 
-                          <div className="space-y-3">
+                          <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
                             {stage.gifts.map((gift) => {
                               const giftKey = `gift_${stage.id}_${gift.id}`;
                               const isGiftChecked = !!currentChecked[giftKey];
@@ -750,58 +1083,70 @@ export default function Guide100View({
                               return (
                                 <div
                                   key={gift.id}
-                                  className="p-4 bg-gray-900/90 rounded-xl border border-amber-900/50 flex flex-col md:flex-row md:items-center justify-between gap-4"
+                                  style={{
+                                    padding: '14px',
+                                    background: '#13141f',
+                                    borderRadius: '12px',
+                                    border: '1px solid rgba(234, 179, 8, 0.3)',
+                                    display: 'flex',
+                                    alignItems: 'flex-start',
+                                    gap: '12px'
+                                  }}
                                 >
-                                  <div className="flex items-start gap-3">
-                                    <button
-                                      onClick={() => toggleCheck(giftKey)}
-                                      className="mt-1 text-gray-500 hover:text-amber-400 shrink-0"
-                                      title="Marcar como recibido"
-                                    >
-                                      {isGiftChecked ? (
-                                        <CheckCircle2 className="w-6 h-6 text-amber-400" />
-                                      ) : (
-                                        <Circle className="w-6 h-6" />
-                                      )}
-                                    </button>
+                                  <button
+                                    onClick={() => toggleCheck(giftKey)}
+                                    style={{ background: 'transparent', border: 'none', cursor: 'pointer', color: isGiftChecked ? '#facc15' : '#6b7280', marginTop: '4px' }}
+                                    title="Marcar como recibido"
+                                  >
+                                    {isGiftChecked ? <CheckCircle2 style={{ width: '22px', height: '22px' }} /> : <Circle style={{ width: '22px', height: '22px' }} />}
+                                  </button>
 
-                                    <img
-                                      src={getPokemonSprite(gift.name, gift.dexNum)}
-                                      alt={gift.name}
-                                      className="w-14 h-14 object-contain bg-black/60 rounded-xl p-1.5 border border-amber-800/40 shrink-0 cursor-pointer"
-                                      onClick={() => onSelectPokemon && onSelectPokemon(gift.name)}
-                                      onError={(e) => { e.target.style.display = 'none'; }}
-                                    />
+                                  <img
+                                    src={getPokemonSprite(gift.name, gift.dexNum)}
+                                    alt={gift.name}
+                                    style={{
+                                      width: '56px',
+                                      height: '56px',
+                                      objectFit: 'contain',
+                                      background: '#090a0f',
+                                      borderRadius: '10px',
+                                      padding: '6px',
+                                      border: '1px solid rgba(234, 179, 8, 0.3)',
+                                      cursor: 'pointer'
+                                    }}
+                                    onClick={() => onSelectPokemon && onSelectPokemon(gift.name)}
+                                    onError={(e) => { e.target.style.display = 'none'; }}
+                                  />
 
-                                    <div>
-                                      <div className="flex items-center gap-2">
-                                        <h4 className="text-base font-black text-white hover:text-amber-400 cursor-pointer"
-                                          onClick={() => onSelectPokemon && onSelectPokemon(gift.name)}
-                                        >
-                                          {gift.name} ({gift.level})
-                                        </h4>
-                                        <span className="text-xs px-2 py-0.5 rounded bg-amber-900/40 text-amber-300 font-bold border border-amber-700/40">
-                                          Objeto: {gift.heldItem}
-                                        </span>
-                                      </div>
-                                      <p className="text-xs text-gray-400 mt-1">
-                                        👤 <strong>NPC:</strong> {gift.npc} | 📍 <strong>Ubicación:</strong> {gift.location}
-                                      </p>
-                                      <div className="text-xs text-gray-300 mt-2 space-y-1">
-                                        <strong>Pasos para conseguirlo:</strong>
-                                        {gift.steps.map((st, i) => (
-                                          <div key={i} className="flex items-center gap-1.5 text-gray-300">
-                                            <span className="w-1.5 h-1.5 rounded-full bg-amber-500" />
-                                            <span>{st}</span>
-                                          </div>
-                                        ))}
-                                      </div>
-                                      {gift.warning && (
-                                        <p className="text-xs font-bold text-amber-400 mt-2 bg-amber-950/60 p-2 rounded border border-amber-800/40">
-                                          {gift.warning}
-                                        </p>
-                                      )}
+                                  <div style={{ flex: 1 }}>
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                      <h4
+                                        style={{ fontSize: '1rem', fontWeight: 900, color: '#fff', cursor: 'pointer', margin: 0 }}
+                                        onClick={() => onSelectPokemon && onSelectPokemon(gift.name)}
+                                      >
+                                        {gift.name} ({gift.level})
+                                      </h4>
+                                      <span style={{ fontSize: '0.7rem', padding: '2px 6px', borderRadius: '4px', background: 'rgba(234, 179, 8, 0.15)', color: '#facc15', fontWeight: 700, border: '1px solid rgba(234, 179, 8, 0.3)' }}>
+                                        Objeto: {gift.heldItem}
+                                      </span>
                                     </div>
+                                    <p style={{ fontSize: '0.75rem', color: '#9499ad', marginTop: '4px', margin: '4px 0 0 0' }}>
+                                      👤 <strong>NPC:</strong> {gift.npc} | 📍 <strong>Ubicación:</strong> {gift.location}
+                                    </p>
+                                    <div style={{ fontSize: '0.75rem', color: '#e2e8f0', marginTop: '8px' }}>
+                                      <strong>Pasos para conseguirlo:</strong>
+                                      {gift.steps.map((st, i) => (
+                                        <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '6px', marginTop: '2px' }}>
+                                          <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#facc15' }} />
+                                          <span>{st}</span>
+                                        </div>
+                                      ))}
+                                    </div>
+                                    {gift.warning && (
+                                      <p style={{ fontSize: '0.75rem', fontWeight: 700, color: '#facc15', marginTop: '8px', background: 'rgba(234, 179, 8, 0.15)', padding: '8px', borderRadius: '6px', border: '1px solid rgba(234, 179, 8, 0.3)' }}>
+                                        {gift.warning}
+                                      </p>
+                                    )}
                                   </div>
                                 </div>
                               );
@@ -812,13 +1157,28 @@ export default function Guide100View({
 
                       {/* 4. 🎯 MISIONES SECUNDARIAS */}
                       {stage.sidequests.length > 0 && (
-                        <div className="bg-gray-950/70 p-4 rounded-xl border border-green-900/30">
-                          <h3 className="text-sm font-black uppercase tracking-wider text-green-400 flex items-center gap-2 mb-3">
-                            <Target className="w-4 h-4" />
+                        <div style={{
+                          background: '#090a0f',
+                          padding: '16px',
+                          borderRadius: '12px',
+                          border: '1px solid rgba(34, 197, 94, 0.25)'
+                        }}>
+                          <h3 style={{
+                            fontSize: '0.82rem',
+                            fontWeight: 900,
+                            textTransform: 'uppercase',
+                            letterSpacing: '0.05em',
+                            color: '#4ade80',
+                            display: 'flex',
+                            alignItems: 'center',
+                            gap: '8px',
+                            marginBottom: '12px'
+                          }}>
+                            <Target style={{ width: '16px', height: '16px' }} />
                             <span>🎯 MISIONES SECUNDARIAS EN EL MOMENTO CORRECTO</span>
                           </h3>
 
-                          <div className="space-y-3">
+                          <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
                             {stage.sidequests.map((sq) => {
                               const sqKey = `quest_${stage.id}_${sq.id}`;
                               const isSqChecked = !!currentChecked[sqKey];
@@ -827,48 +1187,56 @@ export default function Guide100View({
                               return (
                                 <div
                                   key={sq.id}
-                                  className="p-4 bg-gray-900/90 rounded-xl border border-gray-800 hover:border-green-800/60 transition-all flex flex-col md:flex-row md:items-center justify-between gap-4"
+                                  style={{
+                                    padding: '14px',
+                                    background: '#13141f',
+                                    borderRadius: '12px',
+                                    border: '1px solid #222436',
+                                    display: 'flex',
+                                    flexWrap: 'wrap',
+                                    alignItems: 'center',
+                                    justify: 'space-between',
+                                    gap: '12px'
+                                  }}
                                 >
-                                  <div className="flex items-start gap-3">
+                                  <div style={{ display: 'flex', alignItems: 'flex-start', gap: '12px', flex: '1', minWidth: '260px' }}>
                                     <button
                                       onClick={() => toggleCheck(sqKey)}
-                                      className="mt-1 text-gray-500 hover:text-green-400 shrink-0"
+                                      style={{ background: 'transparent', border: 'none', cursor: 'pointer', color: isSqChecked ? '#4ade80' : '#6b7280', marginTop: '2px' }}
                                       title="Marcar como completada"
                                     >
-                                      {isSqChecked ? (
-                                        <CheckCircle2 className="w-6 h-6 text-green-400" />
-                                      ) : (
-                                        <Circle className="w-6 h-6" />
-                                      )}
+                                      {isSqChecked ? <CheckCircle2 style={{ width: '22px', height: '22px' }} /> : <Circle style={{ width: '22px', height: '22px' }} />}
                                     </button>
 
                                     <div>
-                                      <div className="flex flex-wrap items-center gap-2">
-                                        <h4 className="text-base font-black text-white">
+                                      <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '8px' }}>
+                                        <h4 style={{ fontSize: '0.95rem', fontWeight: 900, color: '#fff', margin: 0 }}>
                                           {sq.name}
                                         </h4>
-                                        <span className={`text-xs px-2 py-0.5 rounded-full font-bold ${
-                                          sq.status === 'must_complete'
-                                            ? 'bg-amber-950 text-amber-400 border border-amber-800'
-                                            : sq.status === 'unlocks_later'
-                                            ? 'bg-gray-800 text-gray-400'
-                                            : 'bg-green-950 text-green-400 border border-green-800'
-                                        }`}>
+                                        <span style={{
+                                          fontSize: '0.7rem',
+                                          padding: '2px 8px',
+                                          borderRadius: '12px',
+                                          fontWeight: 700,
+                                          background: sq.status === 'must_complete' ? 'rgba(234, 179, 8, 0.15)' : 'rgba(34, 197, 94, 0.15)',
+                                          color: sq.status === 'must_complete' ? '#facc15' : '#4ade80',
+                                          border: sq.status === 'must_complete' ? '1px solid rgba(234, 179, 8, 0.3)' : '1px solid rgba(34, 197, 94, 0.3)'
+                                        }}>
                                           {sq.statusLabel}
                                         </span>
                                       </div>
 
-                                      <p className="text-xs text-gray-400 mt-1">
+                                      <p style={{ fontSize: '0.75rem', color: '#9499ad', margin: '4px 0 0 0' }}>
                                         📍 <strong>Inicio:</strong> {sq.location} | 👤 <strong>NPC:</strong> {sq.npc}
                                       </p>
-                                      <p className="text-xs text-amber-300/90 mt-0.5">
+                                      <p style={{ fontSize: '0.75rem', color: '#fde047', margin: '2px 0 0 0' }}>
                                         🎁 <strong>Recompensa:</strong> {sq.rewards}
                                       </p>
 
-                                      <div className="text-xs text-gray-300 mt-2 space-y-1">
+                                      <div style={{ fontSize: '0.75rem', color: '#e2e8f0', marginTop: '6px' }}>
                                         {sq.steps.map((st, i) => (
-                                          <div key={i} className="flex items-center gap-1.5">
-                                            <span className="w-1.5 h-1.5 rounded-full bg-green-500" />
+                                          <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '6px', marginTop: '2px' }}>
+                                            <span style={{ width: '5px', height: '5px', borderRadius: '50%', background: '#22c55e' }} />
                                             <span>{st}</span>
                                           </div>
                                         ))}
@@ -879,10 +1247,22 @@ export default function Guide100View({
                                   {questObj && (
                                     <button
                                       onClick={() => onSelectQuest && onSelectQuest(questObj)}
-                                      className="flex items-center justify-center gap-1.5 px-3 py-2 rounded-lg bg-green-950/60 hover:bg-green-900/60 text-green-400 border border-green-800/40 text-xs font-bold transition-colors shrink-0 self-start md:self-center"
+                                      style={{
+                                        display: 'flex',
+                                        alignItems: 'center',
+                                        gap: '6px',
+                                        padding: '8px 14px',
+                                        borderRadius: '8px',
+                                        background: 'rgba(34, 197, 94, 0.15)',
+                                        color: '#4ade80',
+                                        border: '1px solid rgba(34, 197, 94, 0.3)',
+                                        fontSize: '0.78rem',
+                                        fontWeight: 700,
+                                        cursor: 'pointer'
+                                      }}
                                     >
                                       <span>Ver Misión Completa</span>
-                                      <ExternalLink className="w-3.5 h-3.5" />
+                                      <ExternalLink style={{ width: '14px', height: '14px' }} />
                                     </button>
                                   )}
                                 </div>
@@ -894,13 +1274,28 @@ export default function Guide100View({
 
                       {/* 5. ⚔️ BATALLAS Y JEFES INTEGRADAS */}
                       {stage.bosses.length > 0 && (
-                        <div className="bg-gray-950/70 p-4 rounded-xl border border-red-900/30">
-                          <h3 className="text-sm font-black uppercase tracking-wider text-red-400 flex items-center gap-2 mb-3">
-                            <Swords className="w-4 h-4" />
+                        <div style={{
+                          background: '#090a0f',
+                          padding: '16px',
+                          borderRadius: '12px',
+                          border: '1px solid rgba(229, 57, 53, 0.3)'
+                        }}>
+                          <h3 style={{
+                            fontSize: '0.82rem',
+                            fontWeight: 900,
+                            textTransform: 'uppercase',
+                            letterSpacing: '0.05em',
+                            color: '#f87171',
+                            display: 'flex',
+                            alignItems: 'center',
+                            gap: '8px',
+                            marginBottom: '12px'
+                          }}>
+                            <Swords style={{ width: '16px', height: '16px' }} />
                             <span>⚔️ BATALLAS Y COMBATES DE JEFE EN ESTA ETAPA</span>
                           </h3>
 
-                          <div className="space-y-4">
+                          <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
                             {stage.bosses.map((bRef) => {
                               const bKey = `boss_${stage.id}_${bRef.bossId}`;
                               const isBossChecked = !!currentChecked[bKey];
@@ -910,42 +1305,55 @@ export default function Guide100View({
                               return (
                                 <div
                                   key={bRef.bossId}
-                                  className="p-4 bg-gray-900/90 rounded-xl border border-gray-800 hover:border-red-800/50 transition-all space-y-3"
+                                  style={{
+                                    padding: '14px',
+                                    background: '#13141f',
+                                    borderRadius: '12px',
+                                    border: '1px solid #222436',
+                                    display: 'flex',
+                                    flexDirection: 'column',
+                                    gap: '10px'
+                                  }}
                                 >
-                                  <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-                                    <div className="flex items-center gap-3">
+                                  <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between', gap: '12px' }}>
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
                                       <button
                                         onClick={() => toggleCheck(bKey)}
-                                        className="text-gray-500 hover:text-red-400 shrink-0"
+                                        style={{ background: 'transparent', border: 'none', cursor: 'pointer', color: isBossChecked ? '#ef4444' : '#6b7280' }}
                                         title="Marcar combate como ganado"
                                       >
-                                        {isBossChecked ? (
-                                          <CheckCircle2 className="w-6 h-6 text-red-500" />
-                                        ) : (
-                                          <Circle className="w-6 h-6" />
-                                        )}
+                                        {isBossChecked ? <CheckCircle2 style={{ width: '22px', height: '22px' }} /> : <Circle style={{ width: '22px', height: '22px' }} />}
                                       </button>
 
                                       <div>
-                                        <div className="flex items-center gap-2">
-                                          <span className="text-xs font-black uppercase text-red-500">
+                                        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                          <span style={{ fontSize: '0.85rem', fontWeight: 900, textTransform: 'uppercase', color: '#f87171' }}>
                                             VS. {bRef.trainerName}
                                           </span>
-                                          <span className="text-xs px-2 py-0.5 rounded bg-gray-800 text-gray-300 font-bold border border-gray-700">
+                                          <span style={{ fontSize: '0.72rem', padding: '2px 6px', borderRadius: '4px', background: '#202234', color: '#c5c9db', fontWeight: 700, border: '1px solid #2e314a' }}>
                                             {bRef.levelRange}
                                           </span>
                                         </div>
-                                        <p className="text-xs text-gray-400 mt-0.5">
+                                        <p style={{ fontSize: '0.75rem', color: '#9499ad', margin: '2px 0 0 0' }}>
                                           {bRef.title} • {bRef.location}
                                         </p>
                                       </div>
                                     </div>
 
-                                    <div className="flex items-center gap-2 self-start sm:self-center">
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                                       {bossObj && (
                                         <button
                                           onClick={() => toggleBossTeam(bRef.bossId)}
-                                          className="px-2.5 py-1.5 rounded-lg bg-gray-800 hover:bg-gray-700 text-gray-300 text-xs font-bold transition-colors"
+                                          style={{
+                                            padding: '6px 12px',
+                                            borderRadius: '8px',
+                                            background: '#1f2130',
+                                            color: '#c5c9db',
+                                            border: '1px solid #2e314a',
+                                            fontSize: '0.78rem',
+                                            fontWeight: 700,
+                                            cursor: 'pointer'
+                                          }}
                                         >
                                           {isTeamOpen ? 'Ocultar Equipo' : `Ver Equipo (${bossObj.team.length})`}
                                         </button>
@@ -954,46 +1362,77 @@ export default function Guide100View({
                                       {bossObj && (
                                         <button
                                           onClick={() => onSelectBoss && onSelectBoss(bossObj)}
-                                          className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-red-950/60 hover:bg-red-900/60 text-red-400 border border-red-800/40 text-xs font-bold transition-colors"
+                                          style={{
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            gap: '6px',
+                                            padding: '6px 12px',
+                                            borderRadius: '8px',
+                                            background: 'rgba(229, 57, 53, 0.15)',
+                                            color: '#f87171',
+                                            border: '1px solid rgba(229, 57, 53, 0.3)',
+                                            fontSize: '0.78rem',
+                                            fontWeight: 700,
+                                            cursor: 'pointer'
+                                          }}
                                         >
                                           <span>Ficha del Jefe</span>
-                                          <ExternalLink className="w-3.5 h-3.5" />
+                                          <ExternalLink style={{ width: '14px', height: '14px' }} />
                                         </button>
                                       )}
                                     </div>
                                   </div>
 
                                   {/* DIFFICULTY NOTE */}
-                                  <div className="text-xs bg-red-950/30 p-2.5 rounded-lg border border-red-900/40 text-gray-300">
-                                    <strong className="text-red-400">🔴 Dificultad: </strong>
+                                  <div style={{
+                                    fontSize: '0.75rem',
+                                    background: 'rgba(229, 57, 53, 0.1)',
+                                    padding: '10px',
+                                    borderRadius: '8px',
+                                    border: '1px solid rgba(229, 57, 53, 0.25)',
+                                    color: '#e2e8f0'
+                                  }}>
+                                    <strong style={{ color: '#f87171' }}>🔴 Dificultad: </strong>
                                     {bRef.difficultyNote}
                                   </div>
 
                                   {/* EXPANDED FULL TEAM VIEW */}
                                   {isTeamOpen && bossObj && (
-                                    <div className="pt-2 border-t border-gray-800">
-                                      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
+                                    <div style={{ paddingTop: '10px', borderTop: '1px solid #222436' }}>
+                                      <div style={{
+                                        display: 'grid',
+                                        gridTemplateColumns: 'repeat(auto-fill, minmax(180px, 1fr))',
+                                        gap: '8px'
+                                      }}>
                                         {bossObj.team.map((poke, pIdx) => (
                                           <div
                                             key={pIdx}
-                                            className="p-2.5 bg-black/50 rounded-lg border border-gray-800 flex items-center gap-3"
+                                            style={{
+                                              padding: '8px',
+                                              background: '#090a0f',
+                                              borderRadius: '8px',
+                                              border: '1px solid #222436',
+                                              display: 'flex',
+                                              alignItems: 'center',
+                                              gap: '8px'
+                                            }}
                                           >
                                             <img
                                               src={getPokemonSprite(poke.name)}
                                               alt={poke.name}
-                                              className="w-10 h-10 object-contain shrink-0"
+                                              style={{ width: '40px', height: '40px', objectFit: 'contain' }}
                                               onError={(e) => { e.target.style.display = 'none'; }}
                                             />
-                                            <div className="text-xs min-w-0">
-                                              <div className="font-bold text-white flex items-center gap-1">
+                                            <div style={{ fontSize: '0.75rem', minWidth: 0 }}>
+                                              <div style={{ fontWeight: 800, color: '#fff', display: 'flex', alignItems: 'center', gap: '4px' }}>
                                                 <span>{poke.name}</span>
-                                                <span className="text-[10px] text-red-400 font-mono">Nv.{poke.level}</span>
+                                                <span style={{ fontSize: '0.65rem', color: '#f87171', fontFamily: 'monospace' }}>Nv.{poke.level}</span>
                                               </div>
-                                              <div className="text-[11px] text-gray-400 truncate">
+                                              <div style={{ fontSize: '0.7rem', color: '#9499ad', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
                                                 🎒 {poke.item || 'Sin objeto'}
                                               </div>
                                               {poke.moves && poke.moves.length > 0 && (
-                                                <div className="text-[10px] text-gray-500 truncate">
+                                                <div style={{ fontSize: '0.68rem', color: '#6b7280', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
                                                   ⚔️ {poke.moves.slice(0, 3).join(', ')}
                                                 </div>
                                               )}
@@ -1012,13 +1451,32 @@ export default function Guide100View({
 
                       {/* 6. 🎒 OBJETOS IMPORTANTES */}
                       {stage.items.length > 0 && (
-                        <div className="bg-gray-950/70 p-4 rounded-xl border border-purple-900/30">
-                          <h3 className="text-sm font-black uppercase tracking-wider text-purple-400 flex items-center gap-2 mb-3">
-                            <Package className="w-4 h-4" />
+                        <div style={{
+                          background: '#090a0f',
+                          padding: '16px',
+                          borderRadius: '12px',
+                          border: '1px solid rgba(192, 132, 252, 0.25)'
+                        }}>
+                          <h3 style={{
+                            fontSize: '0.82rem',
+                            fontWeight: 900,
+                            textTransform: 'uppercase',
+                            letterSpacing: '0.05em',
+                            color: '#c084fc',
+                            display: 'flex',
+                            alignItems: 'center',
+                            gap: '8px',
+                            marginBottom: '12px'
+                          }}>
+                            <Package style={{ width: '16px', height: '16px' }} />
                             <span>🎒 OBJETOS CLAVE Y COMPETITIVOS DE ESTA ZONA</span>
                           </h3>
 
-                          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5">
+                          <div style={{
+                            display: 'grid',
+                            gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
+                            gap: '8px'
+                          }}>
                             {stage.items.map((it) => {
                               const itKey = `item_${stage.id}_${it.id}`;
                               const isItChecked = !!currentChecked[itKey];
@@ -1026,34 +1484,35 @@ export default function Guide100View({
                               return (
                                 <div
                                   key={it.id}
-                                  className={`p-2.5 rounded-lg border flex items-center gap-2.5 ${
-                                    isItChecked
-                                      ? 'bg-purple-950/20 border-purple-800/30 opacity-70'
-                                      : 'bg-gray-900 border-gray-800'
-                                  }`}
+                                  style={{
+                                    padding: '8px 12px',
+                                    borderRadius: '8px',
+                                    border: isItChecked ? '1px solid rgba(192, 132, 252, 0.3)' : '1px solid #222436',
+                                    background: isItChecked ? 'rgba(192, 132, 252, 0.08)' : '#13141f',
+                                    opacity: isItChecked ? 0.75 : 1,
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    gap: '8px'
+                                  }}
                                 >
                                   <button
                                     onClick={() => toggleCheck(itKey)}
-                                    className="text-gray-500 hover:text-purple-400 shrink-0"
+                                    style={{ background: 'transparent', border: 'none', cursor: 'pointer', color: isItChecked ? '#c084fc' : '#6b7280' }}
                                     title="Marcar objeto recogido"
                                   >
-                                    {isItChecked ? (
-                                      <CheckCircle2 className="w-4 h-4 text-purple-400" />
-                                    ) : (
-                                      <Circle className="w-4 h-4" />
-                                    )}
+                                    {isItChecked ? <CheckCircle2 style={{ width: '16px', height: '16px' }} /> : <Circle style={{ width: '16px', height: '16px' }} />}
                                   </button>
 
-                                  <div className="min-w-0 flex-1 text-xs">
-                                    <div className="font-bold text-white truncate flex items-center gap-1">
-                                      <span>{it.name}</span>
+                                  <div style={{ minWidth: 0, flex: 1, fontSize: '0.75rem' }}>
+                                    <div style={{ fontWeight: 800, color: '#fff', display: 'flex', alignItems: 'center', gap: '4px' }}>
+                                      <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{it.name}</span>
                                       {it.isMissable && (
-                                        <span className="text-[9px] px-1 rounded bg-red-950 text-red-400 font-bold border border-red-800">
+                                        <span style={{ fontSize: '0.6rem', padding: '1px 4px', borderRadius: '4px', background: 'rgba(229, 57, 53, 0.2)', color: '#f87171', fontWeight: 800, border: '1px solid rgba(229, 57, 53, 0.4)' }}>
                                           PERDIBLE
                                         </span>
                                       )}
                                     </div>
-                                    <div className="text-[11px] text-gray-400 truncate">
+                                    <div style={{ fontSize: '0.7rem', color: '#9499ad', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
                                       📍 {it.location}
                                     </div>
                                   </div>
@@ -1066,24 +1525,30 @@ export default function Guide100View({
 
                       {/* 7. ⚠️ CONTENIDO PERDIBLE / ¡NO CONTINÚES TODAVÍA! */}
                       {stage.missables.length > 0 && (
-                        <div className="bg-gradient-to-r from-red-950/80 to-amber-950/80 p-4 rounded-xl border border-red-600/70 shadow-lg">
-                          <div className="flex items-center gap-2 mb-2">
-                            <AlertTriangle className="w-5 h-5 text-amber-400 animate-pulse" />
-                            <h3 className="text-sm font-black uppercase text-amber-300 tracking-wider">
+                        <div style={{
+                          background: 'linear-gradient(135deg, rgba(139, 0, 0, 0.4) 0%, rgba(234, 179, 8, 0.2) 100%)',
+                          padding: '16px',
+                          borderRadius: '12px',
+                          border: '1px solid rgba(239, 68, 68, 0.6)',
+                          boxShadow: '0 4px 14px rgba(229, 57, 53, 0.2)'
+                        }}>
+                          <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
+                            <AlertTriangle style={{ width: '20px', height: '20px', color: '#facc15' }} />
+                            <h3 style={{ fontSize: '0.85rem', fontWeight: 900, textTransform: 'uppercase', color: '#fde047', letterSpacing: '0.05em', margin: 0 }}>
                               ⚠️ ¡NO CONTINÚES TODAVÍA! — CONTENIDO PERDIBLE CRÍTICO
                             </h3>
                           </div>
 
                           {stage.missables.map((miss, mIdx) => (
-                            <div key={mIdx} className="space-y-2 mt-2">
-                              <h4 className="text-xs font-black text-white">{miss.title}</h4>
-                              <p className="text-xs text-gray-200 leading-relaxed bg-black/40 p-2.5 rounded-lg border border-red-800/40">
+                            <div key={mIdx} style={{ display: 'flex', flexDirection: 'column', gap: '6px', marginTop: '8px' }}>
+                              <h4 style={{ fontSize: '0.8rem', fontWeight: 900, color: '#fff', margin: 0 }}>{miss.title}</h4>
+                              <p style={{ fontSize: '0.78rem', color: '#e2e8f0', lineHeight: 1.5, background: 'rgba(0, 0, 0, 0.4)', padding: '10px', borderRadius: '8px', border: '1px solid rgba(229, 57, 53, 0.3)', margin: 0 }}>
                                 {miss.warning}
                               </p>
-                              <div className="space-y-1 pt-1">
+                              <div style={{ display: 'flex', flexDirection: 'column', gap: '4px', paddingTop: '4px' }}>
                                 {miss.checklist.map((chk, cIdx) => (
-                                  <div key={cIdx} className="flex items-center gap-2 text-xs font-bold text-amber-200">
-                                    <Check className="w-3.5 h-3.5 text-amber-400 shrink-0" />
+                                  <div key={cIdx} style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.75rem', fontWeight: 700, color: '#fef08a' }}>
+                                    <Check style={{ width: '14px', height: '14px', color: '#facc15', flexShrink: 0 }} />
                                     <span>{chk}</span>
                                   </div>
                                 ))}
@@ -1095,10 +1560,20 @@ export default function Guide100View({
 
                       {/* 8. 🔄 EVOLUCIONES ESPECIALES */}
                       {stage.specialEvolutionNote && (
-                        <div className="bg-gray-950/50 p-3 rounded-lg border border-gray-800 flex items-start gap-2.5 text-xs text-gray-300">
-                          <Sparkles className="w-4 h-4 text-cyan-400 shrink-0 mt-0.5" />
-                          <p>
-                            <strong className="text-cyan-300">🔄 Evolución Contextual: </strong>
+                        <div style={{
+                          background: '#090a0f',
+                          padding: '12px 14px',
+                          borderRadius: '8px',
+                          border: '1px solid rgba(34, 211, 238, 0.3)',
+                          display: 'flex',
+                          alignItems: 'flex-start',
+                          gap: '10px',
+                          fontSize: '0.78rem',
+                          color: '#e2e8f0'
+                        }}>
+                          <Sparkles style={{ width: '16px', height: '16px', color: '#22d3ee', flexShrink: 0, marginTop: '2px' }} />
+                          <p style={{ margin: 0, lineHeight: 1.5 }}>
+                            <strong style={{ color: '#67e8f9' }}>🔄 Evolución Contextual: </strong>
                             {stage.specialEvolutionNote}
                           </p>
                         </div>
@@ -1106,12 +1581,31 @@ export default function Guide100View({
 
                       {/* 9. ⚠️ ANTES DE SALIR DE ESTA ZONA */}
                       {stage.beforeLeavingChecklist.length > 0 && (
-                        <div className="bg-gray-950 p-4 rounded-xl border border-gray-800">
-                          <h4 className="text-xs font-black uppercase text-gray-300 tracking-wider flex items-center gap-1.5 mb-2.5">
-                            <CheckCircle2 className="w-4 h-4 text-red-500" />
+                        <div style={{
+                          background: '#090a0f',
+                          padding: '16px',
+                          borderRadius: '12px',
+                          border: '1px solid #222436'
+                        }}>
+                          <h4 style={{
+                            fontSize: '0.78rem',
+                            fontWeight: 900,
+                            textTransform: 'uppercase',
+                            color: '#e2e8f0',
+                            letterSpacing: '0.05em',
+                            display: 'flex',
+                            alignItems: 'center',
+                            gap: '6px',
+                            marginBottom: '10px'
+                          }}>
+                            <CheckCircle2 style={{ width: '16px', height: '16px', color: 'var(--color-rocket)' }} />
                             <span>⚠️ ANTES DE SALIR DE ESTA ZONA (CHECKLIST DEL 100%)</span>
                           </h4>
-                          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                          <div style={{
+                            display: 'grid',
+                            gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))',
+                            gap: '8px'
+                          }}>
                             {stage.beforeLeavingChecklist.map((task, tIdx) => {
                               const tKey = `leaving_${stage.id}_${tIdx}`;
                               const isTaskDone = !!currentChecked[tKey];
@@ -1120,18 +1614,36 @@ export default function Guide100View({
                                 <button
                                   key={tIdx}
                                   onClick={() => toggleCheck(tKey)}
-                                  className={`text-left p-2 rounded-lg border flex items-center gap-2 transition-all ${
-                                    isTaskDone
-                                      ? 'bg-gray-900/60 border-green-900/40 text-gray-400 line-through'
-                                      : 'bg-gray-900 border-gray-800 text-gray-200 hover:border-gray-700'
-                                  }`}
+                                  style={{
+                                    textAlign: 'left',
+                                    padding: '8px 12px',
+                                    borderRadius: '8px',
+                                    border: isTaskDone ? '1px solid rgba(34, 197, 94, 0.3)' : '1px solid #222436',
+                                    background: isTaskDone ? 'rgba(34, 197, 94, 0.08)' : '#13141f',
+                                    color: isTaskDone ? '#9499ad' : '#e2e8f0',
+                                    textDecoration: isTaskDone ? 'line-through' : 'none',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    gap: '8px',
+                                    cursor: 'pointer',
+                                    transition: 'all 0.15s ease'
+                                  }}
                                 >
-                                  <div className={`w-4 h-4 rounded border flex items-center justify-center shrink-0 ${
-                                    isTaskDone ? 'bg-green-600 border-green-500 text-white' : 'border-gray-600'
-                                  }`}>
-                                    {isTaskDone && <Check className="w-3 h-3" />}
+                                  <div style={{
+                                    width: '16px',
+                                    height: '16px',
+                                    borderRadius: '4px',
+                                    border: isTaskDone ? '1px solid #22c55e' : '1px solid #4b5563',
+                                    background: isTaskDone ? '#22c55e' : 'transparent',
+                                    color: '#fff',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                    flexShrink: 0
+                                  }}>
+                                    {isTaskDone && <Check style={{ width: '12px', height: '12px' }} />}
                                   </div>
-                                  <span className="text-xs font-semibold">{task}</span>
+                                  <span style={{ fontSize: '0.78rem', fontWeight: 600 }}>{task}</span>
                                 </button>
                               );
                             })}
@@ -1140,16 +1652,36 @@ export default function Guide100View({
                       )}
 
                       {/* 10. ➡️ SIGUIENTE PASO */}
-                      <div className="p-3 bg-gradient-to-r from-red-950/40 via-gray-900 to-gray-950 rounded-xl border border-red-900/30 flex items-center justify-between gap-3 text-xs">
-                        <div className="flex items-center gap-2 text-gray-300">
-                          <ArrowRight className="w-4 h-4 text-red-500 shrink-0" />
+                      <div style={{
+                        padding: '12px 16px',
+                        background: 'linear-gradient(90deg, rgba(139, 0, 0, 0.2) 0%, #13141f 100%)',
+                        borderRadius: '10px',
+                        border: '1px solid rgba(229, 57, 53, 0.25)',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justify: 'space-between',
+                        gap: '12px',
+                        fontSize: '0.8rem'
+                      }}>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', color: '#e2e8f0' }}>
+                          <ArrowRight style={{ width: '16px', height: '16px', color: 'var(--color-rocket)', flexShrink: 0 }} />
                           <span><strong>➡️ Siguiente paso:</strong> {stage.nextStep}</span>
                         </div>
 
                         {!isStageCompleted && (
                           <button
                             onClick={() => toggleCheck(stageMasterKey)}
-                            className="px-3 py-1.5 rounded-lg bg-green-950/80 hover:bg-green-900 text-green-400 border border-green-800 text-xs font-bold transition-colors shrink-0"
+                            style={{
+                              padding: '6px 14px',
+                              borderRadius: '8px',
+                              background: 'rgba(34, 197, 94, 0.2)',
+                              color: '#4ade80',
+                              border: '1px solid #22c55e',
+                              fontSize: '0.78rem',
+                              fontWeight: 700,
+                              cursor: 'pointer',
+                              flexShrink: 0
+                            }}
                           >
                             ✓ Marcar Etapa Completa
                           </button>
@@ -1168,18 +1700,27 @@ export default function Guide100View({
       {/* VISTA 2: ⚠️ ELEMENTOS PERDIBLES (MISSABLES) */}
       {/* ========================================================================= */}
       {activeTabSub === 'missables' && (
-        <div className="space-y-6">
-          <div className="bg-amber-950/30 p-5 rounded-2xl border border-amber-900/50">
-            <h2 className="text-xl font-black text-amber-400 flex items-center gap-2">
-              <AlertTriangle className="w-6 h-6 text-amber-500" />
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
+          <div style={{
+            background: 'rgba(234, 179, 8, 0.08)',
+            padding: '20px',
+            borderRadius: '16px',
+            border: '1px solid rgba(234, 179, 8, 0.35)'
+          }}>
+            <h2 style={{ fontSize: '1.4rem', fontWeight: 900, color: '#facc15', display: 'flex', alignItems: 'center', gap: '8px', margin: 0 }}>
+              <AlertTriangle style={{ width: '24px', height: '24px', color: '#eab308' }} />
               <span>GUÍA COMPLETA DE ELEMENTOS PERDIBLES (MISSABLES)</span>
             </h2>
-            <p className="text-gray-300 text-sm mt-1">
+            <p style={{ color: '#c5c9db', fontSize: '0.88rem', marginTop: '6px', margin: '6px 0 0 0' }}>
               Todos los objetos, Pokémon y eventos de Pokémon Edición Team Rocket cuyo desbloqueo es irreversible si se omiten durante el recorrido, contrastados con la documentación oficial.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
+            gap: '16px'
+          }}>
             {[
               {
                 title: "1. Repartir Experiencia (Exp Share)",
@@ -1218,18 +1759,26 @@ export default function Guide100View({
                 type: "Progresión DLC"
               }
             ].map((m, idx) => (
-              <div key={idx} className="p-4 bg-gray-900 rounded-xl border border-amber-900/40 space-y-2">
-                <div className="flex items-center justify-between">
-                  <h3 className="font-black text-white text-base">{m.title}</h3>
-                  <span className="text-[10px] px-2 py-0.5 rounded bg-amber-950 text-amber-400 font-bold border border-amber-800">
+              <div key={idx} style={{
+                padding: '16px',
+                background: '#13141f',
+                borderRadius: '12px',
+                border: '1px solid rgba(234, 179, 8, 0.3)',
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '8px'
+              }}>
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                  <h3 style={{ fontWeight: 900, color: '#fff', fontSize: '1rem', margin: 0 }}>{m.title}</h3>
+                  <span style={{ fontSize: '0.68rem', padding: '2px 6px', borderRadius: '4px', background: 'rgba(234, 179, 8, 0.15)', color: '#facc15', fontWeight: 800, border: '1px solid rgba(234, 179, 8, 0.3)' }}>
                     {m.type}
                   </span>
                 </div>
-                <div className="text-xs text-gray-400 flex items-center gap-1">
-                  <MapPin className="w-3.5 h-3.5 text-amber-500" />
+                <div style={{ fontSize: '0.78rem', color: '#9499ad', display: 'flex', alignItems: 'center', gap: '4px' }}>
+                  <MapPin style={{ width: '14px', height: '14px', color: '#eab308' }} />
                   <span>{m.location}</span>
                 </div>
-                <p className="text-xs text-gray-300 leading-relaxed bg-black/40 p-2.5 rounded border border-gray-800">
+                <p style={{ fontSize: '0.8rem', color: '#e2e8f0', lineHeight: 1.5, background: '#090a0f', padding: '10px', borderRadius: '8px', border: '1px solid #222436', margin: 0 }}>
                   {m.warning}
                 </p>
               </div>
@@ -1242,34 +1791,39 @@ export default function Guide100View({
       {/* VISTA 3: ⚔️ DIFERENCIAS DE DIFICULTAD DOCUMENTADAS */}
       {/* ========================================================================= */}
       {activeTabSub === 'differences' && (
-        <div className="space-y-6">
-          <div className="bg-blue-950/30 p-5 rounded-2xl border border-blue-900/50">
-            <h2 className="text-xl font-black text-blue-400 flex items-center gap-2">
-              <Shield className="w-6 h-6 text-blue-500" />
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
+          <div style={{
+            background: 'rgba(59, 130, 246, 0.08)',
+            padding: '20px',
+            borderRadius: '16px',
+            border: '1px solid rgba(59, 130, 246, 0.35)'
+          }}>
+            <h2 style={{ fontSize: '1.4rem', fontWeight: 900, color: '#60a5fa', display: 'flex', alignItems: 'center', gap: '8px', margin: 0 }}>
+              <Shield style={{ width: '24px', height: '24px', color: '#3b82f6' }} />
               <span>TABLA COMPARATIVA DE DIFICULTAD DOCUMENTADA</span>
             </h2>
-            <p className="text-gray-300 text-sm mt-1">
+            <p style={{ color: '#c5c9db', fontSize: '0.88rem', marginTop: '6px', margin: '6px 0 0 0' }}>
               En estricto cumplimiento de la regla de no inventar datos: esta tabla refleja únicamente las diferencias documentadas en los archivos originales del hackrom.
             </p>
           </div>
 
-          <div className="overflow-x-auto rounded-xl border border-gray-800">
-            <table className="w-full text-left text-xs text-gray-300">
-              <thead className="bg-gray-950 text-gray-400 uppercase font-black tracking-wider border-b border-gray-800">
-                <tr>
-                  <th className="p-3.5">Mecánica / Parámetro</th>
-                  <th className="p-3.5 text-green-400">🟢 Modo Fácil</th>
-                  <th className="p-3.5 text-red-400">🔴 Modo Difícil</th>
-                  <th className="p-3.5">Cita en Archivos Originales</th>
+          <div style={{ overflowX: 'auto', borderRadius: '12px', border: '1px solid #282a3d' }}>
+            <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', fontSize: '0.8rem', color: '#e2e8f0' }}>
+              <thead>
+                <tr style={{ background: '#090a0f', color: '#9499ad', textTransform: 'uppercase', fontSize: '0.72rem', letterSpacing: '0.05em', borderBottom: '1px solid #282a3d' }}>
+                  <th style={{ padding: '14px' }}>Mecánica / Parámetro</th>
+                  <th style={{ padding: '14px', color: '#4ade80' }}>🟢 Modo Fácil</th>
+                  <th style={{ padding: '14px', color: '#f87171' }}>🔴 Modo Difícil</th>
+                  <th style={{ padding: '14px' }}>Cita en Archivos Originales</th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-gray-800/80 bg-gray-900/70">
+              <tbody style={{ background: '#13141f' }}>
                 {diffCompData.map((row, idx) => (
-                  <tr key={idx} className="hover:bg-gray-800/40">
-                    <td className="p-3.5 font-bold text-white">{row.category}</td>
-                    <td className="p-3.5 text-green-300">{row.easy}</td>
-                    <td className="p-3.5 text-red-300 font-semibold">{row.hard}</td>
-                    <td className="p-3.5 text-gray-400 text-[11px] italic">{row.notes}</td>
+                  <tr key={idx} style={{ borderBottom: '1px solid #1f2130' }}>
+                    <td style={{ padding: '14px', fontWeight: 800, color: '#fff' }}>{row.category}</td>
+                    <td style={{ padding: '14px', color: '#86efac' }}>{row.easy}</td>
+                    <td style={{ padding: '14px', color: '#fca5a5', fontWeight: 700 }}>{row.hard}</td>
+                    <td style={{ padding: '14px', color: '#9499ad', fontSize: '0.75rem', fontStyle: 'italic' }}>{row.notes}</td>
                   </tr>
                 ))}
               </tbody>
@@ -1282,49 +1836,99 @@ export default function Guide100View({
       {/* VISTA 4: 🏆 PANTALLA SUPREMA DE 100% COMPLETADO */}
       {/* ========================================================================= */}
       {activeTabSub === 'trophy' && (
-        <div className="bg-gradient-to-b from-yellow-950/40 via-gray-900 to-black p-8 rounded-3xl border border-yellow-600/50 shadow-2xl text-center space-y-6 max-w-3xl mx-auto">
-          <div className="w-20 h-20 bg-gradient-to-br from-yellow-400 to-amber-600 rounded-full flex items-center justify-center mx-auto shadow-lg shadow-yellow-900/60 animate-pulse">
-            <Award className="w-10 h-10 text-black" />
+        <div style={{
+          background: 'linear-gradient(180deg, rgba(234, 179, 8, 0.15) 0%, rgba(19, 20, 31, 0.95) 50%, rgba(9, 10, 15, 1) 100%)',
+          padding: '32px 24px',
+          borderRadius: '24px',
+          border: '1px solid rgba(234, 179, 8, 0.4)',
+          boxShadow: '0 8px 32px rgba(0, 0, 0, 0.6)',
+          textAlign: 'center',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: '20px',
+          maxWidth: '700px',
+          margin: '0 auto'
+        }}>
+          <div style={{
+            width: '80px',
+            height: '80px',
+            borderRadius: '50%',
+            background: 'linear-gradient(135deg, #facc15 0%, #d97706 100%)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            boxShadow: '0 0 24px rgba(234, 179, 8, 0.5)'
+          }}>
+            <Award style={{ width: '40px', height: '40px', color: '#000' }} />
           </div>
 
           <div>
-            <span className="px-3 py-1 rounded-full text-xs font-black uppercase bg-yellow-500/20 text-yellow-300 border border-yellow-500/30">
+            <span style={{
+              padding: '4px 12px',
+              borderRadius: '20px',
+              fontSize: '0.72rem',
+              fontWeight: 900,
+              textTransform: 'uppercase',
+              background: 'rgba(234, 179, 8, 0.2)',
+              color: '#facc15',
+              border: '1px solid rgba(234, 179, 8, 0.4)'
+            }}>
               CERTIFICACIÓN OFICIAL TEAM ROCKET
             </span>
-            <h2 className="text-3xl sm:text-4xl font-black text-white mt-2">
+            <h2 style={{ fontSize: '1.8rem', fontWeight: 900, color: '#fff', marginTop: '8px' }}>
               🏆 ¡HAS COMPLETADO POKÉMON EDICIÓN TEAM ROCKET AL 100%!
             </h2>
-            <p className="text-sm font-bold text-red-400 mt-1">
+            <p style={{ fontSize: '0.88rem', fontWeight: 800, color: 'var(--color-rocket)', marginTop: '4px' }}>
               MODO: {difficulty === 'hard' ? '🔴 DIFÍCIL' : '🟢 FÁCIL'} • PROGRESO: 100%
             </p>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 bg-black/60 p-4 rounded-2xl border border-yellow-900/30 text-xs">
-            <div className="p-2 bg-gray-900/80 rounded-lg">
-              <span className="text-gray-400 block">Jefes Batidos</span>
-              <span className="text-base font-black text-white">{stats.totalBosses} / {stats.totalBosses}</span>
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(4, 1fr)',
+            gap: '10px',
+            width: '100%',
+            background: '#090a0f',
+            padding: '16px',
+            borderRadius: '14px',
+            border: '1px solid rgba(234, 179, 8, 0.25)',
+            fontSize: '0.75rem'
+          }}>
+            <div style={{ background: '#13141f', padding: '8px', borderRadius: '8px' }}>
+              <span style={{ color: '#9499ad', display: 'block' }}>Jefes Batidos</span>
+              <span style={{ fontSize: '1rem', fontWeight: 900, color: '#fff' }}>{stats.totalBosses} / {stats.totalBosses}</span>
             </div>
-            <div className="p-2 bg-gray-900/80 rounded-lg">
-              <span className="text-gray-400 block">Secundarias</span>
-              <span className="text-base font-black text-white">{stats.totalQuests} / {stats.totalQuests}</span>
+            <div style={{ background: '#13141f', padding: '8px', borderRadius: '8px' }}>
+              <span style={{ color: '#9499ad', display: 'block' }}>Secundarias</span>
+              <span style={{ fontSize: '1rem', fontWeight: 900, color: '#fff' }}>{stats.totalQuests} / {stats.totalQuests}</span>
             </div>
-            <div className="p-2 bg-gray-900/80 rounded-lg">
-              <span className="text-gray-400 block">Pokémon Clave</span>
-              <span className="text-base font-black text-white">{stats.totalPokemon} / {stats.totalPokemon}</span>
+            <div style={{ background: '#13141f', padding: '8px', borderRadius: '8px' }}>
+              <span style={{ color: '#9499ad', display: 'block' }}>Pokémon Clave</span>
+              <span style={{ fontSize: '1rem', fontWeight: 900, color: '#fff' }}>{stats.totalPokemon} / {stats.totalPokemon}</span>
             </div>
-            <div className="p-2 bg-gray-900/80 rounded-lg">
-              <span className="text-gray-400 block">Missables</span>
-              <span className="text-base font-black text-yellow-400">100% Asegurados</span>
+            <div style={{ background: '#13141f', padding: '8px', borderRadius: '8px' }}>
+              <span style={{ color: '#9499ad', display: 'block' }}>Missables</span>
+              <span style={{ fontSize: '1rem', fontWeight: 900, color: '#facc15' }}>100% Asegurados</span>
             </div>
           </div>
 
-          <p className="text-gray-300 text-sm max-w-xl mx-auto leading-relaxed">
+          <p style={{ color: '#c5c9db', fontSize: '0.88rem', lineHeight: 1.6, margin: 0 }}>
             Has demostrado ser el mayor estratega en la historia del Team Rocket. Desde tu bautismo novato en Isla Inta hasta el enfrentamiento contra el Investigador Oak y Giovanni en el simulador VR de Nivel Imposible.
           </p>
 
           <button
             onClick={() => setActiveTabSub('walkthrough')}
-            className="px-6 py-2.5 rounded-xl bg-gray-800 hover:bg-gray-700 text-white font-bold text-xs transition-colors"
+            style={{
+              padding: '10px 24px',
+              borderRadius: '10px',
+              background: '#1f2130',
+              color: '#fff',
+              border: '1px solid #2e314a',
+              fontWeight: 700,
+              fontSize: '0.82rem',
+              cursor: 'pointer'
+            }}
           >
             ← Volver al Recorrido
           </button>
