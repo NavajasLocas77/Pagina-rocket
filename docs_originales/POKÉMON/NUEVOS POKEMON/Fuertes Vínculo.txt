@@ -39,7 +39,7 @@ SKARMORY-&
 Skarmory: Ps 65, At 80, Def 140, At.esp 40, Def.esp 70, Velocid 70. Total 465
 Skarmory-&: Ps 75, At 110, Def 160, At.esp 45, Def.esp 100, Velocid 100. Total 590
 
-Tipo: Acero/Volador | Habilidad: Absorber Eléctrico
+Tipo: Acero/Volador | Habilidad: Pararrayos
 
 POLIWRATH-&
 
@@ -109,14 +109,14 @@ CROBAT-& PROTAGONISTA
 Crobat: Ps 85, At 90, Def 80, At.esp 70, Def.esp 80, Velocid 130. Total 535
 Crobat-&: Ps 95, At 120, Def 95, At.esp 85, Def.esp 105, Velocid 160. Total 660
 
-Tipo: Veneno/Volador | Habilidad: Ojocompuesto
+Tipo: Veneno/Volador | Habilidad: Ojocompuesto/Allanamiento/Cromolente
 
 CROBAT-& ANDRA
 
 Crobat: Ps 85, At 90, Def 80, At.esp 70, Def.esp 80, Velocid 130. Total 535
 Crobat-&: Ps 95, At 160, Def 115, At.esp 85, Def.esp 85, Velocid 120. Total 660
 
-Tipo: Veneno/Acero | Habilidad: Levitación
+Tipo: Veneno/Acero | Habilidad: Levitación/Allanamiento/Garra Dura
 
 
 
@@ -157,7 +157,7 @@ Jirachi Oficial: Ps 100, At 100, Def 100, At.esp 100, Def.esp 100, Velocid 100. 
 Jirachi Hackrom: Ps 100, At 50, Def 125, At.esp 110, Def.esp 125, Velocid 90. Total 600
 Jirachi-&: Ps 110, At 50, Def 155, At.esp 155, Def.esp 155, Velocid 100. Total 725
 
-Tipo: Acero/Hada | Habilidad: Levitación
+Tipo: Acero/Hada | Habilidad: Levitación/Dicha/Rompemoldes
 
 DRAGÓN SAGRADO (DUN-&)
 

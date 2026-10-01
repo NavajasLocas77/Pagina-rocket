@@ -311,7 +311,7 @@ CYNDAQUIL - 155 - Premio en el Casino de C.Trigal (Johto).
 
 QUILAVA - 156 - Evolución de Cyndaquil al nv.16.
 
-TYPHLOSION - 157 - Evolución de Quitaba al nv.36.
+TYPHLOSION - 157 - Evolución de Quilava al nv.36.
 
 TOTODILE - 158 - Salvaje usando Surf en el estanque al norte de C.Cerezo (Johto).
 
@@ -401,7 +401,7 @@ MISDREAVUS - 200 - Salvaje en Torre Quemada (Johto).
 
 UNOWN - 201 - Salvaje en Interior Ruinas Alfa (Johto).
 
-WOBBUFFET - 202 - Premio en Casino C.Trigal (Johto).
+WOBBUFFET - 202 - Premio en Casino C.Trigal (Johto). Zona Safari Hoenn.
 
 GIRAFARIG - 203 - Salvaje en Ruta 43 (Johto).
 
@@ -577,7 +577,7 @@ MAKUHITA - 296 - Salvaje en Cueva Granito (10%, Hoenn).
 
 HARIYAMA - 297 - Evolución de Makuhita al nv.24.
 
-AZURILL - 298 -
+AZURILL - 298 - Salvaje en Ruta 104 (Hoenn).
 
 NOSEPASS - 299 - Regalo de Montañero, dentro de la única casa que hay en Ruta 35 (Johto).
 
@@ -642,7 +642,7 @@ VIBRAVA - 329 - Evolución de Trapinch al nv.35.
 
 FLYGON - 330 - Evolución de Vibrava al nv.45.
 
-CACNEA - 331 - Obtenible únicamente mediante crianza de Capturen.
+CACNEA - 331 - Salvaje en Ruta 111 (Hoenn, desierto).
 
 CACTURNE - 332 - Salvaje en Ruta 111 (Hoenn, desierto). Evolución de Cacnea al nv.32.
 
@@ -654,8 +654,10 @@ ZANGOOSE - 335 -
 SEVIPER - 336 -
 LUNATONE - 337 -
 SOLROCK - 338 -
-BARBOACH - 339 -
-WHISCASH - 340 -
+
+BARBOACH - 339 - Usando la Caña Vieja (30%) en el Lago de Villa Éter (DLC).
+
+WHISCASH - 340 - Usando la Caña Buena (20%) en el Lago de Villa Éter (DLC). Evoluciona de Barboach al nv.30.
 
 CORPHISH - 341 - Salvaje usando Caña Vieja en Ruta 117 (Hoenn, 70%).
 
@@ -695,12 +697,17 @@ CHIMECHO - 358 - Salvaje en la cima exterior del Mt.Pírico (Hoenn, 2%).
 
 ABSOL - 359 - Regalo de Anciano en el paso C.Iris - Ruta 38 (Johto).
 
-WYNAUT - 360 -
-SNORUNT - 361 -
-GLALIE - 362 -
-SPHEAL - 363 -
-SEALEO - 364 -
-WALREIN - 365 -
+WYNAUT - 360 - Zona Safari de Hoenn.
+
+SNORUNT - 361 - Sala Helada de Cueva Cardumen (Hoenn).
+
+GLALIE - 362 - Sala Helada de Cueva Cardumen (Hoenn). Evoluciona de Snorunt al nv.42.
+
+SPHEAL - 363 - Salvaje en Cueva Cardumen.
+
+SEALEO - 364 - Salvaje en Cueva Cardumen. Evoluciona de Spheal al nv.32.
+
+WALREIN - 365 - Salvaje en Cueva Cardumen. Evoluciona de Sealeo al nv.44.
 
 CLAMPERL - 366 - Bajo el agua en Hoenn (60%).
 
@@ -730,16 +737,19 @@ REGICE - 378 - Regalo de Andra, al tener acceso a tu Despacho en Johto, tras la 
 
 REGISTEEL - 379 - Regalo de Andra, al tener acceso a tu Despacho en Johto, tras la reunión de C.Trigal (Johto).
 
-LATIAS - 380 -
-LATIOS - 381 -
+LATIAS - 380 - Secundaria Isla del Sur (Ticket en interior Cueva Cardumen).
+
+LATIOS - 381 - Secundaria Isla del Sur (Ticket en interior Cueva Cardumen).
+
 KYOGRE - 382 -
 GROUDON - 383 -
 RAYQUAZA - 384 -
 JIRACHI - 385 -
 
-DEOXYS - 386 - Regalo de Giovanni, al tener acceso a tu Despacho en Johto, tras la reunión de C.Trigal (Johto)..
+DEOXYS - 386 - Regalo de Giovanni, al tener acceso a tu Despacho en Johto, tras la reunión de C.Trigal (Johto).
+FORMAS ATAQUE/DEFENSA/VELOCIDAD - Usando el Meteorito regalo de Oak (Misión 4 DLC - T4).
 
-TURTWIG - 387 - Venta en Base Rocket Johto.
+TURTWIG - 387 - Venta en Base Rocket Johto (75000¥).
 
 GROTLE - 388 - Evolución de Turtwig al nv.18
 
@@ -998,13 +1008,13 @@ WOOBAT - 527 - Salvaje en Cueva Subterranea en Ruta 50 norte (accesible después
 
 SWOOBAT - 528 - Salvaje en Cueva Subterranea en Ruta 50 norte (accesible después 3 misiones DLC).
 
-DRILBUR - 529 - Venta en Base Rocket Hoenn.
+DRILBUR - 529 - Venta en Base Rocket Hoenn (22500¥).
 
 EXCADRILL - 530 - Evolución de Drilbur al nv.31.
 
 AUDINO - 531 - Isla Exta. Salvaje (2%) en Zona oculta tras corrientes al suroeste.
 
-TIMBURR - 532 - Venta en Tienda de Base Johto.
+TIMBURR - 532 - Venta en Tienda de Base Johto (30000¥).
 
 GURDURR - 533 - Evolución de Timburr al nv.25
 
@@ -1026,7 +1036,8 @@ SWADLOON - 541 - Evolución de Sewaddle al nv.20.
 
 LEAVANNY - 542 - Evolución de Swadloon por felicidad.
 
-VENIPEDE - 543 - Salvaje en Bosque Secreto, al norte de Vías de Tren (accesible tras completar primeras 4 misiones DLC).
+VENIPEDE - 543 - Isla Exta. Salvaje (30%) en Zona oculta (Golpe Roca) tras corrientes al suroeste.
+También en Bosque Secreto, al norte de Vías de Tren (accesible tras completar primeras 4 misiones DLC).
 
 WHIRLIPEDE - 544 - Evolución de Venipede al nv.22.
 
@@ -1122,7 +1133,7 @@ FOONGUS - 590 - Isla Exta. Usando Golpe Roca (90%) en Zona oculta tras corriente
 
 AMOONGUSS - 591 - Evolución de Foongus al nv.39.
 
-FRILLISH - 592 - Pescando con Caña Buena en Zona oculta, en misión secundaria que se activa al hablar con Atlas después de entrar por 1ra vez al Hall de la Fama.
+FRILLISH - 592 - Pescando con Caña Buena en S3 del Culto Lavanda.
 
 JELLICENT - 593 - Evolución de Frillish al nv.40.
 
@@ -1223,13 +1234,16 @@ ZEKROM - 644 -
 LANDORUS - 645 -
 KYUREM - 646 - 
 KELDEO - 647 -
-MELOETTA - 648 -
+
+MELOETTA - 648 - Huevo Musa en Secundaria Ciudad Azulona (Tras acabar la T-3).
 
 GENESECT - 649 - Volcán Canela. Interior Laboratorio destruido (DLC: Misión 5).
 
-CHESPIN - 650 -
-QUILLADIN - 651 -
-CHESNAUGHT - 652 -
+CHESPIN - 650 - Huevo Coraza en Secundaria Ciudad Azulona (Final T-1 Kanto).
+
+QUILLADIN - 651 - Evolución de Chespin al nv.16.
+
+CHESNAUGHT - 652 - Evolución de Quilladin al nv.36.
 
 FENNEKIN - 653 - Secundaria Bosque Baya.
 
@@ -1255,8 +1269,12 @@ TALONFLAME - 663 - Evolución de Fletchinder al nv.35.
 SCATTERBUG - 664 -
 SPEWPA - 665 -
 VIVILLON - 666 -
-LITLEO - 667 -
-PYROAR - 668 -
+
+LITLEO - 667 - Edificio Ruta 52 al sureste de C.Olivo, Johto.
+
+Para desactivar la entrada, misión Secundaria: 1ro hablar con NPC del Centro Pkmn del MT.MOON, dejarse estafar. 2do hablar con científico que aparece en Fucsia, mirando a Lapras. 3ro derrotar a los ladrones de la Mansión Pkmn.
+
+PYROAR - 668 - Evolución de Litleo al nv.35.
 
 FLABEBE - 669 - Regalo tras derrotar al Líder de C.Iris (Johto). | Salvaje en Ruta 49 (DLC: Misión 3).
 
@@ -1273,6 +1291,7 @@ GOGOAT - 673 - Salvaje en hierba alta de Ruta 49.
 PANCHAM - 674 -
 PANGORO - 675 -
 FURFROU - 676 -
+
 ESPURR - 677 - Venta en el P3 De la Torre Radio Lavanda (30000¥).
 
 MEOWSTIC - 678 - Evolución de Espurr al nv.25.
@@ -1308,10 +1327,13 @@ HELIOPTILE - 694 - Regalo de electricista en el S1 de misión secundaria en Joht
 
 HELIOLISK - 695 - Evolución de Helioptile usando Piedra Solar.
 
-TYRUNT - 696 -
-TYRANTRUM - 697 -
-AMAURA - 698 -
-AURORUS - 699 -
+TYRUNT - 696 - Regalo de Científico en Base de Isla Inta tras derrotar a Lance.
+
+TYRANTRUM - 697 - Evolucion de Tyrunt al nv.39.
+
+AMAURA - 698 - Huevo Aurora en Secundaria Ciudad Azulona (Final T-1 Kanto)
+
+AURORUS - 699 - Evolución de Amaura al nv.39 por la noche.
 
 SYLVEON - 700 - Evolución de Eevee elevando un nivel con movimiento tipo hada + felicidad.
 
@@ -1337,7 +1359,7 @@ PUMPKABOO - 710 - Salvaje en el Cementerio del Neo Pueblo Lavanda (DLC).
 
 GOURGEIST - 711 - Usando la Piedra Noche sobre Pumpkaboo.
 
-BERGMITE - 712 - Regalo tras derrotar al Líder de P.Caoba (Johto).
+BERGMITE - 712 - Usando Golpe Roca en zona oculta. Activar misión secundaria hablando con Anciana que mira el agua en Isla Cuarta (Sevii).
 
 AVALUGG - 713 - Evolución de Bergmite al nv.37.
 
@@ -1348,12 +1370,17 @@ NOIVERN - 715 - Evolución de Noibat al nv.48.
 XERNEAS - 716 -
 YVELTAL - 717 -
 ZYGARDE - 718 -
-DIANCIE - 719 -
+
+DIANCIE - 719 - Como Poké Ball dentro del Laboratorio de la última misión de Hoenn (T-5)
+
 HOOPA - 720 -
 VOLCANION - 721 -
-ROWLET - 722 -
-DARTRIX - 723 -
-DECIDUEYE - 724 -
+
+ROWLET - 722 - Neo Jardín de Bill (tras II Conferencia Trigal en el DLC).
+
+DARTRIX - 723 - Evolución de Rowlet al nv.17.
+
+DECIDUEYE - 724 - Evolucion de Dartrix al nv.34.
 
 LITTEN - 725 - Regalo de JEFE de misión secundaria. 1ro hablar con ancianos en casa al noreste de Pueblo Caoba. 2do volver a casa de Pueblo Azalea y realizar misión.
 
@@ -1361,9 +1388,11 @@ TORRACAT - 726 - Evolución de Litten al nv.17.
 
 INCINEROAR - 727 - Evolución de Torracat al nv.34.
 
-POPPLIO - 728 -
-BRIONNE - 729 -
-PRIMARINA - 730 -
+POPPLIO - 728 - Venta en Base Rocket Johto (76000¥).
+
+BRIONNE - 729 - Evolución de Popplio al nv.17.
+
+PRIMARINA - 730 - Evolución de Brionne al nv.34.
 
 PIKIPEK - 731 - Regalo al completar secundaria en Casa Playa de C.Portual (Hoenn).
 
@@ -1423,9 +1452,11 @@ STUFFUL - 759 - Regalo tras derrotar al Líder de C.Orquídea (Johto).
 
 BEWEAR - 760 - Evolución de Stufful al nv.27.
 
-BOUNSWEET - 761 -
-STEENEE - 762 -
-TSAREENA - 763 - 
+BOUNSWEET - 761 - Neo Jardín de Bill (tras II Conferencia Trigal en el DLC).
+
+STEENEE - 762 - Evolución de Bounsweet al nv.18.
+
+TSAREENA - 763 - Evolución de Steene aprendiendo Pisotón + Nivel.
 
 COMFEY - 764 - Salvaje en Zona oculta, en misión secundaria que se activa al hablar con Atlas después de entrar por 1ra vez al Hall de la Fama.
 
@@ -1453,6 +1484,7 @@ KOMALA - 775 - Salvaje en Torre Dun de Ruta 50 (una de las tres primeras secunda
 TURTONATOR - 776 - Salvaje en zona nueva del Mt.Ascuas, accesible en evento obligatorio.
 
 TOGEDEMARU - 777 -
+
 MIMIKYU - 778 - Salvaje en el Cementerio del Neo Pueblo Lavanda (DLC).
 
 BRUXISH - 779 -
@@ -1471,18 +1503,26 @@ TAPU_KOKO - 785 -
 TAPU_LELE - 786 -
 TAPU_BULU - 787 -
 TAPU_FINI - 788 -
-COSMOG - 789 -
-COSMOEM - 790 -
-SOLGALEO - 791 -
-LUNALA - 792 -
-NIHILEGO - 793 - 
-BUZZWOLE - 794 -
+
+COSMOG - 789 - Huevo Cósmico en Secundaria Ciudad Azulona (Final T-1 Kanto)
+
+COSMOEM - 790 - Evolución de Cosmog al nv.43
+
+SOLGALEO - 791 - Evolución de Cosmoem al nv.53 por el día.
+
+LUNALA - 792 - Evolución de Lunala al nv.53 por la noche.
+
+NIHILEGO - 793 - Cueva Tesoro, secundaria Isla Prima.
+
+BUZZWOLE - 794 - Neo Jardín Bill, volviendo allí durante el DLC.
+
 PHEROMOSA - 795 -
 
 XURKITREE - 796 - Después evento obligatorio Neo Central Energía (DLC). Regalo del Director.
 
 CELESTEELA - 797 -
-KARTANA - 798 -
+
+KARTANA - 798 - Isla Suprema. Ticket Isla en el interior de Cueva Cardumen (Hoenn).
 
 GUZZLORD - 799 - Combate singular en Cueva del Tesoro: Misión secundaria Isla Prima. La misión se activa hablando con el Caballero sentado en el Centro Pkmn de Isla Prima (Sevii).
 
@@ -1500,9 +1540,11 @@ STAKATAKA - 805 - Dentro del pasadizo que lleva al culto lavanda.
 
 BLACEPHALON - 806 - En la Cueva de Hypno, en la zona noroeste.
 
-ZERAORA - 807 -
-MELTAN - 808 -
-MELMETAL - 809 -
+ZERAORA - 807 - Huevo Fulgor en Secundaria Ciudad Azulona (Tras acabar la T-4).
+
+MELTAN - 808 - Regalo en misión secundaria Faro Bill (T-4, tras misión 5 del DLC)
+
+MELMETAL - 809 - Evolución de Meltan usando una Piedra Sagrada.
 
 GROOKEY - 810 - Venta en el P3 De la Torre Radio Lavanda (80000¥).
 
@@ -1510,9 +1552,12 @@ THWACKEY - 811 - Evolución de Grookey al nv.16.
 
 RILLABOOM - 812 - Evolución de Thwackey al nv.36.
 
-SCORBUNNY - 813 -
-RABOOT - 814 -
-CINDERACE - 815 -
+SCORBUNNY - 813 - Huevo Líbero en Secundaria Ciudad Azulona (Tras acabar la T-2)
+
+RABOOT - 814 - Evolución de Scorbunny al nv.16.
+
+CINDERACE - 815 - Evolución de Raboot al nv.35.
+
 SOBBLE - 816 -
 DRIZZILE - 817 -
 INTELEON - 818 -
@@ -1541,9 +1586,9 @@ CHEWTLE - 833 - Salvaje en Cueva Tesoro (Isla Prima, Sevii). Para activar el lug
 
 DREDNAW - 834 - Evolución de Chewtle al nv.22.
 
-YAMPER - 835 - Poke ball dorada, al final del S2 de misión secundaria en Johto, activada tras hablar con ancianos en casa al noreste de Pueblo Caoba.
+YAMPER - 835 - 
 
-BOLTUND - 836 - Evolución de Yamper al nv.25.
+BOLTUND - 836 - 
 
 ROLYCOLY - 837 - Salvaje usando Golpe Roca en zona nueva del Mt.Ascuas, accesible en evento obligatorio.
 
@@ -1551,9 +1596,12 @@ CARKOL - 838 - Evolución de Rolycoly al nv.18.
 
 COALOSSAL - 839 - Evolución de Carkol al nv.34.
 
-APPLIN - 840 -
-FLAPPLE - 841 -
-APPLETUN - 842 -
+APPLIN - 840 - Huevo Manzanido en Secundaria Ciudad Azulona (Final T-1 Kanto)
+
+FLAPPLE - 841 - Usando la Manzana Ácida sobre Applin (Secundaria activada al hablar con Cazabichos de C.Plateada).
+
+APPLETUN - 842 - Usando la Manzana Dulce sobre Applin (Secundaria Atlas en Archi7, a la venta en Gym oculto).
+
 SILICOBRA - 843 - Venta en el S2 de la Base Rocket de Hoenn (50000¥).
 
 SANDACONDA - 844 - Evolución de Silicobra al nv.36.
@@ -1611,9 +1659,9 @@ FALINKS - 870 -
 
 PINCURCHIN - 871 - Venta en Base Rocket Johto (52000¥).
 
-SNOM - 872 - Preevolución de Frosmoth
+SNOM - 872 - Preevolución de Frosmoth.
 
-FROSMOTH - 873 - Venta en Torre Radio lavanda
+FROSMOTH - 873 - Venta en Torre Radio lavanda (48000¥).
 
 STONJOURNER - 874 - Salvaje en Pueblo Lavanda, pasadizo que conduce a secta secreta.
 
@@ -1625,14 +1673,16 @@ MORPEKO - 877 - Salvaje en Cueva Subterranea en Ruta 50 norte (accesible despué
 
 CUFANT - 878 -
 COPPERAJAH - 879 -
-DRACOZOLT - 880 -
-ARCTOZOLT - 881 -
-DRACOVISH - 882 - 
-ARCTOVISH - 883 -
+
+DRACOZOLT - 880 - Neo Jardín de Bill (tras II Conferencia Trigal en el DLC).
+
+ARCTOZOLT - 881 - Faro Neo Jardín de Bill (tras II Conferencia Trigal en el DLC).
+
+DRACOVISH - 882 - Surfeando en Neo Jardín de Bill (tras II Conferencia Trigal en el DLC).
+
+ARCTOVISH - 883 - Pescando en Neo Jardín de Bill (tras II Conferencia Trigal en el DLC).
 
 DURALUDON - 884 - Secundaria Pilar Recuerdo + Suroeste Isla Exta
-
-ARCHALUDON - 884 - Usando Piedra Sagrada sobre Duraludon.
 
 DREEPY - 885 - Regalo tras derrotar al Líder de C.Endrino.
 
@@ -1658,101 +1708,346 @@ CALYREX - 898 - Misión secundaria Excampeona Tipo Fantasma. 1ro llegar a Bosque
 
 CALYREX JINETE GLACIAL/ESPECTRAL - Riendas unión en casa oculta al oeste del mar de C.Cerezo.
 
+WYRDEER - 899 - Evoluciona de Stantler con Piedra Sagrada.
+
+KLEAVOR - 900 - Evoluciona de Scyther con Piedra Sagrada.
+
+URSALUNA - 901 - Evoluciona de Ursaring con Piedra Sagrada.
+
+BASCULEGION - 902 - Evoluciona de Basculin con Piedra Sagrada.
+
+SNEASLER - 903 - Evoluciona de Sneasel Hisui (que se obtiene usando P.Sagrada sobre Sneasel) con P.Link.
+
+OVERQWIL - 904 - Evoluciona de Qwilfish Hisui (P.Sagrada sobre Qwilfish) al nivel 50.
+
+ENAMORUS - 905 - 
+
+SPRIGATITO - 906 -
+
+FLORAGATO - 907 -
+
+MEOWSCARADA - 908 -
+
+FUECOCO - 909 -
+
+CROCALOR - 910 -
+
+SKELEDIRGE - 911 -
+
+QUAXLY - 912 -
+
+QUAXWELL - 913 -
+
+QUAQUAVAL - 914 -
+
+LECHONK - 915 -
+
+OINKOLOGNE-M - 916 -
+
+OINKOLOGNE-F - 916 -
+
+TAROUNTULA - 917 -
+
+SPIDOPS - 918 -
+
+NYMBLE - 919 -
+
+LOKIX - 920 -
+
+PAWMI - 921 -
+
+PAWMO - 922 -
+
+PAWMOT - 923 -
+
+TANDEMAUS - 924 -
+
+MAUSHOLD - 925 -
+
+FIDOUGH - 926 -
+
+DACHSBUN - 927 -
+
+SMOLIV - 928 - Neo Jardín de Bill (tras II Conferencia Trigal en el DLC).
+
+DOLLIV - 929 - Evolución de Smoliv al nv.25.
+
+ARBOLIVA - 930 - Evolucion de Dolliv al nv.35.
+
+SQUAWKABILLY - 931 -
+
+NACLI - 932 - Interior Cueva Éter (T-4 DLC - Misión 3).
+
+NACLSTACK - 933 - Evolución de Nacli al nv.24.
+
+GARGANACL - 934 - Evolución de Naclstack al nv.38.
+
+CHARCADET - 935 -
+
+ARMAROUGE - 936
+
+CERULEDGE - 937 -
+
+TADBULB - 938 -
+
+BELLIBOLT - 939 -
+
+WATTREL - 940 - Neo Jardín de Bill (tras II Conferencia Trigal en el DLC).
+
+KILOWATTREL - 941 - Evolución de Wattrel al nv.25.
+
+MASCHIFF - 942 - 
+
+MABOSSTIFF - 943 -
+
+SHROODLE - 944 -
+
+GRAFAIAI - 945 -
+
+BRAMBLIN - 946 -
+
+BRAMBLEGHAST - 947 -
+
+TOEDSCOOL - 948 - Interior Cueva Éter (T-4 DLC - Misión 3).
+
+TOEDSCRUEL - 949 - Interior Cueva Éter (T-4 DLC - Misión 3). Evolución de Toedscool al nv.30.
+
+KLAWF - 950 - Golpe Roca en Neo Jardín de Bill (tras II Conferencia Trigal en el DLC).
+
+CAPSAKID - 951 -
+
+SCOVILLAIN - 952 -
+
+RELLOR - 953 -
+
+RABSCA - 954 -
+
+FLITTLE - 955 -
+
+ESPATHRA - 956 -
+
+TINKATINK - 957 -
+
+TINKATUFF - 958 -
+
+TINKATON - 959 -
+
+WIGLETT - 960 - Surf en Neo Jardín de Bill (tras II Conferencia Trigal en el DLC).
+
+WUGTRIO - 961 - Evolución de Wiglett al nv.26.
+
+BOMBIRDIER - 962 -
+
+FINIZEN - 963 -
+
+PALAFIN ZERO - 964 -
+
+PALAFIN HERO - 964 -
+
+VARPPM - 965 -
+
+REVAVROOM - 966 -
+
+CYCLIZAR - 967 -
+
+ORTHWORM - 968 - Interior Cueva Éter (T-4 DLC - Misión 3).
+
+GLIMMET - 969 - Cueva Tesoro. Última sala (9%).
+
+GLIMMORA - 970 - Evoluciona de Glimmet al nv.35.
+
+GREAVARD - 971 - Interior Cueva Éter (T-4 DLC - Misión 3).
+
+HOUNDSTONE - 972 - Evolución de Greavard al nv.30 por la noche.
+
+FLAMIGO - 973 - Surf en Neo Jardín de Bill (tras II Conferencia Trigal en el DLC).
+
+CETODDLE - 974 -
+
+CETITAN - 975 -
+
+VELUZA - 976 - Usando la Caña Buena (20%) en el Lago de Villa Éter (DLC).
+
+DONDOZO - 977 - Usando la Supercaña (5%) en el Lago de Villa Éter (DLC).
+
+TATSUGIRI - 978 - Usando la Supercaña (15%) en el Lago de Villa Éter (DLC).
+
+ANNIHILAPE - 979 - Evoluciona de Primeape con Piedra Sagrada.
+
+CLODSIRE - 980 - Usando la Surf (30%) en el Lago de Villa Éter (DLC).
+
+FARIGIRAF - 981 - Evoluciona de Girafarig con Piedra Sagrada.
+
+DUDUNSPARCE - 982 - Evoluciona de Dunsparce al aprender Hipertaladro (Nv.65).
+
+KINGAMBIT - 983 - Evoluciona de Bisharp con Piedra Sagrada.
+
+COLMILARGO - 984 -
+
+COLAGRITO - 985 -
+
+FURIOSETA - 986 -
+
+MELENALETEO - 987 -
+
+REPTALADA - 988 -
+
+PELARENA - 989 -
+
+FERRODADA - 990 -
+
+FERROSACO - 991 -
+
+FERROPALMAS - 992 -
+
+FERROCUELLO - 993 -
+
+FERROPOLILLA - 994 -
+
+FERROPÚAS - 995 -
+
+FRIGIBAX - 996 - Regalo de Fredo tras derrotarlo (JOHTO - Medalla 7).
+
+ARCTIBAX - 997 - Evoluciona de Frigibax al nv.35.
+
+BAXCALIBUR - 998 - Evoluciona de Arctibax al nv.54.
+
+GIMMIGHOUL - 999 - Interior Cueva Éter (T-4 DLC - Misión 3).
+
+GHOLDENGO - 1000 - Subiendo de nivel a Gimmighoul con 999 monedas en la mochila (se compran en B.Profunda)
+
+WO CHIEN - 1001 -
+
+CHIEN PAO - 1002 -
+
+TING LU - 1003 -
+
+CHI YU - 1004 -
+
+BRAMALUNA - 1005 -
+
+FERROPALADIN - 1006 -
+
+KORAIDON - 1007 -
+
+MIRAIDON - 1008 -
+
+ONDULAGUA - 1009 -
+
+FERROVERDOR - 1010 -
+
+DIPPLIN - 1011 - Usando en Applin la Manzana Melosa (Zona oculta tras corrientes al Oeste de C.Cerezo, Johto).
+
+POLTCHAGEIST - 1012 -
+
+SINISTCHA - 1013 -
+
+OKIDOGI - 1014 -
+
+MUNKIDORI - 1015 -
+
+FEZANDIPITI - 1016 - Huevo Serendipia en Secundaria Ciudad Azulona (Final T-1 Kanto).
+
+OGERPON - 1017 -
+
+ARCHALUDON - 1018 - Usando Piedra Sagrada sobre Duraludon.
+
+HYDRAPPLE - 1019 - Evoluciona de Dipplin tras subir un nivel con Bramido Dragón (nv.64).
+
+FLAMARIETE - 1020 -
+
+ELECTROFURIA - 1021 -
+
+FERROMOLE - 1022 -
+
+FERROTESTA - 1023 -
+
+TERAPAGOS NORMAL - 1024
+
+TERAPAGOS TERASTAL - 1024
+
+TERAPAGOS STELLAR - 1024
+
+PECHARUNT - 1025
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-TRXATU - 900 - Casa secreta al oeste de ruinas sete abiertas tras combatir con Lugia.
+POKÉMON EXCLUSIVOS DEL JUEGO
 
-ELECTRODE_Y - 901 - Evoluciona de Electrodo con Piedra Rocket.
+TRXATU - 1026 - Casa secreta al oeste de ruinas sete abiertas tras combatir con Lugia.
 
-TAUROS_X - 902 - Evoluciona de Tauros con Piedra Rocket.
+GHOST - 1027 - A la venta en el último piso De la Torre Radio Lavanda (T-4 DLC).
 
-PORYGON3 - 903 - Evoluciona de Porygon2 con Piedra Rocket.
+ELECTRODE_Y - 1028 - Evoluciona de Electrodo con Piedra Rocket.
 
-ELECTIVIRE_X - 904 - Evoluciona de Electivire con Piedra Rocket.
+TAUROS_X - 1029 - Evoluciona de Tauros con Piedra Rocket.
 
-MAGMORTAR_Y - 905 - Evoluciona de Magmortar con Piedra Rocket.
+PORYGON3 - 1030 - Evoluciona de Porygon2 con Piedra Rocket.
 
-NIDOQUEEN_Y - 906 - Evoluciona de Nidoqueen con Piedra Rocket.
+ELECTIVIRE_X - 1031 - Evoluciona de Electivire con Piedra Rocket.
 
-NIDOKING_X - 907 - Evoluciona de Nidoking con Piedra Rocket.
+MAGMORTAR_Y - 1032 - Evoluciona de Magmortar con Piedra Rocket.
 
-PORYGONZ_X - 908 -
-PORYGONZ_Y - 909 -
-NIDOGOD - 910 -
-AERODACTYL_SKEL - 911 -
-CRADILY_Y - 912 -
-RAMPARDOS_X - 913 -
-BASTIODON_X - 914 -
-TYRANTRUM_X - 915 -
-ARCHEOPS_X - 916 -
-REGIROCK_X - 917 -
-REGICE_Y - 918 -
-REGISTEEL_Z - 919 -
-DEOXYS_ATTACK_Y - 920 -
-DEOXYS_SPEED_Y - 921 -
-MEWTWO_ARM - 922 -
-GENESECT_X - 923 -
-GENESECT_Y - 924 -
-ULTIMATE_PROYECT - 925 -
-POLIWRATH_BOND - 926 -
-BUTTERFREE_BOND - 927 -
-FERALIGATR_BOND - 928 -
-RAPIDASH_BOND - 929 -
-KINGDRA_BOND - 930 -
-SKARMORY_BOND - 931 -
-EEVEE_BOND - 932 -
-CROBAT_BOND_F - 933 -
-CROBAT_BOND_M - 934 -
-DELPHOX_BOND - 935 -
-RHYPERIOR_BOND - 936 -
-LAPRAS_BOND - 937 -
-EMPOLEON_BOND - 938 -
-INFERNAPE_BOND - 939 -
-MESPRIT_BOND - 940 -
-SERPERIOR_BOND - 941 -
-HAXORUS_BOND - 942 -
-WEAVILE_BOND - 944 -
-AEGISLASH_BOND - 945 -
-VOLCARONA_BOND - 946 -
-GOODRA_BOND - 947 -
-HYDREIGON_BOND - 948 -
-DRAGONITE_BOND - 949 -
-MAROGHOST - 950 -
-KABUTOPS_SKEL - 951 -
-AERODACTYL_SKAL - 952 // DUPLICADO CAMBIAR POR OTRO FIX PARA MAKE -
-GHOST - 953 -
-UNOWN_GOLD - 954 -
-UNOWN_KING - 955 -
-ARTICUNO_PRIMAL - 956 -
-ZAPDOS_PRIMAL - 957 -
-MOLTRES_PRIMAL - 958 -
-RAIKOU_BOND - 959 -
-ENTEI_BOND - 960 -
-SUICUNE_BOND - 961 -
+AERODACTYL-P - 1033 - Evoluciona de Aerodactyl con Piedra Rocket.
 
-KURUSU - 962 - Regalo Pescador, tras completar misión obligatoria en Lago Furia (DLC).
+NIDOQUEEN_Y - 1034 - Evoluciona de Nidoqueen con Piedra Rocket.
 
-AKUA - 963 - Evoluciona de Kurusu al nv.40.
+NIDOKING_X - 1035 - Evoluciona de Nidoking con Piedra Rocket.
 
-AKUERIA - 964 - Evoluciona de Akua al nv.64.
+NIDOGOD - 1036 -
 
-BOOHOO - 965 - Evoluciona de Noctowl con Piedra Sagrada.
+KURUSU - 1037 - Regalo Pescador, tras completar misión obligatoria en Lago Furia (DLC).
 
-IKARY - 966 - Salvaje a partir del S3 del Lago Furia (5%).
+AKUA - 1038 - Evoluciona de Kurusu al nv.40.
 
-PURAKKUSU - 967 - Evoluciona de Pinsir con Piedra Sagrada.
+AKUERIA - 1039 - Evoluciona de Akua al nv.64.
 
-TAABAN - 968 - Salvaje en interior Lago Furia (1%). Evoluciona de Slowbro con Piedra Sagrada.
+BOOHOO - 1040 - Evoluciona de Noctowl con Piedra Sagrada.
 
-BOMUSHIKAA - 969 - Regalo de Atlas tras completar su misión secundaria. Desbloqueable tras ingresar por primera vez al Hall de la Fama.
+IKARY - 1040 - Salvaje a partir del S3 del Lago Furia (5%).
 
-MADAAMU - 970 - Regalo artesanos carbón Azalea, tras completar su misión secundaria. 
+PURAKKUSU - 1042 - Evoluciona de Pinsir con Piedra Sagrada.
+
+TAABAN - 1043 - Salvaje en interior Lago Furia (1%). Evoluciona de Slowbro con Piedra Sagrada.
+
+WARTILLERY - 1044 - Salvaje en interior Lago Furia. Evoluciona de Octilley con Piedra Sagrada.
+
+BOMUSHIKAA - 1045 - Regalo de Atlas tras completar su misión secundaria. Desbloqueable tras ingresar por primera vez al Hall de la Fama.
+
+MADAAMU - 1046 - Regalo artesanos carbón Azalea, tras completar su misión secundaria. 
 Evoluciona de Farfetch'D con Piedra Sagrada.
 
-SUI - 971 -
-RAI - 972 -
-EN - 973 -
-SACRED_DRAGON - 974 -
-ORIGINAL_DRAGON - 975 -
-ARCEUS_PRIMAL - 976 -
-MISSINGNO - 977 -
+SHIBIREFUGU - 1047 - Salvaje en interior Lago Furia. Evoluciona de Qwilfish con Piedra Trueno.
+
+GOROCHU - 1048 - Evoluciona de Raichu con Piedra Sagrada.
+
+YANMTEURA - 1049 - Evoluciona de Yanmega con Piedra Sagrada.
+
+AUREDIAN - 1050 - Evoluciona de Ledian con Piedra Sagrada.
+
+GUARDIA - 1051 - Evoluciona de Marowak al nv.105.
+
+BLESSPARCE - 1052 - Evoluciona de Dunsparce con Piedra Sagrada.
+
+DUN - 1053 - Evoluciona de Blessparce subiendo un nivel en la cima del Pilar Dun (T-4 - Mision Ruta 47).
+
+WRONGSPARCE - 1054 -
+
+ZAPDOS-P - 1055 - Obtenible tras misión 6 del DLC (T-4).
+
+ARMALDO-P - 1056 - Evoluciona de Armaldo con Piedra Devon.
+
+CRADILY-P - 1057 - Evoluciona de Cradily con Piedra Devon.
+
+RELICANTH-P - 1058 - Evoluciona de Relicanth con Piedra Devon.
+
+GYARADOS-Z - 1059 -
+
+BLASTOISE-Z - 1060 -
+
+PORYGON 3.1 - 1061 -
+
+ZAPDOS-Z - 1062 -
+
+
+
+

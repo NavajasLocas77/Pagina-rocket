@@ -279,7 +279,7 @@ Colmillodragón: Base Rocket Profunda, Sala Ejecutivos. (T1: Kanto)
 
 Gafas de Sol: Regalo de Koga al llegar a C.Fucsia. (T1: Kanto)
 
-Rev.Metálico: Pilar Recuerdo de Isla Inta. (T1: Kanto)
+Metal Compuesto: Base Rocket Profunda, Sala Potencial Alcanzable. (T1: Kanto)
 
 
 
@@ -450,11 +450,11 @@ Glalita: Ruta 125, al lado de Cueva Cardumen. (T5: Hoenn - Misión 8)
 
 Salamencita: Venta en B.Rocket Johto, P2. (T3: Johto - Medalla 5)
 
-Metagrossita: No obtenible por ahora.
+Metagrossita: Científico en B.Rocket Hoenn, sala nuevas formas. (T4: DLC - Misión 4)
 
-Latiasita: No obtenible por ahora.
+Latiasita: Regalo en Isla Suprema tras secundaria Cueva Cardumen. (T5: Hoenn - Misión 8)
 
-Latiosita: No obtenible por ahora.
+Latiosita: Regalo en Isla Suprema tras secundaria Cueva Cardumen. (T5: Hoenn - Misión 8)
 
 Lopunnita: Casino Malvalona. (T5: Hoenn - Misión 2)
 
@@ -470,12 +470,110 @@ Audinita: Ciudad Calagua, regalo de Npc casa este. (T5: Hoenn - Misión 7)
 
 Diancita: Laboratorio Secreto, S3. (T5: Hoenn - Misión 10)
 
+MEGAPIEDRAS ZA
+------------------------------------------------------------------------------
 
+Clefablita: Secundaria Neo Faro Bill. (T4: DLC - Misión 5)
+
+Victreebelita: Ejecutivo Base Verde al empezar Johto. (T3: Johto - Inicio)
+
+Starmita: Misty tras secundaria Neo Faro Bill. (T4: DLC - Misión 5)
+
+Dragonitita: Dragonsden S3. (T3: Johto - Medalla 8)
+
+Meganiumita: Ruta 51, oeste C.Cerezo. (T3: Johto - Inicio)
+
+Feraligatrita: Ejecutivo Base Johto P2. (T3: Johto - Medalla 5)
+
+Skarmorita: Ejecutivo Base Johto P1 tras mostrar un Typhlosion. (T3: Johto - Medalla 3)
+(Cyndaquil a la venta en Casino Trigal)
+
+Froslassita: No obtenible.
+
+Emboarita: No obtenible.
+
+Excadrillita: No obtenible.
+
+Scolipedita: Base Profunda Sala Potencial Máximo, Zona Super Mineral detrás cajas. (T3: Johto - Inicio)
+
+Scraftita: Misión ladrones Kanto en Johto, edificio oculto en el mar al sureste de C.Olivo. (T3: Johto - Medalla 4)
+
+Eelektrossita: No obtenible.
+
+Chandelurita: Bosque Norte Vías Tren. (T4: DLC - Misión 6)
+
+Chesnaughtita: Venta Base Profunda, sala moneda Gimmighoul. (T3: Johto - Inicio)
+
+Delphoxita: Culto Lavanda, exorcista de una de las casas tras mostrarle un Corsola. (T3: Johto - Medalla 4)
+(Corsola obtenible usando Surf -30%- en Ruta 41 e interior Islas Remolino)
+
+Greninjanita: Venta en B.Rocket Johto, P2. (T3: Johto - Medalla 5)
+
+Pyroarita: Caballero Bibliotecario S3 Silph, tras mostrarle un Aegislash. (T3: Johto - Medalla 6)
+(Honedge obtenible por npc pensador dentro de Torre Campana)
+
+Floettita: Regalo de chica en Villa Éter, tras pescar y mostrarle un Dondozo. (T5: Hoenn - Misión 8)
+(Dondozo obtenible en el lago de villa éter, usando la supercaña obtenible en Ciudad Algaria)
+
+Malamarita: Zona Oeste de los refugios de Kanto. (T4: DLC - Misión 7)
+
+Barbaraclita: No obtenible.
+
+Dragalgita: Cueva Wrongsparce, norte de Ruta 50. (T4: DLC - Misión 3)
+
+Hawluchanita: No obtenible.
+
+Zygardita: No obtenible.
+
+Drampanita: Villa Éter, caseta del norte. Intercambio por amuleto obtenible en el gimnasio de C.Iris. (T4: DLC - Misión 3)
+
+Falinksita: No obtenible.
+
+Heatranita: No obtenible.
+
+Darkrainita: No obtenible.
+
+Zeraoranita: Venta Base Profunda, sala moneda Gimmighoul. (T5: Hoenn - Inicio)
+
+Raichunita X: Mapa de secundaria activada en la caseta al noreste de Pueblo Caoba. (T3: Johto - Medalla 7)
+
+Raichunita Y: Regalo de Científico al noroeste de las cloacas azulona, tras mostrarle un Clodsire. (T4: DLC - Misión 3)
+(Clodsire obtenible haciendo Surf en el lago de Villa Éter)
+
+Chimechita: Regalo Ejecutivo Base Hoenn, tras derrotarlo al entrar como Líder allí. (T5: Hoenn - Inicio)
+
+Absolita Z: No obtenible.
+
+Staraptorita: Mapa de secundaria activada al hablar con calvo en el bar de C.Olivo. (T3: Johto - Medalla 4)
+
+Garchompita Z: S1 del mapa en misión 10 de Hoenn. (T5: Hoenn - Misión 10)
+
+Lucarita Z: No obtenible.
+
+Golurkita: Culto Lavanda, zona cascada. (T3: Johto - Medalla 5)
+
+Meowsticita: Cementerio Neo Lavanda S2. NPC sala conspiraciones. (T4: DLC - Misión 4)
+
+Crabominablita: No obtenible.
+
+Golisopodita: Rocket en cárcel de Base Profunda, tras mostrarle un Ledyba. (T3: Johto - Medalla 2)
+(Ledyba es obtenible en el Encinar de P.Azalea).
+
+Magearnita: No obtenible.
+
+Scovillainita: No obtenible.
+
+Baxcaliburita: Venta Base Profunda, sala moneda Gimmighoul. (T4: DLC - Inicio)
+
+Tatsugirita: No obtenible.
+
+Glimmoranita: Misión Vías Tren Zona Desértica. (T4: DLC - Misión 2
+)
 
 MEGAPIEDRAS NUEVAS
 ------------------------------------------------------------------------------
 
-Fligonita: Venta en B.Rocket Johto, P2. (T3: Johto - Medalla 5)
+Flygonita: Venta en B.Rocket Johto, P2. (T3: Johto - Medalla 5)
 
 Miloticita: Venta en B.Rocket Johto, P2. (T3: Johto - Medalla 5)
 
@@ -489,7 +587,7 @@ Noivernita: Regalo de Mirto. (T3: Johto - Medalla 7)
 
 Toxtricitita: Zona final refugios guerra Kanto. (T4: DLC - Misión 7)
 
-Porygonita: No obtenible por ahora.
+Porygonita: No obtenible.
 
 
 
@@ -820,7 +918,11 @@ MT161 - No obtenible.
 
 MT162 - Onda Ígnea: Torre Radio Trigal, Científico en el P7. (T3: Johto)
 
-MT163 a MT165 - No obtenibles.
+MT163 - No obtenible.
+
+MT164 - No obtenible.
+
+MT165 - No obtenible.
 
 MT166 - Amnesia: Secundaria Bosque Baya, Cueva Hypno. (T2: Archi7)
 
@@ -832,18 +934,156 @@ MT169 - Ala Bis: Exterior Faro Ciudad Olivo. (T3: Johto)
 
 MT170 - Mil Temblores: Torre Radio Trigal, P10. (T3: Johto)
 
-MT171 a MT178 - No obtenibles.
+MT171 - No obtenible.
+
+MT172 - No obtenible.
+
+MT173 - Joya de luz: Mt.Ascuas zona reclutas Equipo Magma. (T2: Archi7)
+
+MT174 - Inversión: Venta Base Profunda sala moneda Gimmighoul. (T1: Kanto)
+
+MT175 - No obtenible.
+
+MT176 - No obtenible.
+
+MT177 - No obtenible.
+
+MT178 - No obtenible.
 
 MT179 - Otra Vez: Museo Pueblo Verdegal. (T5: Hoenn)
 
-MT180 a MT194 - No obtenibles.
+MT180 - Bomba gérmen: Ruta 123 al mostrar un tipo planta a chica. (T5: Hoenn)
+
+MT181 - No obtenible.
+
+MT182 - No obtenible.
+
+MT183 - No obtenible.
+
+MT184 - No obtenible.
+
+MT185 - No obtenible.
+
+MT186 - No obtenible.
+
+MT187 - No obtenible.
+
+MT188 - No obtenible.
+
+MT189 - No obtenible.
+
+MT190 - No obtenible.
+
+MT191 - No obtenible.
+
+MT192 - No obtenible.
+
+MT193 - Megapatada: Venta Base Profunda sala moneda Gimmighoul. (T2: Archi7)
+
+MT194 - Cabezazo: Cárcel Base Profunda, científico del noreste. (T1: Kanto)
 
 MT195 - Furia Dragon: Gimnasio Endrino abierto, tras misión 10 Hoenn. (T5: Hoenn)
 
-MT196 y MT197 - No obtenibles.
+MT196 - Doble Filo: Suite Edificio telecomunicaciones Azulona. (T1: Kanto)
+
+MT197 - Sumisión: Venta en Base Rocket C.Verde. (T1: Kanto)
 
 MT198 - Bofetón Lodo: Prado de Isla Inta, surfeando. (T1: Kanto)
 
-MT199 a MT246 - No obtenibles.
+MT199 - No obtenible.
+
+MT200 - No obtenible.
+
+MT201 - No obtenible.
+
+MT202 - No obtenible.
+
+MT203 - No obtenible.
+
+MT204 - No obtenible.
+
+MT205 - No obtenible.
+
+MT206 - No obtenible.
+
+MT207 - No obtenible.
+
+MT208 - No obtenible.
+
+MT209 - No obtenible.
+
+MT210 - No obtenible.
+
+MT211 - No obtenible.
+
+MT212 - No obtenible.
+
+MT213 - No obtenible.
+
+MT214 - No obtenible.
+
+MT215 - No obtenible.
+
+MT216 - No obtenible.
+
+MT217 - No obtenible.
+
+MT218 - Pájaro Osado: Cazabichos en casa de C.Olivo, tras acabar misión 10 Hoenn. (T5: Hoenn)
+
+MT219 - No obtenible.
+
+MT220 - No obtenible.
+
+MT221 - No obtenible.
+
+MT222 - No obtenible.
+
+MT223 - No obtenible.
+
+MT224 - No obtenible.
+
+MT225 - No obtenible.
+
+MT226 - No obtenible.
+
+MT227 - No obtenible.
+
+MT228 - No obtenible.
+
+MT229 - No obtenible.
+
+MT230 - No obtenible.
+
+MT231 - No obtenible.
+
+MT232 - No obtenible.
+
+MT233 - No obtenible.
+
+MT234 - No obtenible.
+
+MT235 - No obtenible.
+
+MT236 - No obtenible.
+
+MT237 - No obtenible.
+
+MT238 - No obtenible.
+
+MT239 - No obtenible.
+
+MT240 - No obtenible.
+
+MT241 - No obtenible.
+
+MT242 - No obtenible.
+
+MT243 - No obtenible.
+
+MT244 - No obtenible.
+
+MT245 - No obtenible.
+
+MT246 - No obtenible.
 
 

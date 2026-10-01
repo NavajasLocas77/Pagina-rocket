@@ -164,7 +164,9 @@ Gurdurr a Conkeldurr - Piedra Link
 
 Lilligant a Lilligant Hisui (y viceversa) - Piedra Sagrada
 
-Basculin a Basculegion - Piedra Sagrada
+Basculin-M a Basculegion-M - Piedra Sagrada
+
+Basculin-F a Basculegion-F - Piedra Sagrada
 
 Darumaka a Darumaka Galar (y viceversa) - Piedra Sagrada
 

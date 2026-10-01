@@ -10,7 +10,6 @@ Nota 2: Lo referente a la obtención de la mayoría de objetos, como las MTs, ti
 + FARMEO DE DINERO:
 
 - Moneda Amuleto obtenible al derrotar al Ayudante de Oak de Ruta 16.
-- MT46 Ladrón obtenible en el Mt.Moon.
 
 
 - Durante toda Kanto, las recompensas de las misiones proporcionan una gran cantidad de dinero. 

@@ -1,0 +1,4954 @@
+{
+  "summary": {
+    "total_bosses": 208,
+    "bosses_with_difficulty_differences": 205,
+    "moves_modified": 47,
+    "competitive_items_modified": 35,
+    "rule": "Mismo recorrido cronológico. En Modo Difícil los entrenadores rivales y jefes cuentan con equipos competitivos, mejores IVs, EVs asignados, objetos equipados y movimientos ampliados, según los archivos originales T1-T5 DIFICIL_FACIL."
+  },
+  "boss_differences": [
+    {
+      "id": "boss-2",
+      "trainer": "CONSUL",
+      "location": "ISLA INTA",
+      "region": "T1: Kanto",
+      "easy_count": 3,
+      "hard_count": 4,
+      "easy_levels": [
+        11,
+        11,
+        11
+      ],
+      "hard_levels": [
+        11,
+        11,
+        11,
+        11
+      ],
+      "changes": "Fácil (3 pkmn, Nv. 11-11) vs Difícil (4 pkmn, Nv. 11-11, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-3",
+      "trainer": "RIVAL ANDRA (2do encuentro)",
+      "location": "VÍA SUBTERRÁNEA - CIUDAD CARMÍN",
+      "region": "T1: Kanto",
+      "easy_count": 3,
+      "hard_count": 3,
+      "easy_levels": [
+        14,
+        13,
+        15
+      ],
+      "hard_levels": [
+        14,
+        13,
+        15
+      ],
+      "changes": "Fácil (3 pkmn, Nv. 13-15) vs Difícil (3 pkmn, Nv. 13-15, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-4",
+      "trainer": "ALTO RANGO FRANK (1er encuentro)",
+      "location": "MT.MOON - MISION FÓSILES",
+      "region": "T1: Kanto",
+      "easy_count": 3,
+      "hard_count": 4,
+      "easy_levels": [
+        15,
+        16,
+        17
+      ],
+      "hard_levels": [
+        15,
+        16,
+        16,
+        17
+      ],
+      "changes": "Fácil (3 pkmn, Nv. 15-17) vs Difícil (4 pkmn, Nv. 15-17, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-5",
+      "trainer": "COLECCIONISTA BILL (1er encuentro)",
+      "location": "CASA DE BILL - MISIÓN PATENTE TELETRANSPORTE",
+      "region": "T1: Kanto",
+      "easy_count": 3,
+      "hard_count": 5,
+      "easy_levels": [
+        17,
+        18,
+        19
+      ],
+      "hard_levels": [
+        17,
+        17,
+        18,
+        18,
+        19
+      ],
+      "changes": "Fácil (3 pkmn, Nv. 17-19) vs Difícil (5 pkmn, Nv. 17-19, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-6",
+      "trainer": "AZUL (1er encuentro)",
+      "location": "SS.ANNE - MISIÓN FRASCO CAPITÁN BARCO",
+      "region": "T1: Kanto",
+      "easy_count": 4,
+      "hard_count": 6,
+      "easy_levels": [
+        19,
+        16,
+        18,
+        20
+      ],
+      "hard_levels": [
+        19,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "changes": "Fácil (4 pkmn, Nv. 16-20) vs Difícil (6 pkmn, Nv. 16-20, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-7",
+      "trainer": "CAPITÁN EDWARD (1er encuentro)",
+      "location": "SS.ANNE - MISIÓN FRASCO CAPITÁN BARCO",
+      "region": "T1: Kanto",
+      "easy_count": 3,
+      "hard_count": 5,
+      "easy_levels": [
+        20,
+        21,
+        22
+      ],
+      "hard_levels": [
+        21,
+        20,
+        20,
+        21,
+        22
+      ],
+      "changes": "Fácil (3 pkmn, Nv. 20-22) vs Difícil (5 pkmn, Nv. 20-22, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-8",
+      "trainer": "ANDRA (3er encuentro)",
+      "location": "RUTA 10",
+      "region": "T1: Kanto",
+      "easy_count": 4,
+      "hard_count": 4,
+      "easy_levels": [
+        24,
+        24,
+        23,
+        26
+      ],
+      "hard_levels": [
+        25,
+        24,
+        23,
+        26
+      ],
+      "changes": "Fácil (4 pkmn, Nv. 23-26) vs Difícil (4 pkmn, Nv. 23-26, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-10",
+      "trainer": "CIENTÍFICO MIGUEL (2do encuentro)",
+      "location": "TÚNEL ROCA - MISIÓN KANGASKHAN PERDIDO",
+      "region": "T1: Kanto",
+      "easy_count": 3,
+      "hard_count": 5,
+      "easy_levels": [
+        28,
+        29,
+        31
+      ],
+      "hard_levels": [
+        28,
+        30,
+        29,
+        29,
+        31
+      ],
+      "changes": "Fácil (3 pkmn, Nv. 28-31) vs Difícil (5 pkmn, Nv. 28-31, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-11",
+      "trainer": "CRIAPOKÉMON FUJI",
+      "location": "TORRE POKÉMON - MISIÓN FUJI Y PROTÓN",
+      "region": "T1: Kanto",
+      "easy_count": 3,
+      "hard_count": 5,
+      "easy_levels": [
+        30,
+        32,
+        33
+      ],
+      "hard_levels": [
+        30,
+        31,
+        32,
+        32,
+        33
+      ],
+      "changes": "Fácil (3 pkmn, Nv. 30-33) vs Difícil (5 pkmn, Nv. 30-33, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-12",
+      "trainer": "CULTISTA 'M'",
+      "location": "TORRE POKÉMON - MISIÓN FUJI Y PROTÓN",
+      "region": "T1: Kanto",
+      "easy_count": 3,
+      "hard_count": 4,
+      "easy_levels": [
+        32,
+        33,
+        34
+      ],
+      "hard_levels": [
+        32,
+        33,
+        34,
+        34
+      ],
+      "changes": "Fácil (3 pkmn, Nv. 32-34) vs Difícil (4 pkmn, Nv. 32-34, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-13",
+      "trainer": "MAROGHOST",
+      "location": "TORRE POKÉMON - MISIÓN FUJI Y PROTÓN",
+      "region": "T1: Kanto",
+      "easy_count": 1,
+      "hard_count": 1,
+      "easy_levels": [
+        35
+      ],
+      "hard_levels": [
+        37
+      ],
+      "changes": "Fácil (1 pkmn, Nv. 35-35) vs Difícil (1 pkmn, Nv. 37-37, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-14",
+      "trainer": "EJECUTIVO ROCKET FRANK",
+      "location": "BASE ROCKET PROFUNDA",
+      "region": "T1: Kanto",
+      "easy_count": 3,
+      "hard_count": 5,
+      "easy_levels": [
+        33,
+        33,
+        34
+      ],
+      "hard_levels": [
+        31,
+        33,
+        33,
+        34,
+        34
+      ],
+      "changes": "Fácil (3 pkmn, Nv. 33-34) vs Difícil (5 pkmn, Nv. 31-34, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-15",
+      "trainer": "ANDRA (4to encuentro)",
+      "location": "BASE ROCKET PROFUNDA",
+      "region": "T1: Kanto",
+      "easy_count": 4,
+      "hard_count": 4,
+      "easy_levels": [
+        33,
+        34,
+        34,
+        35
+      ],
+      "hard_levels": [
+        35,
+        34,
+        34,
+        35
+      ],
+      "changes": "Fácil (4 pkmn, Nv. 33-35) vs Difícil (4 pkmn, Nv. 34-35, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-16",
+      "trainer": "CIENTÍFICO MIGUEL (3er encuentro)",
+      "location": "MUSEO PLATEADA - CAMINO A MISIÓN PUEBLO PALETA",
+      "region": "T1: Kanto",
+      "easy_count": 3,
+      "hard_count": 5,
+      "easy_levels": [
+        34,
+        34,
+        36
+      ],
+      "hard_levels": [
+        34,
+        33,
+        34,
+        35,
+        36
+      ],
+      "changes": "Fácil (3 pkmn, Nv. 34-36) vs Difícil (5 pkmn, Nv. 33-36, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-17",
+      "trainer": "DALIA (1er encuentro)",
+      "location": "LABORATORIO OAK",
+      "region": "T1: Kanto",
+      "easy_count": 3,
+      "hard_count": 5,
+      "easy_levels": [
+        35,
+        36,
+        37
+      ],
+      "hard_levels": [
+        35,
+        36,
+        36,
+        37,
+        37
+      ],
+      "changes": "Fácil (3 pkmn, Nv. 35-37) vs Difícil (5 pkmn, Nv. 35-37, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-18",
+      "trainer": "AZUL (2do encuentro)",
+      "location": "RUTA 13 - MISIÓN ARTICUNO",
+      "region": "T1: Kanto",
+      "easy_count": 4,
+      "hard_count": 6,
+      "easy_levels": [
+        36,
+        35,
+        37,
+        38
+      ],
+      "hard_levels": [
+        36,
+        36,
+        37,
+        35,
+        37,
+        38
+      ],
+      "changes": "Fácil (4 pkmn, Nv. 35-38) vs Difícil (6 pkmn, Nv. 35-38, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-19",
+      "trainer": "BRUNO (1er encuentro)",
+      "location": "RUTA 16 - MISIÓN ARTICUNO",
+      "region": "T1: Kanto",
+      "easy_count": 3,
+      "hard_count": 3,
+      "easy_levels": [
+        42,
+        41,
+        43
+      ],
+      "hard_levels": [
+        42,
+        41,
+        43
+      ],
+      "changes": "Fácil (3 pkmn, Nv. 41-43) vs Difícil (3 pkmn, Nv. 41-43, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-20",
+      "trainer": "ARTICUNO",
+      "location": "ISLAS ESPUMA - MISIÓN ARTICUNO",
+      "region": "T1: Kanto",
+      "easy_count": 1,
+      "hard_count": 1,
+      "easy_levels": [
+        50
+      ],
+      "hard_levels": [
+        50
+      ],
+      "changes": "Fácil (1 pkmn, Nv. 50-50) vs Difícil (1 pkmn, Nv. 50-50, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-21",
+      "trainer": "ZAPDOS",
+      "location": "CENTRAL ENERGÍA - MISIÓN ZAPDOS",
+      "region": "T1: Kanto",
+      "easy_count": 1,
+      "hard_count": 1,
+      "easy_levels": [
+        50
+      ],
+      "hard_levels": [
+        50
+      ],
+      "changes": "Fácil (1 pkmn, Nv. 50-50) vs Difícil (1 pkmn, Nv. 50-50, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-22",
+      "trainer": "SURGE (1er encuentro)",
+      "location": "CENTRAL ENERGÍA - MISIÓN ZAPDOS",
+      "region": "T1: Kanto",
+      "easy_count": 4,
+      "hard_count": 5,
+      "easy_levels": [
+        38,
+        40,
+        40,
+        41
+      ],
+      "hard_levels": [
+        38,
+        39,
+        40,
+        40,
+        41
+      ],
+      "changes": "Fácil (4 pkmn, Nv. 38-41) vs Difícil (5 pkmn, Nv. 38-41, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-23",
+      "trainer": "ANDRA (5to encuentro)",
+      "location": "CIUDAD AZAFRÁN - MISIÓN SILPH SA",
+      "region": "T1: Kanto",
+      "easy_count": 5,
+      "hard_count": 5,
+      "easy_levels": [
+        40,
+        41,
+        41,
+        42,
+        43
+      ],
+      "hard_levels": [
+        43,
+        41,
+        41,
+        42,
+        43
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 40-43) vs Difícil (5 pkmn, Nv. 41-43, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-25",
+      "trainer": "PRESIDENTE SILPH (1er encuentro)",
+      "location": "CIUDAD AZAFRÁN - MISIÓN SILPH SA",
+      "region": "T1: Kanto",
+      "easy_count": 4,
+      "hard_count": 5,
+      "easy_levels": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "hard_levels": [
+        44,
+        45,
+        46,
+        47,
+        47
+      ],
+      "changes": "Fácil (4 pkmn, Nv. 44-47) vs Difícil (5 pkmn, Nv. 44-47, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-26",
+      "trainer": "COLECCIONISTA BILL (2do encuentro)",
+      "location": "CIUDAD AZAFRÁN - MISIÓN SILPH SA",
+      "region": "T1: Kanto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        42,
+        43,
+        44,
+        44,
+        45
+      ],
+      "hard_levels": [
+        44,
+        42,
+        43,
+        43,
+        44,
+        45
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 42-45) vs Difícil (6 pkmn, Nv. 42-45, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-27",
+      "trainer": "BILL/MIGUEL COMBATE DOBLE",
+      "location": "CIUDAD AZAFRÁN - MISIÓN SILPH SA",
+      "region": "T1: Kanto",
+      "easy_count": 6,
+      "hard_count": 6,
+      "easy_levels": [
+        41,
+        42,
+        42,
+        44,
+        43,
+        45
+      ],
+      "hard_levels": [
+        42,
+        43,
+        43,
+        44,
+        44,
+        45
+      ],
+      "changes": "Fácil (6 pkmn, Nv. 41-45) vs Difícil (6 pkmn, Nv. 42-45, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-28",
+      "trainer": "BROCK",
+      "location": "LÍDERES DE GIMNASIO - MISIÓN: ASALTO A LA LIGA POKÉMON",
+      "region": "T1: Kanto",
+      "easy_count": 3,
+      "hard_count": 5,
+      "easy_levels": [
+        45,
+        46,
+        47
+      ],
+      "hard_levels": [
+        45,
+        45,
+        46,
+        46,
+        47
+      ],
+      "changes": "Fácil (3 pkmn, Nv. 45-47) vs Difícil (5 pkmn, Nv. 45-47, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-29",
+      "trainer": "MISTY",
+      "location": "LÍDERES DE GIMNASIO - MISIÓN: ASALTO A LA LIGA POKÉMON",
+      "region": "T1: Kanto",
+      "easy_count": 4,
+      "hard_count": 6,
+      "easy_levels": [
+        45,
+        46,
+        46,
+        47
+      ],
+      "hard_levels": [
+        45,
+        45,
+        46,
+        46,
+        46,
+        47
+      ],
+      "changes": "Fácil (4 pkmn, Nv. 45-47) vs Difícil (6 pkmn, Nv. 45-47, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-30",
+      "trainer": "SURGE",
+      "location": "LÍDERES DE GIMNASIO - MISIÓN: ASALTO A LA LIGA POKÉMON",
+      "region": "T1: Kanto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        45,
+        46,
+        46,
+        46,
+        47
+      ],
+      "hard_levels": [
+        47,
+        46,
+        45,
+        46,
+        46,
+        47
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 45-47) vs Difícil (6 pkmn, Nv. 45-47, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-31",
+      "trainer": "ERIKA",
+      "location": "LÍDERES DE GIMNASIO - MISIÓN: ASALTO A LA LIGA POKÉMON",
+      "region": "T1: Kanto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        45,
+        46,
+        47,
+        47,
+        48
+      ],
+      "hard_levels": [
+        47,
+        46,
+        46,
+        47,
+        47,
+        48
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 45-48) vs Difícil (6 pkmn, Nv. 46-48, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-32",
+      "trainer": "KOGA",
+      "location": "LÍDERES DE GIMNASIO - MISIÓN: ASALTO A LA LIGA POKÉMON",
+      "region": "T1: Kanto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        46,
+        47,
+        47,
+        48,
+        49
+      ],
+      "hard_levels": [
+        46,
+        47,
+        47,
+        48,
+        48,
+        49
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 46-49) vs Difícil (6 pkmn, Nv. 46-49, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-33",
+      "trainer": "SABRINA",
+      "location": "LÍDERES DE GIMNASIO - MISIÓN: ASALTO A LA LIGA POKÉMON",
+      "region": "T1: Kanto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        48,
+        47,
+        49,
+        49,
+        50
+      ],
+      "hard_levels": [
+        49,
+        48,
+        48,
+        49,
+        49,
+        50
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 47-50) vs Difícil (6 pkmn, Nv. 48-50, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-34",
+      "trainer": "Blaine",
+      "location": "LÍDERES DE GIMNASIO - MISIÓN: ASALTO A LA LIGA POKÉMON",
+      "region": "T1: Kanto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        48,
+        48,
+        49,
+        50,
+        51
+      ],
+      "hard_levels": [
+        48,
+        48,
+        49,
+        50,
+        50,
+        51
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 48-51) vs Difícil (6 pkmn, Nv. 48-51, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-35",
+      "trainer": "EJECUTIVO ROCKET PROTÓN",
+      "location": "GIMNASIO CIUDAD VERDE - ÚLTIMA MEDALLA",
+      "region": "T1: Kanto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        49,
+        50,
+        50,
+        51,
+        52
+      ],
+      "hard_levels": [
+        49,
+        51,
+        50,
+        51,
+        51,
+        52
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 49-52) vs Difícil (6 pkmn, Nv. 49-52, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-36",
+      "trainer": "ADMINISTRADOR ROCKET PETREL",
+      "location": "GIMNASIO CIUDAD VERDE - ÚLTIMA MEDALLA",
+      "region": "T1: Kanto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        50,
+        52,
+        51,
+        51,
+        53
+      ],
+      "hard_levels": [
+        51,
+        50,
+        52,
+        51,
+        51,
+        53
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 50-53) vs Difícil (6 pkmn, Nv. 50-53, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-37",
+      "trainer": "ADMINISTRADOR JEFE ROCKET ATLAS",
+      "location": "GIMNASIO CIUDAD VERDE - ÚLTIMA MEDALLA",
+      "region": "T1: Kanto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        52,
+        53,
+        52,
+        54,
+        55
+      ],
+      "hard_levels": [
+        52,
+        53,
+        55,
+        52,
+        54,
+        55
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 52-55) vs Difícil (6 pkmn, Nv. 52-55, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-38",
+      "trainer": "MIEMBRO COMITÉ 1",
+      "location": "MISIÓN COMITÉ LIGA POKÉMON",
+      "region": "T1: Kanto",
+      "easy_count": 3,
+      "hard_count": 4,
+      "easy_levels": [
+        54,
+        54,
+        54
+      ],
+      "hard_levels": [
+        54,
+        54,
+        54,
+        55
+      ],
+      "changes": "Fácil (3 pkmn, Nv. 54-54) vs Difícil (4 pkmn, Nv. 54-55, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-39",
+      "trainer": "MIEMBRO COMITÉ 2",
+      "location": "MISIÓN COMITÉ LIGA POKÉMON",
+      "region": "T1: Kanto",
+      "easy_count": 3,
+      "hard_count": 4,
+      "easy_levels": [
+        54,
+        54,
+        54
+      ],
+      "hard_levels": [
+        54,
+        54,
+        54,
+        55
+      ],
+      "changes": "Fácil (3 pkmn, Nv. 54-54) vs Difícil (4 pkmn, Nv. 54-55, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-40",
+      "trainer": "POKÉLOTODO",
+      "location": "MISIÓN COMITÉ LIGA POKÉMON",
+      "region": "T1: Kanto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        55,
+        54,
+        53,
+        55,
+        57
+      ],
+      "hard_levels": [
+        55,
+        54,
+        53,
+        56,
+        55,
+        57
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 53-57) vs Difícil (6 pkmn, Nv. 53-57, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-41",
+      "trainer": "MIEMBRO COMITÉ 3",
+      "location": "MISIÓN COMITÉ LIGA POKÉMON",
+      "region": "T1: Kanto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        53,
+        53,
+        54,
+        54,
+        55
+      ],
+      "hard_levels": [
+        53,
+        54,
+        55,
+        55,
+        55,
+        56
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 53-55) vs Difícil (6 pkmn, Nv. 53-56, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-42",
+      "trainer": "ADMINISTRADOR ROCKET FRANK",
+      "location": "MISIÓN COMITÉ LIGA POKÉMON",
+      "region": "T1: Kanto",
+      "easy_count": 4,
+      "hard_count": 6,
+      "easy_levels": [
+        54,
+        56,
+        57,
+        58
+      ],
+      "hard_levels": [
+        55,
+        56,
+        55,
+        56,
+        57,
+        58
+      ],
+      "changes": "Fácil (4 pkmn, Nv. 54-58) vs Difícil (6 pkmn, Nv. 55-58, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-43",
+      "trainer": "MAGNEMITE CIENTÍFICO COMITÉ",
+      "location": "MISIÓN COMITÉ LIGA POKÉMON",
+      "region": "T1: Kanto",
+      "easy_count": 1,
+      "hard_count": 1,
+      "easy_levels": [
+        56
+      ],
+      "hard_levels": [
+        58
+      ],
+      "changes": "Fácil (1 pkmn, Nv. 56-56) vs Difícil (1 pkmn, Nv. 58-58, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-44",
+      "trainer": "CIENTÍFICO COMITÉ",
+      "location": "MISIÓN COMITÉ LIGA POKÉMON",
+      "region": "T1: Kanto",
+      "easy_count": 3,
+      "hard_count": 6,
+      "easy_levels": [
+        56,
+        55,
+        57
+      ],
+      "hard_levels": [
+        56,
+        57,
+        55,
+        56,
+        58,
+        58
+      ],
+      "changes": "Fácil (3 pkmn, Nv. 55-57) vs Difícil (6 pkmn, Nv. 55-58, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-45",
+      "trainer": "DIRECTOR CG LIGA",
+      "location": "MISIÓN COMITÉ LIGA POKÉMON",
+      "region": "T1: Kanto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        59,
+        57,
+        57,
+        58,
+        60
+      ],
+      "hard_levels": [
+        57,
+        59,
+        56,
+        57,
+        58,
+        60
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 57-60) vs Difícil (6 pkmn, Nv. 56-60, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-46",
+      "trainer": "AZUL",
+      "location": "MESETA AÑIL - CALLE VICTORIA",
+      "region": "T1: Kanto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        57,
+        58,
+        58,
+        58,
+        59
+      ],
+      "hard_levels": [
+        57,
+        58,
+        58,
+        58,
+        58,
+        59
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 57-59) vs Difícil (6 pkmn, Nv. 57-59, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-47",
+      "trainer": "RIVAL ANDRA",
+      "location": "MESETA AÑIL - CALLE VICTORIA",
+      "region": "T1: Kanto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        59,
+        59,
+        58,
+        59,
+        61
+      ],
+      "hard_levels": [
+        60,
+        59,
+        59,
+        59,
+        60,
+        57
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 58-61) vs Difícil (6 pkmn, Nv. 57-60, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-48",
+      "trainer": "ALTO MANDO LORELEI",
+      "location": "LIGA POKÉMON DE KANTO",
+      "region": "T1: Kanto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        58,
+        57,
+        58,
+        60,
+        60
+      ],
+      "hard_levels": [
+        58,
+        57,
+        58,
+        60,
+        60,
+        60
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 57-60) vs Difícil (6 pkmn, Nv. 57-60, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-49",
+      "trainer": "ALTO MANDO BRUNO",
+      "location": "LIGA POKÉMON DE KANTO",
+      "region": "T1: Kanto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        59,
+        58,
+        58,
+        58,
+        61
+      ],
+      "hard_levels": [
+        59,
+        58,
+        58,
+        61,
+        60,
+        61
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 58-61) vs Difícil (6 pkmn, Nv. 58-61, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-50",
+      "trainer": "ALTO MANDO AGATHA",
+      "location": "LIGA POKÉMON DE KANTO",
+      "region": "T1: Kanto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        59,
+        61,
+        58,
+        60,
+        62
+      ],
+      "hard_levels": [
+        59,
+        61,
+        60,
+        60,
+        60,
+        62
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 58-62) vs Difícil (6 pkmn, Nv. 59-62, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-51",
+      "trainer": "ALTO MANDO LANCE (1er encuentro)",
+      "location": "LIGA POKÉMON DE KANTO",
+      "region": "T1: Kanto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        59,
+        59,
+        60,
+        61,
+        63
+      ],
+      "hard_levels": [
+        59,
+        62,
+        60,
+        61,
+        62,
+        63
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 59-63) vs Difícil (6 pkmn, Nv. 59-63, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-52",
+      "trainer": "CAMPEÓN ROJO",
+      "location": "LIGA POKÉMON DE KANTO",
+      "region": "T1: Kanto",
+      "easy_count": 6,
+      "hard_count": 6,
+      "easy_levels": [
+        67,
+        64,
+        65,
+        65,
+        64,
+        65
+      ],
+      "hard_levels": [
+        67,
+        65,
+        66,
+        66,
+        66,
+        67
+      ],
+      "changes": "Fácil (6 pkmn, Nv. 64-67) vs Difícil (6 pkmn, Nv. 65-67, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-53",
+      "trainer": "EMPERADOR LANCE",
+      "location": "LIGA POKÉMON DE KANTO",
+      "region": "T1: Kanto",
+      "easy_count": 6,
+      "hard_count": 6,
+      "easy_levels": [
+        67,
+        68,
+        69,
+        69,
+        69,
+        70
+      ],
+      "hard_levels": [
+        67,
+        68,
+        69,
+        69,
+        69,
+        70
+      ],
+      "changes": "Fácil (6 pkmn, Nv. 67-70) vs Difícil (6 pkmn, Nv. 67-70, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-54",
+      "trainer": "AZUL",
+      "location": "REGRESO ISLA INTA",
+      "region": "T2: Archi7 (Islas Sete)",
+      "easy_count": 6,
+      "hard_count": 6,
+      "easy_levels": [
+        64,
+        65,
+        65,
+        65,
+        64,
+        67
+      ],
+      "hard_levels": [
+        66,
+        65,
+        65,
+        65,
+        67,
+        67
+      ],
+      "changes": "Fácil (6 pkmn, Nv. 64-67) vs Difícil (6 pkmn, Nv. 65-67, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-55",
+      "trainer": "RIVAL ANDRA",
+      "location": "EXPLORACIÓN ISLA SÉTIMA",
+      "region": "T2: Archi7 (Islas Sete)",
+      "easy_count": 6,
+      "hard_count": 6,
+      "easy_levels": [
+        67,
+        66,
+        66,
+        67,
+        65,
+        68
+      ],
+      "hard_levels": [
+        67,
+        66,
+        66,
+        67,
+        65,
+        68
+      ],
+      "changes": "Fácil (6 pkmn, Nv. 65-68) vs Difícil (6 pkmn, Nv. 65-68, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-56",
+      "trainer": "VIAJERO ZEUS",
+      "location": "CUEVA CAMBIANTE ISLA EXTA",
+      "region": "T2: Archi7 (Islas Sete)",
+      "easy_count": 3,
+      "hard_count": 5,
+      "easy_levels": [
+        70,
+        71,
+        72
+      ],
+      "hard_levels": [
+        70,
+        71,
+        71,
+        71,
+        72
+      ],
+      "changes": "Fácil (3 pkmn, Nv. 70-72) vs Difícil (5 pkmn, Nv. 70-72, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-57",
+      "trainer": "ADMINISTRADOR MAGMA TATIANO",
+      "location": "MT.ASCUAS - EVENTO EQUIPO MAGMA",
+      "region": "T2: Archi7 (Islas Sete)",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        68,
+        69,
+        69,
+        70,
+        71
+      ],
+      "hard_levels": [
+        68,
+        69,
+        69,
+        70,
+        70,
+        71
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 68-71) vs Difícil (6 pkmn, Nv. 68-71, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-58",
+      "trainer": "LÍDER MAGMA MAGNO",
+      "location": "MT.ASCUAS - EVENTO EQUIPO MAGMA",
+      "region": "T2: Archi7 (Islas Sete)",
+      "easy_count": 6,
+      "hard_count": 6,
+      "easy_levels": [
+        70,
+        71,
+        71,
+        72,
+        72,
+        73
+      ],
+      "hard_levels": [
+        72,
+        71,
+        71,
+        72,
+        72,
+        73
+      ],
+      "changes": "Fácil (6 pkmn, Nv. 70-73) vs Difícil (6 pkmn, Nv. 71-73, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-59",
+      "trainer": "ALMIRANTE TOLO",
+      "location": "CUEVA PUNTEADA - EVENTO EQUIPO AQUA",
+      "region": "T2: Archi7 (Islas Sete)",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        69,
+        70,
+        71,
+        71,
+        72
+      ],
+      "hard_levels": [
+        69,
+        70,
+        70,
+        71,
+        71,
+        72
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 69-72) vs Difícil (6 pkmn, Nv. 69-72, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-60",
+      "trainer": "LÍDER AQUA AQUILES",
+      "location": "CUEVA PUNTEADA - EVENTO EQUIPO AQUA",
+      "region": "T2: Archi7 (Islas Sete)",
+      "easy_count": 6,
+      "hard_count": 6,
+      "easy_levels": [
+        71,
+        72,
+        72,
+        73,
+        73,
+        74
+      ],
+      "hard_levels": [
+        71,
+        72,
+        72,
+        73,
+        73,
+        74
+      ],
+      "changes": "Fácil (6 pkmn, Nv. 71-74) vs Difícil (6 pkmn, Nv. 71-74, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-61",
+      "trainer": "PRESIDENTE SILPH",
+      "location": "SILPH SA - PISOS SUBTERRÁNEOS",
+      "region": "T2: Archi7 (Islas Sete)",
+      "easy_count": 3,
+      "hard_count": 5,
+      "easy_levels": [
+        74,
+        75,
+        76
+      ],
+      "hard_levels": [
+        74,
+        74,
+        75,
+        76,
+        76
+      ],
+      "changes": "Fácil (3 pkmn, Nv. 74-76) vs Difícil (5 pkmn, Nv. 74-76, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-62",
+      "trainer": "CIENTÍFICO MIGUEL",
+      "location": "SILPH SA - PISOS SUBTERRÁNEOS",
+      "region": "T2: Archi7 (Islas Sete)",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        69,
+        70,
+        69,
+        71,
+        72
+      ],
+      "hard_levels": [
+        69,
+        70,
+        69,
+        70,
+        71,
+        72
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 69-72) vs Difícil (6 pkmn, Nv. 69-72, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-63",
+      "trainer": "COLECCIONISTA BILL",
+      "location": "SILPH SA - PISOS SUBTERRÁNEOS",
+      "region": "T2: Archi7 (Islas Sete)",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        72,
+        73,
+        73,
+        73,
+        75
+      ],
+      "hard_levels": [
+        73,
+        75,
+        74,
+        74,
+        74,
+        75
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 72-75) vs Difícil (6 pkmn, Nv. 73-75, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-64",
+      "trainer": "GHOST",
+      "location": "CULTO PUEBLO LAVANDA",
+      "region": "T2: Archi7 (Islas Sete)",
+      "easy_count": 1,
+      "hard_count": 1,
+      "easy_levels": [
+        80
+      ],
+      "hard_levels": [
+        80
+      ],
+      "changes": "Fácil (1 pkmn, Nv. 80-80) vs Difícil (1 pkmn, Nv. 80-80, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-65",
+      "trainer": "CULTISTA 'M'",
+      "location": "CULTO PUEBLO LAVANDA",
+      "region": "T2: Archi7 (Islas Sete)",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        72,
+        73,
+        75,
+        74,
+        75
+      ],
+      "hard_levels": [
+        73,
+        75,
+        74,
+        75,
+        76,
+        76
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 72-75) vs Difícil (6 pkmn, Nv. 73-76, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-66",
+      "trainer": "LÍDER SECTA LAIREB",
+      "location": "CULTO PUEBLO LAVANDA",
+      "region": "T2: Archi7 (Islas Sete)",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        74,
+        72,
+        74,
+        76,
+        77
+      ],
+      "hard_levels": [
+        74,
+        75,
+        77,
+        75,
+        76,
+        77
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 72-77) vs Difícil (6 pkmn, Nv. 74-77, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-67",
+      "trainer": "LEGENDARIO LUGIA",
+      "location": "ROCA OMBLIGO",
+      "region": "T2: Archi7 (Islas Sete)",
+      "easy_count": 1,
+      "hard_count": 1,
+      "easy_levels": [
+        85
+      ],
+      "hard_levels": [
+        85
+      ],
+      "changes": "Fácil (1 pkmn, Nv. 85-85) vs Difícil (1 pkmn, Nv. 85-85, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-68",
+      "trainer": "TEAM ROCKET LÍDER GIOVANNI",
+      "location": "DESPACHO GIOVANNI BASE PROFUNDA",
+      "region": "T2: Archi7 (Islas Sete)",
+      "easy_count": 6,
+      "hard_count": 6,
+      "easy_levels": [
+        74,
+        75,
+        78,
+        76,
+        78,
+        79
+      ],
+      "hard_levels": [
+        76,
+        77,
+        78,
+        79,
+        78,
+        79
+      ],
+      "changes": "Fácil (6 pkmn, Nv. 74-79) vs Difícil (6 pkmn, Nv. 76-79, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-69",
+      "trainer": "ENTRENADORA DALIA",
+      "location": "MANSIÓN CANELA, CARA OCULTA",
+      "region": "T2: Archi7 (Islas Sete)",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        72,
+        74,
+        74,
+        74,
+        75
+      ],
+      "hard_levels": [
+        74,
+        72,
+        73,
+        75,
+        74,
+        75
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 72-75) vs Difícil (6 pkmn, Nv. 72-75, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-70",
+      "trainer": "LÍDER GIMNASIO BLAINE",
+      "location": "MANSIÓN CANELA, CARA OCULTA",
+      "region": "T2: Archi7 (Islas Sete)",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        73,
+        75,
+        74,
+        74,
+        76
+      ],
+      "hard_levels": [
+        73,
+        75,
+        74,
+        75,
+        74,
+        76
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 73-76) vs Difícil (6 pkmn, Nv. 73-76, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-71",
+      "trainer": "INVESTIGADOR PKMN OAK",
+      "location": "MANSIÓN CANELA, CARA OCULTA",
+      "region": "T2: Archi7 (Islas Sete)",
+      "easy_count": 6,
+      "hard_count": 6,
+      "easy_levels": [
+        76,
+        77,
+        78,
+        78,
+        78,
+        79
+      ],
+      "hard_levels": [
+        79,
+        77,
+        78,
+        78,
+        78,
+        79
+      ],
+      "changes": "Fácil (6 pkmn, Nv. 76-79) vs Difícil (6 pkmn, Nv. 77-79, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-72",
+      "trainer": "MAESTRO TORRE BELLSPROUT",
+      "location": "CIUDAD MALVA",
+      "region": "T3: Johto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "hard_levels": [
+        77,
+        80,
+        78,
+        78,
+        79,
+        80
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 75-79) vs Difícil (6 pkmn, Nv. 77-80, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-73",
+      "trainer": "LÍDER MALVA PEGASO",
+      "location": "CIUDAD MALVA",
+      "region": "T3: Johto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        79,
+        80,
+        80,
+        81,
+        82
+      ],
+      "hard_levels": [
+        81,
+        79,
+        80,
+        80,
+        81,
+        82
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 79-82) vs Difícil (6 pkmn, Nv. 79-82, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-74",
+      "trainer": "PROFESOR ELM",
+      "location": "CUEVA UNIÓN",
+      "region": "T3: Johto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        77,
+        79,
+        79,
+        79,
+        81
+      ],
+      "hard_levels": [
+        80,
+        79,
+        79,
+        79,
+        81,
+        81
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 77-81) vs Difícil (6 pkmn, Nv. 79-81, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-75",
+      "trainer": "POKEMANÍACO LOUIS",
+      "location": "POZO SLOWPOKE",
+      "region": "T3: Johto",
+      "easy_count": 4,
+      "hard_count": 6,
+      "easy_levels": [
+        75,
+        76,
+        77,
+        78
+      ],
+      "hard_levels": [
+        77,
+        78,
+        79,
+        79,
+        80,
+        80
+      ],
+      "changes": "Fácil (4 pkmn, Nv. 75-78) vs Difícil (6 pkmn, Nv. 77-80, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-76",
+      "trainer": "LÍDER GIMNASIO AZALEA CÉSAR",
+      "location": "PUEBLO AZALEA",
+      "region": "T3: Johto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        81,
+        81,
+        82,
+        83,
+        84
+      ],
+      "hard_levels": [
+        81,
+        81,
+        82,
+        82,
+        83,
+        84
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 81-84) vs Difícil (6 pkmn, Nv. 81-84, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-77",
+      "trainer": "LÍDER GIMNASIO TRIGAL VALERIA",
+      "location": "CIUDAD TRIGAL",
+      "region": "T3: Johto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "hard_levels": [
+        82,
+        83,
+        84,
+        85,
+        84,
+        86
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 82-86) vs Difícil (6 pkmn, Nv. 82-86, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-78",
+      "trainer": "CHICA KIMONO 1",
+      "location": "CIUDAD IRIS",
+      "region": "T3: Johto",
+      "easy_count": 1,
+      "hard_count": 3,
+      "easy_levels": [
+        80
+      ],
+      "hard_levels": [
+        80,
+        81,
+        82
+      ],
+      "changes": "Fácil (1 pkmn, Nv. 80-80) vs Difícil (3 pkmn, Nv. 80-82, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-79",
+      "trainer": "CHICA KIMONO 2",
+      "location": "CIUDAD IRIS",
+      "region": "T3: Johto",
+      "easy_count": 1,
+      "hard_count": 3,
+      "easy_levels": [
+        80
+      ],
+      "hard_levels": [
+        80,
+        81,
+        80
+      ],
+      "changes": "Fácil (1 pkmn, Nv. 80-80) vs Difícil (3 pkmn, Nv. 80-81, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-80",
+      "trainer": "CHICA KIMONO 3",
+      "location": "CIUDAD IRIS",
+      "region": "T3: Johto",
+      "easy_count": 1,
+      "hard_count": 3,
+      "easy_levels": [
+        80
+      ],
+      "hard_levels": [
+        80,
+        81,
+        82
+      ],
+      "changes": "Fácil (1 pkmn, Nv. 80-80) vs Difícil (3 pkmn, Nv. 80-82, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-81",
+      "trainer": "CHICA KIMONO 4",
+      "location": "CIUDAD IRIS",
+      "region": "T3: Johto",
+      "easy_count": 1,
+      "hard_count": 3,
+      "easy_levels": [
+        80
+      ],
+      "hard_levels": [
+        80,
+        81,
+        82
+      ],
+      "changes": "Fácil (1 pkmn, Nv. 80-80) vs Difícil (3 pkmn, Nv. 80-82, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-82",
+      "trainer": "CHICA KIMONO 5",
+      "location": "CIUDAD IRIS",
+      "region": "T3: Johto",
+      "easy_count": 1,
+      "hard_count": 3,
+      "easy_levels": [
+        80
+      ],
+      "hard_levels": [
+        80,
+        81,
+        82
+      ],
+      "changes": "Fácil (1 pkmn, Nv. 80-80) vs Difícil (3 pkmn, Nv. 80-82, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-83",
+      "trainer": "VIAJERO ZEUS",
+      "location": "CIUDAD IRIS - TORRE QUEMADA",
+      "region": "T3: Johto",
+      "easy_count": 4,
+      "hard_count": 6,
+      "easy_levels": [
+        84,
+        85,
+        85,
+        86
+      ],
+      "hard_levels": [
+        86,
+        84,
+        85,
+        83,
+        85,
+        86
+      ],
+      "changes": "Fácil (4 pkmn, Nv. 84-86) vs Difícil (6 pkmn, Nv. 83-86, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-84",
+      "trainer": "FARERO KEPLER",
+      "location": "CIUDAD OLIVO - FARO",
+      "region": "T3: Johto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        82,
+        83,
+        83,
+        84,
+        85
+      ],
+      "hard_levels": [
+        83,
+        84,
+        84,
+        85,
+        85,
+        86
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 82-85) vs Difícil (6 pkmn, Nv. 83-86, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-85",
+      "trainer": "LIDER GIMNASIO OLIVO CROM",
+      "location": "CIUDAD OLIVO - GIMNASIO",
+      "region": "T3: Johto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        86,
+        85,
+        85,
+        87,
+        86
+      ],
+      "hard_levels": [
+        86,
+        86,
+        85,
+        85,
+        87,
+        88
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 85-87) vs Difícil (6 pkmn, Nv. 85-88, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-86",
+      "trainer": "CAPITÁN BARCO",
+      "location": "CIUDAD OLIVO - BARCO",
+      "region": "T3: Johto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        85,
+        86,
+        86,
+        84,
+        87
+      ],
+      "hard_levels": [
+        86,
+        87,
+        87,
+        87,
+        87,
+        88
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 84-87) vs Difícil (6 pkmn, Nv. 86-88, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-87",
+      "trainer": "LÍDER ORQUÍDEA ANÍBAL",
+      "location": "CIUDAD ORQUÍDEA - GIMNASIO",
+      "region": "T3: Johto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "hard_levels": [
+        89,
+        87,
+        88,
+        88,
+        89,
+        90
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 86-90) vs Difícil (6 pkmn, Nv. 87-90, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-88",
+      "trainer": "EJECUTIVO ROCKET PROTÓN",
+      "location": "CIUDAD TRIGAL - REUNIÓN TORRE RADIO",
+      "region": "T3: Johto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        86,
+        85,
+        87,
+        88,
+        89
+      ],
+      "hard_levels": [
+        86,
+        86,
+        85,
+        87,
+        88,
+        89
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 85-89) vs Difícil (6 pkmn, Nv. 85-89, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-89",
+      "trainer": "RIVAL ANDRA",
+      "location": "MONTE PLATEADO - RUTA 28",
+      "region": "T3: Johto",
+      "easy_count": 6,
+      "hard_count": 6,
+      "easy_levels": [
+        89,
+        88,
+        89,
+        91,
+        90,
+        92
+      ],
+      "hard_levels": [
+        89,
+        90,
+        90,
+        91,
+        91,
+        92
+      ],
+      "changes": "Fácil (6 pkmn, Nv. 88-92) vs Difícil (6 pkmn, Nv. 89-92, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-90",
+      "trainer": "ENTRENADOR ROJO",
+      "location": "MONTE PLATEADO - INTERIOR CUEVA",
+      "region": "T3: Johto",
+      "easy_count": 6,
+      "hard_count": 6,
+      "easy_levels": [
+        86,
+        83,
+        83,
+        82,
+        80,
+        83
+      ],
+      "hard_levels": [
+        88,
+        86,
+        87,
+        87,
+        87,
+        88
+      ],
+      "changes": "Fácil (6 pkmn, Nv. 80-86) vs Difícil (6 pkmn, Nv. 86-88, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-91",
+      "trainer": "EX ALTO MANDO AGATHA",
+      "location": "CIUDAD IRIS - TORRE CAMPANA",
+      "region": "T3: Johto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        86,
+        87,
+        87,
+        88,
+        89
+      ],
+      "hard_levels": [
+        89,
+        88,
+        88,
+        89,
+        89,
+        90
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 86-89) vs Difícil (6 pkmn, Nv. 88-90, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-92",
+      "trainer": "LÍDER IRIS JADEN",
+      "location": "CIUDAD IRIS - TORRE CAMPANA",
+      "region": "T3: Johto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        90,
+        92,
+        91,
+        90,
+        93
+      ],
+      "hard_levels": [
+        90,
+        92,
+        91,
+        90,
+        92,
+        93
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 90-93) vs Difícil (6 pkmn, Nv. 90-93, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-93",
+      "trainer": "VIAJERO ZEUS",
+      "location": "CIUDAD IRIS - TORRE CAMPANA",
+      "region": "T3: Johto",
+      "easy_count": 17,
+      "hard_count": 24,
+      "easy_levels": [
+        89,
+        91,
+        90,
+        90,
+        92,
+        80,
+        81,
+        82,
+        83,
+        82,
+        83,
+        83,
+        84,
+        83,
+        85,
+        85,
+        86
+      ],
+      "hard_levels": [
+        90,
+        89,
+        91,
+        91,
+        90,
+        92,
+        80,
+        81,
+        81,
+        82,
+        82,
+        83,
+        81,
+        82,
+        83,
+        82,
+        83,
+        84,
+        83,
+        84,
+        84,
+        85,
+        85,
+        86
+      ],
+      "changes": "Fácil (17 pkmn, Nv. 80-92) vs Difícil (24 pkmn, Nv. 80-92, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-94",
+      "trainer": "LÍDER CAOBA FREDO",
+      "location": "PUEBLO CAOBA - GIMNASIO",
+      "region": "T3: Johto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        93,
+        92,
+        91,
+        94,
+        95
+      ],
+      "hard_levels": [
+        91,
+        93,
+        92,
+        92,
+        94,
+        95
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 91-95) vs Difícil (6 pkmn, Nv. 91-95, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-95",
+      "trainer": "CAMPEÓN TESELIA MIRTO",
+      "location": "RUTA 44",
+      "region": "T3: Johto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        93,
+        94,
+        92,
+        95,
+        96
+      ],
+      "hard_levels": [
+        95,
+        93,
+        94,
+        93,
+        95,
+        96
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 92-96) vs Difícil (6 pkmn, Nv. 93-96, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-96",
+      "trainer": "LÍDER SECTA LAIREB",
+      "location": "CULTO PUEBLO LAVANDA",
+      "region": "T3: Johto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        94,
+        95,
+        93,
+        96,
+        97
+      ],
+      "hard_levels": [
+        95,
+        94,
+        96,
+        94,
+        97,
+        98
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 93-97) vs Difícil (6 pkmn, Nv. 94-98, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-97",
+      "trainer": "LÍDER ENDRINO M.DRAGÓN",
+      "location": "CIUDAD ENDRINO - GUARIDA DRAGÓN",
+      "region": "T3: Johto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        95,
+        97,
+        97,
+        96,
+        98
+      ],
+      "hard_levels": [
+        95,
+        97,
+        97,
+        95,
+        96,
+        98
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 95-98) vs Difícil (6 pkmn, Nv. 95-98, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-98",
+      "trainer": "GUARDIÁN 1",
+      "location": "RUINAS ALFA - CÁMARAS SELLADAS",
+      "region": "T3: Johto",
+      "easy_count": 1,
+      "hard_count": 3,
+      "easy_levels": [
+        95
+      ],
+      "hard_levels": [
+        95,
+        95,
+        95
+      ],
+      "changes": "Fácil (1 pkmn, Nv. 95-95) vs Difícil (3 pkmn, Nv. 95-95, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-99",
+      "trainer": "GUARDIÁN 2",
+      "location": "RUINAS ALFA - CÁMARAS SELLADAS",
+      "region": "T3: Johto",
+      "easy_count": 1,
+      "hard_count": 3,
+      "easy_levels": [
+        95
+      ],
+      "hard_levels": [
+        95,
+        95,
+        95
+      ],
+      "changes": "Fácil (1 pkmn, Nv. 95-95) vs Difícil (3 pkmn, Nv. 95-95, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-100",
+      "trainer": "GUARDIÁN 3",
+      "location": "RUINAS ALFA - CÁMARAS SELLADAS",
+      "region": "T3: Johto",
+      "easy_count": 1,
+      "hard_count": 3,
+      "easy_levels": [
+        95
+      ],
+      "hard_levels": [
+        95,
+        95,
+        95
+      ],
+      "changes": "Fácil (1 pkmn, Nv. 95-95) vs Difícil (3 pkmn, Nv. 95-95, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-101",
+      "trainer": "GUARDIÁN 4",
+      "location": "RUINAS ALFA - CÁMARAS SELLADAS",
+      "region": "T3: Johto",
+      "easy_count": 1,
+      "hard_count": 3,
+      "easy_levels": [
+        95
+      ],
+      "hard_levels": [
+        95,
+        95,
+        95
+      ],
+      "changes": "Fácil (1 pkmn, Nv. 95-95) vs Difícil (3 pkmn, Nv. 95-95, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-102",
+      "trainer": "GUARDIÁN 5",
+      "location": "RUINAS ALFA - CÁMARAS SELLADAS",
+      "region": "T3: Johto",
+      "easy_count": 1,
+      "hard_count": 3,
+      "easy_levels": [
+        95
+      ],
+      "hard_levels": [
+        95,
+        95,
+        95
+      ],
+      "changes": "Fácil (1 pkmn, Nv. 95-95) vs Difícil (3 pkmn, Nv. 95-95, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-103",
+      "trainer": "UNOWN AÚREO",
+      "location": "RUINAS ALFA - CÁMARAS SELLADAS",
+      "region": "T3: Johto",
+      "easy_count": 4,
+      "hard_count": 6,
+      "easy_levels": [
+        95,
+        95,
+        95,
+        96
+      ],
+      "hard_levels": [
+        96,
+        96,
+        96,
+        96,
+        96,
+        97
+      ],
+      "changes": "Fácil (4 pkmn, Nv. 95-96) vs Difícil (6 pkmn, Nv. 96-97, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-104",
+      "trainer": "HO-OH PRIMIGENIO",
+      "location": "RUINAS ALFA - CÁMARAS SELLADAS",
+      "region": "T3: Johto",
+      "easy_count": 2,
+      "hard_count": 4,
+      "easy_levels": [
+        97,
+        99
+      ],
+      "hard_levels": [
+        97,
+        98,
+        98,
+        99
+      ],
+      "changes": "Fácil (2 pkmn, Nv. 97-99) vs Difícil (4 pkmn, Nv. 97-99, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-105",
+      "trainer": "LUGIA PRIMIGENIO",
+      "location": "RUINAS ALFA - CÁMARAS SELLADAS",
+      "region": "T3: Johto",
+      "easy_count": 2,
+      "hard_count": 4,
+      "easy_levels": [
+        97,
+        99
+      ],
+      "hard_levels": [
+        97,
+        98,
+        98,
+        99
+      ],
+      "changes": "Fácil (2 pkmn, Nv. 97-99) vs Difícil (4 pkmn, Nv. 97-99, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-106",
+      "trainer": "ZEUS RUINAS ALFA",
+      "location": "RUINAS ALFA - CÁMARAS SELLADAS",
+      "region": "T3: Johto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        95,
+        96,
+        96,
+        97,
+        98
+      ],
+      "hard_levels": [
+        97,
+        96,
+        95,
+        97,
+        98,
+        99
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 95-98) vs Difícil (6 pkmn, Nv. 95-99, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-107",
+      "trainer": "REY UNOWN",
+      "location": "RUINAS ALFA - CÁMARAS SELLADAS",
+      "region": "T3: Johto",
+      "easy_count": 2,
+      "hard_count": 4,
+      "easy_levels": [
+        98,
+        99
+      ],
+      "hard_levels": [
+        97,
+        98,
+        98,
+        99
+      ],
+      "changes": "Fácil (2 pkmn, Nv. 98-99) vs Difícil (4 pkmn, Nv. 97-99, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-108",
+      "trainer": "DIOS LAIREB",
+      "location": "RUINAS ALFA - CÁMARAS SELLADAS",
+      "region": "T3: Johto",
+      "easy_count": 3,
+      "hard_count": 3,
+      "easy_levels": [
+        100,
+        100,
+        101
+      ],
+      "hard_levels": [
+        100,
+        100,
+        101
+      ],
+      "changes": "Fácil (3 pkmn, Nv. 100-101) vs Difícil (3 pkmn, Nv. 100-101, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-109",
+      "trainer": "ADMINISTRADOR DEVON ZAFIRO",
+      "location": "MISIÓN 1 - LAGO FURIA",
+      "region": "T4: DLC (Johto DLC)",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        96,
+        97,
+        97,
+        98,
+        99
+      ],
+      "hard_levels": [
+        96,
+        97,
+        97,
+        98,
+        98,
+        99
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 96-99) vs Difícil (6 pkmn, Nv. 96-99, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-110",
+      "trainer": "LEGENDARIO LAGO",
+      "location": "MISIÓN 1 - LAGO FURIA",
+      "region": "T4: DLC (Johto DLC)",
+      "easy_count": 1,
+      "hard_count": 1,
+      "easy_levels": [
+        100
+      ],
+      "hard_levels": [
+        100
+      ],
+      "changes": "Fácil (1 pkmn, Nv. 100-100) vs Difícil (1 pkmn, Nv. 100-100, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-111",
+      "trainer": "LÍDER MALVA PEGASO",
+      "location": "MISIÓN 2 - VÍAS TREN",
+      "region": "T4: DLC (Johto DLC)",
+      "easy_count": 6,
+      "hard_count": 7,
+      "easy_levels": [
+        99,
+        98,
+        98,
+        98,
+        100,
+        100
+      ],
+      "hard_levels": [
+        99,
+        98,
+        98,
+        98,
+        99,
+        100,
+        100
+      ],
+      "changes": "Fácil (6 pkmn, Nv. 98-100) vs Difícil (7 pkmn, Nv. 98-100, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-112",
+      "trainer": "VIAJERO EUSINE",
+      "location": "MISIÓN 3 - RUTA 47",
+      "region": "T4: DLC (Johto DLC)",
+      "easy_count": 12,
+      "hard_count": 13,
+      "easy_levels": [
+        96,
+        97,
+        98,
+        98,
+        99,
+        104,
+        99,
+        100,
+        100,
+        101,
+        100,
+        102
+      ],
+      "hard_levels": [
+        97,
+        98,
+        98,
+        99,
+        99,
+        100,
+        106,
+        99,
+        101,
+        101,
+        100,
+        101,
+        102
+      ],
+      "changes": "Fácil (12 pkmn, Nv. 96-104) vs Difícil (13 pkmn, Nv. 97-106, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-113",
+      "trainer": "ALTO MANDO TORRE DUN - 1ro",
+      "location": "INTERIOR TORRE DUN",
+      "region": "T4: DLC (Johto DLC)",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        95,
+        96,
+        97,
+        98,
+        99
+      ],
+      "hard_levels": [
+        95,
+        96,
+        99,
+        97,
+        98,
+        99
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 95-99) vs Difícil (6 pkmn, Nv. 95-99, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-114",
+      "trainer": "ALTO MANDO TORRE DUN - 2do",
+      "location": "INTERIOR TORRE DUN",
+      "region": "T4: DLC (Johto DLC)",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        97,
+        98,
+        99,
+        99,
+        100
+      ],
+      "hard_levels": [
+        98,
+        99,
+        98,
+        99,
+        99,
+        100
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 97-100) vs Difícil (6 pkmn, Nv. 98-100, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-115",
+      "trainer": "ALTO MANDO TORRE DUN - 3ro",
+      "location": "INTERIOR TORRE DUN",
+      "region": "T4: DLC (Johto DLC)",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        98,
+        99,
+        99,
+        100,
+        101
+      ],
+      "hard_levels": [
+        98,
+        99,
+        99,
+        100,
+        100,
+        101
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 98-101) vs Difícil (6 pkmn, Nv. 98-101, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-116",
+      "trainer": "ALTO MANDO TORRE DUN - 4ro",
+      "location": "INTERIOR TORRE DUN",
+      "region": "T4: DLC (Johto DLC)",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        99,
+        100,
+        100,
+        101,
+        102
+      ],
+      "hard_levels": [
+        99,
+        100,
+        100,
+        101,
+        101,
+        102
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 99-102) vs Difícil (6 pkmn, Nv. 99-102, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-117",
+      "trainer": "GRAN MAESTRO TORRE DUN",
+      "location": "INTERIOR TORRE DUN",
+      "region": "T4: DLC (Johto DLC)",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        102,
+        103,
+        103,
+        103,
+        104
+      ],
+      "hard_levels": [
+        102,
+        103,
+        103,
+        103,
+        102,
+        104
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 102-104) vs Difícil (6 pkmn, Nv. 102-104, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-118",
+      "trainer": "ADMINISTRADOR DEVON RUBÍ",
+      "location": "MISIÓN 4 - BASE HOENN",
+      "region": "T4: DLC (Johto DLC)",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        101,
+        102,
+        101,
+        100,
+        103
+      ],
+      "hard_levels": [
+        101,
+        102,
+        101,
+        102,
+        101,
+        103
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 100-103) vs Difícil (6 pkmn, Nv. 101-103, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-119",
+      "trainer": "CABINA SEGURIDAD 1",
+      "location": "MISIÓN 5 - VOLCÁN ISLA CANELA",
+      "region": "T4: DLC (Johto DLC)",
+      "easy_count": 2,
+      "hard_count": 3,
+      "easy_levels": [
+        98,
+        98
+      ],
+      "hard_levels": [
+        99,
+        99,
+        99
+      ],
+      "changes": "Fácil (2 pkmn, Nv. 98-98) vs Difícil (3 pkmn, Nv. 99-99, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-120",
+      "trainer": "CABINA SEGURIDAD 2",
+      "location": "MISIÓN 5 - VOLCÁN ISLA CANELA",
+      "region": "T4: DLC (Johto DLC)",
+      "easy_count": 2,
+      "hard_count": 3,
+      "easy_levels": [
+        98,
+        98
+      ],
+      "hard_levels": [
+        99,
+        99,
+        99
+      ],
+      "changes": "Fácil (2 pkmn, Nv. 98-98) vs Difícil (3 pkmn, Nv. 99-99, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-121",
+      "trainer": "CABINA SEGURIDAD 3",
+      "location": "MISIÓN 5 - VOLCÁN ISLA CANELA",
+      "region": "T4: DLC (Johto DLC)",
+      "easy_count": 2,
+      "hard_count": 3,
+      "easy_levels": [
+        98,
+        98
+      ],
+      "hard_levels": [
+        99,
+        99,
+        99
+      ],
+      "changes": "Fácil (2 pkmn, Nv. 98-98) vs Difícil (3 pkmn, Nv. 99-99, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-122",
+      "trainer": "CABINA SEGURIDAD 4",
+      "location": "MISIÓN 5 - VOLCÁN ISLA CANELA",
+      "region": "T4: DLC (Johto DLC)",
+      "easy_count": 2,
+      "hard_count": 3,
+      "easy_levels": [
+        98,
+        98
+      ],
+      "hard_levels": [
+        99,
+        99,
+        99
+      ],
+      "changes": "Fácil (2 pkmn, Nv. 98-98) vs Difícil (3 pkmn, Nv. 99-99, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-123",
+      "trainer": "CABINA SEGURIDAD 5",
+      "location": "MISIÓN 5 - VOLCÁN ISLA CANELA",
+      "region": "T4: DLC (Johto DLC)",
+      "easy_count": 2,
+      "hard_count": 4,
+      "easy_levels": [
+        98,
+        98
+      ],
+      "hard_levels": [
+        99,
+        99,
+        99,
+        99
+      ],
+      "changes": "Fácil (2 pkmn, Nv. 98-98) vs Difícil (4 pkmn, Nv. 99-99, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-124",
+      "trainer": "PRIMER PROTOTIPO DE NIVEL II",
+      "location": "MISIÓN 5 - VOLCÁN ISLA CANELA",
+      "region": "T4: DLC (Johto DLC)",
+      "easy_count": 3,
+      "hard_count": 4,
+      "easy_levels": [
+        98,
+        99,
+        100
+      ],
+      "hard_levels": [
+        99,
+        100,
+        100,
+        101
+      ],
+      "changes": "Fácil (3 pkmn, Nv. 98-100) vs Difícil (4 pkmn, Nv. 99-101, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-125",
+      "trainer": "PROYECTOS DE MEWTWO",
+      "location": "MISIÓN 5 - VOLCÁN ISLA CANELA",
+      "region": "T4: DLC (Johto DLC)",
+      "easy_count": 3,
+      "hard_count": 4,
+      "easy_levels": [
+        99,
+        99,
+        100
+      ],
+      "hard_levels": [
+        101,
+        101,
+        101,
+        101
+      ],
+      "changes": "Fácil (3 pkmn, Nv. 99-100) vs Difícil (4 pkmn, Nv. 101-101, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-126",
+      "trainer": "ADMINISTRADOR JEFE ROCKET ATLAS",
+      "location": "MISIÓN 6 - NEO CENTRAL ENERGÍA & VÍAS TRIGAL-AZAFRÁN",
+      "region": "T4: DLC (Johto DLC)",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        101,
+        102,
+        102,
+        103,
+        104
+      ],
+      "hard_levels": [
+        101,
+        102,
+        103,
+        102,
+        103,
+        104
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 101-104) vs Difícil (6 pkmn, Nv. 101-104, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-127",
+      "trainer": "ZAPDOS PRIMIGENIO",
+      "location": "MISIÓN 6 - NEO CENTRAL ENERGÍA & VÍAS TRIGAL-AZAFRÁN",
+      "region": "T4: DLC (Johto DLC)",
+      "easy_count": 1,
+      "hard_count": 1,
+      "easy_levels": [
+        108
+      ],
+      "hard_levels": [
+        108
+      ],
+      "changes": "Fácil (1 pkmn, Nv. 108-108) vs Difícil (1 pkmn, Nv. 108-108, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-128",
+      "trainer": "LT.SURGE EXPLOSIVOS",
+      "location": "MISIÓN 7 - SUBTERRÁNEOS KANTO",
+      "region": "T4: DLC (Johto DLC)",
+      "easy_count": 3,
+      "hard_count": 4,
+      "easy_levels": [
+        98,
+        98,
+        98
+      ],
+      "hard_levels": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "changes": "Fácil (3 pkmn, Nv. 98-98) vs Difícil (4 pkmn, Nv. 100-100, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-129",
+      "trainer": "LT.SURGE",
+      "location": "MISIÓN 7 - SUBTERRÁNEOS KANTO",
+      "region": "T4: DLC (Johto DLC)",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        103,
+        100,
+        102,
+        103,
+        104
+      ],
+      "hard_levels": [
+        101,
+        102,
+        103,
+        102,
+        103,
+        104
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 100-104) vs Difícil (6 pkmn, Nv. 101-104, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-130",
+      "trainer": "MOTORISTA 1",
+      "location": "COMBATE TRIPLE VS MOTORISTAS",
+      "region": "T4: DLC (Johto DLC)",
+      "easy_count": 3,
+      "hard_count": 4,
+      "easy_levels": [
+        97,
+        98,
+        99
+      ],
+      "hard_levels": [
+        99,
+        100,
+        100,
+        101
+      ],
+      "changes": "Fácil (3 pkmn, Nv. 97-99) vs Difícil (4 pkmn, Nv. 99-101, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-131",
+      "trainer": "MOTORISTA 2",
+      "location": "COMBATE TRIPLE VS MOTORISTAS",
+      "region": "T4: DLC (Johto DLC)",
+      "easy_count": 3,
+      "hard_count": 4,
+      "easy_levels": [
+        97,
+        98,
+        99
+      ],
+      "hard_levels": [
+        99,
+        100,
+        100,
+        101
+      ],
+      "changes": "Fácil (3 pkmn, Nv. 97-99) vs Difícil (4 pkmn, Nv. 99-101, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-132",
+      "trainer": "MOTORISTA 3",
+      "location": "COMBATE TRIPLE VS MOTORISTAS",
+      "region": "T4: DLC (Johto DLC)",
+      "easy_count": 4,
+      "hard_count": 6,
+      "easy_levels": [
+        98,
+        99,
+        100,
+        101
+      ],
+      "hard_levels": [
+        100,
+        101,
+        101,
+        102,
+        102,
+        103
+      ],
+      "changes": "Fácil (4 pkmn, Nv. 98-101) vs Difícil (6 pkmn, Nv. 100-103, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-133",
+      "trainer": "LÍDER FUCSIA KOGA",
+      "location": "FINAL MISIÓN SUBTERRÁNEOS",
+      "region": "T4: DLC (Johto DLC)",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        101,
+        100,
+        103,
+        101,
+        105
+      ],
+      "hard_levels": [
+        101,
+        100,
+        103,
+        101,
+        104,
+        105
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 100-105) vs Difícil (6 pkmn, Nv. 100-105, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-134",
+      "trainer": "ADMINISTRADOR PETREL",
+      "location": "FINAL MISIÓN SUBTERRÁNEOS",
+      "region": "T4: DLC (Johto DLC)",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        101,
+        104,
+        103,
+        105,
+        106
+      ],
+      "hard_levels": [
+        101,
+        102,
+        104,
+        103,
+        105,
+        106
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 101-106) vs Difícil (6 pkmn, Nv. 101-106, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-135",
+      "trainer": "VIAJERO EUSINE",
+      "location": "MISIÓN 8 - CEMENTERIO PUEBLO LAVANDA",
+      "region": "T4: DLC (Johto DLC)",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        105,
+        104,
+        106,
+        106,
+        107
+      ],
+      "hard_levels": [
+        105,
+        105,
+        107,
+        106,
+        106,
+        107
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 104-107) vs Difícil (6 pkmn, Nv. 105-107, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-136",
+      "trainer": "ENTRENADOR AZUL",
+      "location": "MISIÓN 8 - CEMENTERIO PUEBLO LAVANDA",
+      "region": "T4: DLC (Johto DLC)",
+      "easy_count": 6,
+      "hard_count": 6,
+      "easy_levels": [
+        95,
+        96,
+        97,
+        96,
+        98,
+        100
+      ],
+      "hard_levels": [
+        104,
+        101,
+        102,
+        101,
+        103,
+        105
+      ],
+      "changes": "Fácil (6 pkmn, Nv. 95-100) vs Difícil (6 pkmn, Nv. 101-105, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-137",
+      "trainer": "GHOST PRIMIGENIO",
+      "location": "MISIÓN 8 - CEMENTERIO PUEBLO LAVANDA",
+      "region": "T4: DLC (Johto DLC)",
+      "easy_count": 1,
+      "hard_count": 1,
+      "easy_levels": [
+        110
+      ],
+      "hard_levels": [
+        114
+      ],
+      "changes": "Fácil (1 pkmn, Nv. 110-110) vs Difícil (1 pkmn, Nv. 114-114, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-138",
+      "trainer": "COLECCIONISTA BILL",
+      "location": "MISIÓN 9 - TORRE RADIO LAVANDA",
+      "region": "T4: DLC (Johto DLC)",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        104,
+        107,
+        107,
+        106,
+        108
+      ],
+      "hard_levels": [
+        104,
+        105,
+        107,
+        107,
+        106,
+        108
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 104-108) vs Difícil (6 pkmn, Nv. 104-108, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-139",
+      "trainer": "CIENTÍFICO MIGUEL",
+      "location": "MISIÓN 9 - TORRE RADIO LAVANDA",
+      "region": "T4: DLC (Johto DLC)",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        106,
+        105,
+        107,
+        107,
+        108
+      ],
+      "hard_levels": [
+        105,
+        106,
+        106,
+        107,
+        107,
+        108
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 105-108) vs Difícil (6 pkmn, Nv. 105-108, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-140",
+      "trainer": "MEWTWO ARMADURA",
+      "location": "MISIÓN 9 - TORRE RADIO LAVANDA",
+      "region": "T4: DLC (Johto DLC)",
+      "easy_count": 1,
+      "hard_count": 1,
+      "easy_levels": [
+        115
+      ],
+      "hard_levels": [
+        115
+      ],
+      "changes": "Fácil (1 pkmn, Nv. 115-115) vs Difícil (1 pkmn, Nv. 115-115, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-141",
+      "trainer": "TEAM ROCKET LÍDER GIOVANNI",
+      "location": "MISIÓN 9 - TORRE RADIO LAVANDA",
+      "region": "T4: DLC (Johto DLC)",
+      "easy_count": 6,
+      "hard_count": 6,
+      "easy_levels": [
+        107,
+        108,
+        108,
+        110,
+        109,
+        111
+      ],
+      "hard_levels": [
+        107,
+        108,
+        108,
+        110,
+        109,
+        111
+      ],
+      "changes": "Fácil (6 pkmn, Nv. 107-111) vs Difícil (6 pkmn, Nv. 107-111, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-142",
+      "trainer": "GROUDON PRIMIGENIO",
+      "location": "MISIÓN 1 - MONTE CENIZO",
+      "region": "T5: Hoenn",
+      "easy_count": 1,
+      "hard_count": 1,
+      "easy_levels": [
+        120
+      ],
+      "hard_levels": [
+        125
+      ],
+      "changes": "Fácil (1 pkmn, Nv. 120-120) vs Difícil (1 pkmn, Nv. 125-125, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-143",
+      "trainer": "LÍDER LAVACALDA CANDELA",
+      "location": "MISIÓN 1 - MONTE CENIZO",
+      "region": "T5: Hoenn",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        105,
+        106,
+        107,
+        108,
+        109
+      ],
+      "hard_levels": [
+        107,
+        108,
+        108,
+        109,
+        110,
+        111
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 105-109) vs Difícil (6 pkmn, Nv. 107-111, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-144",
+      "trainer": "DOCTOR RASMUS MALVALANOVA",
+      "location": "MISIÓN 2 - CIUDAD MALVALONA",
+      "region": "T5: Hoenn",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        112,
+        111,
+        112,
+        113,
+        114
+      ],
+      "hard_levels": [
+        112,
+        110,
+        111,
+        112,
+        113,
+        114
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 111-114) vs Difícil (6 pkmn, Nv. 110-114, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-145",
+      "trainer": "LÍDER MALVALONA ERICO",
+      "location": "MISIÓN 2 - CIUDAD MALVALONA",
+      "region": "T5: Hoenn",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        107,
+        108,
+        107,
+        108,
+        110
+      ],
+      "hard_levels": [
+        110,
+        111,
+        110,
+        109,
+        109,
+        112
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 107-110) vs Difícil (6 pkmn, Nv. 109-112, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-146",
+      "trainer": "PROPIETARIA CASINO MALVALONA ARIANA",
+      "location": "MISIÓN 2 - CIUDAD MALVALONA",
+      "region": "T5: Hoenn",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        112,
+        113,
+        112,
+        114,
+        115
+      ],
+      "hard_levels": [
+        112,
+        113,
+        114,
+        112,
+        114,
+        115
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 112-115) vs Difícil (6 pkmn, Nv. 112-115, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-147",
+      "trainer": "ADMINISTRADOR DEVON ZAFIRO",
+      "location": "MISIÓN 3 - NAO ABANDONADA",
+      "region": "T5: Hoenn",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        113,
+        113,
+        112,
+        114,
+        115
+      ],
+      "hard_levels": [
+        113,
+        113,
+        112,
+        112,
+        114,
+        115
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 112-115) vs Difícil (6 pkmn, Nv. 112-115, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-148",
+      "trainer": "LÍDER AZULIZA MARCIAL",
+      "location": "MISIÓN 4 - PUEBLO AZULIZA",
+      "region": "T5: Hoenn",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        108,
+        109,
+        110,
+        110,
+        111
+      ],
+      "hard_levels": [
+        111,
+        110,
+        111,
+        112,
+        113,
+        113
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 108-111) vs Difícil (6 pkmn, Nv. 110-113, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-149",
+      "trainer": "ADMINISTRADOR DEVON ESMERALDA",
+      "location": "MISIÓN 4 - PUEBLO AZULIZA",
+      "region": "T5: Hoenn",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        115,
+        115,
+        116,
+        114,
+        117
+      ],
+      "hard_levels": [
+        114,
+        115,
+        115,
+        116,
+        114,
+        117
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 114-117) vs Difícil (6 pkmn, Nv. 114-117, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-150",
+      "trainer": "ALTO MANDO DRACÓN",
+      "location": "MISIÓN 5 - PUNTANEVA",
+      "region": "T5: Hoenn",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        112,
+        114,
+        114,
+        113,
+        115
+      ],
+      "hard_levels": [
+        113,
+        112,
+        114,
+        114,
+        114,
+        115
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 112-115) vs Difícil (6 pkmn, Nv. 112-115, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-151",
+      "trainer": "ADMINISTRADOR JEFE DEVON AMATISTA",
+      "location": "MISIÓN 5 - PUNTANEVA",
+      "region": "T5: Hoenn",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        118,
+        119,
+        117,
+        119,
+        120
+      ],
+      "hard_levels": [
+        118,
+        119,
+        118,
+        117,
+        119,
+        120
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 117-120) vs Difícil (6 pkmn, Nv. 117-120, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-152",
+      "trainer": "LÍDER PUNTANEVA INVERNA",
+      "location": "MISIÓN 5 - PUNTANEVA",
+      "region": "T5: Hoenn",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        109,
+        110,
+        110,
+        111,
+        112
+      ],
+      "hard_levels": [
+        111,
+        112,
+        112,
+        112,
+        113,
+        112
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 109-112) vs Difícil (6 pkmn, Nv. 111-113, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-153",
+      "trainer": "LÍDER ARBORADA ALANA",
+      "location": "MISIÓN 6 - CIUDAD ARBORADA",
+      "region": "T5: Hoenn",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        110,
+        112,
+        112,
+        112,
+        113
+      ],
+      "hard_levels": [
+        112,
+        113,
+        114,
+        114,
+        114,
+        115
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 110-113) vs Difícil (6 pkmn, Nv. 112-115, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-154",
+      "trainer": "LÍDERES VITO Y LETI (COMBATE DOBLE)",
+      "location": "MISIÓN 7 - CALAGUA Y ALGARIA",
+      "region": "T5: Hoenn",
+      "easy_count": 6,
+      "hard_count": 6,
+      "easy_levels": [
+        112,
+        112,
+        113,
+        113,
+        114,
+        114
+      ],
+      "hard_levels": [
+        114,
+        114,
+        115,
+        115,
+        116,
+        116
+      ],
+      "changes": "Fácil (6 pkmn, Nv. 112-114) vs Difícil (6 pkmn, Nv. 114-116, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-155",
+      "trainer": "KYOGRE PRIMIGENIO",
+      "location": "MISIÓN 8 - FOSA ABISAL",
+      "region": "T5: Hoenn",
+      "easy_count": 1,
+      "hard_count": 1,
+      "easy_levels": [
+        125
+      ],
+      "hard_levels": [
+        128
+      ],
+      "changes": "Fácil (1 pkmn, Nv. 125-125) vs Difícil (1 pkmn, Nv. 128-128, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-156",
+      "trainer": "ADMINISTRADOR DEVON RUBÍ",
+      "location": "MISIÓN 9 - CÁMARA SELLADA",
+      "region": "T5: Hoenn",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        118,
+        119,
+        119,
+        120,
+        121
+      ],
+      "hard_levels": [
+        118,
+        119,
+        119,
+        120,
+        119,
+        121
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 118-121) vs Difícil (6 pkmn, Nv. 118-121, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-157",
+      "trainer": "AS DEL FRENTE VALENTE",
+      "location": "MISIÓN 9 - CÁMARA SELLADA",
+      "region": "T5: Hoenn",
+      "easy_count": 6,
+      "hard_count": 6,
+      "easy_levels": [
+        119,
+        119,
+        119,
+        120,
+        120,
+        121
+      ],
+      "hard_levels": [
+        119,
+        119,
+        119,
+        120,
+        120,
+        121
+      ],
+      "changes": "Fácil (6 pkmn, Nv. 119-121) vs Difícil (6 pkmn, Nv. 119-121, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-158",
+      "trainer": "ADMINISTRADORES DEVON ZAFIRO Y ESMERALDA (COMBATE DOBLE)",
+      "location": "MISIÓN 9 - CÁMARA SELLADA",
+      "region": "T5: Hoenn",
+      "easy_count": 6,
+      "hard_count": 6,
+      "easy_levels": [
+        121,
+        122,
+        120,
+        121,
+        122,
+        123
+      ],
+      "hard_levels": [
+        121,
+        122,
+        120,
+        121,
+        122,
+        123
+      ],
+      "changes": "Fácil (6 pkmn, Nv. 120-123) vs Difícil (6 pkmn, Nv. 120-123, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-159",
+      "trainer": "CIENTÍFICO MIGUEL Y DOCTOR RASMUS (COMBATE DOBLE)",
+      "location": "MISIÓN 9 - CÁMARA SELLADA",
+      "region": "T5: Hoenn",
+      "easy_count": 6,
+      "hard_count": 6,
+      "easy_levels": [
+        122,
+        122,
+        121,
+        123,
+        123,
+        124
+      ],
+      "hard_levels": [
+        122,
+        124,
+        121,
+        122,
+        123,
+        123
+      ],
+      "changes": "Fácil (6 pkmn, Nv. 121-124) vs Difícil (6 pkmn, Nv. 121-124, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-160",
+      "trainer": "ADMINISTRADOR JEFE DEVON AMATISTA (COMBATE DOBLE)",
+      "location": "MISIÓN 9 - CÁMARA SELLADA",
+      "region": "T5: Hoenn",
+      "easy_count": 6,
+      "hard_count": 6,
+      "easy_levels": [
+        123,
+        125,
+        122,
+        124,
+        125,
+        126
+      ],
+      "hard_levels": [
+        124,
+        125,
+        123,
+        124,
+        125,
+        126
+      ],
+      "changes": "Fácil (6 pkmn, Nv. 122-126) vs Difícil (6 pkmn, Nv. 123-126, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-161",
+      "trainer": "CRONISTA TRISTANA",
+      "location": "MISIÓN 9 - CÁMARA SELLADA",
+      "region": "T5: Hoenn",
+      "easy_count": 4,
+      "hard_count": 6,
+      "easy_levels": [
+        122,
+        121,
+        123,
+        124
+      ],
+      "hard_levels": [
+        122,
+        121,
+        122,
+        121,
+        123,
+        124
+      ],
+      "changes": "Fácil (4 pkmn, Nv. 121-124) vs Difícil (6 pkmn, Nv. 121-124, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-162",
+      "trainer": "SIMULADOR NIVEL 7",
+      "location": "MISIÓN 10 - LABORATORIO OAK",
+      "region": "T5: Hoenn",
+      "easy_count": 4,
+      "hard_count": 4,
+      "easy_levels": [
+        121,
+        122,
+        122,
+        123
+      ],
+      "hard_levels": [
+        123,
+        122,
+        122,
+        123
+      ],
+      "changes": "Fácil (4 pkmn, Nv. 121-123) vs Difícil (4 pkmn, Nv. 122-123, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-163",
+      "trainer": "SIMULADOR NIVEL 8",
+      "location": "MISIÓN 10 - LABORATORIO OAK",
+      "region": "T5: Hoenn",
+      "easy_count": 4,
+      "hard_count": 4,
+      "easy_levels": [
+        122,
+        123,
+        123,
+        124
+      ],
+      "hard_levels": [
+        124,
+        123,
+        123,
+        124
+      ],
+      "changes": "Fácil (4 pkmn, Nv. 122-124) vs Difícil (4 pkmn, Nv. 123-124, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-164",
+      "trainer": "SIMULADOR NIVEL 9",
+      "location": "MISIÓN 10 - LABORATORIO OAK",
+      "region": "T5: Hoenn",
+      "easy_count": 5,
+      "hard_count": 5,
+      "easy_levels": [
+        122,
+        123,
+        124,
+        124,
+        125
+      ],
+      "hard_levels": [
+        124,
+        123,
+        124,
+        124,
+        125
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 122-125) vs Difícil (5 pkmn, Nv. 123-125, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-165",
+      "trainer": "SIMULADOR NIVEL 10",
+      "location": "MISIÓN 10 - LABORATORIO OAK",
+      "region": "T5: Hoenn",
+      "easy_count": 6,
+      "hard_count": 6,
+      "easy_levels": [
+        124,
+        123,
+        123,
+        124,
+        125,
+        126
+      ],
+      "hard_levels": [
+        125,
+        124,
+        123,
+        123,
+        124,
+        126
+      ],
+      "changes": "Fácil (6 pkmn, Nv. 123-126) vs Difícil (6 pkmn, Nv. 123-126, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-166",
+      "trainer": "VIAJERO EUSINE Y COLECCIONISTA BILL (COMBATE DOBLE)",
+      "location": "MISIÓN 10 - LABORATORIO OAK",
+      "region": "T5: Hoenn",
+      "easy_count": 6,
+      "hard_count": 6,
+      "easy_levels": [
+        127,
+        126,
+        127,
+        127,
+        127,
+        128
+      ],
+      "hard_levels": [
+        127,
+        126,
+        127,
+        127,
+        127,
+        128
+      ],
+      "changes": "Fácil (6 pkmn, Nv. 126-128) vs Difícil (6 pkmn, Nv. 126-128, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-167",
+      "trainer": "SIMULADOR NIVEL IMPOSIBLE (COMBATE DOBLE)",
+      "location": "MISIÓN 10 - LABORATORIO OAK",
+      "region": "T5: Hoenn",
+      "easy_count": 6,
+      "hard_count": 6,
+      "easy_levels": [
+        127,
+        128,
+        128,
+        128,
+        129,
+        128
+      ],
+      "hard_levels": [
+        127,
+        127,
+        128,
+        128,
+        129,
+        129
+      ],
+      "changes": "Fácil (6 pkmn, Nv. 127-129) vs Difícil (6 pkmn, Nv. 127-129, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-168",
+      "trainer": "INVESTIGADOR OAK Y JEFE ROCKET GIOVANNI (COMBATE DOBLE)",
+      "location": "COMBATE FINAL",
+      "region": "T5: Hoenn",
+      "easy_count": 6,
+      "hard_count": 6,
+      "easy_levels": [
+        129,
+        128,
+        129,
+        129,
+        129,
+        130
+      ],
+      "hard_levels": [
+        128,
+        130,
+        129,
+        129,
+        130,
+        130
+      ],
+      "changes": "Fácil (6 pkmn, Nv. 128-130) vs Difícil (6 pkmn, Nv. 128-130, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-169",
+      "trainer": "PRESIDENTE CLUB FANS",
+      "location": "CIUDAD CARMÍN - ANCIANO Y SU MACHOP",
+      "region": "Secundarias: Kanto",
+      "easy_count": 3,
+      "hard_count": 3,
+      "easy_levels": [
+        25,
+        25,
+        25
+      ],
+      "hard_levels": [
+        25,
+        25,
+        25
+      ],
+      "changes": "Fácil (3 pkmn, Nv. 25-25) vs Difícil (3 pkmn, Nv. 25-25, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-170",
+      "trainer": "DOMADOR TIENDA BICIS",
+      "location": "CIUDAD CARMÍN - ANCIANO Y SU MACHOP",
+      "region": "Secundarias: Kanto",
+      "easy_count": 3,
+      "hard_count": 3,
+      "easy_levels": [
+        24,
+        25,
+        26
+      ],
+      "hard_levels": [
+        24,
+        25,
+        26
+      ],
+      "changes": "Fácil (3 pkmn, Nv. 24-26) vs Difícil (3 pkmn, Nv. 24-26, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-171",
+      "trainer": "DOMADOR MACUTO",
+      "location": "GURÚ PESCADOR CARMÍN - MANSIÓN AZULONA",
+      "region": "Secundarias: Kanto",
+      "easy_count": 3,
+      "hard_count": 4,
+      "easy_levels": [
+        26,
+        27,
+        28
+      ],
+      "hard_levels": [
+        26,
+        27,
+        27,
+        28
+      ],
+      "changes": "Fácil (3 pkmn, Nv. 26-28) vs Difícil (4 pkmn, Nv. 26-28, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-172",
+      "trainer": "MOTORISTA FLORÍN",
+      "location": "CAZABICHOS PLATEADA - JARDÍN CARMÍN",
+      "region": "Secundarias: Kanto",
+      "easy_count": 3,
+      "hard_count": 4,
+      "easy_levels": [
+        33,
+        33,
+        35
+      ],
+      "hard_levels": [
+        33,
+        34,
+        34,
+        35
+      ],
+      "changes": "Fácil (3 pkmn, Nv. 33-35) vs Difícil (4 pkmn, Nv. 33-35, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-173",
+      "trainer": "GURÚ PESCADOR FUCSIA",
+      "location": "GURÚ PESCADOR RUTA 12 - CIUDAD FUCSIA",
+      "region": "Secundarias: Kanto",
+      "easy_count": 4,
+      "hard_count": 6,
+      "easy_levels": [
+        35,
+        36,
+        36,
+        37
+      ],
+      "hard_levels": [
+        35,
+        36,
+        38,
+        36,
+        37,
+        38
+      ],
+      "changes": "Fácil (4 pkmn, Nv. 35-37) vs Difícil (6 pkmn, Nv. 35-38, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-174",
+      "trainer": "GUARDA SAFARI SLOWPOKE",
+      "location": "GURÚ PESCADOR RUTA 12 - CIUDAD FUCSIA",
+      "region": "Secundarias: Kanto",
+      "easy_count": 4,
+      "hard_count": 6,
+      "easy_levels": [
+        37,
+        37,
+        38,
+        38
+      ],
+      "hard_levels": [
+        37,
+        37,
+        37,
+        38,
+        38,
+        39
+      ],
+      "changes": "Fácil (4 pkmn, Nv. 37-38) vs Difícil (6 pkmn, Nv. 37-39, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-175",
+      "trainer": "SABIO THOMAS",
+      "location": "MUSEO PLATEADA - MOTORISTA AZAFRÁN",
+      "region": "Secundarias: Kanto",
+      "easy_count": 4,
+      "hard_count": 6,
+      "easy_levels": [
+        40,
+        41,
+        42,
+        43
+      ],
+      "hard_levels": [
+        40,
+        41,
+        43,
+        42,
+        42,
+        43
+      ],
+      "changes": "Fácil (4 pkmn, Nv. 40-43) vs Difícil (6 pkmn, Nv. 40-43, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-176",
+      "trainer": "POKEMANÍACO MATÍAS",
+      "location": "LABORATORIO CANELA - SUBTERRÁNEO RUTA 5",
+      "region": "Secundarias: Kanto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        41,
+        43,
+        44,
+        44,
+        44
+      ],
+      "hard_levels": [
+        43,
+        42,
+        43,
+        44,
+        44,
+        44
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 41-44) vs Difícil (6 pkmn, Nv. 42-44, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-177",
+      "trainer": "PRIMER ESTAFADOR",
+      "location": "CIENTÍFICO FUCSIA - MANSIÓN CANELA - COMBATE TRIPLE",
+      "region": "Secundarias: Kanto",
+      "easy_count": 4,
+      "hard_count": 5,
+      "easy_levels": [
+        39,
+        40,
+        41,
+        42
+      ],
+      "hard_levels": [
+        42,
+        40,
+        41,
+        41,
+        42
+      ],
+      "changes": "Fácil (4 pkmn, Nv. 39-42) vs Difícil (5 pkmn, Nv. 40-42, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-178",
+      "trainer": "SEGUNDO ESTAFADOR",
+      "location": "CIENTÍFICO FUCSIA - MANSIÓN CANELA - COMBATE TRIPLE",
+      "region": "Secundarias: Kanto",
+      "easy_count": 4,
+      "hard_count": 5,
+      "easy_levels": [
+        40,
+        41,
+        42,
+        43
+      ],
+      "hard_levels": [
+        40,
+        41,
+        42,
+        42,
+        43
+      ],
+      "changes": "Fácil (4 pkmn, Nv. 40-43) vs Difícil (5 pkmn, Nv. 40-43, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-179",
+      "trainer": "TERCER ESTAFADOR",
+      "location": "CIENTÍFICO FUCSIA - MANSIÓN CANELA - COMBATE TRIPLE",
+      "region": "Secundarias: Kanto",
+      "easy_count": 4,
+      "hard_count": 6,
+      "easy_levels": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "hard_levels": [
+        41,
+        44,
+        42,
+        43,
+        43,
+        44
+      ],
+      "changes": "Fácil (4 pkmn, Nv. 41-44) vs Difícil (6 pkmn, Nv. 41-44, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-180",
+      "trainer": "ADMINISTRADOR DEVON ESMERALDA",
+      "location": "ISLA PRIMA - CUEVA TESORO",
+      "region": "Secundarias: Archi7",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        66,
+        67,
+        68,
+        67,
+        69
+      ],
+      "hard_levels": [
+        67,
+        66,
+        68,
+        69,
+        70,
+        70
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 66-69) vs Difícil (6 pkmn, Nv. 66-70, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-181",
+      "trainer": "PRIMER EX-EJECUTIVO ROCKET",
+      "location": "ISLA SECUNDA - NEGOCIO RECREATIVOS COMBATE TRIPLE",
+      "region": "Secundarias: Archi7",
+      "easy_count": 3,
+      "hard_count": 4,
+      "easy_levels": [
+        60,
+        61,
+        62
+      ],
+      "hard_levels": [
+        60,
+        61,
+        61,
+        62
+      ],
+      "changes": "Fácil (3 pkmn, Nv. 60-62) vs Difícil (4 pkmn, Nv. 60-62, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-182",
+      "trainer": "SEGUNDO EX-EJECUTIVO ROCKET",
+      "location": "ISLA SECUNDA - NEGOCIO RECREATIVOS COMBATE TRIPLE",
+      "region": "Secundarias: Archi7",
+      "easy_count": 3,
+      "hard_count": 4,
+      "easy_levels": [
+        60,
+        61,
+        62
+      ],
+      "hard_levels": [
+        60,
+        61,
+        61,
+        62
+      ],
+      "changes": "Fácil (3 pkmn, Nv. 60-62) vs Difícil (4 pkmn, Nv. 60-62, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-183",
+      "trainer": "EX-ADMINISTRADOR ROCKET FRANK",
+      "location": "ISLA SECUNDA - NEGOCIO RECREATIVOS COMBATE TRIPLE",
+      "region": "Secundarias: Archi7",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "hard_levels": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        65
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 61-65) vs Difícil (6 pkmn, Nv. 61-65, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-184",
+      "trainer": "LÍDER TERA MORFEO",
+      "location": "ISLA TERA - BOSQUE BAYA - GIMNASIO PSÍQUICO",
+      "region": "Secundarias: Archi7",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        68,
+        69,
+        69,
+        70,
+        72
+      ],
+      "hard_levels": [
+        68,
+        71,
+        69,
+        71,
+        70,
+        72
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 68-72) vs Difícil (6 pkmn, Nv. 68-72, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-185",
+      "trainer": "LÍDER SÉTIMA ZOE",
+      "location": "ISLA SÉTIMA - CAJAS ANCIANA - GIMNASIO NORMAL",
+      "region": "Secundarias: Archi7",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "hard_levels": [
+        67,
+        68,
+        68,
+        69,
+        70,
+        71
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 67-71) vs Difícil (6 pkmn, Nv. 67-71, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-186",
+      "trainer": "EXCULTISTA MAKI",
+      "location": "ISLA SÉTIMA - OESTE ISLA ORIGEN",
+      "region": "Secundarias: Archi7",
+      "easy_count": 4,
+      "hard_count": 6,
+      "easy_levels": [
+        71,
+        70,
+        71,
+        72
+      ],
+      "hard_levels": [
+        70,
+        72,
+        70,
+        71,
+        71,
+        72
+      ],
+      "changes": "Fácil (4 pkmn, Nv. 70-72) vs Difícil (6 pkmn, Nv. 70-72, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-187",
+      "trainer": "CIENTÍFICO LABORATORIO IRIS",
+      "location": "CIUDAD IRIS - ESTUDIO RUINAS ALFA",
+      "region": "Secundarias: Johto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        78,
+        79,
+        81,
+        80,
+        82
+      ],
+      "hard_levels": [
+        78,
+        79,
+        81,
+        80,
+        82,
+        82
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 78-82) vs Difícil (6 pkmn, Nv. 78-82, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-188",
+      "trainer": "PRIMER CRIAPOKÉMON",
+      "location": "CRIAPOKEMON TAUROS/MILTANK RUTA 34",
+      "region": "Secundarias: Johto",
+      "easy_count": 4,
+      "hard_count": 6,
+      "easy_levels": [
+        79,
+        79,
+        79,
+        80
+      ],
+      "hard_levels": [
+        79,
+        79,
+        79,
+        79,
+        79,
+        80
+      ],
+      "changes": "Fácil (4 pkmn, Nv. 79-80) vs Difícil (6 pkmn, Nv. 79-80, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-189",
+      "trainer": "SEGUNDO CRIAPOKEMON",
+      "location": "CRIAPOKEMON TAUROS/MILTANK RUTA 34",
+      "region": "Secundarias: Johto",
+      "easy_count": 4,
+      "hard_count": 6,
+      "easy_levels": [
+        79,
+        79,
+        79,
+        80
+      ],
+      "hard_levels": [
+        79,
+        79,
+        79,
+        79,
+        79,
+        80
+      ],
+      "changes": "Fácil (4 pkmn, Nv. 79-80) vs Difícil (6 pkmn, Nv. 79-80, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-190",
+      "trainer": "CABALLERO DUEÑO POKETRÁFICO TRIGAL",
+      "location": "SECUNDARIA BAR OLIVO - SUBTERRÁNEOS TRIGAL",
+      "region": "Secundarias: Johto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        82,
+        84,
+        85,
+        86,
+        87
+      ],
+      "hard_levels": [
+        82,
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 82-87) vs Difícil (6 pkmn, Nv. 82-87, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-191",
+      "trainer": "PRIMER ESTAFADOR",
+      "location": "SECUNDARIA ESTAFADORES KANTO - ALMACÉN MAR ESTE C.OLIVO",
+      "region": "Secundarias: Johto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        80,
+        81,
+        82,
+        83,
+        84
+      ],
+      "hard_levels": [
+        80,
+        81,
+        82,
+        83,
+        83,
+        84
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 80-84) vs Difícil (6 pkmn, Nv. 80-84, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-192",
+      "trainer": "SEGUNDO ESTAFADOR",
+      "location": "SECUNDARIA ESTAFADORES KANTO - ALMACÉN MAR ESTE C.OLIVO",
+      "region": "Secundarias: Johto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        81,
+        82,
+        84,
+        84,
+        85
+      ],
+      "hard_levels": [
+        81,
+        82,
+        83,
+        84,
+        84,
+        85
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 81-85) vs Difícil (6 pkmn, Nv. 81-85, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-193",
+      "trainer": "TERCER ESTAFADOR",
+      "location": "SECUNDARIA ESTAFADORES KANTO - ALMACÉN MAR ESTE C.OLIVO",
+      "region": "Secundarias: Johto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        85,
+        85,
+        85,
+        85,
+        86
+      ],
+      "hard_levels": [
+        85,
+        85,
+        85,
+        85,
+        85,
+        86
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 85-86) vs Difícil (6 pkmn, Nv. 85-86, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-194",
+      "trainer": "DISCÍPULO PEGASO",
+      "location": "CORRIENTES AL OESTE DE CIUDAD CEREZO",
+      "region": "Secundarias: Johto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        84,
+        85,
+        85,
+        86,
+        87
+      ],
+      "hard_levels": [
+        85,
+        86,
+        86,
+        87,
+        87,
+        90
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 84-87) vs Difícil (6 pkmn, Nv. 85-90, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-195",
+      "trainer": "SRA.AROMA SHAKURA",
+      "location": "CORRIENTES AL OESTE DE CIUDAD CEREZO",
+      "region": "Secundarias: Johto",
+      "easy_count": 6,
+      "hard_count": 6,
+      "easy_levels": [
+        83,
+        84,
+        84,
+        85,
+        84,
+        86
+      ],
+      "hard_levels": [
+        87,
+        88,
+        88,
+        89,
+        88,
+        90
+      ],
+      "changes": "Fácil (6 pkmn, Nv. 83-86) vs Difícil (6 pkmn, Nv. 87-90, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-196",
+      "trainer": "PROFESOR ELM",
+      "location": "PUEBLO PRIMAVERA - LABORATORIO ELM",
+      "region": "Secundarias: Johto",
+      "easy_count": 4,
+      "hard_count": 6,
+      "easy_levels": [
+        85,
+        86,
+        87,
+        88
+      ],
+      "hard_levels": [
+        87,
+        88,
+        88,
+        88,
+        89,
+        90
+      ],
+      "changes": "Fácil (4 pkmn, Nv. 85-88) vs Difícil (6 pkmn, Nv. 87-90, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-197",
+      "trainer": "EMPRESARIO CARBÓN AZALEA",
+      "location": "SECUNDARIA CARBÓN AZALEA - ANCIANOS PUEBLO CAOBA",
+      "region": "Secundarias: Johto",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        87,
+        88,
+        88,
+        89,
+        91
+      ],
+      "hard_levels": [
+        89,
+        90,
+        90,
+        91,
+        92,
+        93
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 87-91) vs Difícil (6 pkmn, Nv. 89-93, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-198",
+      "trainer": "EX CAMPEÓN JOHTO VENENO",
+      "location": "SECUNDARIA EX CAMPEON VENENO",
+      "region": "Secundarias: DLC",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        100,
+        101,
+        101,
+        102,
+        103
+      ],
+      "hard_levels": [
+        101,
+        103,
+        102,
+        101,
+        103,
+        104
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 100-103) vs Difícil (6 pkmn, Nv. 101-104, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-199",
+      "trainer": "EX CAMPEONA JOHTO FRIDA",
+      "location": "SECUNDARIA EX CAMPEONA FANTASMA",
+      "region": "Secundarias: DLC",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        103,
+        103,
+        102,
+        103,
+        105
+      ],
+      "hard_levels": [
+        107,
+        103,
+        106,
+        105,
+        106,
+        107
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 102-105) vs Difícil (6 pkmn, Nv. 103-107, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-200",
+      "trainer": "CIENTÍFICO CELIO",
+      "location": "SECUNDARIA FARO BILL NEO CELESTE",
+      "region": "Secundarias: DLC",
+      "easy_count": 6,
+      "hard_count": 6,
+      "easy_levels": [
+        103,
+        102,
+        102,
+        103,
+        104,
+        105
+      ],
+      "hard_levels": [
+        104,
+        103,
+        103,
+        104,
+        105,
+        106
+      ],
+      "changes": "Fácil (6 pkmn, Nv. 102-105) vs Difícil (6 pkmn, Nv. 103-106, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-201",
+      "trainer": "NEO LÍDER FUCSIA SHACHIKO",
+      "location": "SECUNDARIA FUJI NEO TÚNEL ROCA",
+      "region": "Secundarias: Hoenn",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        105,
+        106,
+        107,
+        108,
+        109
+      ],
+      "hard_levels": [
+        105,
+        106,
+        106,
+        107,
+        108,
+        109
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 105-109) vs Difícil (6 pkmn, Nv. 105-109, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-202",
+      "trainer": "GUARDIA",
+      "location": "SECUNDARIA FUJI NEO TÚNEL ROCA",
+      "region": "Secundarias: Hoenn",
+      "easy_count": 4,
+      "hard_count": 6,
+      "easy_levels": [
+        110,
+        109,
+        109,
+        111
+      ],
+      "hard_levels": [
+        110,
+        110,
+        109,
+        109,
+        109,
+        111
+      ],
+      "changes": "Fácil (4 pkmn, Nv. 109-111) vs Difícil (6 pkmn, Nv. 109-111, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-203",
+      "trainer": "DUEÑO CASA PLAYA",
+      "location": "SECUNDARIA CHICA PLAYA CIUDAD PORTUAL",
+      "region": "Secundarias: Hoenn",
+      "easy_count": 4,
+      "hard_count": 6,
+      "easy_levels": [
+        109,
+        110,
+        112,
+        112
+      ],
+      "hard_levels": [
+        109,
+        110,
+        110,
+        111,
+        112,
+        112
+      ],
+      "changes": "Fácil (4 pkmn, Nv. 109-112) vs Difícil (6 pkmn, Nv. 109-112, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-204",
+      "trainer": "HIJA DUEÑO CASA PLAYA",
+      "location": "SECUNDARIA CHICA PLAYA CIUDAD PORTUAL",
+      "region": "Secundarias: Hoenn",
+      "easy_count": 3,
+      "hard_count": 5,
+      "easy_levels": [
+        109,
+        110,
+        111
+      ],
+      "hard_levels": [
+        109,
+        109,
+        110,
+        110,
+        111
+      ],
+      "changes": "Fácil (3 pkmn, Nv. 109-111) vs Difícil (5 pkmn, Nv. 109-111, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-205",
+      "trainer": "AS DEL FRENTE FORTUNIA",
+      "location": "SECUNDARIA MUSEOS HOENN",
+      "region": "Secundarias: Hoenn",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        113,
+        114,
+        115,
+        115,
+        116
+      ],
+      "hard_levels": [
+        113,
+        114,
+        115,
+        115,
+        116,
+        116
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 113-116) vs Difícil (6 pkmn, Nv. 113-116, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-206",
+      "trainer": "ASES DEL FRENTE SABINO Y TACTIO (COMBATE DOBLE)",
+      "location": "SECUNDARIA MUSEOS HOENN",
+      "region": "Secundarias: Hoenn",
+      "easy_count": 6,
+      "hard_count": 6,
+      "easy_levels": [
+        116,
+        118,
+        117,
+        116,
+        118,
+        117
+      ],
+      "hard_levels": [
+        116,
+        118,
+        117,
+        116,
+        118,
+        117
+      ],
+      "changes": "Fácil (6 pkmn, Nv. 116-118) vs Difícil (6 pkmn, Nv. 116-118, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-207",
+      "trainer": "DAMA TORRE DESTRA",
+      "location": "SECUNDARIA MUSEOS HOENN",
+      "region": "Secundarias: Hoenn",
+      "easy_count": 4,
+      "hard_count": 6,
+      "easy_levels": [
+        116,
+        116,
+        117,
+        119
+      ],
+      "hard_levels": [
+        116,
+        116,
+        116,
+        117,
+        117,
+        119
+      ],
+      "changes": "Fácil (4 pkmn, Nv. 116-119) vs Difícil (6 pkmn, Nv. 116-119, mayores IVs/EVs y objetos competitivos)"
+    },
+    {
+      "id": "boss-208",
+      "trainer": "AS DEL FRENTE ANICETO",
+      "location": "SECUNDARIA CUEVA CARDUMEN-ISLA SUPREMA",
+      "region": "Secundarias: Hoenn",
+      "easy_count": 5,
+      "hard_count": 6,
+      "easy_levels": [
+        117,
+        119,
+        120,
+        120,
+        121
+      ],
+      "hard_levels": [
+        121,
+        119,
+        118,
+        119,
+        121,
+        120
+      ],
+      "changes": "Fácil (5 pkmn, Nv. 117-121) vs Difícil (6 pkmn, Nv. 118-121, mayores IVs/EVs y objetos competitivos)"
+    }
+  ],
+  "move_changes": [
+    {
+      "name": "GUILLOTINA",
+      "details": "Oficial (Tipo normal):\n\nPotencia - KO en un golpe\nPrecisión - 30\nEf.Secundario - No\nPP - 5\n\nHackrom (Tipo siniestro):\n\nPotencia - 170\nPrecisión - 90\nEf.Secundario - Inmoviliza un turno\nPP - 5"
+    },
+    {
+      "name": "VIENTO CORTANTE",
+      "details": "Oficial (Tipo normal):\n\nPotencia - 80\nPrecisión - 100\nEf.Secundario - Un turno de carga\nPP - 10\n\nHackrom (Tipo normal):\n\nPotencia - 130\nPrecisión - 100\nEf.Secundario - Un turno de carga\nPP - 10"
+    },
+    {
+      "name": "CORTE",
+      "details": "Oficial (Tipo normal):\n\nPotencia - 50\nPrecisión - 95\nEf.Secundario - No\nPP - 30\n\nHackrom (Tipo bicho):\n\nPotencia - 65\nPrecisión - 95\nEf.Secundario - 50% de bajar un nivel la Defensa\nPP - 30"
+    },
+    {
+      "name": "VUELO",
+      "details": "Oficial (Tipo volador):\n\nPotencia - 90\nPrecisión - 95\nEf.Secundario - Ataque en dos turnos\nPP - 15\n\nHackrom (Tipo volador):\n\nPotencia - 90\nPrecisión - 95\nEf.Secundario - No (Se ejecuta en un solo turno)\nPP - 15"
+    },
+    {
+      "name": "PERFORADOR",
+      "details": "Oficial (Tipo normal):\n\nPotencia - KO en un golpe\nPrecisión - 30\nEf.Secundario - No\nPP - 5\n\nHackrom (Tipo normal):\n\nPotencia - 150\nPrecisión - 90\nEf.Secundario - 50% daño de retroceso\nPP - 5"
+    },
+    {
+      "name": "DOBLEATAQUE",
+      "details": "Oficial (Tipo bicho):\n\nPotencia - 25\nPrecisión - 100\nEf.Secundario - Golpea dos veces | 20% de envenenar\nPP - 20\n\nHackrom (Tipo bicho):\n\nPotencia - 40\nPrecisión - 100\nEf.Secundario - Golpea dos veces | 20% de envenenar\nPP - 20"
+    },
+    {
+      "name": "HIPERRAYO",
+      "details": "Oficial (Tipo normal):\n\nPotencia - 150\nPrecisión - 90\nEf.Secundario - Un turno inmovilizado\nPP - 5\n\nHackrom (Tipo normal):\n\nPotencia - 160\nPrecisión - 90\nEf.Secundario - Un turno inmovilizado\nPP - 5"
+    },
+    {
+      "name": "FUERZA",
+      "details": "Oficial (Tipo normal):\n\nPotencia - 80\nPrecisión - 100\nEf.Secundario - No\nPP - 15\n\nHackrom (Tipo roca):\n\nPotencia - 85\nPrecisión - 85\nEf.Secundario - No\nPP - 15"
+    },
+    {
+      "name": "ABSORBER",
+      "details": "Oficial (Tipo planta):\n\nPotencia - 20\nPrecisión - 100\nEf.Secundario - Recupera el 50% del daño causado\nPP - 25\n\nHackrom (Tipo planta):\n\nPotencia - 30\nPrecisión - 100\nEf.Secundario - Recupera el 50% del daño causado\nPP - 25"
+    },
+    {
+      "name": "MEGAAGOTAR",
+      "details": "Oficial (Tipo planta):\n\nPotencia - 40\nPrecisión - 100\nEf.Secundario - Recupera el 50% del daño causado\nPP - 15\n\nHackrom (Tipo planta):\n\nPotencia - 50\nPrecisión - 100\nEf.Secundario - Recupera el 50% del daño causado\nPP - 15"
+    },
+    {
+      "name": "FURIA DRAGÓN",
+      "details": "Oficial (Tipo dragón):\n\nPotencia - Siempre resta 40 Ps\nPrecisión - 100\nEf.Secundario - No\nPP - 10\n\nHackrom (Tipo dragón):\n\nPotencia - 70\nPrecisión - 100\nEf.Secundario - 20% de causar retroceso\nPP - 25"
+    },
+    {
+      "name": "FISURA",
+      "details": "Oficial (Tipo tierra):\n\nPotencia - KO en un golpe\nPrecisión - 30\nEf.Secundario - No\nPP - 5\n\nHackrom (Tipo tierra):\n\nPotencia - 130\nPrecisión - 90\nEf.Secundario - Baja un nivel At y Def del usuario\nPP - 5"
+    },
+    {
+      "name": "RAPIDEZ",
+      "details": "Oficial (Tipo normal):\n\nPotencia - 60\nPrecisión - Nunca falla\nEf.Secundario - No\nPP - 20\n\nHackrom (Tipo normal):\n\nPotencia - 75\nPrecisión - Nunca falla\nEf.Secundario - No\nPP - 20"
+    },
+    {
+      "name": "DESTELLO",
+      "details": "Oficial (Tipo normal):\n\nPotencia - No\nPrecisión - 100\nEf.Secundario - Baja un nivel la precisión rival\nPP - 20\n\nHackrom (Tipo eléctrico):\n\nPotencia - 50\nPrecisión - 100\nEf.Secundario - Recupera el 75% del daño causado\nPP - 20"
+    },
+    {
+      "name": "TRIATAQUE",
+      "details": "Oficial (Tipo normal):\n\nPotencia - 80\nPrecisión - 100\nEf.Secundario - 20% de quemar, congelar o paralizar\nPP - 10\n\nHackrom (Tipo normal):\n\nPotencia - 90\nPrecisión - 100\nEf.Secundario - 20% de quemar, congelar o paralizar\nPP - 10"
+    },
+    {
+      "name": "AEROCHORRO",
+      "details": "Oficial (Tipo volador):\n\nPotencia - 100\nPrecisión - 95\nEf.Secundario - +1 índice crítico\nPP - 5\n\nHackrom (Tipo volador):\n\nPotencia - 115\nPrecisión - 90\nEf.Secundario - +1 índice crítico\nPP - 10"
+    },
+    {
+      "name": "BOFETÓN LODO",
+      "details": "Oficial (Tipo tierra):\n\nPotencia - 20\nPrecisión - 100\nEf.Secundario - 100% bajar precisión rival\nPP - 10\n\nHackrom (Tipo tierra):\n\nPotencia - 30 (físico)\nPrecisión - 100\nEf.Secundario - 100% bajar precisión rival\nPP - 10"
+    },
+    {
+      "name": "PULPOCAÑÓN",
+      "details": "Oficial (Tipo agua):\n\nPotencia - 65\nPrecisión - 85\nEf.Secundario - 50% reducir precisión\nPP - 10\n\nHackrom (Tipo agua):\n\nPotencia - 100\nPrecisión - 100\nEf.Secundario - 50% reducir precisión | Categoría pulso\nPP - 10"
+    },
+    {
+      "name": "PODER PASADO",
+      "details": "Oficial (Tipo roca):\n\nPotencia - 60\nPrecisión - 100\nEf.Secundario - 10% subir todas las estadísticas\nPP - 5\n\nHackrom (Tipo roca):\n\nPotencia - 75\nPrecisión - 100\nEf.Secundario - 10% subir todas las estadísticas\nPP - 5"
+    },
+    {
+      "name": "GIRO FUEGO",
+      "details": "Oficial (Tipo fuego):\n\nPotencia - 35\nPrecisión - 85\nEf.Secundario - Atrapa al rival de 2 a 5 turnos\nPP - 15\n\nHackrom (Tipo fuego):\n\nPotencia - 65\nPrecisión - 85\nEf.Secundario - Atrapa al rival de 2 a 5 turnos\nPP - 15"
+    },
+    {
+      "name": "GOLPE ROCA",
+      "details": "Oficial (Tipo lucha):\n\nPotencia - 40\nPrecisión - 100\nEf.Secundario - 50% bajar un nivel la defensa rival\nPP - 15\n\nHackrom (Tipo lucha):\n\nPotencia - 65\nPrecisión - 95\nEf.Secundario - 50% bajar un nivel la defensa rival\nPP - 15"
+    },
+    {
+      "name": "BUCEO",
+      "details": "Oficial (Tipo agua):\n\nPotencia - 80\nPrecisión - 100\nEf.Secundario - Ataque en dos turnos\nPP - 5\n\nHackrom (Tipo agua):\n\nPotencia - 110 (especial)\nPrecisión - 100\nEf.Secundario - Ataque en dos turnos\nPP - 5"
+    },
+    {
+      "name": "ANILLO ÍGNEO",
+      "details": "Oficial (Tipo fuego):\n\nPotencia - 150\nPrecisión - 95\nEf.Secundario - Inmoviliza un turno\nPP - 5\n\nHackrom (Tipo fuego):\n\nPotencia - 105\nPrecisión - 95\nEf.Secundario - No\nPP - 10"
+    },
+    {
+      "name": "HIDROCAÑÓN",
+      "details": "Oficial (Tipo agua):\n\nPotencia - 150\nPrecisión - 95\nEf.Secundario - Inmoviliza un turno\nPP - 5\n\nHackrom (Tipo agua):\n\nPotencia - 105\nPrecisión - 95\nEf.Secundario - No\nPP - 10"
+    },
+    {
+      "name": "PLANTA FEROZ",
+      "details": "Oficial (Tipo planta):\n\nPotencia - 150\nPrecisión - 95\nEf.Secundario - Inmoviliza un turno\nPP - 5\n\nHackrom (Tipo planta):\n\nPotencia - 105\nPrecisión - 95\nEf.Secundario - No\nPP - 10"
+    },
+    {
+      "name": "VIENTO PLATA",
+      "details": "Oficial (Tipo bicho):\n\nPotencia - 60\nPrecisión - 100\nEf.Secundario - 10% subir todas las estadísticas\nPP - 5\n\nHackrom (Tipo bicho):\n\nPotencia - 75\nPrecisión - 100\nEf.Secundario - 10% subir todas las estadísticas\nPP - 5"
+    },
+    {
+      "name": "FRÍO POLAR",
+      "details": "Oficial (Tipo hielo):\n\nPotencia - KO en un golpe\nPrecisión - 30\nEf.Secundario - No\nPP - 5\n\nHackrom (Tipo hielo):\n\nPotencia - 130\nPrecisión - 90\nEf.Secundario - Baja un nivel ambas defensas\nPP - 5"
+    },
+    {
+      "name": "GOLPE AÉREO",
+      "details": "Oficial (Tipo volador):\n\nPotencia - 60\nPrecisión - Nunca falla\nEf.Secundario - No\nPP - 20\n\nHackrom (Tipo volador):\n\nPotencia - 75\nPrecisión - Nunca falla\nEf.Secundario - No\nPP - 20"
+    },
+    {
+      "name": "COLA VENENO",
+      "details": "Oficial (Tipo veneno):\n\nPotencia - 50\nPrecisión - 100\nEf.Secundario - 10% envenenar\nPP - 25\n\nHackrom (Tipo veneno):\n\nPotencia - 90\nPrecisión - 100\nEf.Secundario - 10% envenenar\nPP - 25"
+    },
+    {
+      "name": "HOJA MÁGICA",
+      "details": "Oficial (Tipo planta):\n\nPotencia - 60\nPrecisión - Nunca falla\nEf.Secundario - No\nPP - 20\n\nHackrom (Tipo planta):\n\nPotencia - 75\nPrecisión - Nunca falla\nEf.Secundario - No\nPP - 20"
+    },
+    {
+      "name": "ONDA VOLTIO",
+      "details": "Oficial (Tipo eléctrico):\n\nPotencia - 60\nPrecisión - Nunca falla\nEf.Secundario - No\nPP - 20\n\nHackrom (Tipo eléctrico):\n\nPotencia - 75\nPrecisión - Nunca falla\nEf.Secundario - No\nPP - 20"
+    },
+    {
+      "name": "HIDROPULSO",
+      "details": "Oficial (Tipo agua):\n\nPotencia - 60\nPrecisión - 100\nEf.Secundario - 20% de confundir\nPP - 20\n\nHackrom (Tipo agua):\n\nPotencia - 75\nPrecisión - 100\nEf.Secundario - 20% de confundir\nPP - 20"
+    },
+    {
+      "name": "GIGA IMPACTO",
+      "details": "Oficial (Tipo normal):\n\nPotencia - 150\nPrecisión - 90\nEf.Secundario - Inmoviliza un turno\nPP - 5\n\nHackrom (Tipo normal):\n\nPotencia - 170\nPrecisión - 90\nEf.Secundario - Inmoviliza un turno\nPP - 5"
+    },
+    {
+      "name": "ROMPERROCAS",
+      "details": "Oficial (Tipo roca):\n\nPotencia - 150\nPrecisión - 90\nEf.Secundario - Inmoviliza un turno\nPP - 5\n\nHackrom (Tipo roca):\n\nPotencia - 165\nPrecisión - 90\nEf.Secundario - Inmoviliza un turno\nPP - 5"
+    },
+    {
+      "name": "DISTORSIÓN",
+      "details": "Oficial (Tipo dragón):\n\nPotencia - 150\nPrecisión - 90\nEf.Secundario - Inmoviliza un turno\nPP - 5\n\nHackrom (Tipo dragón):\n\nPotencia - 180\nPrecisión - 95\nEf.Secundario - Baja Velocidad, defensa y def.esp\nPP - 5"
+    },
+    {
+      "name": "CORTE VACÍO",
+      "details": "Oficial (Tipo dragón):\n\nPotencia - 100\nPrecisión - 95\nEf.Secundario - +1 índice crítico\nPP - 5\n\nHackrom (Tipo dragón):\n\nPotencia - 115\nPrecisión - 90\nEf.Secundario - +1 índice crítico\nPP - 10"
+    },
+    {
+      "name": "VIENTO ACIAGO",
+      "details": "Oficial (Tipo fantasma):\n\nPotencia - 60\nPrecisión - 100\nEf.Secundario - 10% subir todas las estadísticas\nPP - 5\n\nHackrom (Tipo fantasma):\n\nPotencia - 75\nPrecisión - 100\nEf.Secundario - 10% subir todas las estadísticas\nPP - 5"
+    },
+    {
+      "name": "ARIETE",
+      "details": "Oficial (Tipo normal):\n\nPotencia - 120\nPrecisión - 100\nEf.Secundario - 25% daño de retroceso\nPP - 15\n\nHackrom (Tipo normal):\n\nPotencia - 130\nPrecisión - 100\nEf.Secundario - 25% daño retroceso\nPP - 15"
+    },
+    {
+      "name": "RAYO GÉLIDO",
+      "details": "Oficial (Tipo hielo):\n\nPotencia - 140\nPrecisión - 90\nEf.Secundario - Ataque en dos turnos | 30% paralizar\nPP - 5\n\nHackrom (Tipo hielo):\n\nPotencia - 130\nPrecisión - 90\nEf.Secundario - 33% daño retroceso | 10% paralizar\nPP - 10"
+    },
+    {
+      "name": "LLAMA GÉLIDA",
+      "details": "Oficial (Tipo hielo):\n\nPotencia - 140\nPrecisión - 90\nEf.Secundario - Ataque en dos turnos | 30% quemar\nPP - 5\n\nHackrom (Tipo hielo):\n\nPotencia - 130\nPrecisión - 90\nEf.Secundario - 33% daño retroceso | 10% quemar\nPP - 10"
+    },
+    {
+      "name": "LUZ ANIQUILADORA",
+      "details": "Oficial (Tipo hada):\n\nPotencia - 140\nPrecisión - 90\nEf.Secundario - 50% daño de retroceso\nPP - 5\n\nHackrom (Tipo hada):\n\nPotencia - 140\nPrecisión - 90\nEf.Secundario - 33% daño retroceso\nPP - 10"
+    },
+    {
+      "name": "PULSO PRIMIGENIO",
+      "details": "Oficial (Tipo agua):\n\nPotencia - 110\nPrecisión - 85\nEf.Secundario - x1,5 con Megadisparador\nPP - 10\n\nHackrom (Tipo agua):\n\nPotencia - 120\nPrecisión - 85\nEf.Secundario - x1,5 con Megadisparador\nPP - 10"
+    },
+    {
+      "name": "CUERNO CERTERO",
+      "details": "Oficial (Tipo acero):\n\nPotencia - 70\nPrecisión - Nunca falla\nEf.Secundario - No\nPP - 10\n\nHackrom (Tipo acero):\n\nPotencia - 75\nPrecisión - Nunca falla\nEf.Secundario - No\nPP - 10"
+    },
+    {
+      "name": "LÁSER PRISMA",
+      "details": "Oficial (Tipo psíquico):\n\nPotencia - 160\nPrecisión - 100\nEf.Secundario - Inmoviliza un turno\nPP - 10\n\nHackrom (Tipo psíquico):\n\nPotencia - 175\nPrecisión - 100\nEf.Secundario - Inmoviliza un turno\nPP - 10"
+    },
+    {
+      "name": "RAYO INFINITO",
+      "details": "Oficial (Tipo dragón):\n\nPotencia - 160\nPrecisión - 90\nEf.Secundario - Inmoviliza un turno\nPP - 10\n\nHackrom (Tipo dragón):\n\nPotencia - 150\nPrecisión - 90\nEf.Secundario - 50% daño de retroceso\nPP - 10"
+    },
+    {
+      "name": "METALÁSER",
+      "details": "Oficial (Tipo acero):\n\nPotencia - 140\nPrecisión - 95\nEf.Secundario - Resta 1/2 de salud al usuario\nPP - 10\n\nHackrom (Tipo acero):\n\nPotencia - 140\nPrecisión - 95\nEf.Secundario - 50% daño de retroceso\nPP - 10"
+    },
+    {
+      "name": "ALA BIS",
+      "details": "Oficial (Tipo volador):\n\nPotencia - 40\nPrecisión - 90\nEf.Secundario - Golpea dos veces\nPP - 10\n\nHackrom (Tipo volador):\n\nPotencia - 50\nPrecisión - 90\nEf.Secundario - Golpea dos veces\nPP - 10"
+    }
+  ],
+  "item_changes": [
+    {
+      "item": "Piedra Espíritu",
+      "effect": "+30% At.Esp y Def.Esp en Spiritomb."
+    },
+    {
+      "item": "Ala Arcoiris",
+      "effect": "+20% Ataque y Defensa en Ho-Oh."
+    },
+    {
+      "item": "Ala Plateada",
+      "effect": "+20% At.Esp y Def.Esp en Lugia."
+    },
+    {
+      "item": "Escamadragón",
+      "effect": "+30% Velocidad y Defensa en Kingdra."
+    },
+    {
+      "item": "Mejora",
+      "effect": "+30% At.Esp y Velocidad en Porygon2."
+    },
+    {
+      "item": "Protector",
+      "effect": "+30% Defensa y Def.esp en Rhyperior."
+    },
+    {
+      "item": "Electrizador",
+      "effect": "+30% Ataque y Def.Esp en Electivire."
+    },
+    {
+      "item": "Magmatizador",
+      "effect": "+30% At.Esp y Def.Esp en Magmortar."
+    },
+    {
+      "item": "Discoxtraño",
+      "effect": "+30% Def y At.Esp en Porygon-Z."
+    },
+    {
+      "item": "Telaterrible",
+      "effect": "+30% Ataque y Velocidad en Dusknoir."
+    },
+    {
+      "item": "Escama Bella",
+      "effect": "+30% Def.Esp y Velocidad en Milotic."
+    },
+    {
+      "item": "Dulce de Nata",
+      "effect": "+30% At.Esp y Def.Esp en Slurpuff (No obtenible)."
+    },
+    {
+      "item": "Sam.Flagrante",
+      "effect": "+30% Defensa y Def.Esp en Aromatisse (No obtenible)."
+    },
+    {
+      "item": "Discos Genesect",
+      "effect": "+30% Defensa y Def.Esp en Genesect. Mantiene efecto anterior."
+    },
+    {
+      "item": "Discos Silvally",
+      "effect": "+30% Ataque y Def.Esp en Silvally."
+    },
+    {
+      "item": "Escama Marina",
+      "effect": "+30% At.Esp y Velocidad en Gorebyss."
+    },
+    {
+      "item": "Diente Marino",
+      "effect": "+30% Ataque y Velocidad en Huntail."
+    },
+    {
+      "item": "Roca del Rey",
+      "effect": "+30% At.Esp y Velocidad en Slowking/Politoed."
+    },
+    {
+      "item": "Rev.Metálico",
+      "effect": "+30% Ataque y Defensa en Scizor/Steelix."
+    },
+    {
+      "item": "Garra Afilada",
+      "effect": "+30% Ataque y Defensa en Weavile."
+    },
+    {
+      "item": "Colm.Agudo",
+      "effect": "+30% Ataque y Defensa en Gliscor."
+    },
+    {
+      "item": "Escama Roja",
+      "effect": "+30% Defensa y Def.Esp en Guardaos."
+    },
+    {
+      "item": "Rocío Bondad",
+      "effect": "+30% At.Esp y Def.Esp en Latios/Latias."
+    },
+    {
+      "item": "Condensador Gas",
+      "effect": "-30% Ataque. +30% At.Esp, Def.Esp y Defensa en Weezing."
+    },
+    {
+      "item": "Mineral Negro",
+      "effect": "+30% Velocidad y Def.Esp en Kleavor."
+    },
+    {
+      "item": "Super Mineral Evolutivo",
+      "effect": "+50% Ataque, Defensa, At.Esp, Def.Esp y +30% Velocidad"
+    },
+    {
+      "item": "Bolaluminosa",
+      "effect": "Influye tanto a Pikachu normal como al Pikachu Starter de Let's Go"
+    },
+    {
+      "item": "Hueso Grueso",
+      "effect": "Afecta tanto a Cubone/Marowak como a Guardia."
+    },
+    {
+      "item": "Pluma Bella",
+      "effect": "+30% Ataque, Ataque Especial y Velocidad en aves regionales."
+    },
+    {
+      "item": "Tablas de Arceus",
+      "effect": "Pasan de potenciar un 20% a un 30% el tipo objetivo."
+    },
+    {
+      "item": "Gemas",
+      "effect": "Pasan de potenciar un 30% a un 40% el movimiento objetivo."
+    },
+    {
+      "item": "Cola Plúmbea",
+      "effect": "+35% Ataque. Mantiene el efecto anterior."
+    },
+    {
+      "item": "Bola Férrea",
+      "effect": "+35% Defensa. Mantiene el efecto anterior."
+    },
+    {
+      "item": "Piedra Pómez",
+      "effect": "+25% Velocidad. Mantiene el efecto anterior."
+    },
+    {
+      "item": "Metal Compuesto",
+      "effect": "+20% potencia en movimientos acero."
+    }
+  ]
+}

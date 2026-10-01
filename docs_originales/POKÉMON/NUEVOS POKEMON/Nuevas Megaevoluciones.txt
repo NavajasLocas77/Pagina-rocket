@@ -34,7 +34,7 @@ Dusknoir Oficial: Ps 45, At 100, Def 135, At.esp 65, Def.esp 135, Velocid 45. To
 Dusknoir Hackrom: Ps 55, At 100, Def 140, At.esp 75, Def.esp 140, Velocid 25. Total 535
 Dusknoir-M: Ps 55, At 110, Def 170, At.esp 105, Def.esp 170, Velocid 25. Total 635
 
-Tipo: Fantasma/Siniestro | Habilidad: Espejomágico
+Tipo: Fantasma/Siniestro | Habilidad: Puño Férreo
 
 MEGA PORYGON-Z
 

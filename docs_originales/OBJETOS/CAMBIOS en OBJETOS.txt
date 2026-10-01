@@ -46,11 +46,23 @@ Colm.Agudo: +30% Ataque y Defensa en Gliscor.
 
 Escama Roja: +30% Defensa y Def.Esp en Guardaos.
 
+Rocío Bondad: +30% At.Esp y Def.Esp en Latios/Latias.
+
 Condensador Gas: -30% Ataque. +30% At.Esp, Def.Esp y Defensa en Weezing.
 
 Mineral Negro: +30% Velocidad y Def.Esp en Kleavor.
 
+Super Mineral Evolutivo: +50% Ataque, Defensa, At.Esp, Def.Esp y +30% Velocidad
+en Pokémon que aún pueden evolucionar dos veces.
 
+Bolaluminosa: Influye tanto a Pikachu normal como al Pikachu Starter de Let's Go
+Obtenible en la Mansión Canela al final de Archi7.
+
+Hueso Grueso: Afecta tanto a Cubone/Marowak como a Guardia.
+
+Pluma Bella: +30% Ataque, Ataque Especial y Velocidad en aves regionales.
+-Pidgeot, Noctowl, Swellow, Staraptor, Unfezant, Talonflame,
+Toucannon, Corviknight, Kilowattrel -
 
 OBJETOS CUYO EFECTO COMPETITIVO SE HA MODIFICADO
 --------------------------------------------------------------------
@@ -64,4 +76,6 @@ Cola Plúmbea: +35% Ataque. Mantiene el efecto anterior.
 Bola Férrea: +35% Defensa. Mantiene el efecto anterior.
 
 Piedra Pómez: +25% Velocidad. Mantiene el efecto anterior.
+
+Metal Compuesto: +20% potencia en movimientos acero.
 

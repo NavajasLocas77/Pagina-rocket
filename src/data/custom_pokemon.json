@@ -9,7 +9,7 @@
       "Nidoking-X: Ps 91, At 142, Def 117, At.esp 50, Def.esp 105, Velocid 125. Total: 630"
     ],
     "type": "Veneno/Siniestro",
-    "ability": "Adaptable",
+    "ability": "Dato no confirmado en archivos",
     "notes": null
   },
   {
@@ -22,7 +22,7 @@
       "Nidoqueen-Y: Ps 100, At 52, Def 107, At.esp 135, Def.esp 150, Velocid 86. Total: 630"
     ],
     "type": "Veneno/Tierra",
-    "ability": "Peluche",
+    "ability": "Dato no confirmado en archivos",
     "notes": null
   },
   {
@@ -34,7 +34,7 @@
       "Electrode-Y: Ps 60, At 10, Def 85, At.esp 140, Def.esp 95, Velocid 200. Total: 590"
     ],
     "type": "Eléctrico/Acero",
-    "ability": "Levitación",
+    "ability": "Dato no confirmado en archivos",
     "notes": null
   },
   {
@@ -46,7 +46,7 @@
       "Tauros-X: Ps 75, At 155, Def 150, At.esp 30, Def.esp 90, Velocid 90. Total: 490"
     ],
     "type": "Roca/Normal",
-    "ability": "Cabeza Roca",
+    "ability": "Audaz/Roca Sólida/Cabeza Roca",
     "notes": null
   },
   {
@@ -58,7 +58,7 @@
       "Porygon3: Ps 95, At 65, Def 70, At.esp 155, Def.esp 95, Velocid 135. Total: 615"
     ],
     "type": "NORMAL/FANTASMA",
-    "ability": "Adaptable",
+    "ability": "Adaptable/Levitación/Calc.Final",
     "notes": null
   },
   {
@@ -70,7 +70,7 @@
       "Aerodactyl-P: Ps 80, At 145, Def 105, At.esp 60, Def.esp 85, Velocid 140. Total: 615"
     ],
     "type": "Roca/Dragón",
-    "ability": "Levitación",
+    "ability": "Levitación/Garra Dura/Cabeza Roca",
     "notes": null
   },
   {
@@ -82,7 +82,7 @@
       "Cradily-P: Ps 86, At 41, Def 137, At.esp 111, Def.esp 167, Velocid 53. Total: 595"
     ],
     "type": "Roca/Planta",
-    "ability": "Roca Sólida",
+    "ability": "Roca Sólida/Sal Purificadora/Colector",
     "notes": null
   },
   {
@@ -94,7 +94,7 @@
       "Armaldo-P: Ps 75, At 155, Def 120, At.esp 70, Def.esp 100, Velocid 75. Total: 595"
     ],
     "type": "Roca/Bicho",
-    "ability": "Armadura Frágil",
+    "ability": "Armadura Frágil/Coraza Ira/Nado Rápido",
     "notes": null
   },
   {
@@ -106,7 +106,7 @@
       "Relicanth-P: Ps 110, At 110, Def 140, At.esp 55, Def.esp 75, Velocid 105. Total: 585"
     ],
     "type": "Agua/Roca",
-    "ability": "Cabeza Roca",
+    "ability": "Cabeza Roca/Robustez/Nado Rápido",
     "notes": null
   },
   {
@@ -119,7 +119,7 @@
       "Magmortar-Y: Ps 75, At 95, Def 97, At.esp 165, Def.esp 105, Velocid 103. Total 640"
     ],
     "type": "Fuego",
-    "ability": "Indefenso",
+    "ability": "Cuerpo Llama/Indefenso/Mega Disparador",
     "notes": null
   },
   {
@@ -132,7 +132,7 @@
       "Electivire-X: Ps 75, At 153, Def 97, At.esp 95, Def.esp 105, Velocid 115. Total 640"
     ],
     "type": "Eléctrico/Lucha",
-    "ability": "Piel Eléctrica",
+    "ability": "Electromotor/Piel Eléctrica/Puño Férreo",
     "notes": null
   },
   {
@@ -174,7 +174,7 @@
       "Porygon3.1: Ps 105, At 70, Def 65, At.esp 165, Def.esp 115, Velocid 145. Total 665"
     ],
     "type": "Normal/Psíquico",
-    "ability": "Peluche",
+    "ability": "Peluche/Descarga/Rastro",
     "notes": "PORYGON3.1:"
   },
   {
@@ -186,7 +186,7 @@
       "Gyarados-Z: Ps 115, At 165, Def 99, At.esp 60, Def.esp 140, Velocid 111. Total 690"
     ],
     "type": "Agua/Volador",
-    "ability": "Intimidación",
+    "ability": "Intimidación/Autoestima/Rompemoldes",
     "notes": null
   },
   {
@@ -199,7 +199,7 @@
       "Blastoise-Z: Ps 119, At 113, Def 160, At.esp 145, Def.esp 125, Velocid 38. Total 700"
     ],
     "type": "Agua/Siniestro",
-    "ability": "Mega Disparador",
+    "ability": "Mega Disparador/Firmeza/Cura Lluvia",
     "notes": null
   },
   {
@@ -250,7 +250,7 @@
       "Zapdos-Z: Ps 110, At 115, Def 130, At.esp 185, Def.esp 100, Velocid 90. Total 730"
     ],
     "type": "Eléctrico/Acero",
-    "ability": "Levitación",
+    "ability": "Levitación/Transistor/Robustez",
     "notes": "PROTOTIPOS DE NIVEL III (POKÉMON CON +780 STATS BASE)"
   },
   {
@@ -262,7 +262,19 @@
       "Mewtwo-Arm: Ps 106, At 120, Def 140, At.esp 164, Def.esp 140, Velocid 110. Total 780"
     ],
     "type": "Psíquico/Acero",
-    "ability": "Filtro",
+    "ability": "Armadura Batalla/Filtro",
+    "notes": null
+  },
+  {
+    "name": "XD001",
+    "category": "Experimento Rocket",
+    "category_description": "Prototipos creados artificialmente por científicos del Team Rocket",
+    "stats_breakdown": [
+      "Lugia: Ps 106, At 90, Def 130, At.esp 90, Def.esp 154, Velocid 110. Total 680",
+      "XD001: Ps 126, At 133, Def 130, At.esp 133, Def.esp 154, Velocid 154. Total 830"
+    ],
+    "type": "Siniestro/Psíquico",
+    "ability": "Aura Oscura/Levitación/Multiescamas",
     "notes": null
   },
   {
@@ -274,7 +286,7 @@
       "Ultimate Project: Ps 126, At 90, Def 154, At.esp 216, Def.esp 154, Velocid 90. Total 830"
     ],
     "type": "Psíquico/Acero",
-    "ability": "Armadura Ultimate (mitiga x0,5 movimientos superefectivos)",
+    "ability": "Armadura Batalla/Filtro/Armadura Ultimate",
     "notes": null
   },
   {
@@ -347,7 +359,7 @@
       "Skarmory-&: Ps 75, At 110, Def 160, At.esp 45, Def.esp 100, Velocid 100. Total 590"
     ],
     "type": "Acero/Volador",
-    "ability": "Absorber Eléctrico",
+    "ability": "Pararrayos",
     "notes": null
   },
   {
@@ -427,7 +439,7 @@
       "Crobat-&: Ps 95, At 120, Def 95, At.esp 85, Def.esp 105, Velocid 160. Total 660"
     ],
     "type": "Veneno/Volador",
-    "ability": "Ojocompuesto",
+    "ability": "Ojocompuesto/Allanamiento/Cromolente",
     "notes": null
   },
   {
@@ -439,7 +451,7 @@
       "Crobat-&: Ps 95, At 160, Def 115, At.esp 85, Def.esp 85, Velocid 120. Total 660"
     ],
     "type": "Veneno/Acero",
-    "ability": "Levitación",
+    "ability": "Levitación/Allanamiento/Garra Dura",
     "notes": "FUERTES VÍNCULO DE CATEGORÍA 'LEGENDARIO MAYOR' (+670 STATS BASE)"
   },
   {
@@ -566,7 +578,7 @@
       "Dusknoir-M: Ps 55, At 110, Def 170, At.esp 105, Def.esp 170, Velocid 25. Total 635"
     ],
     "type": "Fantasma/Siniestro",
-    "ability": "Espejomágico",
+    "ability": "Puño Férreo",
     "notes": null
   },
   {
@@ -615,7 +627,7 @@
       "Maroghost: Ps 100, At 140, Def 120, At.esp 70, Def.esp 90, Velocid 70. Total 590"
     ],
     "type": "Tierra/Fantasma",
-    "ability": "Puño Férreo",
+    "ability": "Dato no confirmado en archivos",
     "notes": null
   },
   {
@@ -624,11 +636,11 @@
     "category_description": "Formas Primigenias y diseños históricos de Spaceworld 97 Beta Oro/Plata",
     "stats_breakdown": [
       "Marowak: Ps 60, At 80, Def 110, At.esp 50, Def.esp 80, Velocid 45. Total 425",
-      "Kangaskhan: Ps 105, At 95, Def 80, At.esp 40, Def.esp 80, Velocid 90. Total 590",
+      "Kangaskhan: Ps 105, At 95, Def 80, At.esp 40, Def.esp 80, Velocid 90. Total 490",
       "Guardia: Ps 105, At 95, Def 145, At.esp 60, Def.esp 95, Velocid 60. Total 560"
     ],
     "type": "Tierra",
-    "ability": "Intrépido",
+    "ability": "Cabeza Roca/Intrépido/Amor Filial",
     "notes": null
   },
   {
@@ -639,7 +651,7 @@
       "Ghost: Ps 90, At 60, Def 60, At.esp 165, Def.esp 150, Velocid 115. Total 640"
     ],
     "type": "Fantasma/Normal",
-    "ability": "Levitación",
+    "ability": "Levitación/Intimidación/Coránima",
     "notes": null
   },
   {
@@ -651,7 +663,7 @@
       "Trxatu: Ps 75, At 75, Def 75, At.esp 115, Def.esp 115, Velocid 115. Total 570"
     ],
     "type": "Psíquico/Volador",
-    "ability": "Espejomágico",
+    "ability": "Espejomágico/Sincronización/Coránima",
     "notes": null
   },
   {
@@ -679,7 +691,7 @@
     "notes": null
   },
   {
-    "name": "UNOWN AÚREO",
+    "name": "UNOWN ÁUREO",
     "category": "Forma Primigenia / Beta 97",
     "category_description": "Formas Primigenias y diseños históricos de Spaceworld 97 Beta Oro/Plata",
     "stats_breakdown": [
@@ -687,7 +699,7 @@
       "Unown Aúreo: Ps 104, At 104, Def 104, At.esp 156, Def.esp 156, Velocid 104. Total 728"
     ],
     "type": "Psíquico/Hada",
-    "ability": "Aura Feérica",
+    "ability": "Cuerpo Áureo",
     "notes": null
   },
   {
@@ -708,10 +720,10 @@
     "category_description": "Formas Primigenias y diseños históricos de Spaceworld 97 Beta Oro/Plata",
     "stats_breakdown": [
       "Pinsir: Ps 65, At 125, Def 100, At.esp 55, Def.esp 70, Velocid 85. Total 500",
-      "Purakussu: Ps 85, At 135, Def 110, At.esp 45, Def.esp 80, Velocid 95. Total 550"
+      "Purakussu: Ps 75, At 165, Def 120, At.esp 45, Def.esp 70, Velocid 75. Total 550"
     ],
-    "type": "Bicho/Veneno",
-    "ability": "Intimidación",
+    "type": "Bicho/Fantasma",
+    "ability": "Intimidación/Rompemoldes/Cuerpo Maldito",
     "notes": null
   },
   {
@@ -723,7 +735,7 @@
       "Taaban: Ps 95, At 95, Def 180, At.esp 85, Def.esp 55, Velocid 30. Total 540"
     ],
     "type": "Agua/Fantasma",
-    "ability": "Encadenado",
+    "ability": "Cuerpo Maldito/Encadenado/Regeneración",
     "notes": null
   },
   {
@@ -732,10 +744,10 @@
     "category_description": "Formas Primigenias y diseños históricos de Spaceworld 97 Beta Oro/Plata",
     "stats_breakdown": [
       "Octillery: Ps 75, At 105, Def 75, At.esp 105, Def.esp 75, Velocid 45. Total 480",
-      "Wartillery: Ps 85, At 105, Def 105, At.esp 105, Def.esp 105, Velocid 35. Total 540"
+      "Wartillery: Ps 85, At 55, Def 155, At.esp 105, Def.esp 105, Velocid 35. Total 540"
     ],
     "type": "Agua/Acero",
-    "ability": "Mega Disparador",
+    "ability": "Francotirador/Mega Disparador/Filtro",
     "notes": null
   },
   {
@@ -746,7 +758,7 @@
       "Ikary: Ps 65, At 125, Def 95, At.esp 35, Def.esp 75, Velocid 95. Total 490"
     ],
     "type": "Agua/Acero",
-    "ability": "Acero Templado",
+    "ability": "Acero Templado/Piel Seca/Mand.Fuerte",
     "notes": null
   },
   {
@@ -758,7 +770,7 @@
       "Shibirifegu: Ps 95, At 65, Def 85, At.esp 115, Def.esp 85, Velocid 65. Total 510"
     ],
     "type": "Agua/Eléctrico",
-    "ability": "Electrogénesis",
+    "ability": "Electrogénesis/Abs.Eléct/Capa Tóxica",
     "notes": null
   },
   {
@@ -769,7 +781,7 @@
       "Akueria: Ps 122, At 126, Def 102, At.esp 135, Def.esp 74, Velocid 82. Total 641"
     ],
     "type": "Agua/Dragón",
-    "ability": "Indefenso",
+    "ability": "Indefenso/Mandíbula Fuerte/Mandíbula Dragón",
     "notes": null
   },
   {
@@ -778,10 +790,10 @@
     "category_description": "Formas Primigenias y diseños históricos de Spaceworld 97 Beta Oro/Plata",
     "stats_breakdown": [
       "Farfetch'D: Ps 52, At 90, Def 55, At.esp 58, Def.esp 62, Velocid 60. Total 377",
-      "Madaamu: Ps 77, At 145, Def 95, At.esp 63, Def.esp 82, Velocid 85. Total 547"
+      "Madaamu: Ps 77, At 145, Def 95, At.esp 63, Def.esp 72, Velocid 95. Total 547"
     ],
     "type": "Planta/Volador",
-    "ability": "Intimidación/Afortunado",
+    "ability": "Intimidación/Afortunado/Cortante",
     "notes": null
   },
   {
@@ -793,7 +805,7 @@
       "Booho: Ps 120, At 55, Def 65, At.esp 116, Def.esp 126, Velocid 60. Total 542"
     ],
     "type": "Psíquico/Volador",
-    "ability": "Muro Mágico",
+    "ability": "Muro Mágico/Cromolente/Ojocompuesto",
     "notes": null
   },
   {
@@ -805,7 +817,32 @@
       "Gorochu: Ps 70, At 100, Def 65, At.esp 125, Def.esp 90, Velocid 105. Total 555"
     ],
     "type": "Eléctrico/Lucha",
-    "ability": "Transistor",
+    "ability": "Transistor/Agallas/Impulso",
+    "notes": null
+  },
+  {
+    "name": "AUREDIAN",
+    "category": "Forma Primigenia / Beta 97",
+    "category_description": "Formas Primigenias y diseños históricos de Spaceworld 97 Beta Oro/Plata",
+    "stats_breakdown": [
+      "Ledian Oficial: Ps 55, At 35, Def 50, At.esp 55, Def.esp 110, Velocid 85. Total 390",
+      "Ledian Hackrom: Ps 55, At 45, Def 50, At.esp 55, Def.esp 110, Velocid 95. Total 410",
+      "Auredian: Ps 75, At 50, Def 60, At.esp 110, Def.esp 120, Velocid 120. Total 535"
+    ],
+    "type": "Bicho/Lucha",
+    "ability": "Impulso/Puño Férreo/Energía Pura",
+    "notes": null
+  },
+  {
+    "name": "YANMTEURA",
+    "category": "Forma Primigenia / Beta 97",
+    "category_description": "Formas Primigenias y diseños históricos de Spaceworld 97 Beta Oro/Plata",
+    "stats_breakdown": [
+      "Yanmega: Ps 86, At 76, Def 86, At.esp 116, Def.esp 56, Velocid 95. 515",
+      "Yanmteura: Ps 107, At 137, Def 107, At.esp 47, Def.esp 67, Velocid 85. Total 550"
+    ],
+    "type": "Bicho/Volador",
+    "ability": "Impulso/Cromolente/Funda",
     "notes": null
   },
   {
@@ -816,7 +853,7 @@
       "Bomushikaa: Ps 90, At 65, Def 80, At.esp 102, Def.esp 112, Velocid 80. Total 529"
     ],
     "type": "Agua/Fuego",
-    "ability": "Absorber Agua",
+    "ability": "Absorber Agua/Sal Purificadora/Adaptable",
     "notes": null
   },
   {
@@ -829,7 +866,7 @@
       "Dun: Ps 153, At 44, Def 66, At.esp 117, Def.esp 122, Velocid 99. Total 601"
     ],
     "type": "Dragón/Psíquico",
-    "ability": "Psicogénesis",
+    "ability": "Psicogénesis/Dicha/Multiescamas",
     "notes": null
   },
   {
@@ -855,7 +892,7 @@
       "Zapdos-P: Ps 90, At 85, Def 100, At.esp 175, Def.esp 100, Velocid 130. Total 680"
     ],
     "type": "Eléctrico/Siniestro",
-    "ability": "Electrogénesis",
+    "ability": "Electrogénesis/Levitación/Llovizna",
     "notes": null
   },
   {
@@ -868,7 +905,7 @@
       "Moltres-P: Ps 90, At 85, Def 100, At.esp 185, Def.esp 110, Velocid 110. Total 680"
     ],
     "type": "Fuego/Dragón",
-    "ability": "Sequía",
+    "ability": "Sequía/Multiescamas/Levitación",
     "notes": null
   },
   {
@@ -880,7 +917,7 @@
       "Articuno-P: Ps 90, At 85, Def 100, At.esp 115, Def.esp 185, Velocid 115. Total 680"
     ],
     "type": "Hielo/Agua",
-    "ability": "Nevada",
+    "ability": "Nevada/Levitación/Pelaje Recio",
     "notes": null
   },
   {
@@ -889,7 +926,7 @@
     "category_description": "Formas Primigenias y diseños históricos de Spaceworld 97 Beta Oro/Plata",
     "stats_breakdown": [
       "Ghost: Ps 90, At 60, Def 60, At.esp 165, Def.esp 150, Velocid 115. Total 640",
-      "Ghost-P: Ps 90, At 80, Def 80, At.esp 205, Def.esp 150, Velocid 135. Total 740"
+      "Ghost-P: Ps 90, At 90, Def 90, At.esp 205, Def.esp 160, Velocid 155. Total 790"
     ],
     "type": "Fantasma/Siniestro",
     "ability": "Aura Oscura",
@@ -904,7 +941,7 @@
       "Ho-oh-P: Ps 106, At 70, Def 120, At.esp 150, Def.esp 194, Velocid 140. Total 780"
     ],
     "type": "Fuego/Hada",
-    "ability": "Muro Mágico",
+    "ability": "Cuerpo Áureo",
     "notes": null
   },
   {
@@ -916,7 +953,7 @@
       "Lugia-P: Ps 106, At 70, Def 150, At.esp 120, Def.esp 194, Velocid 140. Total 780"
     ],
     "type": "Psíquico/Agua",
-    "ability": "Compensación",
+    "ability": "Escama de Hielo",
     "notes": null
   },
   {

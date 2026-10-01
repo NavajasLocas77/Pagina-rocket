@@ -358,6 +358,22 @@ Precisión - 100
 Ef.Secundario - 10% subir todas las estadísticas
 PP - 5
 
+GIRO FUEGO
+----------------------------------------------
+
+Oficial (Tipo fuego):
+
+Potencia - 35
+Precisión - 85
+Ef.Secundario - Atrapa al rival de 2 a 5 turnos
+PP - 15
+
+Hackrom (Tipo fuego):
+
+Potencia - 65
+Precisión - 85
+Ef.Secundario - Atrapa al rival de 2 a 5 turnos
+PP - 15
 
 
 GOLPE ROCA

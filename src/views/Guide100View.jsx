@@ -384,17 +384,31 @@ export default function Guide100View({
             </div>
           </div>
 
-          <p style={{ fontSize: '0.9rem', color: '#c5c9db', lineHeight: '1.6', maxWidth: '900px' }}>
-            {difficulty === 'hard' ? (
-              <span>
-                <strong style={{ color: '#f87171' }}>Modo Difícil Activo:</strong> Recorrido cronológico integral optimizado para completar el 100% frente a equipos con IVs 31, 252 EVs y coberturas competitivas. Consulta en cada etapa la historia paso a paso, Pokémon obtenibles ahora, secundarias en su momento justo, objetos, batallas con sus fichas y contenido perdible.
-              </span>
-            ) : (
-              <span>
-                <strong style={{ color: '#4ade80' }}>Modo Fácil Activo:</strong> Recorrido guiado paso a paso con seguimiento independiente para completar el 100% de la historia, misiones y capturas.
-              </span>
-            )}
-          </p>
+          <div style={{
+            fontSize: '0.88rem',
+            color: '#c5c9db',
+            lineHeight: '1.6',
+            maxWidth: '900px',
+            background: 'rgba(255, 255, 255, 0.03)',
+            padding: '12px 16px',
+            borderRadius: '10px',
+            border: '1px solid rgba(255, 255, 255, 0.08)'
+          }}>
+            <p style={{ margin: 0, fontWeight: 600 }}>
+              💡 <span style={{ color: '#fff' }}>La dificultad no cambia la historia ni el recorrido:</span> Es exactamente la misma cronología, mapas y progresión. Cambian los equipos de combate, niveles, IVs, EVs, objetos y coberturas según la documentación original de la ROM.
+            </p>
+            <p style={{ margin: '6px 0 0 0', fontSize: '0.82rem' }}>
+              {difficulty === 'hard' ? (
+                <span style={{ color: '#fca5a5' }}>
+                  🔴 <strong>Modo Difícil Activo:</strong> Visualizando los equipos de combate de alta dificultad (IVs mejorados, EVs asignados, objetos competitivos y repertorio técnico avanzado).
+                </span>
+              ) : (
+                <span style={{ color: '#86efac' }}>
+                  🟢 <strong>Modo Fácil Activo:</strong> Visualizando los equipos estándar del juego original con progresión equilibrada.
+                </span>
+              )}
+            </p>
+          </div>
 
           {/* SUB-TABS NAVIGATION */}
           <div style={{
@@ -1397,51 +1411,71 @@ export default function Guide100View({
                                   </div>
 
                                   {/* EXPANDED FULL TEAM VIEW */}
-                                  {isTeamOpen && bossObj && (
-                                    <div style={{ paddingTop: '10px', borderTop: '1px solid #222436' }}>
-                                      <div style={{
-                                        display: 'grid',
-                                        gridTemplateColumns: 'repeat(auto-fill, minmax(180px, 1fr))',
-                                        gap: '8px'
-                                      }}>
-                                        {bossObj.team.map((poke, pIdx) => (
-                                          <div
-                                            key={pIdx}
-                                            style={{
-                                              padding: '8px',
-                                              background: '#090a0f',
-                                              borderRadius: '8px',
-                                              border: '1px solid #222436',
-                                              display: 'flex',
-                                              alignItems: 'center',
-                                              gap: '8px'
-                                            }}
-                                          >
-                                            <img
-                                              src={getPokemonSprite(poke.name)}
-                                              alt={poke.name}
-                                              style={{ width: '40px', height: '40px', objectFit: 'contain' }}
-                                              onError={(e) => { e.target.style.display = 'none'; }}
-                                            />
-                                            <div style={{ fontSize: '0.75rem', minWidth: 0 }}>
-                                              <div style={{ fontWeight: 800, color: '#fff', display: 'flex', alignItems: 'center', gap: '4px' }}>
-                                                <span>{poke.name}</span>
-                                                <span style={{ fontSize: '0.65rem', color: '#f87171', fontFamily: 'monospace' }}>Nv.{poke.level}</span>
-                                              </div>
-                                              <div style={{ fontSize: '0.7rem', color: '#9499ad', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-                                                🎒 {poke.item || 'Sin objeto'}
-                                              </div>
-                                              {poke.moves && poke.moves.length > 0 && (
-                                                <div style={{ fontSize: '0.68rem', color: '#6b7280', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-                                                  ⚔️ {poke.moves.slice(0, 3).join(', ')}
+                                  {isTeamOpen && bossObj && (() => {
+                                    const teamToDisplay = (difficulty === 'easy' && bossObj.easy_team && bossObj.easy_team.length > 0)
+                                      ? bossObj.easy_team
+                                      : (bossObj.hard_team && bossObj.hard_team.length > 0 ? bossObj.hard_team : bossObj.team);
+
+                                    return (
+                                      <div style={{ paddingTop: '10px', borderTop: '1px solid #222436' }}>
+                                        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '8px' }}>
+                                          <span style={{ fontSize: '0.72rem', fontWeight: 800, color: difficulty === 'hard' ? '#f87171' : '#4ade80' }}>
+                                            {difficulty === 'hard' ? '🔴 EQUIPO MODO DIFÍCIL (Compensación competitiva)' : '🟢 EQUIPO MODO FÁCIL (Estándar)'}
+                                          </span>
+                                          <span style={{ fontSize: '0.7rem', color: '#9499ad' }}>
+                                            {teamToDisplay.length} Pokémon
+                                          </span>
+                                        </div>
+                                        <div style={{
+                                          display: 'grid',
+                                          gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
+                                          gap: '8px'
+                                        }}>
+                                          {teamToDisplay.map((poke, pIdx) => (
+                                            <div
+                                              key={pIdx}
+                                              style={{
+                                                padding: '10px',
+                                                background: '#090a0f',
+                                                borderRadius: '8px',
+                                                border: difficulty === 'hard' ? '1px solid rgba(229, 57, 53, 0.25)' : '1px solid rgba(34, 197, 94, 0.25)',
+                                                display: 'flex',
+                                                alignItems: 'center',
+                                                gap: '8px'
+                                              }}
+                                            >
+                                              <img
+                                                src={getPokemonSprite(poke.name)}
+                                                alt={poke.name}
+                                                style={{ width: '42px', height: '42px', objectFit: 'contain' }}
+                                                onError={(e) => { e.target.style.display = 'none'; }}
+                                              />
+                                              <div style={{ fontSize: '0.75rem', minWidth: 0, flex: 1 }}>
+                                                <div style={{ fontWeight: 800, color: '#fff', display: 'flex', alignItems: 'center', gap: '4px' }}>
+                                                  <span>{poke.name}</span>
+                                                  <span style={{ fontSize: '0.65rem', color: difficulty === 'hard' ? '#f87171' : '#4ade80', fontFamily: 'monospace' }}>Nv.{poke.level}</span>
                                                 </div>
-                                              )}
+                                                <div style={{ fontSize: '0.7rem', color: '#cbd5e1', marginTop: '2px', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                                                  🎒 {poke.item || 'Sin objeto'}
+                                                </div>
+                                                {(poke.nature || poke.ability) && (
+                                                  <div style={{ fontSize: '0.68rem', color: '#94a3b8', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                                                    {poke.nature && poke.nature !== '-' && poke.nature !== 'No confirmada' ? `Nat: ${poke.nature} ` : ''}
+                                                    {poke.ability && poke.ability !== '-' ? `• Hab: ${poke.ability}` : ''}
+                                                  </div>
+                                                )}
+                                                {poke.moves && poke.moves.length > 0 && (
+                                                  <div style={{ fontSize: '0.68rem', color: '#64748b', marginTop: '2px', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                                                    ⚔️ {poke.moves.slice(0, 3).join(', ')}
+                                                  </div>
+                                                )}
+                                              </div>
                                             </div>
-                                          </div>
-                                        ))}
+                                          ))}
+                                        </div>
                                       </div>
-                                    </div>
-                                  )}
+                                    );
+                                  })()}
                                 </div>
                               );
                             })}

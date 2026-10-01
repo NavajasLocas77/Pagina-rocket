@@ -486,291 +486,297 @@
     "line": 83
   },
   {
-    "from": "Basculin",
-    "to": "Basculegion",
+    "from": "Basculin-M",
+    "to": "Basculegion-M",
     "method": "Piedra Sagrada",
     "line": 84
+  },
+  {
+    "from": "Basculin-F",
+    "to": "Basculegion-F",
+    "method": "Piedra Sagrada",
+    "line": 85
   },
   {
     "from": "Darumaka",
     "to": "Darumaka Galar (y viceversa)",
     "method": "Piedra Sagrada",
-    "line": 85
+    "line": 86
   },
   {
     "from": "Darmanitan",
     "to": "Darmanitan Galar (y viceversa)",
     "method": "Piedra Sagrada",
-    "line": 86
+    "line": 87
   },
   {
     "from": "Darmanitan",
     "to": "Darmanitan-Zen",
     "method": "Nivel 105",
-    "line": 87
+    "line": 88
   },
   {
     "from": "Darmanitan-G",
     "to": "Darmanitan-G-Zen",
     "method": "Nivel 105",
-    "line": 88
+    "line": 89
   },
   {
     "from": "Darmanitan-Zen",
     "to": "Darmanitan-G-Zen (y viceversa)",
     "method": "P.Sagrada",
-    "line": 89
+    "line": 90
   },
   {
     "from": "Yamask",
     "to": "Yamask Galar (y viceversa)",
     "method": "Piedra Sagrada",
-    "line": 90
+    "line": 91
   },
   {
     "from": "Cofagrigus",
     "to": "Runerigus (y viceversa)",
     "method": "Piedra Sagrada",
-    "line": 91
+    "line": 92
   },
   {
     "from": "Zorua",
     "to": "Zorua Hisui (y viceversa)",
     "method": "Piedra Sagrada",
-    "line": 92
+    "line": 93
   },
   {
     "from": "Zoroark",
     "to": "Zoroark Hisui (y viceversa)",
     "method": "Piedra Sagrada",
-    "line": 93
+    "line": 94
   },
   {
     "from": "Karrablast",
     "to": "Escavalier",
     "method": "Piedra Link",
-    "line": 94
+    "line": 95
   },
   {
     "from": "Shelmet",
     "to": "Accelgor",
     "method": "Piedra Link",
-    "line": 95
+    "line": 96
   },
   {
     "from": "Stunfisk",
     "to": "Stunfisk Galar (y viceversa)",
     "method": "Piedra Sagrada",
-    "line": 96
+    "line": 97
   },
   {
     "from": "Bisharp",
     "to": "Kingambit",
     "method": "Piedra Sagrada",
-    "line": 97
+    "line": 98
   },
   {
     "from": "Braviary",
     "to": "Braviary Hisui (y viceversa)",
     "method": "Piedra Sagrada",
-    "line": 98
+    "line": 99
   },
   {
     "from": "Flabebe",
     "to": "Floette Flor Eterna",
     "method": "Piedra Sagrada",
-    "line": 99
+    "line": 100
   },
   {
     "from": "Spritzee",
     "to": "Aromatisse",
     "method": "Piedra Link",
-    "line": 100
+    "line": 101
   },
   {
     "from": "Swirlix",
     "to": "Slurpuff",
     "method": "Piedra Link",
-    "line": 101
+    "line": 102
   },
   {
     "from": "Inkay",
     "to": "Malamar",
     "method": "Nivel 30 únicamente",
-    "line": 102
+    "line": 103
   },
   {
     "from": "Sliggoo",
     "to": "Sliggoo Hisui (y viceversa)",
     "method": "Piedra Sagrada",
-    "line": 103
+    "line": 104
   },
   {
     "from": "Goodra",
     "to": "Goodra Hisui (y viceversa)",
     "method": "Piedra Sagrada",
-    "line": 104
+    "line": 105
   },
   {
     "from": "Avalugg",
     "to": "Avalugg Hisui (y viceversa)",
     "method": "Piedra Sagrada",
-    "line": 105
+    "line": 106
   },
   {
     "from": "Decidueye",
     "to": "Decidueye Hisui (y viceversa)",
     "method": "Piedra Sagrada",
-    "line": 106
+    "line": 107
   },
   {
     "from": "Rockruff",
     "to": "Lycanroc Forma Diurna",
     "method": "Piedra Día",
-    "line": 107
+    "line": 108
   },
   {
     "from": "Rockruff",
     "to": "Lycanroc Forma Nocturna",
     "method": "Piedra Noche",
-    "line": 108
+    "line": 109
   },
   {
     "from": "Electrode",
     "to": "Electrode-Y",
     "method": "Piedra Rocket",
-    "line": 112
+    "line": 113
   },
   {
     "from": "Electivire",
     "to": "Electivire-X",
     "method": "Piedra Rocket",
-    "line": 113
+    "line": 114
   },
   {
     "from": "Magmortar",
     "to": "Magmortar-Y",
     "method": "Piedra Rocket",
-    "line": 114
+    "line": 115
   },
   {
     "from": "Nidoking",
     "to": "Nidoking-X",
     "method": "Piedra Rocket",
-    "line": 115
+    "line": 116
   },
   {
     "from": "Nidoqueen",
     "to": "Nidoqueen-Y",
     "method": "Piedra Rocket",
-    "line": 116
+    "line": 117
   },
   {
     "from": "Tauros",
     "to": "Tauros-X",
     "method": "Piedra Rocket",
-    "line": 117
+    "line": 118
   },
   {
     "from": "Porygon2",
     "to": "Porygon3",
     "method": "Piedra Rocket",
-    "line": 118
+    "line": 119
   },
   {
     "from": "Aerodactyl",
     "to": "Aerodactyl Primigenio",
     "method": "Piedra Rocket",
-    "line": 119
+    "line": 120
   },
   {
     "from": "Raichu",
     "to": "Gorochu",
     "method": "Piedra Sagrada",
-    "line": 120
+    "line": 121
   },
   {
     "from": "Sirfetch'D",
     "to": "Madaamu (y viceversa)",
     "method": "Piedra Sagrada",
-    "line": 121
+    "line": 122
   },
   {
     "from": "Pinsir",
     "to": "Purakkusu",
     "method": "Piedra Sagrada",
-    "line": 122
+    "line": 123
   },
   {
     "from": "Noctowl",
     "to": "Boohoo",
     "method": "Piedra Sagrada",
-    "line": 123
+    "line": 124
   },
   {
     "from": "Xatu",
     "to": "Trxatu",
     "method": "Piedra Sagrada",
-    "line": 124
+    "line": 125
   },
   {
     "from": "Overqwil",
     "to": "Shibirifegu (y viceversa)",
     "method": "Piedra Sagrada",
-    "line": 125
+    "line": 126
   },
   {
     "from": "Octillery",
     "to": "Wartillery",
     "method": "Piedra Sagrada",
-    "line": 126
+    "line": 127
   },
   {
     "from": "Dunsparce",
     "to": "Blessparce",
     "method": "Piedra Sagrada",
-    "line": 127
+    "line": 128
   },
   {
     "from": "Kurusu",
     "to": "Akua",
     "method": "Nivel 40",
-    "line": 128
+    "line": 129
   },
   {
     "from": "Akua",
     "to": "Akueria",
     "method": "Nivel 64",
-    "line": 129
+    "line": 130
   },
   {
     "from": "Blessparce",
     "to": "Dun",
     "method": "+1 nivel en la cima del Pilar Dun",
-    "line": 130
+    "line": 131
   },
   {
     "from": "Marowak",
     "to": "Guardia",
     "method": "Nivel 108",
-    "line": 131
+    "line": 132
   },
   {
     "from": "Cradily",
     "to": "Cradily-P",
     "method": "Piedra Devon",
-    "line": 132
+    "line": 133
   },
   {
     "from": "Armaldo",
     "to": "Armaldo-P",
     "method": "Piedra Devon",
-    "line": 133
+    "line": 134
   },
   {
     "from": "Relicanth",
     "to": "Relicanth-P",
     "method": "Piedra Devon",
-    "line": 134
+    "line": 135
   }
 ]

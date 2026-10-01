@@ -340,6 +340,23 @@
     }
   },
   {
+    "name": "Oficial (Tipo fuego):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "fuego",
+      "power": "65",
+      "accuracy": "85",
+      "effect": "Atrapa al rival de 2 a 5 turnos",
+      "pp": "15"
+    }
+  },
+  {
     "name": "Oficial (Tipo lucha):",
     "official": {
       "type": "No especificado",
