@@ -1,0 +1,868 @@
+[
+  {
+    "id": "quest-1",
+    "order": 1,
+    "region": "ISLA INTA",
+    "name": "MISIONES SECUNDARIAS",
+    "npc": "NPC indicado en los pasos",
+    "location": "ISLA INTA",
+    "requirements": "Información no encontrada en los archivos proporcionados.",
+    "description": "╔",
+    "rewards": {
+      "raw": [],
+      "pokemon": [],
+      "items": [],
+      "money": null,
+      "badges": null,
+      "access": null
+    },
+    "video_tutorial": "No disponible",
+    "page": "1",
+    "connected_boss_ids": []
+  },
+  {
+    "id": "quest-2",
+    "order": 2,
+    "region": "ISLA INTA",
+    "name": "╗",
+    "npc": "NPC indicado en los pasos",
+    "location": "ISLA INTA",
+    "requirements": "Información no encontrada en los archivos proporcionados.",
+    "description": "ISLA INTA ╚",
+    "rewards": {
+      "raw": [],
+      "pokemon": [],
+      "items": [],
+      "money": null,
+      "badges": null,
+      "access": null
+    },
+    "video_tutorial": "No disponible",
+    "page": "1",
+    "connected_boss_ids": []
+  },
+  {
+    "id": "quest-3",
+    "order": 3,
+    "region": "ISLA INTA",
+    "name": "╝",
+    "npc": "NPC indicado en los pasos",
+    "location": "ISLA INTA",
+    "requirements": "Información no encontrada en los archivos proporcionados.",
+    "description": "Dependiente en pilar recuerdo: Hablar con la persona lamentándose por la pérdida de su Onyx junto al pilar recuerdo, este nos encomendará conseguir limonadas. Ir al centro Pokémon de Isla Inta y derrotar al cocinero que está ahí. Regresar con la persona junto al pilar. ╔",
+    "rewards": {
+      "raw": [
+        "- Phanpy Nv. 8 (Equipado con un meteorito)"
+      ],
+      "pokemon": [
+        "Phanpy Nv. 8 (Equipado con un meteorito)"
+      ],
+      "items": [],
+      "money": null,
+      "badges": null,
+      "access": null
+    },
+    "video_tutorial": "Las limonadas del cocinero (Partes del 1 al 4)",
+    "page": "1",
+    "connected_boss_ids": []
+  },
+  {
+    "id": "quest-4",
+    "order": 4,
+    "region": "ISLA INTA",
+    "name": "╝",
+    "npc": "NPC indicado en los pasos",
+    "location": "ISLA INTA",
+    "requirements": "Información no encontrada en los archivos proporcionados.",
+    "description": "Pescador ciudad carmín: Hablar con el pescador que otorga la caña vieja  en Ciudad Carmín, él brindará más instrucciones sobre qué hacer.",
+    "rewards": {
+      "raw": [
+        "- Magikarp Nv. 5"
+      ],
+      "pokemon": [
+        "Magikarp Nv. 5"
+      ],
+      "items": [],
+      "money": null,
+      "badges": null,
+      "access": null
+    },
+    "video_tutorial": "Encomienda del pescador de carmín",
+    "page": "1",
+    "connected_boss_ids": []
+  },
+  {
+    "id": "quest-5",
+    "order": 5,
+    "region": "ISLA INTA",
+    "name": "Anciano con su Machamp",
+    "npc": "NPC indicado en los pasos",
+    "location": "ISLA INTA",
+    "requirements": "Información no encontrada en los archivos proporcionados.",
+    "description": "Una vez obtengas alto rango, puedes hablar con el anciano ubicado en el terreno plano de Ciudad Carmín. Él te dará más instrucciones.",
+    "rewards": {
+      "raw": [
+        "- Hitmonlee Nv. 20",
+        "- Bono Bici"
+      ],
+      "pokemon": [
+        "Hitmonlee Nv. 20"
+      ],
+      "items": [
+        "Bono Bici"
+      ],
+      "money": null,
+      "badges": null,
+      "access": null
+    },
+    "video_tutorial": "Venganza del anciano con el machamp en Ciudad carmín",
+    "page": "1",
+    "connected_boss_ids": []
+  },
+  {
+    "id": "quest-6",
+    "order": 6,
+    "region": "ISLA INTA",
+    "name": "Cazabichos en ciudad plateada",
+    "npc": "NPC indicado en los pasos",
+    "location": "ISLA INTA",
+    "requirements": "Información no encontrada en los archivos proporcionados.",
+    "description": "Localizado en el jardín de las flores de ciudad plateada , hablar con él y dará más instrucciones. En caso de haberlo olvidado que dijo; debes ir a ciudad carmín, en la casa sin puerta al norte de dicha ciudad, hay un pasadizo secreto, entrar por ahí.",
+    "rewards": {
+      "raw": [
+        "- Acceso al jardín de bayas y mentas en ciudad carmín."
+      ],
+      "pokemon": [],
+      "items": [],
+      "money": null,
+      "badges": null,
+      "access": "Acceso al jardín de bayas y mentas en ciudad carmín."
+    },
+    "video_tutorial": "No está disponible.",
+    "page": "1",
+    "connected_boss_ids": [
+      "boss-168"
+    ]
+  },
+  {
+    "id": "quest-7",
+    "order": 7,
+    "region": "ISLA INTA",
+    "name": "Entrenadores Guay en bosque verde",
+    "npc": "NPC indicado en los pasos",
+    "location": "ISLA INTA",
+    "requirements": "Información no encontrada en los archivos proporcionados.",
+    "description": "Localizados en el bosque verde  al suroeste, basta con derrotarlos en un combate doble a ambos entrenadores.",
+    "rewards": {
+      "raw": [
+        "- Pinsir Nv 15"
+      ],
+      "pokemon": [
+        "Pinsir Nv 15"
+      ],
+      "items": [],
+      "money": null,
+      "badges": null,
+      "access": null
+    },
+    "video_tutorial": "Batalla versus entrenadores Guays",
+    "page": "2",
+    "connected_boss_ids": []
+  },
+  {
+    "id": "quest-8",
+    "order": 8,
+    "region": "ISLA INTA",
+    "name": "Pescador ruta 12",
+    "npc": "NPC indicado en los pasos",
+    "location": "ISLA INTA",
+    "requirements": "Información no encontrada en los archivos proporcionados.",
+    "description": "Hablar con el pescador ubicado en la caseta al sur de ruta 12, aquél que suele dar la caña buena. Él te dará más instrucciones.",
+    "rewards": {
+      "raw": [
+        "- Squirtle Nv 5"
+      ],
+      "pokemon": [
+        "Squirtle Nv 5"
+      ],
+      "items": [],
+      "money": null,
+      "badges": null,
+      "access": null
+    },
+    "video_tutorial": "El Pescador de Ciudad Fucsia",
+    "page": "2",
+    "connected_boss_ids": [
+      "boss-169",
+      "boss-170"
+    ]
+  },
+  {
+    "id": "quest-9",
+    "order": 9,
+    "region": "ISLA INTA",
+    "name": "Científico de ciudad fucsia",
+    "npc": "NPC indicado en los pasos",
+    "location": "ISLA INTA",
+    "requirements": "Es necesario haber sido estafado por el tipo que te pretende vender un magikarp",
+    "description": "Hablar con el científico  que se encuentra en  Ciudad Fucsia por el paso principal, él dará más indicaciones. en el centro pokémon de la ruta 10 (Centro pokémon del MT. MOON)",
+    "rewards": {
+      "raw": [
+        "- 10 proteinas",
+        "- 3 carameloraros",
+        "- Charmander Nv 5",
+        "- 200 000 Pokés",
+        "- Snorlax Nv. 30"
+      ],
+      "pokemon": [
+        "Charmander Nv 5",
+        "Snorlax Nv. 30"
+      ],
+      "items": [
+        "10 proteinas",
+        "3 carameloraros"
+      ],
+      "money": "200 000 Pokés",
+      "badges": null,
+      "access": null
+    },
+    "video_tutorial": "Los estafadores de Kanto",
+    "page": "2",
+    "connected_boss_ids": [
+      "boss-172",
+      "boss-173",
+      "boss-174"
+    ]
+  },
+  {
+    "id": "quest-10",
+    "order": 10,
+    "region": "ISLA INTA",
+    "name": "Motorista de ciudad azafran",
+    "npc": "NPC indicado en los pasos",
+    "location": "ISLA INTA",
+    "requirements": "Misión disponible a partir del asalto a SILPH S.A.",
+    "description": "Hablar con el motorista al norte de Ciudad Azafran, él dará más detalles.",
+    "rewards": {
+      "raw": [
+        "- Hitmonchan Nv. 37"
+      ],
+      "pokemon": [
+        "Hitmonchan Nv. 37"
+      ],
+      "items": [],
+      "money": null,
+      "badges": null,
+      "access": null
+    },
+    "video_tutorial": "Las vías subterráneas",
+    "page": "2",
+    "connected_boss_ids": []
+  },
+  {
+    "id": "quest-11",
+    "order": 11,
+    "region": "ISLA INTA",
+    "name": "Científico de isla canela",
+    "npc": "NPC indicado en los pasos",
+    "location": "ISLA INTA",
+    "requirements": "Información no encontrada en los archivos proporcionados.",
+    "description": "Hablar con el científico ubicado en el laboratorio de isla canela, justo donde está la foto de Fuji, él dará más instrucciones.",
+    "rewards": {
+      "raw": [
+        "- 5 Eevees Nv. 25"
+      ],
+      "pokemon": [
+        "5 Eevees Nv. 25"
+      ],
+      "items": [],
+      "money": null,
+      "badges": null,
+      "access": null
+    },
+    "video_tutorial": "No disponible",
+    "page": "2",
+    "connected_boss_ids": [
+      "boss-171"
+    ]
+  },
+  {
+    "id": "quest-12",
+    "order": 12,
+    "region": "ISLA INTA",
+    "name": "Video tutorial: El robo de los Eevees",
+    "npc": "NPC indicado en los pasos",
+    "location": "ISLA INTA",
+    "requirements": "Información no encontrada en los archivos proporcionados.",
+    "description": "",
+    "rewards": {
+      "raw": [],
+      "pokemon": [],
+      "items": [],
+      "money": null,
+      "badges": null,
+      "access": null
+    },
+    "video_tutorial": "No disponible",
+    "page": "3",
+    "connected_boss_ids": []
+  },
+  {
+    "id": "quest-13",
+    "order": 13,
+    "region": "ISLA INTA",
+    "name": "Entrenadores Especiales de Kanto y Sevii (Tutores Competitivos)",
+    "npc": "Varios antiguos tutores de movimientos",
+    "location": "Kanto / Sevii (Repartidos)",
+    "requirements": "Debe haberse conseguido las 8 medallas de Kanto para que accedan a batallar.",
+    "description": "Estos entrenadores (que en el juego base son tutores de ciertos movimientos), ahora otorgan objetos orientados al competitivo una vez los derrotemos.",
+    "steps": [
+      "Llamaesfera: Derrotar al anciano de Ciudad Azulona tras cruzar un pequeño charco.",
+      "Lodo negro: Derrotar al NPC en Ciudad Verde tras surfear el pequeño charco o cortar el árbol.",
+      "Gafas elegidas: Derrotar a la copiona en una de las casas de Ciudad Azafrán.",
+      "Cinta elegida: Derrotar al científico en la parte trasera del museo de Ciudad Plateada.",
+      "Cinta experto: Derrotar al cazabichos en Ciudad Fucsia observando el Kangaskhan.",
+      "Chaleco asalto: Derrotar al científico en una de las salas de investigación de Isla Canela.",
+      "MT32 Roca Afilada: Derrotar al entrenador en lo profundo del Túnel Roca.",
+      "Vidaesfera: Derrotar al entrenador guay al final de Calle Victoria.",
+      "Lupa: Derrotar a la exorcista en la casa al norte de Isla Secunda (Sevii).",
+      "Pañuelo Elegido: Derrotar al entrenador guay en el puente al sur de Isla Sétima (Sevii)."
+    ],
+    "rewards": {
+      "pokemon": [],
+      "items": [
+        "Llamaesfera",
+        "Lodo negro",
+        "Gafas elegidas",
+        "Cinta elegida",
+        "Cinta experto",
+        "Chaleco asalto",
+        "MT32 Roca Afilada",
+        "Vidaesfera",
+        "Lupa",
+        "Pañuelo Elegido"
+      ],
+      "money": null,
+      "badges": null,
+      "access": null
+    },
+    "video_tutorial": "Entrenadores especiales de Kanto",
+    "page": "3",
+    "connected_boss_ids": []
+  },
+  {
+    "id": "quest-14",
+    "order": 14,
+    "region": "SEVII",
+    "name": "╝",
+    "npc": "NPC indicado en los pasos",
+    "location": "SEVII",
+    "requirements": "Información no encontrada en los archivos proporcionados.",
+    "description": "Científico oculto en Isla Exta : Al arribar a Isla Exta, desde el muelle surfear hacia la izquierda, habrá una entrada secreta hacia un sitio  oculto. Al avanzar por ahí, habrá una cabaña con un investigador dentro. Hablar con él y preguntará sobre algo que pueda ayudar en su investigación. Darle el METEORITO con el que vino equipado  el Phanpy obtenido en la misión secundaria de Isla Inta.",
+    "rewards": {
+      "raw": [
+        "- Duraludon Nv. 50"
+      ],
+      "pokemon": [
+        "Duraludon Nv. 50"
+      ],
+      "items": [],
+      "money": null,
+      "badges": null,
+      "access": null
+    },
+    "video_tutorial": "La investigación del científico (Parte 5 – 7)",
+    "page": "4",
+    "connected_boss_ids": []
+  },
+  {
+    "id": "quest-15",
+    "order": 15,
+    "region": "SEVII",
+    "name": "Trajeados de Isla Prima",
+    "npc": "NPC indicado en los pasos",
+    "location": "SEVII",
+    "requirements": "Información no encontrada en los archivos proporcionados.",
+    "description": "Al arribar a Isla Prima, entrar al Centro pokémon y en la esquina inferior izquierda habrá varias personas trajeadas. Hablar con el de trajeado de verde para iniciar la misión. Ubicación de la gruta secreta donde continuar la misión:",
+    "rewards": {
+      "raw": [
+        "- Nihilego Nv. 50",
+        "- Posibilidad de capturar a Guzzlord Nv. 50"
+      ],
+      "pokemon": [
+        "Nihilego Nv. 50",
+        "Posibilidad de capturar a Guzzlord Nv. 50"
+      ],
+      "items": [],
+      "money": null,
+      "badges": null,
+      "access": null
+    },
+    "video_tutorial": "El verdadero tesoro de playa tesoro",
+    "page": "4",
+    "connected_boss_ids": []
+  },
+  {
+    "id": "quest-16",
+    "order": 16,
+    "region": "SEVII",
+    "name": "Dueños de recreativos",
+    "npc": "NPC indicado en los pasos",
+    "location": "SEVII",
+    "requirements": "Información no encontrada en los archivos proporcionados.",
+    "description": "Para poder iniciar, hablar con los dos personajes juntos en isla tera , en la primera casa a la izquierda al llegar.",
+    "rewards": {
+      "raw": [
+        "- Cranidos Nv. 25"
+      ],
+      "pokemon": [
+        "Cranidos Nv. 25"
+      ],
+      "items": [],
+      "money": null,
+      "badges": null,
+      "access": null
+    },
+    "video_tutorial": "No disponible",
+    "page": "4",
+    "connected_boss_ids": []
+  },
+  {
+    "id": "quest-17",
+    "order": 17,
+    "region": "SEVII",
+    "name": "- Skorupi Nv 35",
+    "npc": "NPC indicado en los pasos",
+    "location": "SEVII",
+    "requirements": "Información no encontrada en los archivos proporcionados.",
+    "description": "- Piplup Nv. 15",
+    "rewards": {
+      "raw": [],
+      "pokemon": [],
+      "items": [],
+      "money": null,
+      "badges": null,
+      "access": null
+    },
+    "video_tutorial": "Negocios en Sevii",
+    "page": "5",
+    "connected_boss_ids": []
+  },
+  {
+    "id": "quest-18",
+    "order": 18,
+    "region": "SEVII",
+    "name": "Atlas y la anciana",
+    "npc": "NPC indicado en los pasos",
+    "location": "SEVII",
+    "requirements": "Información no encontrada en los archivos proporcionados.",
+    "description": "Al pasar por isla inta y hablar con atlas te encargará una misión secundaria relacionada con una anciana en isla sete. Al terminar, es necesario volver a hablar con Atlas.",
+    "rewards": {
+      "raw": [
+        "- 300 000 pokés",
+        "- Bomushikaa Nv. 60",
+        "- Medalla de gimnasio de sevii"
+      ],
+      "pokemon": [
+        "Bomushikaa Nv. 60"
+      ],
+      "items": [],
+      "money": "300 000 pokés",
+      "badges": "Medalla de gimnasio de sevii",
+      "access": null
+    },
+    "video_tutorial": "Secretos de sevii",
+    "page": "5",
+    "connected_boss_ids": []
+  },
+  {
+    "id": "quest-19",
+    "order": 19,
+    "region": "SEVII",
+    "name": "Secretos del bosque baya",
+    "npc": "NPC indicado en los pasos",
+    "location": "SEVII",
+    "requirements": "Información no encontrada en los archivos proporcionados.",
+    "description": "Ir a bosque baya en isla tera, ah í se verá una persona entrando por un pasaje secreto. Ubicación de la entrada secreta:",
+    "rewards": {
+      "raw": [
+        "- Medalla de gimnasio de sevii.",
+        "- Posibilidad de atrapar un Blacephaleon Nv. 50",
+        "- Fennekin Nv. 15"
+      ],
+      "pokemon": [
+        "Posibilidad de atrapar un Blacephaleon Nv. 50",
+        "Fennekin Nv. 15"
+      ],
+      "items": [],
+      "money": null,
+      "badges": "Medalla de gimnasio de sevii.",
+      "access": null
+    },
+    "video_tutorial": "En lo profundo del bosque baya",
+    "page": "5",
+    "connected_boss_ids": []
+  },
+  {
+    "id": "quest-20",
+    "order": 20,
+    "region": "JOHTO",
+    "name": "╝",
+    "npc": "NPC indicado en los pasos",
+    "location": "JOHTO",
+    "requirements": "Información no encontrada en los archivos proporcionados.",
+    "description": "Científico ruinas alfa : Hablar con el científico  de sprite distinto,  localizado en el centro de investigación de ruinas alfa. El laboratorio secreto se encuentra en Ciudad Iris, es la puerta de aspecto sospechosa a lado derecho de la torre quemada.",
+    "rewards": {
+      "raw": [
+        "- Tirtouga Nv. 30",
+        "- Archen Nv. 35"
+      ],
+      "pokemon": [
+        "Tirtouga Nv. 30",
+        "Archen Nv. 35"
+      ],
+      "items": [],
+      "money": null,
+      "badges": null,
+      "access": null
+    },
+    "video_tutorial": "No disponible.",
+    "page": "6",
+    "connected_boss_ids": []
+  },
+  {
+    "id": "quest-21",
+    "order": 21,
+    "region": "JOHTO",
+    "name": "Exorcista escondida",
+    "npc": "NPC indicado en los pasos",
+    "location": "JOHTO",
+    "requirements": "Información no encontrada en los archivos proporcionados.",
+    "description": "Al sur de Ciudad Trigal, al bajar por la ruta 34, navegar por el mar hacia el sur. Tras atravesar una serie de rocas; se llegará a una cabaña escondida. El objeto de la misión está ubicado en lo profundo del Bosque Baya.",
+    "rewards": {
+      "raw": [
+        "- Marshadow Nv. 80"
+      ],
+      "pokemon": [
+        "Marshadow Nv. 80"
+      ],
+      "items": [],
+      "money": null,
+      "badges": null,
+      "access": null
+    },
+    "video_tutorial": "El colgante extraviado",
+    "page": "6",
+    "connected_boss_ids": []
+  },
+  {
+    "id": "quest-22",
+    "order": 22,
+    "region": "JOHTO",
+    "name": "Motorista en ciudad olivo",
+    "npc": "NPC indicado en los pasos",
+    "location": "JOHTO",
+    "requirements": "Información no encontrada en los archivos proporcionados.",
+    "description": "Hablar con el motorista que se encuentra ubicado en la esquina dentro del restaurante marino de Ciudad Olivo, él te comentará sobre su problema en el cual debemos ayudarlo.",
+    "rewards": {
+      "raw": [
+        "- Chimchar Nv 15",
+        "- 2.25 millones de Pokés",
+        "- Froakie Nv 15"
+      ],
+      "pokemon": [
+        "Chimchar Nv 15",
+        "Froakie Nv 15"
+      ],
+      "items": [],
+      "money": "2.25 millones de Pokés",
+      "badges": null,
+      "access": null
+    },
+    "video_tutorial": "Poketráfico",
+    "page": "6",
+    "connected_boss_ids": []
+  },
+  {
+    "id": "quest-23",
+    "order": 23,
+    "region": "JOHTO",
+    "name": "Almacen escondido de los estafadores",
+    "npc": "NPC indicado en los pasos",
+    "location": "JOHTO",
+    "requirements": "Es necesario haber derrotado a los estafadores que estaban en Isla Canela, dentro",
+    "description": "Almacen ubicado tras surfear y usar atraviesa corrientes al sureste de Ciudad Olivo. de la mansión pokémon. Caso contrario no será posible entrar al edificio.",
+    "rewards": {
+      "raw": [
+        "- 2 millones de Pokés  (En caso de seleccionar la opción sí) [No habrá recompensa si",
+        "selecciona que no]"
+      ],
+      "pokemon": [],
+      "items": [
+        "selecciona que no]"
+      ],
+      "money": "2 millones de Pokés  (En caso de seleccionar la opción sí) [No habrá recompensa si",
+      "badges": null,
+      "access": null
+    },
+    "video_tutorial": "Estafadores en Johto",
+    "page": "6",
+    "connected_boss_ids": [
+      "boss-172",
+      "boss-173",
+      "boss-174",
+      "boss-185",
+      "boss-186",
+      "boss-187"
+    ]
+  },
+  {
+    "id": "quest-24",
+    "order": 24,
+    "region": "JOHTO",
+    "name": "El discípulo de Pegaso",
+    "npc": "NPC indicado en los pasos",
+    "location": "JOHTO",
+    "requirements": "Información no encontrada en los archivos proporcionados.",
+    "description": "Surfear al sureste de sde Ciudad Olivo, se llegará  a un islote donde se encontrarán Pegaso y su discípulo entrenando.",
+    "rewards": {
+      "raw": [
+        "- Pidgeotita"
+      ],
+      "pokemon": [
+        "Pidgeotita"
+      ],
+      "items": [],
+      "money": null,
+      "badges": null,
+      "access": null
+    },
+    "video_tutorial": "El discípulo de Pegaso",
+    "page": "7",
+    "connected_boss_ids": [
+      "boss-188"
+    ]
+  },
+  {
+    "id": "quest-25",
+    "order": 25,
+    "region": "JOHTO",
+    "name": "Ancianos de pueblo caoba",
+    "npc": "NPC indicado en los pasos",
+    "location": "JOHTO",
+    "requirements": "Información no encontrada en los archivos proporcionados.",
+    "description": "Buscar una pequeña cabaña ubicada al noreste de pueblo caoba, se debe hablar con el anciano para poder iniciar la misión.",
+    "rewards": {
+      "raw": [
+        "- Litten Nv. 15",
+        "- Madaamu Nv. 70"
+      ],
+      "pokemon": [
+        "Litten Nv. 15",
+        "Madaamu Nv. 70"
+      ],
+      "items": [],
+      "money": null,
+      "badges": null,
+      "access": null
+    },
+    "video_tutorial": "El carbón de azalea",
+    "page": "7",
+    "connected_boss_ids": [
+      "boss-191"
+    ]
+  },
+  {
+    "id": "quest-26",
+    "order": 26,
+    "region": "JOHTO",
+    "name": "Anciana de isla quarta",
+    "npc": "NPC indicado en los pasos",
+    "location": "JOHTO",
+    "requirements": "Información no encontrada en los archivos proporcionados.",
+    "description": "Al hablar con la anciana, esta te hablará de un pokemon especial ubicado en una zona secreta de la Cueva Glaciar, est a zona  estará disponible  solo hasta  conseguir cascada. Una vez obtengas dicha MO, atrapa al pokémon especial y muéstraselo a la anciana.",
+    "rewards": {
+      "raw": [
+        "- La MT Avalancha",
+        "Ubicación de la sección secreta:"
+      ],
+      "pokemon": [],
+      "items": [
+        "La MT Avalancha",
+        "Ubicación de la sección secreta:"
+      ],
+      "money": null,
+      "badges": null,
+      "access": null
+    },
+    "video_tutorial": "No disponible",
+    "page": "7",
+    "connected_boss_ids": []
+  },
+  {
+    "id": "quest-27",
+    "order": 27,
+    "region": "JOHTO",
+    "name": "Video tutorial: No disponible.",
+    "npc": "NPC indicado en los pasos",
+    "location": "JOHTO",
+    "requirements": "Información no encontrada en los archivos proporcionados.",
+    "description": "",
+    "rewards": {
+      "raw": [],
+      "pokemon": [],
+      "items": [],
+      "money": null,
+      "badges": null,
+      "access": null
+    },
+    "video_tutorial": "No disponible",
+    "page": "8",
+    "connected_boss_ids": []
+  },
+  {
+    "id": "quest-28",
+    "order": 28,
+    "region": "JOHTO DLC",
+    "name": "╗",
+    "npc": "NPC indicado en los pasos",
+    "location": "JOHTO DLC",
+    "requirements": "Información no encontrada en los archivos proporcionados.",
+    "description": "JOHTO DLC ╚",
+    "rewards": {
+      "raw": [],
+      "pokemon": [],
+      "items": [],
+      "money": null,
+      "badges": null,
+      "access": null
+    },
+    "video_tutorial": "No disponible",
+    "page": "9",
+    "connected_boss_ids": []
+  },
+  {
+    "id": "quest-29",
+    "order": 29,
+    "region": "JOHTO DLC",
+    "name": "╝",
+    "npc": "NPC indicado en los pasos",
+    "location": "JOHTO DLC",
+    "requirements": "Información no encontrada en los archivos proporcionados.",
+    "description": "La anciana de la ruta 50: Hablar con la anciana que se encuentra en una pequeña casa ubicada al noroeste de la ruta 50, ella nos hablará sobre una vieja leyenda.",
+    "rewards": {
+      "raw": [
+        "- Poipole Nv. 50"
+      ],
+      "pokemon": [
+        "Poipole Nv. 50"
+      ],
+      "items": [],
+      "money": null,
+      "badges": null,
+      "access": null
+    },
+    "video_tutorial": "Viejas Leyendas",
+    "page": "9",
+    "connected_boss_ids": []
+  },
+  {
+    "id": "quest-30",
+    "order": 30,
+    "region": "JOHTO DLC",
+    "name": "Agatha y su maestra",
+    "npc": "NPC indicado en los pasos",
+    "location": "JOHTO DLC",
+    "requirements": "Es necesario haber derrotado por primera vez al Zapdos Primigenio y derrotar a",
+    "description": "Hablar con agatha en la casa escondida de aquel bosque secreto ubicado en las vías del tren. Atlas en las vías del tren, esto abrirá la zona para poder explorar el lugar deseado, de lo contrario el paso estará impedido.",
+    "rewards": {
+      "raw": [
+        "- Calyrex Nv. 70"
+      ],
+      "pokemon": [
+        "Calyrex Nv. 70"
+      ],
+      "items": [],
+      "money": null,
+      "badges": null,
+      "access": null
+    },
+    "video_tutorial": "Viejas Leyendas",
+    "page": "9",
+    "connected_boss_ids": []
+  },
+  {
+    "id": "quest-31",
+    "order": 31,
+    "region": "HOENN",
+    "name": "╝",
+    "npc": "NPC indicado en los pasos",
+    "location": "HOENN",
+    "requirements": "Información no encontrada en los archivos proporcionados.",
+    "description": "Inquietud de Fuji sobre el tunel roca : Hablar con Fuji en el cementerio de Lavanda, este comentará sobre un reciente problema del túnel roca.",
+    "rewards": {
+      "raw": [
+        "- Acceso a una porción de la zona safari."
+      ],
+      "pokemon": [],
+      "items": [],
+      "money": null,
+      "badges": null,
+      "access": "Acceso a una porción de la zona safari."
+    },
+    "video_tutorial": "El (mega)túnel roca",
+    "page": "10",
+    "connected_boss_ids": []
+  },
+  {
+    "id": "quest-32",
+    "order": 32,
+    "region": "HOENN",
+    "name": "Artista de ciudad portual",
+    "npc": "NPC indicado en los pasos",
+    "location": "HOENN",
+    "requirements": "Información no encontrada en los archivos proporcionados.",
+    "description": "Hablar con el señor  artista que bloquea la puerta en el museo de Ciudad Portual, él comentará más sobre el problema.",
+    "rewards": {
+      "raw": [
+        "- 1 millón de pokés",
+        "- Relicanth nivel 60"
+      ],
+      "pokemon": [
+        "Relicanth nivel 60"
+      ],
+      "items": [],
+      "money": "1 millón de pokés",
+      "badges": null,
+      "access": null
+    },
+    "video_tutorial": "No disponible.",
+    "page": "10",
+    "connected_boss_ids": []
+  },
+  {
+    "id": "quest-33",
+    "order": 33,
+    "region": "HOENN",
+    "name": "Queja del niño  de pueblo azuliza",
+    "npc": "NPC indicado en los pasos",
+    "location": "HOENN",
+    "requirements": "Información no encontrada en los archivos proporcionados.",
+    "description": "Habla con el niño ubicado en una de las casas de pueblo azuliza, él se quejará sobre  una niña de ciudad portual. La niña es la que se ubica donde se compran las aguas frescas.",
+    "rewards": {
+      "raw": [
+        "- Anorith Lv 60"
+      ],
+      "pokemon": [
+        "Anorith Lv 60"
+      ],
+      "items": [],
+      "money": null,
+      "badges": null,
+      "access": null
+    },
+    "video_tutorial": "Niña mimada",
+    "page": "10",
+    "connected_boss_ids": []
+  }
+]

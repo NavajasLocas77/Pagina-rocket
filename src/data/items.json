@@ -1,0 +1,3611 @@
+[
+  {
+    "category": "PIEDRAS EVOLUTIVAS",
+    "name": "Piedra Agua",
+    "location_and_method": "Venta en Base Rocket Profunda.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 3
+    }
+  },
+  {
+    "category": "PIEDRAS EVOLUTIVAS",
+    "name": "Piedra Trueno",
+    "location_and_method": "Venta en Base Rocket Profunda.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 4
+    }
+  },
+  {
+    "category": "PIEDRAS EVOLUTIVAS",
+    "name": "Piedra Fuego",
+    "location_and_method": "Venta en Base Rocket Profunda.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 5
+    }
+  },
+  {
+    "category": "PIEDRAS EVOLUTIVAS",
+    "name": "Piedra Hoja",
+    "location_and_method": "Venta en Base Rocket Profunda.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 6
+    }
+  },
+  {
+    "category": "PIEDRAS EVOLUTIVAS",
+    "name": "Piedra Alba",
+    "location_and_method": "Venta en Base Rocket Profunda (Sala Entrenamiento).",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 9
+    }
+  },
+  {
+    "category": "PIEDRAS EVOLUTIVAS",
+    "name": "Piedra Noche",
+    "location_and_method": "Venta en Base Rocket Profunda (Sala Entrenamiento).",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 10
+    }
+  },
+  {
+    "category": "PIEDRAS EVOLUTIVAS",
+    "name": "Piedra Día",
+    "location_and_method": "Venta en Base Rocket Profunda (Sala Entrenamiento).",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 11
+    }
+  },
+  {
+    "category": "PIEDRAS EVOLUTIVAS",
+    "name": "Piedra Hielo",
+    "location_and_method": "Venta en Base Rocket Profunda (Sala Entrenamiento).",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 12
+    }
+  },
+  {
+    "category": "PIEDRAS EVOLUTIVAS",
+    "name": "Piedra Link",
+    "location_and_method": "Venta en Base Rocket Profunda (Sala Entrenamiento).",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 13
+    }
+  },
+  {
+    "category": "PIEDRAS EVOLUTIVAS",
+    "name": "Piedra Lunar",
+    "location_and_method": "No está a la venta.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 16
+    }
+  },
+  {
+    "category": "PIEDRAS EVOLUTIVAS",
+    "name": "- Como objeto de suelo",
+    "location_and_method": "Mt.Moon | Base Rocket Kanto | Mansion Pkmn S1",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 18
+    }
+  },
+  {
+    "category": "PIEDRAS EVOLUTIVAS",
+    "name": "- Como objeto invisible",
+    "location_and_method": "Mt.Moon 3F | Mansión Pkmn 1F - Equipado en un Eevee de la secundaria en Mansión Canela",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 20
+    }
+  },
+  {
+    "category": "PIEDRAS EVOLUTIVAS",
+    "name": "Piedra Solar",
+    "location_and_method": "No está a la venta.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 24
+    }
+  },
+  {
+    "category": "PIEDRAS EVOLUTIVAS",
+    "name": "- Como objeto de suelo",
+    "location_and_method": "Jardín Sec.Cazabichos Plateada | Valle Ruinas | - Equipado en un Eevee de la secundaria en Mansión Canela | Regalo de NPC en el Centro Espacial Algaria",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 26
+    }
+  },
+  {
+    "category": "PIEDRAS EVOLUTIVAS",
+    "name": "Piedra Sagrada",
+    "location_and_method": "No accesible hasta misión 'Ruta 47' del DLC. - Se obtiene una para entrar a la torre Dun. Dentro de la propia torre hay dos más. - A partir de la apertura de la Torre Radio Lavanda, se venden en sus pisos superiores.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 31
+    }
+  },
+  {
+    "category": "PIEDRAS EVOLUTIVAS",
+    "name": "Piedra Rocket",
+    "location_and_method": "No accesible hasta el período 5ta-6ta medalla de Johto. - A partir de la apertura De la Torre Radio Lavanda, se venden en sus pisos superiores.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 37
+    }
+  },
+  {
+    "category": "PIEDRAS EVOLUTIVAS",
+    "name": "Piedra Devon",
+    "location_and_method": "Una única unidad disponible, obtenible en la 4ta misión de la temporada de Hoenn.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 42
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Piedra Espíritu",
+    "location_and_method": "S3 del Culto Lavanda. En una tumba en la zona sureste.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 49
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "(T2",
+    "location_and_method": "Archi7) - Accesible desde la primera visita al culto.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 50
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Ala Arcoíris",
+    "location_and_method": "Regalo de científico en el P9 de la T.Radio de C.Trigal.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 54
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "(T3",
+    "location_and_method": "Johto - Medalla 5) - Accesible tras ganar la 5ta medalla de Johto.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 55
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Ala Plateada",
+    "location_and_method": "En la casa de la Ex Campeona Frida.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 59
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "(T4",
+    "location_and_method": "DLC) - En una zona secreta, al norte de las vías de tren. - Accesible tras misión Volcán Canela del DLC.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 60
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Escamadragón",
+    "location_and_method": "Siguiendo la Vía Acuática hacia el sur de Isla Exta.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 65
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "(T2",
+    "location_and_method": "Archi7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 66
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Mejora",
+    "location_and_method": "Regalo del P.Silph junto a un Porygon en el asalto a Silph.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 69
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "(T1",
+    "location_and_method": "Kanto) - Se venden más unidades en el subterráneo de C.Trigal.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 70
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "(T3",
+    "location_and_method": "Johto - Medalla 2)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 72
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Protector",
+    "location_and_method": "Como objeto de suelo dentro de la secundaria del bar Olivo.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 75
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "(T3",
+    "location_and_method": "Johto - Medalla 4)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 76
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Electrizador",
+    "location_and_method": "Como objeto de suelo dentro de la secundaria de la casa al noroeste de Caoba.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 79
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "(T3",
+    "location_and_method": "Johto - Medalla 6)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 80
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Magmatizador",
+    "location_and_method": "Como objeto de suelo dentro de la misión del Volcán Canela.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 83
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "(T4",
+    "location_and_method": "DLC - Misión 5)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 84
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Discoxtraño",
+    "location_and_method": "Regalo de Científico en el S2 de Silph.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 87
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "(T2",
+    "location_and_method": "Archi7) - Se venden más unidades en el subterráneo de C.Trigal.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 88
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "(T3",
+    "location_and_method": "Johto - Medalla 2)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 90
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Telaterrible",
+    "location_and_method": "Objeto de suelo en la Cueva de Hypno.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 93
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "(T2",
+    "location_and_method": "Archi7 - Secundaria Bosque Baya) - También aparece en la 2da visita al Culto Lavanda.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 94
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "(T3",
+    "location_and_method": "Johto - Medalla 7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 96
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Escama Bella",
+    "location_and_method": "Objeto de suelo en Ruta 51 (Mar Oeste Cerezo).",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 99
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "(T3",
+    "location_and_method": "Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 100
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Escama Marina",
+    "location_and_method": "Cámara Sellada Regigigas.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 103
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "(T5",
+    "location_and_method": "Hoenn - Misión 9)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 104
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Diente Marino",
+    "location_and_method": "Faro Ciudad Olivo | Nao Abandonada",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 107
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "(T3",
+    "location_and_method": "Johto - Medalla 4) | (T5: Hoenn - Misión 3)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 108
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Roca del Rey",
+    "location_and_method": "Cañón Sete de Isla Sétima",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 111
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "(T2",
+    "location_and_method": "Archi7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 112
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Rev.Metálico",
+    "location_and_method": "Pilar Recuerdo de Isla Inta.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 115
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "(T1",
+    "location_and_method": "Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 116
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Bolaluminosa",
+    "location_and_method": "Se vende en el subterráneo de C.Trigal.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 119
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "(T3",
+    "location_and_method": "Johto - Medalla 2)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 120
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Palo",
+    "location_and_method": "En el Encinar.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 123
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "(T3",
+    "location_and_method": "Johto - Medalla 2)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 124
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Escama Roja",
+    "location_and_method": "Interior del Lago Furia, zona más profunda.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 128
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "(T4",
+    "location_and_method": "DLC - Misión 'Lago Furia')",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 129
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Condensador Gas",
+    "location_and_method": "Zona Central de los refugios de Kanto.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 133
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "(T4",
+    "location_and_method": "DLC - Misión 7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 134
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Mineral Negro",
+    "location_and_method": "Torre Dun, P11.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 138
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "(T4",
+    "location_and_method": "DLC - Misión 'Ruta 47')",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 139
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Nota",
+    "location_and_method": "Estos objetos son obtenibles más de una vez a lo largo del juego.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 145
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "C.Elegida",
+    "location_and_method": "Regalo Científico M.Plateada post 8 Medallas de Kanto. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 149
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "G.Especiales",
+    "location_and_method": "Regalo Copiona en C.Azafrán post 8 Medallas de Kanto. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 151
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "P.Elegido",
+    "location_and_method": "Regalo Entr.Guay Isla Sétima. (T2: Archi7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 153
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Llamasfera",
+    "location_and_method": "Regalo anciano lago C.Azulona post 8 Medallas de Kanto. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 155
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Toxisfera",
+    "location_and_method": "Robado al combatir con el Ayudante de Oak de Ruta 15. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 157
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Roca Lluvia",
+    "location_and_method": "Isla Exta, caverna secreta de Cueva Punteada. (T2: Archi7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 159
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Roca Calor",
+    "location_and_method": "Isla Prima, caverna secreta del Mt.Ascuas. (T2: Archi7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 161
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Roca Suave",
+    "location_and_method": "Venta en Centro Comercial de C.Trigal. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 163
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Roca Helada",
+    "location_and_method": "Cueva Glaciada, zona secreta anciana isla. (T2: Archi7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 165
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Banda Focus",
+    "location_and_method": "Venta en Base Rocket Profunda. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 167
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Periscopio",
+    "location_and_method": "Equipado en el regalo del anciano del Machop en C.Carmín. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 169
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Restos",
+    "location_and_method": "Calle victoria, y invisible usando buscaobjetos sobre el lugar en",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 171
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Camp.Concha",
+    "location_and_method": "Venta en Base Rocket Profunda.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 174
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Lupa",
+    "location_and_method": "Isla Secunda, regalo exorcista de Cabo Extremo. (T2: Archi7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 176
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Banda Fuerte",
+    "location_and_method": "C.Azafrán, equipado en el reglo del motorista. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 178
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Gafas especiales",
+    "location_and_method": "Como objeto de suelo en el S2 de Silph. (T2: Archi7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 180
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Cinta Xperto",
+    "location_and_method": "C.Fucsia, Cazabichos post 8 Medallas de Kanto. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 182
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Vidasfera",
+    "location_and_method": "Último Entr.Guay de Calle Victoria. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 184
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Telescopio",
+    "location_and_method": "Silph S3. (T2: Archi7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 186
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Metrónomo",
+    "location_and_method": "Venta en el Casino de C.Trigal (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 188
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Cola Plúmbea",
+    "location_and_method": "Cueva Vías de tren C.Trigal (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 190
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Bola Férrea",
+    "location_and_method": "Torre Secundaria Recreativos (T2: Archi7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 192
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Lodo Negro",
+    "location_and_method": "C.Verde, regalo tutor comesueños tras ganar 8 Medallas. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 194
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Garra Garfio",
+    "location_and_method": "Guarida Dragón, S3. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 196
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Raíz Grande",
+    "location_and_method": "Venta en Farmacia de C.Orquídea (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 198
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Garra Afilada",
+    "location_and_method": "Torre Secundaria Recreativos (T2: Archi7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 200
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Colm.Agudo",
+    "location_and_method": "Senda Orquídea hacia Ruta 47 (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 202
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Min.Evol",
+    "location_and_method": "Regalo de Giovanni tras completar misión de P.Paleta (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 204
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Piedra Pómez",
+    "location_and_method": "Ruta 47, al borde de la orilla. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 206
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Casco Dentado",
+    "location_and_method": "Isla Cuarta, regalo NPC Golpe Cuerpo en FR. (T2: Archi7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 208
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Globo Helio",
+    "location_and_method": "Venta en Centro Comercial Trigal. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 210
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Tarjeta Roja",
+    "location_and_method": "Venta en Centro Comercial Trigal. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 212
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Blanco",
+    "location_and_method": "Venta en Centro Comercial Trigal. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 214
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Banda Atadura",
+    "location_and_method": "Venta en Centro Comercial Trigal. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 216
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Botón Escape",
+    "location_and_method": "Venta en Centro Comercial Trigal. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 218
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Seguro Debilidad",
+    "location_and_method": "Venta en Centro Comercial Trigal. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 220
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Chaleco Asalto",
+    "location_and_method": "Lab.Canela, regalo tutor metrónomo tras ganar 8 Medallas. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 222
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Gafas Protectoras",
+    "location_and_method": "Venta en Torre Radio Lavanda. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 224
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Nerviosfera",
+    "location_and_method": "Venta en Torre Radio Lavanda. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 226
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Cubresuelos",
+    "location_and_method": "Venta en Torre Radio Lavanda. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 228
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Paracontacto",
+    "location_and_method": "Venta en Torre Radio Lavanda. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 230
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Spray.Bucal",
+    "location_and_method": "Venta en Torre Radio Lavanda. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 232
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Moch.Escape",
+    "location_and_method": "Venta en Torre Radio Lavanda. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 234
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Botas Gruesas",
+    "location_and_method": "Venta en Torre Radio Lavanda. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 236
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Seguro Fallo",
+    "location_and_method": "Venta en Torre Radio Lavanda. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 238
+    }
+  },
+  {
+    "category": "OBJETOS COMPETITIVOS",
+    "name": "Par.Multiuso",
+    "location_and_method": "Venta en Torre Radio Lavanda. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 240
+    }
+  },
+  {
+    "category": "UBICACIÓN OBJETOS POTENCIADORES +20% UN TIPO CONCRETO",
+    "name": "Nota",
+    "location_and_method": "Estos objetos son obtenibles más de una vez a lo largo del juego.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 246
+    }
+  },
+  {
+    "category": "UBICACIÓN OBJETOS POTENCIADORES +20% UN TIPO CONCRETO",
+    "name": "Pañuelo Seda",
+    "location_and_method": "Regalo de Karatekas en Ruta 4. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 250
+    }
+  },
+  {
+    "category": "UBICACIÓN OBJETOS POTENCIADORES +20% UN TIPO CONCRETO",
+    "name": "Carbón",
+    "location_and_method": "Equipado en Charmander secundaria estafadores. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 252
+    }
+  },
+  {
+    "category": "UBICACIÓN OBJETOS POTENCIADORES +20% UN TIPO CONCRETO",
+    "name": "Agua Mística",
+    "location_and_method": "Equipado en el Omanyte regalado tras salvar el Museo Plateada. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 254
+    }
+  },
+  {
+    "category": "UBICACIÓN OBJETOS POTENCIADORES +20% UN TIPO CONCRETO",
+    "name": "Imán",
+    "location_and_method": "Regalo de chica en el P2 de Silph. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 256
+    }
+  },
+  {
+    "category": "UBICACIÓN OBJETOS POTENCIADORES +20% UN TIPO CONCRETO",
+    "name": "Sem.Milagro",
+    "location_and_method": "Base Rocket Profunda, Sala Potencial Máximo. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 258
+    }
+  },
+  {
+    "category": "UBICACIÓN OBJETOS POTENCIADORES +20% UN TIPO CONCRETO",
+    "name": "Antiderretir",
+    "location_and_method": "Cueva Glaciada de Isla Cuarta. (T2: Archi7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 260
+    }
+  },
+  {
+    "category": "UBICACIÓN OBJETOS POTENCIADORES +20% UN TIPO CONCRETO",
+    "name": "Cinturón Negro",
+    "location_and_method": "Regalo del Rey del Kárate en C.Azafrán. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 262
+    }
+  },
+  {
+    "category": "UBICACIÓN OBJETOS POTENCIADORES +20% UN TIPO CONCRETO",
+    "name": "Flecha Venenosa",
+    "location_and_method": "Regalo de Petrel tras salvar el Museo Plateada. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 264
+    }
+  },
+  {
+    "category": "UBICACIÓN OBJETOS POTENCIADORES +20% UN TIPO CONCRETO",
+    "name": "Arena Fina",
+    "location_and_method": "Regalo de Recluta Rocket tras derrotar al Montañero de C.Celeste. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 266
+    }
+  },
+  {
+    "category": "UBICACIÓN OBJETOS POTENCIADORES +20% UN TIPO CONCRETO",
+    "name": "Pico Afilado",
+    "location_and_method": "Equipado en el Aerodactyl regalado tras misión Aves. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 268
+    }
+  },
+  {
+    "category": "UBICACIÓN OBJETOS POTENCIADORES +20% UN TIPO CONCRETO",
+    "name": "Cuchara Torcida",
+    "location_and_method": "Regalo de Científico en B.Profunda, zona oeste. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 270
+    }
+  },
+  {
+    "category": "UBICACIÓN OBJETOS POTENCIADORES +20% UN TIPO CONCRETO",
+    "name": "Polvo Plata",
+    "location_and_method": "Equipado en el Pinsir regalado por los Entr.Guays del Bosque Verde. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 272
+    }
+  },
+  {
+    "category": "UBICACIÓN OBJETOS POTENCIADORES +20% UN TIPO CONCRETO",
+    "name": "Piedra Dura",
+    "location_and_method": "Equipado en el Kabuto regalado tras misión Kangaskhan. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 274
+    }
+  },
+  {
+    "category": "UBICACIÓN OBJETOS POTENCIADORES +20% UN TIPO CONCRETO",
+    "name": "Hechizo",
+    "location_and_method": "Base Rocket Profunda, Sala Potencial Máximo. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 276
+    }
+  },
+  {
+    "category": "UBICACIÓN OBJETOS POTENCIADORES +20% UN TIPO CONCRETO",
+    "name": "Colmillodragón",
+    "location_and_method": "Base Rocket Profunda, Sala Ejecutivos. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 278
+    }
+  },
+  {
+    "category": "UBICACIÓN OBJETOS POTENCIADORES +20% UN TIPO CONCRETO",
+    "name": "Gafas de Sol",
+    "location_and_method": "Regalo de Koga al llegar a C.Fucsia. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 280
+    }
+  },
+  {
+    "category": "UBICACIÓN OBJETOS POTENCIADORES +20% UN TIPO CONCRETO",
+    "name": "Rev.Metálico",
+    "location_and_method": "Pilar Recuerdo de Isla Inta. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 282
+    }
+  },
+  {
+    "category": "UBICACIÓN DE LAS TABLAS DE ARCEUS (+30% UN TIPO CONCRETO)",
+    "name": "Tabla Llama",
+    "location_and_method": "Volcán de Isla Canela (T4: DLC - Misión 5).",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 289
+    }
+  },
+  {
+    "category": "UBICACIÓN DE LAS TABLAS DE ARCEUS (+30% UN TIPO CONCRETO)",
+    "name": "Tabla Linfa",
+    "location_and_method": "Nao Abandonada (T5: Hoenn - Misión 3).",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 291
+    }
+  },
+  {
+    "category": "UBICACIÓN DE LAS TABLAS DE ARCEUS (+30% UN TIPO CONCRETO)",
+    "name": "Tabla Trueno",
+    "location_and_method": "Malvalanova (T5: Hoenn - Misión 2).",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 293
+    }
+  },
+  {
+    "category": "UBICACIÓN DE LAS TABLAS DE ARCEUS (+30% UN TIPO CONCRETO)",
+    "name": "Tabla Pradal",
+    "location_and_method": "Casa Desierta en Ruta 26 (T3: Johto - Medalla 5).",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 295
+    }
+  },
+  {
+    "category": "UBICACIÓN DE LAS TABLAS DE ARCEUS (+30% UN TIPO CONCRETO)",
+    "name": "Tabla Helada",
+    "location_and_method": "Templo Puntaneva (T5: Hoenn - Misión 5).",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 297
+    }
+  },
+  {
+    "category": "UBICACIÓN DE LAS TABLAS DE ARCEUS (+30% UN TIPO CONCRETO)",
+    "name": "Tabla Fuerte",
+    "location_and_method": "Mt.Mortero (T3: Johto - Medalla 4).",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 299
+    }
+  },
+  {
+    "category": "UBICACIÓN DE LAS TABLAS DE ARCEUS (+30% UN TIPO CONCRETO)",
+    "name": "Tabla Tóxica",
+    "location_and_method": "Casa Ex-Campeón, Ruta 50 (T4: DLC - Misión 'Ruta 47').",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 301
+    }
+  },
+  {
+    "category": "UBICACIÓN DE LAS TABLAS DE ARCEUS (+30% UN TIPO CONCRETO)",
+    "name": "Tabla Terrax",
+    "location_and_method": "Fosa Wringsparce, Noreste Ruta 50 (T4: DLC - Misión 'Ruta 47').",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 303
+    }
+  },
+  {
+    "category": "UBICACIÓN DE LAS TABLAS DE ARCEUS (+30% UN TIPO CONCRETO)",
+    "name": "Tabla Cielo",
+    "location_and_method": "Cima Pilar Celeste (T5: Hoenn - Misión 9).",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 305
+    }
+  },
+  {
+    "category": "UBICACIÓN DE LAS TABLAS DE ARCEUS (+30% UN TIPO CONCRETO)",
+    "name": "Tabla Mental",
+    "location_and_method": "Cima Pilar Dun (T4: DLC - Misión 'Ruta 47').",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 307
+    }
+  },
+  {
+    "category": "UBICACIÓN DE LAS TABLAS DE ARCEUS (+30% UN TIPO CONCRETO)",
+    "name": "Tabla Bicho",
+    "location_and_method": "Bosque oculto al norte vías de tren (T4: DLC - Misión 6).",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 309
+    }
+  },
+  {
+    "category": "UBICACIÓN DE LAS TABLAS DE ARCEUS (+30% UN TIPO CONCRETO)",
+    "name": "Tabla Pétrea",
+    "location_and_method": "Zona secreta de Cueva Granito (T5: Hoenn - Misión 4).",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 311
+    }
+  },
+  {
+    "category": "UBICACIÓN DE LAS TABLAS DE ARCEUS (+30% UN TIPO CONCRETO)",
+    "name": "Tabla Terror",
+    "location_and_method": "Pasadizo que lleva al Culto Lavanda (T2: Archi7).",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 313
+    }
+  },
+  {
+    "category": "UBICACIÓN DE LAS TABLAS DE ARCEUS (+30% UN TIPO CONCRETO)",
+    "name": "Tabla Draco",
+    "location_and_method": "Interior Guarida Dragón (T3: Johto - Medalla 8).",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 315
+    }
+  },
+  {
+    "category": "UBICACIÓN DE LAS TABLAS DE ARCEUS (+30% UN TIPO CONCRETO)",
+    "name": "Tabla Oscura",
+    "location_and_method": "Culto lavanda, última zona de la 2da visita (T3: Johto - Medalla 7).",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 317
+    }
+  },
+  {
+    "category": "UBICACIÓN DE LAS TABLAS DE ARCEUS (+30% UN TIPO CONCRETO)",
+    "name": "Tabla Acero",
+    "location_and_method": "Ruta 120, al lado de las ruinas de Registeel (T5: Hoenn - Misión 7).",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 319
+    }
+  },
+  {
+    "category": "UBICACIÓN DE LAS TABLAS DE ARCEUS (+30% UN TIPO CONCRETO)",
+    "name": "Tabla Duende",
+    "location_and_method": "Ruta 51, mar al oeste de Ciudad Cerezo (T3: Johto - Medalla 5). - Los 4 se hallan en el Laboratorio del interior del Volcán Canela.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 321
+    }
+  },
+  {
+    "category": "DISCOS DE GENESECT",
+    "name": "(T4",
+    "location_and_method": "DLC - Misión 5) - Todos están a la venta en la Torre Radio de Pueblo Lavanda.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 328
+    }
+  },
+  {
+    "category": "DISCOS DE SILVALLY",
+    "name": "(T4",
+    "location_and_method": "DLC - Misión 9) - Todas están a la venta en la Base Rocket de Johto.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 335
+    }
+  },
+  {
+    "category": "BAYAS REDUCTORAS EVS",
+    "name": "(T3",
+    "location_and_method": "Johto - Medalla 5) - Todas a la venta en Bosque Secreto de I.Sétima | Secundaria Atlas",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 342
+    }
+  },
+  {
+    "category": "BAYAS MITIGADORAS SUPEREFECTIVO Y BAYAS QUE SUBEN UN STAT EN MOMENTO CRÍTICO",
+    "name": "(T2",
+    "location_and_method": "Archi7) - Más tarde están también disponible en una casa al noreste de C.Trigal.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 349
+    }
+  },
+  {
+    "category": "BAYAS MITIGADORAS SUPEREFECTIVO Y BAYAS QUE SUBEN UN STAT EN MOMENTO CRÍTICO",
+    "name": "(T3",
+    "location_and_method": "Johto - Medalla 3) - Todas están a la venta en la Base Rocket de Hoenn.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 352
+    }
+  },
+  {
+    "category": "GEMAS PKMN",
+    "name": "(T4",
+    "location_and_method": "DLC - Misión 4) - Todos están a la venta en la Torre Radio de Pueblo Lavanda.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 359
+    }
+  },
+  {
+    "category": "CRISTALES Z",
+    "name": "(T4",
+    "location_and_method": "DLC - Misión 9) - Todos están a la venta en la Torre Radio de Pueblo Lavanda.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 366
+    }
+  },
+  {
+    "category": "SEMILLAS CONSUMIBLES BAJO CAMPOS",
+    "name": "(T4",
+    "location_and_method": "DLC - Misión 9)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 373
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Venusaurita",
+    "location_and_method": "Noroeste de Ciudad Trigal (T3: Johto - Medalla 2/3)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 380
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Charizardita-X",
+    "location_and_method": "Regalo de Científico en Base Caoba (T3: Johto - Medalla 6)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 382
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Charizardita-Y",
+    "location_and_method": "Base estafadores en el mar Olivo (T3: Johto - Medalla 4)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 384
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Blastoisenita",
+    "location_and_method": "Cueva Unión de Johto. S2, zona interior. (T3: Johto - Medalla 1)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 387
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Beedrillita",
+    "location_and_method": "Parque Nacional. Zona Noreste. (T3: Johto - Medalla 3)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 389
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Pidgeotita",
+    "location_and_method": "Mar al sur de C.Cerezo. Discípulo Pegaso. (T3: Johto - Medalla 4)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 391
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Alakazita",
+    "location_and_method": "Detrás de Torre Bellsprout, Ciudad Malva. (T3: Johto - Medalla 1)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 393
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Slowbronita",
+    "location_and_method": "Supernecio Pozo Slowpoke, tras hablar con César. (T3: Johto - Medalla 2)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 395
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Gengarita",
+    "location_and_method": "Regalo de Agatha tras 6ta medalla Johto. (T3: Johto - Medalla 3)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 397
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Kangaskhanita",
+    "location_and_method": "Dentro de Cueva Oscura, Johto. (T3: Johto - Medalla 1)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 399
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Pinsirita",
+    "location_and_method": "Ciudad Olivo, zona norte encima del gimnasio. (T3: Johto - Medalla 4)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 401
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Aerodactylita",
+    "location_and_method": "Regalo de Elo al combatir en P.Primavera. (T3: Johto - Medalla 5)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 403
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Mewtwonita-X",
+    "location_and_method": "Laboratorio Secreto, S1. (T5: Hoenn - Misión 10)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 405
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Mewtwonita-Y",
+    "location_and_method": "Regalo de Giovanni al acabar el DLC. (T4: DLC - Misión 9)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 407
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Ampharosita",
+    "location_and_method": "Regalo del farero de C.Olivo, tras derrotar a Crom. (T3: Johto - Medalla 4)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 409
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Steelixita",
+    "location_and_method": "Afueras de C.Trigal, parte norte vías de tren. (T3: Johto - Medalla 3)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 411
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Scizorita",
+    "location_and_method": "Regalo granja Mu-muu tras derrotarlos. (T3: Johto - Medalla 3)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 413
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Heracronita",
+    "location_and_method": "Regalo esposa Aníbal tras traerlo de vuelta. (T3: Johto - Medalla 4)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 415
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Houndoomita",
+    "location_and_method": "Ruta 26, Johto. (T3: Johto - Medalla 5)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 417
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Tyranitarita",
+    "location_and_method": "Interior Mt.Plateado, tras una de las cascadas. (T3: Johto - Medalla 5)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 419
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Sceptilita",
+    "location_and_method": "Ruta 111, tras derrotar a la familia estratega. (T5: Hoenn - Misión 1)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 421
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Blazikenita",
+    "location_and_method": "Ruta 133, zona norte de las corrientes. (T5: Hoenn - Misión 9)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 423
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Swampertita",
+    "location_and_method": "Nao abandonada, zona secreta. (T5: Hoenn - Misión 3)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 425
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Gardevoirita",
+    "location_and_method": "Venta en B.Rocket Johto, P2. (T3: Johto - Medalla 5)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 427
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Sablenita",
+    "location_and_method": "Cueva Granito. (T5: Hoenn - Misión 4)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 429
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Mawilita",
+    "location_and_method": "Secundaria casa noroeste P.Caoba. (T3: Johto - Medalla 6)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 431
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Aggronita",
+    "location_and_method": "Venta en B.Rocket Johto, P2. (T3: Johto - Medalla 5)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 433
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Medichamita",
+    "location_and_method": "Venta en B.Rocket Johto, P2. (T3: Johto - Medalla 5)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 435
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Manectita",
+    "location_and_method": "Torre Radio Lavanda, P9. (T4: DLC - Misión 9)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 437
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Sharpedonita",
+    "location_and_method": "Secundaria Científico Ruinas Alfa. (T3: Johto - Medalla 3)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 439
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Cameruptita",
+    "location_and_method": "Laboratorio Volcán Canela. (T4: DLC - Misión 5)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 441
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Altarianita",
+    "location_and_method": "Ruta 119, tras la última cascada. (T5: Hoenn - Misión 6)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 443
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Banettita",
+    "location_and_method": "Cima Monte Pírico. (T5: Hoenn - Misión 7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 445
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Absolita",
+    "location_and_method": "Venta en B.Rocket Johto, P2. (T3: Johto - Medalla 5)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 447
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Glalita",
+    "location_and_method": "Ruta 125, al lado de Cueva Cardumen. (T5: Hoenn - Misión 8)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 449
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Salamencita",
+    "location_and_method": "Venta en B.Rocket Johto, P2. (T3: Johto - Medalla 5)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 451
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Metagrossita",
+    "location_and_method": "No obtenible por ahora.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 453
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Latiasita",
+    "location_and_method": "No obtenible por ahora.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 455
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Latiosita",
+    "location_and_method": "No obtenible por ahora.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 457
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Lopunnita",
+    "location_and_method": "Casino Malvalona. (T5: Hoenn - Misión 2)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 459
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Garchompita",
+    "location_and_method": "Venta en B.Rocket Johto, P2. (T3: Johto - Medalla 5)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 461
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Lucarionita",
+    "location_and_method": "Regalo 4to Líder Johto. (T3: Johto - Medalla 4)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 463
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Abomasita",
+    "location_and_method": "Templo Puntaneva. (T5: Hoenn - Misión 5)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 465
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Galladita",
+    "location_and_method": "Venta en B.Rocket Johto, P2. (T3: Johto - Medalla 5)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 467
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Audinita",
+    "location_and_method": "Ciudad Calagua, regalo de Npc casa este. (T5: Hoenn - Misión 7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 469
+    }
+  },
+  {
+    "category": "TODAS LAS MEGAPIEDRAS (OFICIALES)",
+    "name": "Diancita",
+    "location_and_method": "Laboratorio Secreto, S3. (T5: Hoenn - Misión 10)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 471
+    }
+  },
+  {
+    "category": "MEGAPIEDRAS NUEVAS",
+    "name": "Fligonita",
+    "location_and_method": "Venta en B.Rocket Johto, P2. (T3: Johto - Medalla 5)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 478
+    }
+  },
+  {
+    "category": "MEGAPIEDRAS NUEVAS",
+    "name": "Miloticita",
+    "location_and_method": "Venta en B.Rocket Johto, P2. (T3: Johto - Medalla 5)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 480
+    }
+  },
+  {
+    "category": "MEGAPIEDRAS NUEVAS",
+    "name": "Starmitita",
+    "location_and_method": "Tras derrotar chica oeste mar C.Cerezo. (T3: Johto - Medalla 5)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 482
+    }
+  },
+  {
+    "category": "MEGAPIEDRAS NUEVAS",
+    "name": "Butterfrita",
+    "location_and_method": "Venta en B.Rocket Johto, P2. (T3: Johto - Medalla 5)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 484
+    }
+  },
+  {
+    "category": "MEGAPIEDRAS NUEVAS",
+    "name": "Dusknoirita",
+    "location_and_method": "Culto Lavanda, segunda visita. (T3: Johto - Medalla 7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 486
+    }
+  },
+  {
+    "category": "MEGAPIEDRAS NUEVAS",
+    "name": "Noivernita",
+    "location_and_method": "Regalo de Mirto. (T3: Johto - Medalla 7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 488
+    }
+  },
+  {
+    "category": "MEGAPIEDRAS NUEVAS",
+    "name": "Toxtricitita",
+    "location_and_method": "Zona final refugios guerra Kanto. (T4: DLC - Misión 7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 490
+    }
+  },
+  {
+    "category": "MEGAPIEDRAS NUEVAS",
+    "name": "Porygonita",
+    "location_and_method": "No obtenible por ahora.",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 492
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT01 - Puño certero",
+    "location_and_method": "Quinta planta de Silph. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 499
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT02 - Garra Dragón",
+    "location_and_method": "Calle victoria de Kanto. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 501
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT03 - Hidropulso",
+    "location_and_method": "Regalo de Líder Misty al derrotarla. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 503
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT04 - Paz Mental",
+    "location_and_method": "Regalo de Líder Sabrina al derrotarla. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 505
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT05 - Rugido",
+    "location_and_method": "Venta en Centro Comercial Azulona. (T2: Archi7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 507
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT06 - Tóxico",
+    "location_and_method": "Regalo de Líder Koga al derrotarlo. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 509
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT07 - Granizo",
+    "location_and_method": "Calle victoria de Kanto. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 511
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT08 - Corpulencia",
+    "location_and_method": "Séptima planta de Silph. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 513
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT09 - Recurrente",
+    "location_and_method": "Mt.Moon. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 515
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT10 - Poder Oculto",
+    "location_and_method": "Zona Safari. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 517
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT11 - Día Soleado",
+    "location_and_method": "Zona Safari. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 519
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT12 - Mofa",
+    "location_and_method": "Isla Exta, Valle Ruinas. (T2: Archi7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 521
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT13 - Rayo Hielo",
+    "location_and_method": "Venta en Base Rocket Profunda. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 523
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT14 - Ventisca",
+    "location_and_method": "Isla Canela, interior Mansión Pokémon. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 525
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT15 - Hiperrayo",
+    "location_and_method": "Ruta 2, Ayudante Oak | Venta C.Comercial Azulona. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 527
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT16 - Pantalla Luz",
+    "location_and_method": "Ruta 3, entre Mt.Moon y C.Celeste. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 529
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT17 - Protección",
+    "location_and_method": "Venta en B.Rocket Profunda - Sala Ejecutivos. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 531
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT18 - Danza Lluvia",
+    "location_and_method": "Ruta 15. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 533
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT19 - Gigadrenado",
+    "location_and_method": "Regalo de Líder Erika al derrotarla. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 535
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT20 - Velo Sagrado",
+    "location_and_method": "Venta en Centro Comercial Azulona. (T2: Archi7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 537
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT21 - Frustración",
+    "location_and_method": "Base Rocket Kanto. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 539
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT22 - Rayo Solar",
+    "location_and_method": "Isla Canela, interior Mansión Pokémon. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 541
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT23 - Cola Férrea",
+    "location_and_method": "Túnel Roca. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 543
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT24 - Rayo",
+    "location_and_method": "Venta en Base Rocket Profunda. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 545
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT25 - Trueno",
+    "location_and_method": "Central Energía Kanto. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 547
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT26 - Terremoto",
+    "location_and_method": "Regalo de Líder C.Verde tras derrotarlo. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 549
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT27 - Retroceso",
+    "location_and_method": "Regalo de chica en el mirador de Ruta 12. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 551
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT28 - Excavar",
+    "location_and_method": "Regalo de Rocket tras misión C.Celeste. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 553
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT29 - Psíquico",
+    "location_and_method": "Venta en B.Rocket Profunda - Sala Ejecutivos. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 555
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT30 - Bola Sombra",
+    "location_and_method": "Venta en B.Rocket Profunda - Sala Ejecutivos. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 557
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT31 - Demolición",
+    "location_and_method": "Ruta 11 | Venta C.Comercial Azulona. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 559
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT32 - Doble Equipo",
+    "location_and_method": "B.Rocket Profunda - S.Potencial Máximo - Zona Norte. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 561
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT33 - Reflejo",
+    "location_and_method": "Regalo Científico en Base Rocket Profunda. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 563
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT34 - Onda Voltio",
+    "location_and_method": "Regalo de Líder Surge tras derrotarlo. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 565
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT35 - Lanzallamas",
+    "location_and_method": "Venta en Base Rocket Profunda. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 567
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT36 - Bomba Lodo",
+    "location_and_method": "Venta en B.Rocket Profunda - Sala Entrenamiento. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 569
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT37 - Torm.Arena",
+    "location_and_method": "Calle Victoria de Kanto. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 571
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT38 - Llamarada",
+    "location_and_method": "Regalo de Líder Blaine tras derrotarlo. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 573
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT39 - Tumba Rocas",
+    "location_and_method": "Regalo de Líder Brock tras derrotarlo. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 575
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT40 - Golpe Aéreo",
+    "location_and_method": "Ruta 9. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 577
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT41 - Tormento",
+    "location_and_method": "Cuarta Planta de Silph. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 579
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT42 - Imagen",
+    "location_and_method": "Base Rocket Profunda. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 581
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT43 - Daño Secreto",
+    "location_and_method": "Ruta 25 | Venta en C.Comercial Azulona. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 583
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT44 - Descanso",
+    "location_and_method": "Ruta 2. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 585
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT45 - Atracción",
+    "location_and_method": "Islas Espuma | Venta en C.Comercial Azulona. (T2: Archi7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 587
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT46 - Ladrón",
+    "location_and_method": "Mt.Moon. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 589
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT47 - Ala de Acero",
+    "location_and_method": "Zona Safari. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 591
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT48 - Intercambio",
+    "location_and_method": "Ruta 12. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 593
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT49 - Robo",
+    "location_and_method": "Base Rocket Kanto. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 595
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT50 - Sofoco",
+    "location_and_method": "Calle Victoria Kanto. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 597
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT51 - Onda Certera",
+    "location_and_method": "Silph S3. (T2: Archi7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 599
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT52 - Acróbata",
+    "location_and_method": "Ruta 49, misión 'Ruta 47' DLC. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 601
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT53 - Giga Impacto",
+    "location_and_method": "Regalo tutor Contador en C.Comercial Azulona. (T2: Archi7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 603
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT54 - Pulso Umbrío",
+    "location_and_method": "Venta en B.Rocket Profunda - Sala Entrenamiento. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 605
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT55 - Voltio Cruel",
+    "location_and_method": "Base Rocket Hoenn. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 607
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT56 - Roca Afilada",
+    "location_and_method": "Regalo tutor Avalanca en Túnel Roca. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 609
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT57 - Veneno X",
+    "location_and_method": "Base Rocket Ciudad Verde. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 611
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT58 - Tijera X",
+    "location_and_method": "Secundaria Bar Ciudad Olivo. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 613
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT59 - Afilargarras",
+    "location_and_method": "Regalo Líder Johto Trigal al derrotarlo. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 615
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT60 - Psicocarga",
+    "location_and_method": "Regalo Líder Johto Iris al derrotarlo. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 617
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT61 - Respiro",
+    "location_and_method": "Regalo Líder Johto Malva al derrotarlo. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 619
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT62 - Antiaéreo",
+    "location_and_method": "Ruta 50, misión 'Ruta 47' DLC. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 621
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT63 - Onda Tóxica",
+    "location_and_method": "Regalo Científico en Torre Radio Lavanda, P5. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 623
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT64 - Nitrocarga",
+    "location_and_method": "P.Caoba, secundaria ancianos casa noreste. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 625
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT65 - Patada Baja",
+    "location_and_method": "Regalo Líder Johto Orquídea al derrotarlo. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 627
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT66 - Eco Voz",
+    "location_and_method": "Venta en Centro Comercial de C.Trigal. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 629
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT67 - Energibola",
+    "location_and_method": "Vías Trigal-Azafrán, zona hierba. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 631
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT68 - Falsotortazo",
+    "location_and_method": "Venta en subterráneo de C.Trigal. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 633
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT69 - Escaldar",
+    "location_and_method": "Isla Prima, secundaria Cueva Tesoro. (T2: Archi7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 635
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT70 - Rayo Carga",
+    "location_and_method": "Neo Central Energía, regalo Presidente. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 637
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT71 - Caída Libre",
+    "location_and_method": "Ruta 47, misión 'Ruta 47' DLC. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 639
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT72 - Fuego Fatuo",
+    "location_and_method": "Torre Quemada, regalo exorcista. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 641
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT73 - Explosión",
+    "location_and_method": "Volcán Canela, laboratorio destruído. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 643
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT74 - Garra Umbría",
+    "location_and_method": "Venta en subterráneo de C.Trigal. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 645
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT75 - Vendetta",
+    "location_and_method": "Culto Lavanda regreso, S4. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 647
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT76 - Represalia",
+    "location_and_method": "Neo Lavanda Cementerio, S2. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 649
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT77 - Pulimento",
+    "location_and_method": "Regalo Líder Johto Olivo al derrotarlo. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 651
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT78 - Voltiocambio",
+    "location_and_method": "Regalo electricista en Faro Olivo. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 653
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT79 - Onda Trueno",
+    "location_and_method": "Torre Radio Lavanda. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 655
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT80 - Giro Bola",
+    "location_and_method": "Base Rocket Hoenn, S2. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 657
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT81 - Danza Espada",
+    "location_and_method": "Regalo Líder Sete, secundaria Atlas. (T2: Archi7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 659
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT82 - Estoicismo",
+    "location_and_method": "Regalo Líder Johto Azalea al derrotarlo. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 661
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT83 - Terratemblor",
+    "location_and_method": "Mt.Ascuas, montañero tutor explosión. (T2: Archi7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 663
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT84 - Vaho Gélido",
+    "location_and_method": "Regalo Líder Johto Caoba tras derrotarlo. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 665
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT85 - Avalancha",
+    "location_and_method": "Anciana I.Cuarta tras secundaria, requiere cascada. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 667
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT86 - Cola Dragón",
+    "location_and_method": "Ruta 50, Pilar Dun. Misión 'Ruta 47' DLC. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 669
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT87 - Puya Nociva",
+    "location_and_method": "Base Rocket Johto, P2. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 671
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT88 - Hierba Lazo",
+    "location_and_method": "Vías Trigal-Azafrán, zona hierba. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 673
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT89 - Contoneo",
+    "location_and_method": "Venta en subterráneo de C.Trigal. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 675
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT90 - Picoteo",
+    "location_and_method": "Vías Trigal-Azafrán, Bosque Secreto al norte. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 677
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT91 - Ida y Vuelta",
+    "location_and_method": "Regalo de Antón en el Encinar. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 679
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT92 - Sustituto",
+    "location_and_method": "Venta en Centro Comercial de C.Trigal. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 681
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT93 - Foco Resplandor",
+    "location_and_method": "Torre Campana, regalo de Pensador. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 683
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT94 - Espacio Raro",
+    "location_and_method": "Regalo de Líder Sete, secundaria Bosque Baya. (T2: Archi7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 685
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT95 - Trampa Rocas",
+    "location_and_method": "Vías Trigal-Azafrán, zona rocosa al sur. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 687
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT96 - Alud",
+    "location_and_method": "Interior Lago Furia. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 689
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT97 - Salmuera",
+    "location_and_method": "Cueva Unión, regalo de pescador en el interior. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 691
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT98 - Puño Drenaje",
+    "location_and_method": "Lago Furia, regalo karateka alrededor. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 693
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT99 - Pulso Dragón",
+    "location_and_method": "Regalo Líder Johto Endrino al derrotarlo. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 695
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT100 - Brillo Mágico",
+    "location_and_method": "Venta Centro Comercial de C.Trigal. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 697
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT101 - Giro Vil",
+    "location_and_method": "Refugios subterráneos de Kanto. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 699
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT102 - Cuerno Certero",
+    "location_and_method": "Secundaria estafadores Kanto en Johto. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 701
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT103 - Velo Aurora",
+    "location_and_method": "Isla Cuarta, zona secreta de Cueva Glaciada. (T2: Archi7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 703
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT104 - Acoso",
+    "location_and_method": "Refugios subterráneos de Kanto. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 705
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT105 - Alarido",
+    "location_and_method": "Neo Lavanda Cementerio, regalo rocket Alto Rango. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 707
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT106 - Puño Incremento",
+    "location_and_method": "Refugios subterráneos de Kanto. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 709
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT107 - Puño Hielo",
+    "location_and_method": "Venta en Centro Comercial de C.Trigal. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 711
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT108 - Puño Trueno",
+    "location_and_method": "Venta en Centro Comercial de C.Trigal. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 713
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT109 - Puño Fuego",
+    "location_and_method": "Venta en Centro Comercial de C.Trigal. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 715
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT110 - Ataque Aéreo",
+    "location_and_method": "Cima misión 'Vías Tren' DLC. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 717
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT111 - Psicoonda",
+    "location_and_method": "Cima Torre Radio Lavanda. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 719
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT112 - Esfera Aural",
+    "location_and_method": "Torre Dun, P2. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 721
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT113 - Viento Afín",
+    "location_and_method": "Pilar Dun, P2. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 723
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT114 - Lanza Mugre",
+    "location_and_method": "Base Rocket Johto, regalo de Científico. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 725
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT115 - Cabezahierro",
+    "location_and_method": "Volcán Canela, interior laboratorio. (T4: DLC)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 727
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT116 - Campo Eléctrico",
+    "location_and_method": "A la venta en la Base Rocket de Johto. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 729
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT117 - Campo de Hierba",
+    "location_and_method": "A la venta en la Base Rocket de Johto. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 731
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT118 - Campo Psíquico",
+    "location_and_method": "A la venta en la Base Rocket de Johto. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 733
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT119 - Campo de Niebla",
+    "location_and_method": "A la venta en la Base Rocket de Johto. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 735
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT120 - Cuerpo Pesado",
+    "location_and_method": "Nao Abandonada. (T5: Hoenn)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 737
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT121 - Vozarrón",
+    "location_and_method": "Venta Centro Comercial Calagua. (T5: Hoenn)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 739
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT122 - Onda Anómala",
+    "location_and_method": "Laboratorio Misión 10 Hoenn. (T5: Hoenn)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 741
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT123 - Cuchilla Solar",
+    "location_and_method": "Cueva Ruta 120. (T5: Hoenn)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 743
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT124 - Colm.Rayo",
+    "location_and_method": "Venta Centro Comercial Calagua. (T5: Hoenn)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 745
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT125 - Colm.Hielo",
+    "location_and_method": "Venta Centro Comercial Calagua. (T5: Hoenn)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 747
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT126 - Colm.Fuego",
+    "location_and_method": "Venta Centro Comercial Calagua. (T5: Hoenn)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 749
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT127 - Electrotela",
+    "location_and_method": "Venta en Comercio Portual. (T5: Hoenn)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 751
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT128 - Fisura",
+    "location_and_method": "Mt.Cenizo. Cueva de Groudon. (T5: Hoenn)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 753
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT129 - Cola Veneno",
+    "location_and_method": "Casino Malvalona, S2. (T5: Hoenn)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 755
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT130 - Triataque",
+    "location_and_method": "Laboratorio Misión 10 Hoenn. (T5: Hoenn)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 757
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT131 - Tierra Viva",
+    "location_and_method": "Ruta 134, Cámara Sellada. (T5: Hoenn)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 759
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT132 - Maquinación",
+    "location_and_method": "Silph, S2. Regalo de Científico. (T2: Archi7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 761
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT133 - Golpe Calor",
+    "location_and_method": "Pueblo Lavacalda, NPC del Centro Pkmn. (T5: Hoenn)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 763
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT134 - Maldición",
+    "location_and_method": "Torre Pokémon, S3. (T2: Archi7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 765
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT135 - Onda Vacío",
+    "location_and_method": "Venta en Comercio Portual. (T5: Hoenn)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 767
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT136 - Meteorobola",
+    "location_and_method": "Ruta 119. Instituto Meteorológico. (T5: Hoenn)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 769
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT137 - Superdiente",
+    "location_and_method": "Casino Malvalona, uno de los premios. (T5: Hoenn)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 771
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT138 - Fuerza Equina",
+    "location_and_method": "Ruta 39, regalo de Criador en Granja Muu-mu. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 773
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT139 - Arenas Ardientes",
+    "location_and_method": "Desierto de Hoenn. (T5: Hoenn)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 775
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT140 - Poltergeist",
+    "location_and_method": "Monte Pírico, cima interior. (T5: Hoenn)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 777
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT141 - Metaláser",
+    "location_and_method": "P.Caoba, secundaria casa al noreste. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 779
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT142 - Truco",
+    "location_and_method": "Venta en Centro Comercial Calagua. (T5: Hoenn)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 781
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT143 - Chupavidas",
+    "location_and_method": "C.Plateada, secundaria cazabichos. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 783
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT144 - Pedrada",
+    "location_and_method": "Interior Cueva Granito. (T5: Hoenn)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 785
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT145 - Poder Reserva",
+    "location_and_method": "Pasadizo hacia el Culto Lavanda. (T2: Archi7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 787
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT146 - Beso Drenaje",
+    "location_and_method": "Venta Centro Comercial de C.Trigal. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 789
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT147 - Amortiguador",
+    "location_and_method": "Venta Centro Comercial de C.Trigal. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 791
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT148 - Comesueños",
+    "location_and_method": "Cementerio antiguo Gimnasio Lavanda. (T2: Archi7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 793
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT149 - Electrocañón",
+    "location_and_method": "Malvalanova. (T5: Hoenn)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 795
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT150 - Golpe Cuerpo",
+    "location_and_method": "Venta Centro Comercial Trigal. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 797
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT151 - Carámbano",
+    "location_and_method": "Templo Puntaneva. (T5: Hoenn)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 799
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT152 - Llama Embrujada",
+    "location_and_method": "Monte Pírico, cima exterior. (T5: Hoenn)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 801
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT153 - Psicocorte",
+    "location_and_method": "Ciudad Algaria, NPC de los Recreativos. (T5: Hoenn)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 803
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT154 - Frío Polar",
+    "location_and_method": "Cueva Abisal, sala Kyogre. (T5: Hoenn)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 805
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT155 - Carbatóxica",
+    "location_and_method": "Neo Ciudad Fucsia, zona norte abandonada. (T5: Hoenn)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 807
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT156 - Guillotina",
+    "location_and_method": "Torre Isla Secunda. Secundaria NPCs Isla Tera. (T2: Archi7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 809
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT157 - Pin Misil",
+    "location_and_method": "Zona Safari de Hoenn. (T5: Hoenn)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 811
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT158 - Bomba Ácida",
+    "location_and_method": "Premio en el Casino Malvalona. (T5: Hoenn)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 813
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT159 - Juego Sucio",
+    "location_and_method": "Premio Casino Malvalona. (T5: Hoenn)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 815
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT160 - Perforador",
+    "location_and_method": "Zona Safari Hoenn. (T5: Hoenn)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 817
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT162 - Onda Ígnea",
+    "location_and_method": "Torre Radio Trigal, Científico en el P7. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 821
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT166 - Amnesia",
+    "location_and_method": "Secundaria Bosque Baya, Cueva Hypno. (T2: Archi7)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 825
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT167 - Viraje",
+    "location_and_method": "Mares de Hoenn, tras una zona de buceo. (T5: Hoenn)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 827
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT169 - Ala Bis",
+    "location_and_method": "Exterior Faro Ciudad Olivo. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 831
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT170 - Mil Temblores",
+    "location_and_method": "Torre Radio Trigal, P10. (T3: Johto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 833
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT179 - Otra Vez",
+    "location_and_method": "Museo Pueblo Verdegal. (T5: Hoenn)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 837
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT195 - Furia Dragon",
+    "location_and_method": "Gimnasio Endrino abierto, tras misión 10 Hoenn. (T5: Hoenn)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 841
+    }
+  },
+  {
+    "category": "OBTENCIÓN DE TODAS LAS MTS",
+    "name": "MT198 - Bofetón Lodo",
+    "location_and_method": "Prado de Isla Inta, surfeando. (T1: Kanto)",
+    "source": {
+      "file": "OBTENCIÓN OBJETOS.txt",
+      "line": 845
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Piedra Espíritu",
+    "location_and_method": "+30% At.Esp y Def.Esp en Spiritomb.",
+    "source": {
+      "file": "CAMBIOS en OBJETOS.txt",
+      "line": 4
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Ala Arcoiris",
+    "location_and_method": "+20% Ataque y Defensa en Ho-Oh.",
+    "source": {
+      "file": "CAMBIOS en OBJETOS.txt",
+      "line": 6
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Ala Plateada",
+    "location_and_method": "+20% At.Esp y Def.Esp en Lugia.",
+    "source": {
+      "file": "CAMBIOS en OBJETOS.txt",
+      "line": 8
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Escamadragón",
+    "location_and_method": "+30% Velocidad y Defensa en Kingdra.",
+    "source": {
+      "file": "CAMBIOS en OBJETOS.txt",
+      "line": 10
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Mejora",
+    "location_and_method": "+30% At.Esp y Velocidad en Porygon2.",
+    "source": {
+      "file": "CAMBIOS en OBJETOS.txt",
+      "line": 12
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Protector",
+    "location_and_method": "+30% Defensa y Def.esp en Rhyperior.",
+    "source": {
+      "file": "CAMBIOS en OBJETOS.txt",
+      "line": 15
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Electrizador",
+    "location_and_method": "+30% Ataque y Def.Esp en Electivire.",
+    "source": {
+      "file": "CAMBIOS en OBJETOS.txt",
+      "line": 17
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Magmatizador",
+    "location_and_method": "+30% At.Esp y Def.Esp en Magmortar.",
+    "source": {
+      "file": "CAMBIOS en OBJETOS.txt",
+      "line": 19
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Discoxtraño",
+    "location_and_method": "+30% Def y At.Esp en Porygon-Z.",
+    "source": {
+      "file": "CAMBIOS en OBJETOS.txt",
+      "line": 21
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Telaterrible",
+    "location_and_method": "+30% Ataque y Velocidad en Dusknoir.",
+    "source": {
+      "file": "CAMBIOS en OBJETOS.txt",
+      "line": 23
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Escama Bella",
+    "location_and_method": "+30% Def.Esp y Velocidad en Milotic.",
+    "source": {
+      "file": "CAMBIOS en OBJETOS.txt",
+      "line": 25
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Dulce de Nata",
+    "location_and_method": "+30% At.Esp y Def.Esp en Slurpuff (No obtenible).",
+    "source": {
+      "file": "CAMBIOS en OBJETOS.txt",
+      "line": 27
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Sam.Flagrante",
+    "location_and_method": "+30% Defensa y Def.Esp en Aromatisse (No obtenible).",
+    "source": {
+      "file": "CAMBIOS en OBJETOS.txt",
+      "line": 29
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Discos Genesect",
+    "location_and_method": "+30% Defensa y Def.Esp en Genesect. Mantiene efecto anterior.",
+    "source": {
+      "file": "CAMBIOS en OBJETOS.txt",
+      "line": 31
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Discos Silvally",
+    "location_and_method": "+30% Ataque y Def.Esp en Silvally.",
+    "source": {
+      "file": "CAMBIOS en OBJETOS.txt",
+      "line": 33
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Escama Marina",
+    "location_and_method": "+30% At.Esp y Velocidad en Gorebyss.",
+    "source": {
+      "file": "CAMBIOS en OBJETOS.txt",
+      "line": 35
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Diente Marino",
+    "location_and_method": "+30% Ataque y Velocidad en Huntail.",
+    "source": {
+      "file": "CAMBIOS en OBJETOS.txt",
+      "line": 37
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Roca del Rey",
+    "location_and_method": "+30% At.Esp y Velocidad en Slowking/Politoed.",
+    "source": {
+      "file": "CAMBIOS en OBJETOS.txt",
+      "line": 39
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Rev.Metálico",
+    "location_and_method": "+30% Ataque y Defensa en Scizor/Steelix.",
+    "source": {
+      "file": "CAMBIOS en OBJETOS.txt",
+      "line": 41
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Garra Afilada",
+    "location_and_method": "+30% Ataque y Defensa en Weavile.",
+    "source": {
+      "file": "CAMBIOS en OBJETOS.txt",
+      "line": 43
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Colm.Agudo",
+    "location_and_method": "+30% Ataque y Defensa en Gliscor.",
+    "source": {
+      "file": "CAMBIOS en OBJETOS.txt",
+      "line": 45
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Escama Roja",
+    "location_and_method": "+30% Defensa y Def.Esp en Guardaos.",
+    "source": {
+      "file": "CAMBIOS en OBJETOS.txt",
+      "line": 47
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Condensador Gas",
+    "location_and_method": "-30% Ataque. +30% At.Esp, Def.Esp y Defensa en Weezing.",
+    "source": {
+      "file": "CAMBIOS en OBJETOS.txt",
+      "line": 49
+    }
+  },
+  {
+    "category": "OBJETOS POTENCIADORES DE CIERTOS PKMN",
+    "name": "Mineral Negro",
+    "location_and_method": "+30% Velocidad y Def.Esp en Kleavor.",
+    "source": {
+      "file": "CAMBIOS en OBJETOS.txt",
+      "line": 51
+    }
+  },
+  {
+    "category": "OBJETOS CUYO EFECTO COMPETITIVO SE HA MODIFICADO",
+    "name": "Tablas de Arceus",
+    "location_and_method": "Pasan de potenciar un 20% a un 30% el tipo objetivo.",
+    "source": {
+      "file": "CAMBIOS en OBJETOS.txt",
+      "line": 58
+    }
+  },
+  {
+    "category": "OBJETOS CUYO EFECTO COMPETITIVO SE HA MODIFICADO",
+    "name": "Gemas",
+    "location_and_method": "Pasan de potenciar un 30% a un 40% el movimiento objetivo.",
+    "source": {
+      "file": "CAMBIOS en OBJETOS.txt",
+      "line": 60
+    }
+  },
+  {
+    "category": "OBJETOS CUYO EFECTO COMPETITIVO SE HA MODIFICADO",
+    "name": "Cola Plúmbea",
+    "location_and_method": "+35% Ataque. Mantiene el efecto anterior.",
+    "source": {
+      "file": "CAMBIOS en OBJETOS.txt",
+      "line": 62
+    }
+  },
+  {
+    "category": "OBJETOS CUYO EFECTO COMPETITIVO SE HA MODIFICADO",
+    "name": "Bola Férrea",
+    "location_and_method": "+35% Defensa. Mantiene el efecto anterior.",
+    "source": {
+      "file": "CAMBIOS en OBJETOS.txt",
+      "line": 64
+    }
+  },
+  {
+    "category": "OBJETOS CUYO EFECTO COMPETITIVO SE HA MODIFICADO",
+    "name": "Piedra Pómez",
+    "location_and_method": "+25% Velocidad. Mantiene el efecto anterior.",
+    "source": {
+      "file": "CAMBIOS en OBJETOS.txt",
+      "line": 66
+    }
+  }
+]

@@ -1,0 +1,776 @@
+[
+  {
+    "from": "Rattata",
+    "to": "Rattata Alola (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 3
+  },
+  {
+    "from": "Raticate",
+    "to": "Raticate Alola (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 4
+  },
+  {
+    "from": "Pikachu",
+    "to": "Raichu Alola",
+    "method": "Piedra Sagrada",
+    "line": 5
+  },
+  {
+    "from": "Sandshrew",
+    "to": "Sandshrew Alola (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 6
+  },
+  {
+    "from": "Sandshlash",
+    "to": "Sandslash Alola (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 7
+  },
+  {
+    "from": "Vulpix",
+    "to": "Vulpix Alola (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 8
+  },
+  {
+    "from": "Ninetales",
+    "to": "Ninetales Alola (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 9
+  },
+  {
+    "from": "Golbat",
+    "to": "Crobat",
+    "method": "Nivel 47",
+    "line": 10
+  },
+  {
+    "from": "Diglett",
+    "to": "Diglett Alola (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 11
+  },
+  {
+    "from": "Dugtrio",
+    "to": "Dugtrio Alola (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 12
+  },
+  {
+    "from": "Primeape",
+    "to": "Annihilape",
+    "method": "Piedra Sagrada",
+    "line": 13
+  },
+  {
+    "from": "Growlithe",
+    "to": "Growlithe Hisui (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 14
+  },
+  {
+    "from": "Arcanine",
+    "to": "Arcanine Hisui (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 15
+  },
+  {
+    "from": "Poliwhirl",
+    "to": "Politoed",
+    "method": "Nivel 50",
+    "line": 16
+  },
+  {
+    "from": "Kadabra",
+    "to": "Alakazam",
+    "method": "Nivel 45",
+    "line": 17
+  },
+  {
+    "from": "Machoke",
+    "to": "Machamp",
+    "method": "Nivel 51",
+    "line": 18
+  },
+  {
+    "from": "Geodude",
+    "to": "Geodude Alola (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 19
+  },
+  {
+    "from": "Graveler",
+    "to": "Graveler Alola (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 20
+  },
+  {
+    "from": "Graveler",
+    "to": "Golem",
+    "method": "Nivel 45",
+    "line": 21
+  },
+  {
+    "from": "Golem",
+    "to": "Golem Alola (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 22
+  },
+  {
+    "from": "Ponyta",
+    "to": "Ponyta Galar (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 23
+  },
+  {
+    "from": "Rapidash",
+    "to": "Rapidash Galar (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 24
+  },
+  {
+    "from": "Slowpoke",
+    "to": "Slowking",
+    "method": "Piedra Link",
+    "line": 25
+  },
+  {
+    "from": "Slowpoke",
+    "to": "Slowpoke Galar (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 26
+  },
+  {
+    "from": "Slowbro",
+    "to": "Slowbro Galar (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 27
+  },
+  {
+    "from": "Slowking",
+    "to": "Slowking Galar (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 28
+  },
+  {
+    "from": "Magneton",
+    "to": "Magnezone",
+    "method": "Piedra Link",
+    "line": 29
+  },
+  {
+    "from": "Farfetch'D",
+    "to": "Farfecth'D Galar (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 30
+  },
+  {
+    "from": "Farfetch'D Galar",
+    "to": "Sirfetch'D",
+    "method": "Nivel 50",
+    "line": 31
+  },
+  {
+    "from": "Sirfetch'D",
+    "to": "Madaamu (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 32
+  },
+  {
+    "from": "Grimer",
+    "to": "Grimer Alola (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 33
+  },
+  {
+    "from": "Muk",
+    "to": "Muk Alola (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 34
+  },
+  {
+    "from": "Haunter",
+    "to": "Gengar",
+    "method": "Nivel 52",
+    "line": 35
+  },
+  {
+    "from": "Onix",
+    "to": "Steelix",
+    "method": "Piedra Link",
+    "line": 36
+  },
+  {
+    "from": "Voltorb",
+    "to": "Voltorb Hisui (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 37
+  },
+  {
+    "from": "Electrode",
+    "to": "Electrode Hisui (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 38
+  },
+  {
+    "from": "Exeggutor",
+    "to": "Exeggutor Alola",
+    "method": "Piedra Sagrada",
+    "line": 39
+  },
+  {
+    "from": "Marowak",
+    "to": "Marowak Alola (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 40
+  },
+  {
+    "from": "Lickitung",
+    "to": "Lickilicky",
+    "method": "Piedra Link",
+    "line": 41
+  },
+  {
+    "from": "Weezing",
+    "to": "Weezing Galar (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 42
+  },
+  {
+    "from": "Rhydon",
+    "to": "Rhyperior",
+    "method": "Piedra Link",
+    "line": 43
+  },
+  {
+    "from": "Tangela",
+    "to": "Tangrowth",
+    "method": "Piedra Link | +1 nivel con Poder Pasado",
+    "line": 44
+  },
+  {
+    "from": "Seadra",
+    "to": "Kingdra",
+    "method": "Piedra Link",
+    "line": 45
+  },
+  {
+    "from": "Mr.Mime",
+    "to": "Mr.Mime Galar (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 46
+  },
+  {
+    "from": "Scyther",
+    "to": "Scizor",
+    "method": "Piedra Link",
+    "line": 47
+  },
+  {
+    "from": "Scyther",
+    "to": "Kleavor",
+    "method": "Piedra Sagrada",
+    "line": 48
+  },
+  {
+    "from": "Electabuzz",
+    "to": "Electivire",
+    "method": "Piedra Link",
+    "line": 49
+  },
+  {
+    "from": "Eevee",
+    "to": "Espeon",
+    "method": "Piedra Solar",
+    "line": 50
+  },
+  {
+    "from": "Eevee",
+    "to": "Umbreon",
+    "method": "Piedra Lunar",
+    "line": 51
+  },
+  {
+    "from": "Eevee",
+    "to": "Leafeon",
+    "method": "Piedra Hoja",
+    "line": 52
+  },
+  {
+    "from": "Eevee",
+    "to": "Glaceon",
+    "method": "Piedra Hielo",
+    "line": 53
+  },
+  {
+    "from": "Porygon",
+    "to": "Porygon2",
+    "method": "Mejora (usándola como una piedra)",
+    "line": 54
+  },
+  {
+    "from": "Porygon2",
+    "to": "PorygonZ",
+    "method": "Discoxtraño (usándolo como una piedra)",
+    "line": 55
+  },
+  {
+    "from": "Articuno",
+    "to": "Articuno Galar (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 56
+  },
+  {
+    "from": "Zapdos",
+    "to": "Zapdos Galar (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 57
+  },
+  {
+    "from": "Moltres",
+    "to": "Moltres Galar (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 58
+  },
+  {
+    "from": "Typhlosion",
+    "to": "Typhlosion Hisui (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 59
+  },
+  {
+    "from": "Girafarig",
+    "to": "Farigiraf",
+    "method": "Piedra Sagrada",
+    "line": 60
+  },
+  {
+    "from": "Gligar",
+    "to": "Gliscor",
+    "method": "Piedra Link",
+    "line": 61
+  },
+  {
+    "from": "Qwilfish",
+    "to": "Qwilfish Hisui (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 62
+  },
+  {
+    "from": "Qwilfish Hisui",
+    "to": "Overqwil",
+    "method": "Nivel 50",
+    "line": 63
+  },
+  {
+    "from": "Sneasel",
+    "to": "Weavile",
+    "method": "Piedra Link",
+    "line": 64
+  },
+  {
+    "from": "Sneasel",
+    "to": "Sneasel Hisui (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 65
+  },
+  {
+    "from": "Sneasel Hisui",
+    "to": "Sneasler",
+    "method": "Nivel 50",
+    "line": 66
+  },
+  {
+    "from": "Weavile",
+    "to": "Sneasler (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 67
+  },
+  {
+    "from": "Ursaring",
+    "to": "Ursaluna",
+    "method": "Piedra Sagrada",
+    "line": 68
+  },
+  {
+    "from": "Piloswine",
+    "to": "Mamoswine",
+    "method": "Piedra Link | +1 nivel con Poder Pasado",
+    "line": 69
+  },
+  {
+    "from": "Corsola",
+    "to": "Corsola Galar (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 70
+  },
+  {
+    "from": "Corsola Galar",
+    "to": "Cursola",
+    "method": "Nivel 38",
+    "line": 71
+  },
+  {
+    "from": "Stantler",
+    "to": "Wyrdeer",
+    "method": "Piedra Sagrada",
+    "line": 72
+  },
+  {
+    "from": "Zigzagoon",
+    "to": "Zigzagoon Galar (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 73
+  },
+  {
+    "from": "Linoone",
+    "to": "Linoone Galar (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 74
+  },
+  {
+    "from": "Linoone Galar",
+    "to": "Obstagoon",
+    "method": "Nivel 35",
+    "line": 75
+  },
+  {
+    "from": "Feebas",
+    "to": "Milotic",
+    "method": "Nivel 54",
+    "line": 76
+  },
+  {
+    "from": "Dusclops",
+    "to": "Dusknoir",
+    "method": "Piedra Link",
+    "line": 77
+  },
+  {
+    "from": "Clamperl",
+    "to": "Huntail",
+    "method": "Piedra Día",
+    "line": 78
+  },
+  {
+    "from": "Clamperl",
+    "to": "Gorebyss",
+    "method": "Piedra Noche",
+    "line": 79
+  },
+  {
+    "from": "Samurott",
+    "to": "Samurott Hisui (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 80
+  },
+  {
+    "from": "Boldore",
+    "to": "Gigalith",
+    "method": "Nivel 49",
+    "line": 81
+  },
+  {
+    "from": "Gurdurr",
+    "to": "Conkeldurr",
+    "method": "Piedra Link",
+    "line": 82
+  },
+  {
+    "from": "Lilligant",
+    "to": "Lilligant Hisui (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 83
+  },
+  {
+    "from": "Basculin",
+    "to": "Basculegion",
+    "method": "Piedra Sagrada",
+    "line": 84
+  },
+  {
+    "from": "Darumaka",
+    "to": "Darumaka Galar (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 85
+  },
+  {
+    "from": "Darmanitan",
+    "to": "Darmanitan Galar (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 86
+  },
+  {
+    "from": "Darmanitan",
+    "to": "Darmanitan-Zen",
+    "method": "Nivel 105",
+    "line": 87
+  },
+  {
+    "from": "Darmanitan-G",
+    "to": "Darmanitan-G-Zen",
+    "method": "Nivel 105",
+    "line": 88
+  },
+  {
+    "from": "Darmanitan-Zen",
+    "to": "Darmanitan-G-Zen (y viceversa)",
+    "method": "P.Sagrada",
+    "line": 89
+  },
+  {
+    "from": "Yamask",
+    "to": "Yamask Galar (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 90
+  },
+  {
+    "from": "Cofagrigus",
+    "to": "Runerigus (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 91
+  },
+  {
+    "from": "Zorua",
+    "to": "Zorua Hisui (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 92
+  },
+  {
+    "from": "Zoroark",
+    "to": "Zoroark Hisui (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 93
+  },
+  {
+    "from": "Karrablast",
+    "to": "Escavalier",
+    "method": "Piedra Link",
+    "line": 94
+  },
+  {
+    "from": "Shelmet",
+    "to": "Accelgor",
+    "method": "Piedra Link",
+    "line": 95
+  },
+  {
+    "from": "Stunfisk",
+    "to": "Stunfisk Galar (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 96
+  },
+  {
+    "from": "Bisharp",
+    "to": "Kingambit",
+    "method": "Piedra Sagrada",
+    "line": 97
+  },
+  {
+    "from": "Braviary",
+    "to": "Braviary Hisui (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 98
+  },
+  {
+    "from": "Flabebe",
+    "to": "Floette Flor Eterna",
+    "method": "Piedra Sagrada",
+    "line": 99
+  },
+  {
+    "from": "Spritzee",
+    "to": "Aromatisse",
+    "method": "Piedra Link",
+    "line": 100
+  },
+  {
+    "from": "Swirlix",
+    "to": "Slurpuff",
+    "method": "Piedra Link",
+    "line": 101
+  },
+  {
+    "from": "Inkay",
+    "to": "Malamar",
+    "method": "Nivel 30 únicamente",
+    "line": 102
+  },
+  {
+    "from": "Sliggoo",
+    "to": "Sliggoo Hisui (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 103
+  },
+  {
+    "from": "Goodra",
+    "to": "Goodra Hisui (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 104
+  },
+  {
+    "from": "Avalugg",
+    "to": "Avalugg Hisui (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 105
+  },
+  {
+    "from": "Decidueye",
+    "to": "Decidueye Hisui (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 106
+  },
+  {
+    "from": "Rockruff",
+    "to": "Lycanroc Forma Diurna",
+    "method": "Piedra Día",
+    "line": 107
+  },
+  {
+    "from": "Rockruff",
+    "to": "Lycanroc Forma Nocturna",
+    "method": "Piedra Noche",
+    "line": 108
+  },
+  {
+    "from": "Electrode",
+    "to": "Electrode-Y",
+    "method": "Piedra Rocket",
+    "line": 112
+  },
+  {
+    "from": "Electivire",
+    "to": "Electivire-X",
+    "method": "Piedra Rocket",
+    "line": 113
+  },
+  {
+    "from": "Magmortar",
+    "to": "Magmortar-Y",
+    "method": "Piedra Rocket",
+    "line": 114
+  },
+  {
+    "from": "Nidoking",
+    "to": "Nidoking-X",
+    "method": "Piedra Rocket",
+    "line": 115
+  },
+  {
+    "from": "Nidoqueen",
+    "to": "Nidoqueen-Y",
+    "method": "Piedra Rocket",
+    "line": 116
+  },
+  {
+    "from": "Tauros",
+    "to": "Tauros-X",
+    "method": "Piedra Rocket",
+    "line": 117
+  },
+  {
+    "from": "Porygon2",
+    "to": "Porygon3",
+    "method": "Piedra Rocket",
+    "line": 118
+  },
+  {
+    "from": "Aerodactyl",
+    "to": "Aerodactyl Primigenio",
+    "method": "Piedra Rocket",
+    "line": 119
+  },
+  {
+    "from": "Raichu",
+    "to": "Gorochu",
+    "method": "Piedra Sagrada",
+    "line": 120
+  },
+  {
+    "from": "Sirfetch'D",
+    "to": "Madaamu (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 121
+  },
+  {
+    "from": "Pinsir",
+    "to": "Purakkusu",
+    "method": "Piedra Sagrada",
+    "line": 122
+  },
+  {
+    "from": "Noctowl",
+    "to": "Boohoo",
+    "method": "Piedra Sagrada",
+    "line": 123
+  },
+  {
+    "from": "Xatu",
+    "to": "Trxatu",
+    "method": "Piedra Sagrada",
+    "line": 124
+  },
+  {
+    "from": "Overqwil",
+    "to": "Shibirifegu (y viceversa)",
+    "method": "Piedra Sagrada",
+    "line": 125
+  },
+  {
+    "from": "Octillery",
+    "to": "Wartillery",
+    "method": "Piedra Sagrada",
+    "line": 126
+  },
+  {
+    "from": "Dunsparce",
+    "to": "Blessparce",
+    "method": "Piedra Sagrada",
+    "line": 127
+  },
+  {
+    "from": "Kurusu",
+    "to": "Akua",
+    "method": "Nivel 40",
+    "line": 128
+  },
+  {
+    "from": "Akua",
+    "to": "Akueria",
+    "method": "Nivel 64",
+    "line": 129
+  },
+  {
+    "from": "Blessparce",
+    "to": "Dun",
+    "method": "+1 nivel en la cima del Pilar Dun",
+    "line": 130
+  },
+  {
+    "from": "Marowak",
+    "to": "Guardia",
+    "method": "Nivel 108",
+    "line": 131
+  },
+  {
+    "from": "Cradily",
+    "to": "Cradily-P",
+    "method": "Piedra Devon",
+    "line": 132
+  },
+  {
+    "from": "Armaldo",
+    "to": "Armaldo-P",
+    "method": "Piedra Devon",
+    "line": 133
+  },
+  {
+    "from": "Relicanth",
+    "to": "Relicanth-P",
+    "method": "Piedra Devon",
+    "line": 134
+  }
+]

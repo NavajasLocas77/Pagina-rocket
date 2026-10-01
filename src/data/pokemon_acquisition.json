@@ -1,0 +1,6609 @@
+[
+  {
+    "dex_num": 1,
+    "name": "BULBASAUR",
+    "method": "Robado en el Laboratorio de Oak.",
+    "tags": [
+      "Robado / Historia"
+    ],
+    "line": 2
+  },
+  {
+    "dex_num": 2,
+    "name": "IVISAUR",
+    "method": "Evolución al nivel 16/Salvajes en zonas de hierba alrededor de las vías de tren.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 4
+  },
+  {
+    "dex_num": 3,
+    "name": "VENUSAUR",
+    "method": "Evolución al nivel 32/Salvajes en zonas de hierba alrededor de las vías de tren.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 6
+  },
+  {
+    "dex_num": 4,
+    "name": "CHARMANDER",
+    "method": "Misión Secundaria: 1ro hablar con NPC del Centro Pkmn del MT.MOON, dejarse estafar. 2do hablar con científico que aparece en Fucsia, mirando a Lapras. 3ro derrotar a los ladrones de la Mansión Pkmn.",
+    "tags": [
+      "Misión Secundaria"
+    ],
+    "line": 8
+  },
+  {
+    "dex_num": 5,
+    "name": "CHARMELEON",
+    "method": "Evolución de Charmander al nv.16.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 10
+  },
+  {
+    "dex_num": 6,
+    "name": "CHARIZARD",
+    "method": "Evolución de Charmeleon al nv.36.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 12
+  },
+  {
+    "dex_num": 7,
+    "name": "SQUIRTLE",
+    "method": "Misión Secundaria: 1ro hablar con Gurú Pescador de Ruta 12 (Kanto). 2do derrotar al Gurú Pescador de Fucsia y al Guarda. 3ro volver a hablar con Gurú Pescador de Ruta 12.",
+    "tags": [
+      "Misión Secundaria"
+    ],
+    "line": 14
+  },
+  {
+    "dex_num": 8,
+    "name": "WARTORTLE",
+    "method": "Evolución de Squirtle al nv.16.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 16
+  },
+  {
+    "dex_num": 9,
+    "name": "BLASTOISE",
+    "method": "Evolución de Wartortle al nv.36.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 18
+  },
+  {
+    "dex_num": 10,
+    "name": "CATERPIE",
+    "method": "Salvaje en Bosque Verde, Ruta 24...",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 20
+  },
+  {
+    "dex_num": 11,
+    "name": "METAPOD",
+    "method": "Salvaje en Bosque Verde. Evolución de Caterpie al nv.7.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 22
+  },
+  {
+    "dex_num": 12,
+    "name": "BUTTERFREE",
+    "method": "Evolución de Metapod al nv.10.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 24
+  },
+  {
+    "dex_num": 13,
+    "name": "WEEDLE",
+    "method": "Salvaje en Bosque Verde, Ruta 24...",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 26
+  },
+  {
+    "dex_num": 14,
+    "name": "KAKUNA",
+    "method": "Salvaje en Bosque Verde. Evolución de Weedle al nv.7.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 28
+  },
+  {
+    "dex_num": 15,
+    "name": "BEEDRILL",
+    "method": "Evolución de Kakuna al nv.10.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 30
+  },
+  {
+    "dex_num": 16,
+    "name": "PIDGEY",
+    "method": "Salvaje en Rutas 1, 2 (Kanto)...",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 32
+  },
+  {
+    "dex_num": 17,
+    "name": "PIDGEOTTO",
+    "method": "Salvaje en Bosque Baya (Sevii), Ruta 29 (Johto).../ Evolución de Pidgey al nv.18.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 34
+  },
+  {
+    "dex_num": 18,
+    "name": "PIDGEOT",
+    "method": "Salvaje en Ruta 29 (Johto).../ Evolución de Pidgeotto al nv.36.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 36
+  },
+  {
+    "dex_num": 19,
+    "name": "RATTATA",
+    "method": "Salvaje en Rutas 1, 2, 4 (Kanto)...",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 38
+  },
+  {
+    "dex_num": 20,
+    "name": "RATICATE",
+    "method": "Salvaje en Rutas 17, 18 (Kanto).../ Evolución de Rattata al nv.20.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 40
+  },
+  {
+    "dex_num": 21,
+    "name": "SPEAROW",
+    "method": "Salvaje en Rutas 4, 10, 17, 18 (Kanto)...",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 42
+  },
+  {
+    "dex_num": 22,
+    "name": "FEAROW",
+    "method": "Salvaje en Rutas 17, 18, 23 (Kanto), Camino Candente (Sevii).../Evolución de Spearow al nv.20.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 44
+  },
+  {
+    "dex_num": 23,
+    "name": "EKANS",
+    "method": "Salvaje en Rutas 8, 9, 11 (Kanto)...",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 46
+  },
+  {
+    "dex_num": 24,
+    "name": "ARBOK",
+    "method": "Salvaje en Rutas 26, 27 (Johto).../ Evolución de Ekans al nv.22.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 48
+  },
+  {
+    "dex_num": 25,
+    "name": "PIKACHU",
+    "method": "Salvaje en Bosque Verde, Central Energía (Kanto)/ Ruta 35 (Johto)/ Evolución de Pichu por felicidad.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 50
+  },
+  {
+    "dex_num": 26,
+    "name": "RAICHU",
+    "method": "Salvaje en Vías Tren (Sur, Johto)/ Evoluciona de Pikachu usando Piedratrueno.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 52
+  },
+  {
+    "dex_num": 27,
+    "name": "SANDSHREW",
+    "method": "Salvaje en Ruta 9 (Kanto)...",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 54
+  },
+  {
+    "dex_num": 28,
+    "name": "SANDSLASH",
+    "method": "Salvaje en Calle Victoria (Kanto)./ Evolución de Sandshrew al nv.22.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 56
+  },
+  {
+    "dex_num": 29,
+    "name": "NIDORAN_F",
+    "method": "Salvaje en Ruta 3 y Zona Safari (Kanto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 58
+  },
+  {
+    "dex_num": 30,
+    "name": "NIDORINA",
+    "method": "Salvaje en Zona Safari (Kanto). Evolución de Nidoran_F al nv.16.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 60
+  },
+  {
+    "dex_num": 31,
+    "name": "NIDOQUEEN",
+    "method": "Evolución de Nidorina usando Piedra Lunar.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 62
+  },
+  {
+    "dex_num": 32,
+    "name": "NIDORAN_M",
+    "method": "Salvaje en Ruta 3 y Zona Safari (Kanto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 64
+  },
+  {
+    "dex_num": 33,
+    "name": "NIDORINO",
+    "method": "Salvaje en Zona Safari (Kanto). Evolución de Nidoran_M al nv.16.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 66
+  },
+  {
+    "dex_num": 34,
+    "name": "NIDOKING",
+    "method": "Evolución de Nidorino usando Piedra Lunar.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 68
+  },
+  {
+    "dex_num": 35,
+    "name": "CLEFAIRY",
+    "method": "Salvaje en Mt.Moon_3F (Kanto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 70
+  },
+  {
+    "dex_num": 36,
+    "name": "CLEFABLE",
+    "method": "Evolución de Clefairy usando Piedra Lunar.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 72
+  },
+  {
+    "dex_num": 37,
+    "name": "VULPIX",
+    "method": "Salvaje en Prado (Sevii), Rutas 7, 8, Mansión Pkmn (Kanto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 74
+  },
+  {
+    "dex_num": 38,
+    "name": "NINETALES",
+    "method": "Evolución de Vulpix usando Piedra Fuego.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 76
+  },
+  {
+    "dex_num": 39,
+    "name": "JIGGLYPUFF",
+    "method": "Salvaje en Ruta 3 (Kanto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 78
+  },
+  {
+    "dex_num": 40,
+    "name": "WIGGLYTUFF",
+    "method": "Evolución de Jigglupuff usando Piedra Lunar.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 80
+  },
+  {
+    "dex_num": 41,
+    "name": "ZUBAT",
+    "method": "Salvaje en Mt.moon (Kanto) y el 90% de las cuevas del juego.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 82
+  },
+  {
+    "dex_num": 42,
+    "name": "GOLBAT",
+    "method": "Salvaje en Calle Victoria (Kanto), Mt.silver (Johto).../ Evolución de Zubat al nv.22.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 84
+  },
+  {
+    "dex_num": 43,
+    "name": "ODDISH",
+    "method": "Salvaje en Rutas 5, 6, 7, 12, 13, 15, 24, 25 (Kanto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 86
+  },
+  {
+    "dex_num": 44,
+    "name": "GLOOM",
+    "method": "Salvaje en Rutas 13, 14 (Kanto)/ Bosque Baya (Sevii).../ Evolución de Gloom al nv.21.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 88
+  },
+  {
+    "dex_num": 45,
+    "name": "VILEPLUME",
+    "method": "Evolución de Gloom usando Piedra Hoja.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 90
+  },
+  {
+    "dex_num": 46,
+    "name": "PARAS",
+    "method": "Salvaje en Mt.Moon_2F y Zona Safari (Kanto)",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 92
+  },
+  {
+    "dex_num": 47,
+    "name": "PARASECT",
+    "method": "Salvaje en Zona Safari (Kanto)/ Evolución de Paras al nv.24.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 94
+  },
+  {
+    "dex_num": 48,
+    "name": "VENONAT",
+    "method": "Salvaje en Zona Safari (Kanto)/ Parque Nacional (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 96
+  },
+  {
+    "dex_num": 49,
+    "name": "VENOMOTH",
+    "method": "Salvaje en Zona Safari (Kanto)/ Parque Nacional (Johto)./ Evolución de Venonat al nv.31.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 98
+  },
+  {
+    "dex_num": 50,
+    "name": "DIGLETT",
+    "method": "Salvaje en Túnel Digglet (Kanto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 100
+  },
+  {
+    "dex_num": 51,
+    "name": "DUGTRIO",
+    "method": "Salvaje en Túnel Digglet (Kanto)/ Evolución de Diglett al nv.26.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 102
+  },
+  {
+    "dex_num": 52,
+    "name": "MEOWTH",
+    "method": "Salvaje en Rutas 5, 6, 7, 8 (Kanto).../ Rutas 38, 39 (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 104
+  },
+  {
+    "dex_num": 53,
+    "name": "PERSIAN",
+    "method": "Evolución de Meowth al nv.28.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 106
+  },
+  {
+    "dex_num": 54,
+    "name": "PSYDUCK",
+    "method": "Salvaje en Islas Espuma (Kanto)/ Surf en C.Verde (Kanto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 108
+  },
+  {
+    "dex_num": 55,
+    "name": "GOLDUCK",
+    "method": "Salvaje en Islas Espuma (Kanto)/ Evolución de Psyduck al nv.33.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 110
+  },
+  {
+    "dex_num": 56,
+    "name": "MANKEY",
+    "method": "Salvaje en Rutas 3,4, Túnel Roca (Kanto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 112
+  },
+  {
+    "dex_num": 57,
+    "name": "PRIMEAPE",
+    "method": "Salvaje en Ruta 23, Calle Victoria (Kanto)/ Evolución de Mankey al nv.28.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 114
+  },
+  {
+    "dex_num": 58,
+    "name": "GROWLITHE",
+    "method": "Salvaje en Rutas 7, 8, Mansión Pkmn (Kanto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 116
+  },
+  {
+    "dex_num": 59,
+    "name": "ARCANINE",
+    "method": "Evolución de Growhlithe usando Piedra Fuego.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 118
+  },
+  {
+    "dex_num": 60,
+    "name": "POLIWAG",
+    "method": "Caña Buena/Super Caña en C.Verde (Kanto) y C.Malva (Johto)/ Surf en C.Malva.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 120
+  },
+  {
+    "dex_num": 61,
+    "name": "POLIWHIRL",
+    "method": "Super Caña en C.Verde (Kanto) y C.Malva (Johto)/ Surf en C.Malva/ Evolución de Poliwag al nv.25.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 122
+  },
+  {
+    "dex_num": 62,
+    "name": "POLIWRATH",
+    "method": "Evolución de Poliwhirl usando Piedra Agua.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 124
+  },
+  {
+    "dex_num": 63,
+    "name": "ABRA",
+    "method": "Salvaje en Rutas 24 y 25 (Kanto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 126
+  },
+  {
+    "dex_num": 64,
+    "name": "KADABRA",
+    "method": "Evolución de Abra al nv.16.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 128
+  },
+  {
+    "dex_num": 65,
+    "name": "ALAKAZAM",
+    "method": "Evolución de Kadabra al nv.45.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 130
+  },
+  {
+    "dex_num": 66,
+    "name": "MACHOP",
+    "method": "Salvaje en Túnel Roca, Calle Victoria (Kanto)/ Mt.Ascuas (Sevii)/ Mt.Mortero (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 132
+  },
+  {
+    "dex_num": 67,
+    "name": "MACHOKE",
+    "method": "Salvaje en Túnel Roca, Calle Victoria (Kanto)/ Mt.Ascuas (Sevii)/ Mt.Mortero (Johto)/ Evolución de Machop al nv.28.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 134
+  },
+  {
+    "dex_num": 69,
+    "name": "BELLSPROUT",
+    "method": "Salvaje en Rutas 5, 6, 7 (Kanto)/ Encinar (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 138
+  },
+  {
+    "dex_num": 70,
+    "name": "WEEPINBELL",
+    "method": "Salvaje en Rutas 12, 13, 14, 15 (Kanto)/ Encinar (Johto)/ Evolución de Bellsprout al nv,21.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 140
+  },
+  {
+    "dex_num": 71,
+    "name": "VICTREEBEL",
+    "method": "Salvaje en Vias Tren (Este Trigal, Johto-Kanto)/ Evolución de Weepinbell usando Piedra Hoja.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 142
+  },
+  {
+    "dex_num": 72,
+    "name": "TENTACOOL",
+    "method": "Salvaje usando Surf en la mayoría de mares existentes.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 144
+  },
+  {
+    "dex_num": 73,
+    "name": "TENTACRUEL",
+    "method": "Salvaje usando Surf en varios mares, con menor ratio/ Evolución de Tentacool al nv.30.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 146
+  },
+  {
+    "dex_num": 74,
+    "name": "GEODUDE",
+    "method": "Salvaje en el Mt.Moon, Túnel Roca (Kanto)/ Mt.Ascuas (Sevii).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 148
+  },
+  {
+    "dex_num": 75,
+    "name": "GRAVELER",
+    "method": "Salvaje en Calle Victoria (Kanto)/ Mt.Mortero, Mt.Plateado (Johto)/ Evolución de Geodude al nv.25.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 150
+  },
+  {
+    "dex_num": 76,
+    "name": "GOLEM",
+    "method": "Salvaje en Mt.Plateado, Mt.Mortero (Johto)/ Evolución de Gráveles al nv.45.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 152
+  },
+  {
+    "dex_num": 77,
+    "name": "PONYTA",
+    "method": "Salvaje en Rutas 26, 27, 28 (Kanto-Johto)/ Camino Candente (Sevii).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 154
+  },
+  {
+    "dex_num": 78,
+    "name": "RAPIDASH",
+    "method": "Salvaje en Rutas 26, 27, 28 (Kanto-Johto)/ Camino Candente (Sevii)/ Evolución de Ponyta al nv.40.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 156
+  },
+  {
+    "dex_num": 79,
+    "name": "SLOWPOKE",
+    "method": "Salvaje en Ruta 25 (Surf) e Islas Espuma (Kanto)/ Pozo Slowpoke (Johto)",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 158
+  },
+  {
+    "dex_num": 80,
+    "name": "SLOWBRO",
+    "method": "Salvaje en Islas Espuma (Kanto)/ Pozo Slowpoke (Johto)/ Evolución de Slowpoke al nv.37.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 160
+  },
+  {
+    "dex_num": 81,
+    "name": "MAGNEMITE",
+    "method": "Salvaje en Ruta 10 y Central Energía (Kanto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 162
+  },
+  {
+    "dex_num": 82,
+    "name": "MAGNETON",
+    "method": "Salvaje en Central Energía (Kanto)/ Evolución de Magnemite al nv.30.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 164
+  },
+  {
+    "dex_num": 83,
+    "name": "FARFETCHD",
+    "method": "Salvaje en Encinar (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 166
+  },
+  {
+    "dex_num": 84,
+    "name": "DODUO",
+    "method": "Salvaje en Rutas 16, 17, 18 (Kanto)/ Rutas 26, 27 (Kanto-Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 168
+  },
+  {
+    "dex_num": 85,
+    "name": "DODRIO",
+    "method": "Salvaje en Rutas 26, 27, 28 (Kanto-Johto). Evolución de Doduo al nv.31.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 170
+  },
+  {
+    "dex_num": 86,
+    "name": "SEEL",
+    "method": "Salvaje en Islas Espuma (Kanto)/ Paso Helado (Johto)/ Cueva Helada (Sevii).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 172
+  },
+  {
+    "dex_num": 87,
+    "name": "DEWGONG",
+    "method": "Salvaje en Islas Espuma (Kanto)/ Paso Helado (Johto)/ Cueva Helada (Sevii). Evolución de Seel al nv.34.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 174
+  },
+  {
+    "dex_num": 88,
+    "name": "GRIMER",
+    "method": "Salvaje en Mansión Canela (Kanto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 176
+  },
+  {
+    "dex_num": 89,
+    "name": "MUK",
+    "method": "Evolución de Grimer al nv.38.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 178
+  },
+  {
+    "dex_num": 90,
+    "name": "SHELLDER",
+    "method": "Salvaje en Islas Espuma (Kanto)/ Surf y Caña vieja/buena en Pozo Slowpoke S1 (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 180
+  },
+  {
+    "dex_num": 91,
+    "name": "CLOYSTER",
+    "method": "Surf y Supercaña en Pozo Slowpoke S1 (Johto). Evolución de Shellder usando Piedra Agua.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 182
+  },
+  {
+    "dex_num": 92,
+    "name": "GASTLY",
+    "method": "Salvaje en Torre Pkmn, comprando el Silph Scope en Base Profunda (Kanto)/ Cueva Perdida (Sevii).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 184
+  },
+  {
+    "dex_num": 93,
+    "name": "HAUNTER",
+    "method": "Salvaje en Torre Pkmn, comprando el Silph Scope en Base Profunda (Kanto)/ Evolución de Gastly al nv.25.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 186
+  },
+  {
+    "dex_num": 94,
+    "name": "GENGAR",
+    "method": "Salvaje en Torre Pkmn, último piso, muy bajo ratio (Kanto(/ Evolución de Haunter al nv.52.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 188
+  },
+  {
+    "dex_num": 95,
+    "name": "ONIX",
+    "method": "Salvaje en Túnel Roca, Calle Victoria (Kanto)/ Mt.Mortero, Cueva Unión (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 190
+  },
+  {
+    "dex_num": 96,
+    "name": "DROWZEE",
+    "method": "Salvaje en Ruta 11 (Kanto)/ Bosque Baya (Sevii).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 192
+  },
+  {
+    "dex_num": 97,
+    "name": "HYPNO",
+    "method": "Salvaje en Bosque Baya (Sevii). Evolución de Drowzee al nv.26.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 194
+  },
+  {
+    "dex_num": 98,
+    "name": "KRABBY",
+    "method": "Salvaje haciendo Surf en C.Carmín (Kanto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 196
+  },
+  {
+    "dex_num": 99,
+    "name": "KINGLER",
+    "method": "Evolución de Krabby al nv.28.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 198
+  },
+  {
+    "dex_num": 100,
+    "name": "VOLTORB",
+    "method": "Salvaje en Ruta 10 y Central Energía (Kanto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 200
+  },
+  {
+    "dex_num": 101,
+    "name": "ELECTRODE",
+    "method": "Salvaje en Central Energía (Kanto)/ Evolución de Voltorb al nv.30.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 202
+  },
+  {
+    "dex_num": 102,
+    "name": "EXEGGCUTE",
+    "method": "Salvaje en Zona Safari (Kanto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 204
+  },
+  {
+    "dex_num": 103,
+    "name": "EXEGGUTOR",
+    "method": "Evolucion de Exeggcute usando Piedra Hoja.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 206
+  },
+  {
+    "dex_num": 104,
+    "name": "CUBONE",
+    "method": "Salvaje en Torre Pkmn y Calle Victoria (Kanto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 208
+  },
+  {
+    "dex_num": 105,
+    "name": "MAROWAK",
+    "method": "Salvaje en Calle Victoria (Kanto). Evolución de Cubone al nv.28.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 210
+  },
+  {
+    "dex_num": 106,
+    "name": "HITMONLEE",
+    "method": "Misión secundaria: 1ro hablar con el Anciano del Machop en Carmín. 2do derrotar al Presidente del Club de Fans. 3ro volver a hablar con el Anciano del Machop.",
+    "tags": [
+      "Misión Secundaria"
+    ],
+    "line": 212
+  },
+  {
+    "dex_num": 107,
+    "name": "HITMONCHAN",
+    "method": "Misión secundaria: 1ro hablar con el Motorista al norte de C.Azafrán. 2do derrotar al Anciano del P1 del Museo Plateada. 3ro volver a hablar con el Motorista al norte de C.Azafrán.",
+    "tags": [
+      "Misión Secundaria"
+    ],
+    "line": 214
+  },
+  {
+    "dex_num": 108,
+    "name": "LICKITUNG",
+    "method": "Salvaje en Ruta 23 (Kanto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 216
+  },
+  {
+    "dex_num": 109,
+    "name": "KOFFING",
+    "method": "Salvaje en Mansión Pkmn (Kanto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 218
+  },
+  {
+    "dex_num": 110,
+    "name": "WEEZING",
+    "method": "Salvaje en Mansión Pkmn (Kanto). Evolución de Koffing al nv.35.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 220
+  },
+  {
+    "dex_num": 111,
+    "name": "RHYHORN",
+    "method": "Salvaje en Zona Safari (Kanto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 222
+  },
+  {
+    "dex_num": 112,
+    "name": "RHYDON",
+    "method": "Evolución de Rhydon al nv.42.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 224
+  },
+  {
+    "dex_num": 113,
+    "name": "CHANSEY",
+    "method": "Salvaje en Zona Safari (Kanto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 226
+  },
+  {
+    "dex_num": 114,
+    "name": "TANGELA",
+    "method": "Salvaje en Pueblo Paleta, sur (Kanto)/ Playa Tesoro (Sevii).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 228
+  },
+  {
+    "dex_num": 115,
+    "name": "KANGASKHAN",
+    "method": "Salvaje en Zona Safari (Kanto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 230
+  },
+  {
+    "dex_num": 116,
+    "name": "HORSEA",
+    "method": "Salvaje haciendo Surf en Ruta 25 (Kanto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 232
+  },
+  {
+    "dex_num": 117,
+    "name": "SEADRA",
+    "method": "Evolución de Horsea al nv.32.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 234
+  },
+  {
+    "dex_num": 118,
+    "name": "GOLDEEN",
+    "method": "Salvaje usando Caña Buena en C.Verde, Zona Safari (Kanto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 236
+  },
+  {
+    "dex_num": 119,
+    "name": "SEAKING",
+    "method": "Salvaje usando Caña Buena en Zona Safari (Kanto). Evolución de Goldeen al nv.33.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 238
+  },
+  {
+    "dex_num": 120,
+    "name": "STARYU",
+    "method": "Salvaje haciendo Surf en Ruta 25 (Kanto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 240
+  },
+  {
+    "dex_num": 121,
+    "name": "STARMIE",
+    "method": "Evolución de Staryu usando Piedra Agua.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 242
+  },
+  {
+    "dex_num": 122,
+    "name": "MR_MIME",
+    "method": "Salvaje en Pueblo Paleta, sur (Kanto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 244
+  },
+  {
+    "dex_num": 123,
+    "name": "SCYTHER",
+    "method": "Salvaje en Zona Safari (Kanto)/ Parque Nacional (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 246
+  },
+  {
+    "dex_num": 124,
+    "name": "JYNX",
+    "method": "Salvaje en Cueva Helada (Sevii). Evolución de Smoochum al nv.30.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 248
+  },
+  {
+    "dex_num": 125,
+    "name": "ELECTABUZZ",
+    "method": "Salvaje en Central Energía (Kanto). Evolución de Elekid al nv.30.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 250
+  },
+  {
+    "dex_num": 126,
+    "name": "MAGMAR",
+    "method": "Salvaje en Mansión Pkmn (Kanto)/ Mt.Ascuas (Sevii). Evolución de Magby al nv.30.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 252
+  },
+  {
+    "dex_num": 127,
+    "name": "PINSIR",
+    "method": "Misión Secundaria: Derrotar a los Entrenadores Guay al extremo suroeste del Bosque Verde (Kanto)/ Salvaje en Parque Nacional (Johto).",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 254
+  },
+  {
+    "dex_num": 128,
+    "name": "TAUROS",
+    "method": "Salvaje en Zona Safari (Kanto)/ Ruta 38 (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 256
+  },
+  {
+    "dex_num": 129,
+    "name": "MAGIKARP",
+    "method": "Salvaje Pescando con Caña Vieja en casi cualquier lugar/ Misión secundaria: 1ro hablar con el Gurú Pescador de C.Carmín. 2do derrotar al Domador de Mansión Azulona. 3ro volver a hablar con el Gurú de C.Carmín.",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 258
+  },
+  {
+    "dex_num": 130,
+    "name": "GYARADOS",
+    "method": "Evolución de Magikarp al nv.20.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 260
+  },
+  {
+    "dex_num": 131,
+    "name": "LAPRAS",
+    "method": "Salvaje haciendo Surf en la Zona Profunda de Cueva Helada.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 262
+  },
+  {
+    "dex_num": 132,
+    "name": "DITTO",
+    "method": "Salvaje en Mansión Canela 4F.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 264
+  },
+  {
+    "dex_num": 133,
+    "name": "EEVEE",
+    "method": "Jardín de Bill (temporal)/ Misión Secundaria: 1ro hablar con el Científico que mira el cuadro de Fuji en Lab.Canela. 2do ir al subterráneo Carmín-Celeste y derrotar al Supernecio. 3ro volver a hablar con el Científico del Lab.Canela.",
+    "tags": [
+      "Misión Secundaria"
+    ],
+    "line": 266
+  },
+  {
+    "dex_num": 134,
+    "name": "VAPOREON",
+    "method": "Evolución de Eevee con Piedra Agua.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 268
+  },
+  {
+    "dex_num": 135,
+    "name": "JOLTEON",
+    "method": "Evolución de Eevee con Piedra Trueno.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 270
+  },
+  {
+    "dex_num": 136,
+    "name": "FLAREON",
+    "method": "Evolución de Eevee con Piedra Fuego.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 272
+  },
+  {
+    "dex_num": 137,
+    "name": "PORYGON",
+    "method": "Regalo de Giovanni tras misión en Silph/ Compra en el Subterráneo Trigal por 250000¥.",
+    "tags": [
+      "Regalo",
+      "Misión Secundaria"
+    ],
+    "line": 274
+  },
+  {
+    "dex_num": 138,
+    "name": "OMANYTE",
+    "method": "Regalo de Científico tras derrotar a Miguel en el Museo Plateada.",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 276
+  },
+  {
+    "dex_num": 139,
+    "name": "OMASTAR",
+    "method": "Evolución de Omanyte al nv.40.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 278
+  },
+  {
+    "dex_num": 140,
+    "name": "KABUTO",
+    "method": "Regalo de Giovanni tras derrotar a Miguel en Túnel Roca.",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 280
+  },
+  {
+    "dex_num": 141,
+    "name": "KABUTOPS",
+    "method": "Evolución de Kabuto al nv.40.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 282
+  },
+  {
+    "dex_num": 142,
+    "name": "AERODACTYL",
+    "method": "Regalo de Giovanni tras derrotar a Articuno y Zapdos.",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 284
+  },
+  {
+    "dex_num": 143,
+    "name": "SNORLAX",
+    "method": "Misión secundaria: 1ro hablar con NPC del Centro Pkmn del MT.MOON, dejarse estafar. 2do hablar con Científico que aparece en C.Fucsia, mirando a Lapras. 3ro derrotar a los ladrones de la Mansión Pkmn. 4to volver a hablar con Científico de C.Fucsia.",
+    "tags": [
+      "Misión Secundaria"
+    ],
+    "line": 286
+  },
+  {
+    "dex_num": 144,
+    "name": "ARTICUNO",
+    "method": "Regalo de Giovanni tras entrar al Hall de la Fama por 1ra vez.",
+    "tags": [
+      "Regalo",
+      "Legendario / Especial"
+    ],
+    "line": 288
+  },
+  {
+    "dex_num": 145,
+    "name": "ZAPDOS",
+    "method": "Regalo de Giovanni tras entrar al Hall de la Fama por 1ra vez.",
+    "tags": [
+      "Regalo",
+      "Legendario / Especial"
+    ],
+    "line": 290
+  },
+  {
+    "dex_num": 146,
+    "name": "MOLTRES",
+    "method": "Regalo de Giovanni tras entrar al Hall de la Fama por 1ra vez.",
+    "tags": [
+      "Regalo",
+      "Legendario / Especial"
+    ],
+    "line": 292
+  },
+  {
+    "dex_num": 147,
+    "name": "DRATINI",
+    "method": "Salvaje haciendo Surf en la primera zona de Zona Safari.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 294
+  },
+  {
+    "dex_num": 148,
+    "name": "DRAGONAIR",
+    "method": "Evolución de Dratini al nv.30.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 296
+  },
+  {
+    "dex_num": 149,
+    "name": "DRAGONITE",
+    "method": "Evolución de Dragonair al nv.55.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 298
+  },
+  {
+    "dex_num": 150,
+    "name": "MEWTWO",
+    "method": "Regalo de Giovanni tras Evento Torre Radio Lavanda.",
+    "tags": [
+      "Regalo",
+      "Legendario / Especial"
+    ],
+    "line": 300
+  },
+  {
+    "dex_num": 151,
+    "name": "MEW",
+    "method": "Regalo Fuji, tras cumplir su secundaria post DLC.",
+    "tags": [
+      "Regalo",
+      "Misión Secundaria"
+    ],
+    "line": 302
+  },
+  {
+    "dex_num": 152,
+    "name": "CHIKORITA",
+    "method": "Salvaje en zona secreta, al norte tras las corrientes de C.Cerezo (Johto)/ Zona oculta al cruzar las Cámaras Sete (Sevii).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 304
+  },
+  {
+    "dex_num": 153,
+    "name": "BAYLEEF",
+    "method": "Este vías de tren C.Trigal (Johto)/ Evolución de Chikorita al nv.16.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 306
+  },
+  {
+    "dex_num": 154,
+    "name": "MEGANIUM",
+    "method": "Este vías de tren C.Trigal (Johto)/ Evolución de Bayleef al nv.36.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 308
+  },
+  {
+    "dex_num": 155,
+    "name": "CYNDAQUIL",
+    "method": "Premio en el Casino de C.Trigal (Johto).",
+    "tags": [
+      "Casino"
+    ],
+    "line": 310
+  },
+  {
+    "dex_num": 156,
+    "name": "QUILAVA",
+    "method": "Evolución de Cyndaquil al nv.16.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 312
+  },
+  {
+    "dex_num": 157,
+    "name": "TYPHLOSION",
+    "method": "Evolución de Quitaba al nv.36.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 314
+  },
+  {
+    "dex_num": 158,
+    "name": "TOTODILE",
+    "method": "Salvaje usando Surf en el estanque al norte de C.Cerezo (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 316
+  },
+  {
+    "dex_num": 159,
+    "name": "CROCONAW",
+    "method": "Evolución de Totodile al nv.18.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 318
+  },
+  {
+    "dex_num": 160,
+    "name": "FERALIGATR",
+    "method": "Evolución de Croconaw al nv.30.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 320
+  },
+  {
+    "dex_num": 161,
+    "name": "SENTRET",
+    "method": "Salvaje en Prado (Sevii)/Rutas 29, 30, 31 (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 322
+  },
+  {
+    "dex_num": 162,
+    "name": "FURRET",
+    "method": "Salvaje en Rutas 29, 30 (Johto)/ Evolución de Sentret al nv.15.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 324
+  },
+  {
+    "dex_num": 163,
+    "name": "HOOTHOOT",
+    "method": "Rutas 32, 33, 34 (Johto).",
+    "tags": [
+      "Otros"
+    ],
+    "line": 326
+  },
+  {
+    "dex_num": 164,
+    "name": "NOCTOWL",
+    "method": "Evolución de Hoothoot al nv.20.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 328
+  },
+  {
+    "dex_num": 165,
+    "name": "LEDYBA",
+    "method": "Salvaje en Encinar (Johto)/ Bosquejo (Sevii).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 330
+  },
+  {
+    "dex_num": 166,
+    "name": "LEDIAN",
+    "method": "Evolución de Ledyba al nv.18.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 332
+  },
+  {
+    "dex_num": 167,
+    "name": "SPINARAK",
+    "method": "Salvaje en Encinar (Johto)/ Bosquejo (Sevii).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 334
+  },
+  {
+    "dex_num": 168,
+    "name": "ARIADOS",
+    "method": "Evolución de Spinarak al nv.22.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 336
+  },
+  {
+    "dex_num": 169,
+    "name": "CROBAT",
+    "method": "Evolución de Golbat por felicidad.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 338
+  },
+  {
+    "dex_num": 170,
+    "name": "CHINCHOU",
+    "method": "Pescando Rutas 27, 41, Ciudad Olivo, Pueblo Primavera (Johto)",
+    "tags": [
+      "Otros"
+    ],
+    "line": 340
+  },
+  {
+    "dex_num": 171,
+    "name": "LANTURN",
+    "method": "Evolución de Chinchou al nv.27.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 342
+  },
+  {
+    "dex_num": 172,
+    "name": "PICHU",
+    "method": "Salvaje en Ruta 34 (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 344
+  },
+  {
+    "dex_num": 173,
+    "name": "CLEFFA",
+    "method": "Salvaje en Ruta 34 (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 346
+  },
+  {
+    "dex_num": 174,
+    "name": "IGGLYBUFF",
+    "method": "Salvaje en Ruta 34 (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 348
+  },
+  {
+    "dex_num": 175,
+    "name": "TOGEPI",
+    "method": "Regalo de Anciano en Ruta 30 (Johto).",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 350
+  },
+  {
+    "dex_num": 176,
+    "name": "TOGETIC",
+    "method": "Evolución de Togepi por felicidad.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 352
+  },
+  {
+    "dex_num": 177,
+    "name": "NATU",
+    "method": "Salvaje en Ruinas Alfa (Johto)/ Ruinas Isla Exta (Sevii).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 354
+  },
+  {
+    "dex_num": 178,
+    "name": "XATU",
+    "method": "Evolución de Natu al nv.25.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 356
+  },
+  {
+    "dex_num": 179,
+    "name": "MAREEP",
+    "method": "Salvaje en Ruta 32 (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 358
+  },
+  {
+    "dex_num": 180,
+    "name": "FLAAFFY",
+    "method": "Salvaje en Ruta 32 (Johto)/ Evolución de Mareep al nv.15.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 360
+  },
+  {
+    "dex_num": 181,
+    "name": "AMPHAROS",
+    "method": "Evolución de Flaafy al nv.30.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 362
+  },
+  {
+    "dex_num": 182,
+    "name": "BELLOSSOM",
+    "method": "Evolución de Gloom con Piedra Solar.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 364
+  },
+  {
+    "dex_num": 183,
+    "name": "MARILL",
+    "method": "Salvaje en Mt.Mortero (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 366
+  },
+  {
+    "dex_num": 184,
+    "name": "AZUMARILL",
+    "method": "Evolución de Marill al nv.18.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 368
+  },
+  {
+    "dex_num": 185,
+    "name": "SUDOWOODO",
+    "method": "Premio en el Casino de C.Trigal (Johto)",
+    "tags": [
+      "Casino"
+    ],
+    "line": 370
+  },
+  {
+    "dex_num": 186,
+    "name": "POLITOED",
+    "method": "Salvaje con Super Caña en C.Malva/ Evolución de Poliwhirl usando Roca del Rey.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 372
+  },
+  {
+    "dex_num": 187,
+    "name": "HOPPIP",
+    "method": "Salvaje en Prado (Sevii).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 374
+  },
+  {
+    "dex_num": 188,
+    "name": "SKIPLOOM",
+    "method": "Evolución de Hoppip al nv.18.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 376
+  },
+  {
+    "dex_num": 189,
+    "name": "JUMPLUFF",
+    "method": "Evolución de Skiploom al nv.27.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 378
+  },
+  {
+    "dex_num": 190,
+    "name": "AIPOM",
+    "method": "Salvaje en Encinar (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 380
+  },
+  {
+    "dex_num": 191,
+    "name": "SUNKERN",
+    "method": "Salvaje en Parque Nacional (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 382
+  },
+  {
+    "dex_num": 192,
+    "name": "SUNFLORA",
+    "method": "Salvaje en Parque Nacional (Johto)/ Evolución de Sunkern usando Piedra Solar.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 384
+  },
+  {
+    "dex_num": 193,
+    "name": "YANMA",
+    "method": "Salvaje en Encinar (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 386
+  },
+  {
+    "dex_num": 194,
+    "name": "WOOPER",
+    "method": "Salvaje usando Surf en Isla Cuarta (Sevii)/ Surf en C.Malva (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 388
+  },
+  {
+    "dex_num": 195,
+    "name": "QUAGSIRE",
+    "method": "Evolución de Wooper al nv.20.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 390
+  },
+  {
+    "dex_num": 196,
+    "name": "ESPEON",
+    "method": "Evolución de Eevee usando Piedra Solar.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 392
+  },
+  {
+    "dex_num": 197,
+    "name": "UMBREON",
+    "method": "Evolución de Eevee usando Piedra Lunar.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 394
+  },
+  {
+    "dex_num": 198,
+    "name": "MURKROW",
+    "method": "Salvaje en Cueva Perdida (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 396
+  },
+  {
+    "dex_num": 199,
+    "name": "SLOWKING",
+    "method": "Salvaje en Pozo Slowpoke/ Evolución de Slowpoke usando Piedra Agua.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 398
+  },
+  {
+    "dex_num": 200,
+    "name": "MISDREAVUS",
+    "method": "Salvaje en Torre Quemada (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 400
+  },
+  {
+    "dex_num": 201,
+    "name": "UNOWN",
+    "method": "Salvaje en Interior Ruinas Alfa (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 402
+  },
+  {
+    "dex_num": 202,
+    "name": "WOBBUFFET",
+    "method": "Premio en Casino C.Trigal (Johto).",
+    "tags": [
+      "Casino"
+    ],
+    "line": 404
+  },
+  {
+    "dex_num": 203,
+    "name": "GIRAFARIG",
+    "method": "Salvaje en Ruta 43 (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 406
+  },
+  {
+    "dex_num": 204,
+    "name": "PINECO",
+    "method": "Salvaje en Ruta 43 (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 408
+  },
+  {
+    "dex_num": 205,
+    "name": "FORRETRESS",
+    "method": "Salvaje en Ruta 43 (Johto)./ Evolución de Pineco al nv.31.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 410
+  },
+  {
+    "dex_num": 206,
+    "name": "DUNSPARCE",
+    "method": "Salvaje en Cueva Oscura (Johto)/ Cueva Isla Tera (Sevii).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 412
+  },
+  {
+    "dex_num": 207,
+    "name": "GLIGAR",
+    "method": "Salvaje en Ruta 45 (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 414
+  },
+  {
+    "dex_num": 208,
+    "name": "STEELIX",
+    "method": "Salvaje en Mt.Plateado/ Evolución de Onix con Cable Link.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 416
+  },
+  {
+    "dex_num": 209,
+    "name": "SNUBBULL",
+    "method": "Salvaje en Ruta 38 (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 418
+  },
+  {
+    "dex_num": 210,
+    "name": "GRANBULL",
+    "method": "Evolución de Snubull al nv.23.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 420
+  },
+  {
+    "dex_num": 211,
+    "name": "QWILFISH",
+    "method": "Salvaje usando Surf en Isla Inta y Aquarinto (Sevii).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 422
+  },
+  {
+    "dex_num": 212,
+    "name": "SCIZOR",
+    "method": "Evolución de Scyther usando Cable Link.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 424
+  },
+  {
+    "dex_num": 213,
+    "name": "SHUCKLE",
+    "method": "Salvaje en Torre Quemada, Cueva Oscura, Ruta 40 (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 426
+  },
+  {
+    "dex_num": 214,
+    "name": "HERACROSS",
+    "method": "Salvaje en Bosquejo (Sevii)/ Parque Nacional (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 428
+  },
+  {
+    "dex_num": 215,
+    "name": "SNEASEL",
+    "method": "Salvaje en Cueva Helada (Sevii)/ Paso Helado (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 430
+  },
+  {
+    "dex_num": 216,
+    "name": "TEDDIURSA",
+    "method": "Premio en Casino de C.Trigal (Johto)",
+    "tags": [
+      "Casino"
+    ],
+    "line": 432
+  },
+  {
+    "dex_num": 217,
+    "name": "URSARING",
+    "method": "Salvaje en Ruta 28 y Mt.Plateado (Johto)/ Evolución de Teddiursa al nv.30.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 434
+  },
+  {
+    "dex_num": 218,
+    "name": "SLUGMA",
+    "method": "Salvaje en Mt.Ascuas.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 436
+  },
+  {
+    "dex_num": 219,
+    "name": "MAGCARGO",
+    "method": "Evolución de Slugma al nv.38.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 438
+  },
+  {
+    "dex_num": 220,
+    "name": "SWINUB",
+    "method": "Salvaje en Cueva Helada (Sevii)/ Paso Helado (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 440
+  },
+  {
+    "dex_num": 221,
+    "name": "PILOSWINE",
+    "method": "Salvaje en Paso Helado (Johto)/ Evolución de Swinub al nv.33.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 442
+  },
+  {
+    "dex_num": 222,
+    "name": "CORSOLA",
+    "method": "Caña Buena en C.Cerezo/ Salvaje Rutas 19, 34, 40, C.Orquídea, Olivo (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 444
+  },
+  {
+    "dex_num": 223,
+    "name": "REMORAID",
+    "method": "Pescando en Ruta 44 (Johto).",
+    "tags": [
+      "Otros"
+    ],
+    "line": 446
+  },
+  {
+    "dex_num": 224,
+    "name": "OCTILLERY",
+    "method": "Evolución de Remoraid al nv.25.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 448
+  },
+  {
+    "dex_num": 225,
+    "name": "DELIBIRD",
+    "method": "Salvaje en Cueva Helada (Sevii).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 450
+  },
+  {
+    "dex_num": 226,
+    "name": "MANTINE",
+    "method": "Salvaje haciendo Surf en Zona Cámaras Isla Sétima (Sevii).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 452
+  },
+  {
+    "dex_num": 227,
+    "name": "SKARMORY",
+    "method": "Salvaje en Ruta 45 (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 454
+  },
+  {
+    "dex_num": 228,
+    "name": "HOUNDOUR",
+    "method": "Regalo de Atlas tras tu 1ra misión como miembro del Team Rocket.",
+    "tags": [
+      "Regalo",
+      "Misión Secundaria"
+    ],
+    "line": 456
+  },
+  {
+    "dex_num": 229,
+    "name": "HOUNDOOM",
+    "method": "Evolución de Houndour al nv.32.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 458
+  },
+  {
+    "dex_num": 230,
+    "name": "KINGDRA",
+    "method": "Evolución de Seadra usando Cable Link.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 460
+  },
+  {
+    "dex_num": 231,
+    "name": "PHANPY",
+    "method": "Salvaje en Ruta 45 (Johto)",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 462
+  },
+  {
+    "dex_num": 232,
+    "name": "DONPHAN",
+    "method": "Salvaje en Ruta 45 (Johto)/ Evolución de Phanpy al nv.25.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 464
+  },
+  {
+    "dex_num": 233,
+    "name": "PORYGON2",
+    "method": "Evolución de Porygon usando Mejora.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 466
+  },
+  {
+    "dex_num": 234,
+    "name": "STANTLER",
+    "method": "Salvaje en Ruta 37, 43 (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 468
+  },
+  {
+    "dex_num": 235,
+    "name": "SMEARGLE",
+    "method": "Salvaje en Ruinas Alfa (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 470
+  },
+  {
+    "dex_num": 236,
+    "name": "TYROGUE",
+    "method": "Salvaje en Mt.Mortero (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 472
+  },
+  {
+    "dex_num": 237,
+    "name": "HITMONTOP",
+    "method": "Evolución de Tyrogue a partir del nv.20, teniendo este los stats de ataque y defensa similares.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 474
+  },
+  {
+    "dex_num": 238,
+    "name": "SMOOCHUM",
+    "method": "Salvaje en Ruta Helada (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 476
+  },
+  {
+    "dex_num": 239,
+    "name": "ELEKID",
+    "method": "Salvaje en Ruta 34 (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 478
+  },
+  {
+    "dex_num": 240,
+    "name": "MAGBY",
+    "method": "Salvaje en Ruta 36 (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 480
+  },
+  {
+    "dex_num": 241,
+    "name": "MILTANK",
+    "method": "Salvaje en Ruta 38 (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 482
+  },
+  {
+    "dex_num": 242,
+    "name": "BLISSEY",
+    "method": "Evolución de Chansey por felicidad.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 484
+  },
+  {
+    "dex_num": 243,
+    "name": "RAIKOU",
+    "method": "Regalo de Giovanni tras entrar al Hall de la Fama por 2da vez.",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 486
+  },
+  {
+    "dex_num": 244,
+    "name": "ENTEI",
+    "method": "Regalo de Giovanni tras entrar al Hall de la Fama por 2da vez.",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 488
+  },
+  {
+    "dex_num": 245,
+    "name": "SUICUNE",
+    "method": "Regalo de Giovanni tras entrar al Hall de la Fama por 2da vez.",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 490
+  },
+  {
+    "dex_num": 246,
+    "name": "LARVITAR",
+    "method": "Salvaje en Cañón Sétano (Sevii)/ Mt.Plateado (Johto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 492
+  },
+  {
+    "dex_num": 247,
+    "name": "PUPITAR",
+    "method": "Evolución de Larvitar al nv.30.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 494
+  },
+  {
+    "dex_num": 248,
+    "name": "TYRANITAR",
+    "method": "Evolución de Pupitar al nv.55.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 496
+  },
+  {
+    "dex_num": 249,
+    "name": "LUGIA",
+    "method": "Regalo de Giovanni tras entrar al Hall de la Fama por 3ra vez.",
+    "tags": [
+      "Regalo",
+      "Legendario / Especial"
+    ],
+    "line": 498
+  },
+  {
+    "dex_num": 250,
+    "name": "HO_OH",
+    "method": "Regalo de Giovanni tras entrar al Hall de la Fama por 3ra vez.",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 500
+  },
+  {
+    "dex_num": 252,
+    "name": "TREECKO",
+    "method": "Premio Casino Malvalona.",
+    "tags": [
+      "Casino"
+    ],
+    "line": 504
+  },
+  {
+    "dex_num": 253,
+    "name": "GROVYLE",
+    "method": "Evolución de Treecko al nv.16.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 506
+  },
+  {
+    "dex_num": 254,
+    "name": "SCEPTILE",
+    "method": "Evolución de Grovyle al nv.36",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 508
+  },
+  {
+    "dex_num": 255,
+    "name": "TORCHIC",
+    "method": "Pueblo Lavacalda, regalo de anciano en el herbolario.",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 510
+  },
+  {
+    "dex_num": 256,
+    "name": "COMBUSKEN",
+    "method": "Evolución de Torchic al nv.16.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 512
+  },
+  {
+    "dex_num": 257,
+    "name": "BLAZIKEN",
+    "method": "Evolución de Combusken al nv.36.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 514
+  },
+  {
+    "dex_num": 258,
+    "name": "MUDKIP",
+    "method": "Eclosiona del Huevo que te da la anciana de Pueblo Lavacalda.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 516
+  },
+  {
+    "dex_num": 259,
+    "name": "MARSHTOMP",
+    "method": "Evolución de Mudkip al nv.16.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 518
+  },
+  {
+    "dex_num": 260,
+    "name": "SWAMPERT",
+    "method": "Evolución de Marshtomp al nv.36.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 520
+  },
+  {
+    "dex_num": 261,
+    "name": "POOCHYENA",
+    "method": "Salvaje Rutas 116-120, entre otras (20%, Hoenn).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 522
+  },
+  {
+    "dex_num": 262,
+    "name": "MIGHTYENA",
+    "method": "Evolución de Poochyena ak nv.18.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 524
+  },
+  {
+    "dex_num": 263,
+    "name": "ZIGZAGOON",
+    "method": "Salvaje Rutas 118-119, entre otras (20%, Hoenn).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 526
+  },
+  {
+    "dex_num": 264,
+    "name": "LINOONE",
+    "method": "Evolución de Zigzagoon al nv.20.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 528
+  },
+  {
+    "dex_num": 276,
+    "name": "TAILLOW",
+    "method": "Salvaje en hierba alta de Ruta 104 (20%, Hoenn).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 542
+  },
+  {
+    "dex_num": 277,
+    "name": "SWELLOW",
+    "method": "Evolución de Taillow al nv.22.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 544
+  },
+  {
+    "dex_num": 278,
+    "name": "WINGULL",
+    "method": "Salvaje haciendo surf en Ruta 104 (Hoenn, 60%). En otros muchos lugares.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 546
+  },
+  {
+    "dex_num": 279,
+    "name": "PELIPPER",
+    "method": "Evolución de Wingull al nv.25.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 548
+  },
+  {
+    "dex_num": 280,
+    "name": "RALTS",
+    "method": "Regalo de Científico en el P1 de la Base Rocket en Johto.",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 550
+  },
+  {
+    "dex_num": 281,
+    "name": "KIRLIA",
+    "method": "Evolución de Ralts al nv.20.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 552
+  },
+  {
+    "dex_num": 282,
+    "name": "GARDEVOIR",
+    "method": "Evolución de Kirlia al nv.30.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 554
+  },
+  {
+    "dex_num": 283,
+    "name": "SURSKIT",
+    "method": "Haciendo Surf en Zona oculta, en misión secundaria que se activa al hablar con Atlas después de entrar por 1ra vez al Hall de la Fama.",
+    "tags": [
+      "Misión Secundaria"
+    ],
+    "line": 556
+  },
+  {
+    "dex_num": 284,
+    "name": "MASQUERAIN",
+    "method": "Evolución de Surskit al nv.22.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 558
+  },
+  {
+    "dex_num": 287,
+    "name": "SLAKOTH",
+    "method": "Regalo de Norman en su Casa de C.Olivo (Johto)/ Salvaje en Bosque Petalia.",
+    "tags": [
+      "Regalo",
+      "Salvaje"
+    ],
+    "line": 563
+  },
+  {
+    "dex_num": 288,
+    "name": "VIGOROTH",
+    "method": "Evolución de Slakoth al nv.18.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 565
+  },
+  {
+    "dex_num": 289,
+    "name": "SLAKING",
+    "method": "Evolución de Vigoroth al nv.36.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 567
+  },
+  {
+    "dex_num": 296,
+    "name": "MAKUHITA",
+    "method": "Salvaje en Cueva Granito (10%, Hoenn).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 576
+  },
+  {
+    "dex_num": 297,
+    "name": "HARIYAMA",
+    "method": "Evolución de Makuhita al nv.24.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 578
+  },
+  {
+    "dex_num": 299,
+    "name": "NOSEPASS",
+    "method": "Regalo de Montañero, dentro de la única casa que hay en Ruta 35 (Johto).",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 582
+  },
+  {
+    "dex_num": 302,
+    "name": "SABLEYE",
+    "method": "Salvaje en Cueva Granito, B1F y B2F (10%, Hoenn).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 587
+  },
+  {
+    "dex_num": 304,
+    "name": "ARON",
+    "method": "Salvaje en Cueva Granito (20%, Hoenn).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 591
+  },
+  {
+    "dex_num": 305,
+    "name": "LAIRON",
+    "method": "Evolución de Aron al nv.32",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 593
+  },
+  {
+    "dex_num": 306,
+    "name": "AGGRON",
+    "method": "Evolución de Lairon al nv.42.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 595
+  },
+  {
+    "dex_num": 307,
+    "name": "MEDITITE",
+    "method": "Monte Pírico, zona exterior (20%, Hoenn).",
+    "tags": [
+      "Otros"
+    ],
+    "line": 597
+  },
+  {
+    "dex_num": 308,
+    "name": "MEDICHAM",
+    "method": "Evolución de meditite al nv.37.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 599
+  },
+  {
+    "dex_num": 309,
+    "name": "ELECTRIKE",
+    "method": "Regalo de un trabajador en P3 de Torre Radio Trigal (Johto).",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 601
+  },
+  {
+    "dex_num": 310,
+    "name": "MANECTRIC",
+    "method": "Evolución de Electrike al nv.26.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 603
+  },
+  {
+    "dex_num": 311,
+    "name": "PLUSLE",
+    "method": "Salvaje en hierba alta de Ruta 110 (6%, Hoenn).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 605
+  },
+  {
+    "dex_num": 312,
+    "name": "MINUN",
+    "method": "Salvaje en hierba alta de Ruta 110 (15%, Hoenn).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 607
+  },
+  {
+    "dex_num": 313,
+    "name": "VOLBEAT",
+    "method": "Salvaje en hierba alta de Ruta 110 (6%, Hoenn).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 609
+  },
+  {
+    "dex_num": 314,
+    "name": "ILLUMISE",
+    "method": "Salvaje en hierba alta de Ruta 110 (14%, Hoenn).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 611
+  },
+  {
+    "dex_num": 315,
+    "name": "ROSELIA",
+    "method": "Evolución de Budew por felicidad. Salvaje en hierba alta de Ruta 117 (20%, Hoenn).",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 613
+  },
+  {
+    "dex_num": 316,
+    "name": "GULPIN",
+    "method": "Salvaje en hierba alta de Ruta 110 (20%, Hoenn).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 615
+  },
+  {
+    "dex_num": 317,
+    "name": "SWALOT",
+    "method": "Evolución de Gulpin al nv.26.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 617
+  },
+  {
+    "dex_num": 318,
+    "name": "CARVANHA",
+    "method": "Salvaje en el mar al sur de Isla Secunda (SURF), zona accesible después de Evento Culto Lavanda.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 619
+  },
+  {
+    "dex_num": 319,
+    "name": "SHARPEDO",
+    "method": "Evolución de Carvanha al nv.30.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 621
+  },
+  {
+    "dex_num": 320,
+    "name": "WAILMER",
+    "method": "Regalo de Capitán en caseta al norte del Lago Furia (Johto).",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 623
+  },
+  {
+    "dex_num": 321,
+    "name": "WAILORD",
+    "method": "Evolución de Wailmer al nv.40.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 625
+  },
+  {
+    "dex_num": 322,
+    "name": "NUMEL",
+    "method": "Salvaje en zona que abre Magno en el Mt.Ascuas, usando el Ruby y la Esfera Roja.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 627
+  },
+  {
+    "dex_num": 323,
+    "name": "CAMERUPT",
+    "method": "Evolución de Numel al nv.33.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 629
+  },
+  {
+    "dex_num": 324,
+    "name": "TORKOAL",
+    "method": "Salvaje en zona que abre Magno en el Mt.Ascuas, usando el Ruby y la Esfera Roja.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 631
+  },
+  {
+    "dex_num": 325,
+    "name": "SPOINK",
+    "method": "Salvaje en Desfiladero Mt.Cenizo (30%).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 633
+  },
+  {
+    "dex_num": 326,
+    "name": "GRUMPIG",
+    "method": "Evoluciona de Spoink al nv.32.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 635
+  },
+  {
+    "dex_num": 328,
+    "name": "TRAPINCH",
+    "method": "Premio en el Subterráneo de C.Trigal (Johto). 1200 Fichas.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 639
+  },
+  {
+    "dex_num": 329,
+    "name": "VIBRAVA",
+    "method": "Evolución de Trapinch al nv.35.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 641
+  },
+  {
+    "dex_num": 330,
+    "name": "FLYGON",
+    "method": "Evolución de Vibrava al nv.45.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 643
+  },
+  {
+    "dex_num": 331,
+    "name": "CACNEA",
+    "method": "Obtenible únicamente mediante crianza de Capturen.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 645
+  },
+  {
+    "dex_num": 332,
+    "name": "CACTURNE",
+    "method": "Salvaje en Ruta 111 (Hoenn, desierto). Evolución de Cacnea al nv.32.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 647
+  },
+  {
+    "dex_num": 333,
+    "name": "SWABLU",
+    "method": "Regalo de Chico en C.Endrino (Johto), que anda cerca del Gimnasio.",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 649
+  },
+  {
+    "dex_num": 334,
+    "name": "ALTARIA",
+    "method": "Evolución de Swablu al nv.35.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 651
+  },
+  {
+    "dex_num": 341,
+    "name": "CORPHISH",
+    "method": "Salvaje usando Caña Vieja en Ruta 117 (Hoenn, 70%).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 660
+  },
+  {
+    "dex_num": 342,
+    "name": "CRAWDAUNT",
+    "method": "Salvaje usando C.Buena y Supercaña en Ruta 117 (100%). Evoluciona de Corphish al nv.30.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 662
+  },
+  {
+    "dex_num": 343,
+    "name": "BALTOY",
+    "method": "Salvaje en Ruta 111 (Hoenn, desierto).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 664
+  },
+  {
+    "dex_num": 344,
+    "name": "CLAYDOL",
+    "method": "Salvaje en Ruta 111 (Hoenn, desierto). Evolución de Baltoy al nv.36.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 666
+  },
+  {
+    "dex_num": 345,
+    "name": "LILEEP",
+    "method": "Regalo de Supernerd en el Club de Moda de Pueblo Azulina (Hoenn)",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 668
+  },
+  {
+    "dex_num": 346,
+    "name": "CRADILY",
+    "method": "Evoluciona de Lileep al nv.40.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 670
+  },
+  {
+    "dex_num": 347,
+    "name": "ANORITH",
+    "method": "Secundaria Pueblo Azulina - Playa Portual (Hoenn).",
+    "tags": [
+      "Misión Secundaria"
+    ],
+    "line": 672
+  },
+  {
+    "dex_num": 348,
+    "name": "ARMALDO",
+    "method": "Evolución de Anorith al nv.40.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 674
+  },
+  {
+    "dex_num": 349,
+    "name": "FEEBAS",
+    "method": "Haciendo Surf y Pescando en zona accesible tras entrar a la Cámara más grande de las Ruinas Sete.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 676
+  },
+  {
+    "dex_num": 350,
+    "name": "MILOTIC",
+    "method": "Evolución de Feebas al nv.54.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 678
+  },
+  {
+    "dex_num": 351,
+    "name": "CASTFORM",
+    "method": "Regalo de uno de los científicos del instituto meteorológico (Hoenn).",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 680
+  },
+  {
+    "dex_num": 352,
+    "name": "KECLEON",
+    "method": "Salvaje en Rutas 119-120 (Hoenn, 21%).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 682
+  },
+  {
+    "dex_num": 353,
+    "name": "SHUPPET",
+    "method": "Salvaje en todo el Mt.Pírico (Hoenn, 20-50%).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 684
+  },
+  {
+    "dex_num": 354,
+    "name": "BANETTE",
+    "method": "Salvaje en todo el MT.Pírico (10-40%). Evoluciona de Shuppet al nv.37.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 686
+  },
+  {
+    "dex_num": 355,
+    "name": "DUSKULL",
+    "method": "Cueva de Hypno en el Bosque Baya de Isla Tera (Secundaria Sevii).",
+    "tags": [
+      "Misión Secundaria"
+    ],
+    "line": 688
+  },
+  {
+    "dex_num": 356,
+    "name": "DUSCLOPS",
+    "method": "Evolución de Duskull al nv.37.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 690
+  },
+  {
+    "dex_num": 357,
+    "name": "TROPIUS",
+    "method": "Salvaje en hierba alta de Ruta 119 (Hoenn, 9%).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 692
+  },
+  {
+    "dex_num": 358,
+    "name": "CHIMECHO",
+    "method": "Salvaje en la cima exterior del Mt.Pírico (Hoenn, 2%).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 694
+  },
+  {
+    "dex_num": 359,
+    "name": "ABSOL",
+    "method": "Regalo de Anciano en el paso C.Iris - Ruta 38 (Johto).",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 696
+  },
+  {
+    "dex_num": 366,
+    "name": "CLAMPERL",
+    "method": "Bajo el agua en Hoenn (60%).",
+    "tags": [
+      "Otros"
+    ],
+    "line": 705
+  },
+  {
+    "dex_num": 367,
+    "name": "HUNTAIL",
+    "method": "Evoluciona de Clamperl usando la Piedra Día.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 707
+  },
+  {
+    "dex_num": 368,
+    "name": "GOREBYSS",
+    "method": "Evoluciona de Clamperl usando la Piedra Noche.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 709
+  },
+  {
+    "dex_num": 369,
+    "name": "RELICANTH",
+    "method": "Bajo el agua en Hoenn (5%). Regalo tras Secundaria Museo Portual.",
+    "tags": [
+      "Regalo",
+      "Misión Secundaria"
+    ],
+    "line": 711
+  },
+  {
+    "dex_num": 370,
+    "name": "LUVDISC",
+    "method": "Pescando con Super Caña en Ruta 128 de Hoenn (40%).",
+    "tags": [
+      "Otros"
+    ],
+    "line": 713
+  },
+  {
+    "dex_num": 371,
+    "name": "BAGON",
+    "method": "Premio en el Subterráneo de C.Trigal.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 715
+  },
+  {
+    "dex_num": 372,
+    "name": "SHELGON",
+    "method": "Evolución de Bagon al nv.30",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 717
+  },
+  {
+    "dex_num": 373,
+    "name": "SALAMENCE",
+    "method": "Evolución de Shelgon al nv.50.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 719
+  },
+  {
+    "dex_num": 374,
+    "name": "BELDUM",
+    "method": "Premio en el Subterráneo de C.Trigal.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 721
+  },
+  {
+    "dex_num": 375,
+    "name": "METANG",
+    "method": "Evolución de Beldum al nv.20.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 723
+  },
+  {
+    "dex_num": 376,
+    "name": "METAGROSS",
+    "method": "Evolución de Metang al nv.45.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 725
+  },
+  {
+    "dex_num": 377,
+    "name": "REGIROCK",
+    "method": "Regalo de Andra, al tener acceso a tu Despacho en Johto, tras la reunión de C.Trigal (Johto).",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 727
+  },
+  {
+    "dex_num": 378,
+    "name": "REGICE",
+    "method": "Regalo de Andra, al tener acceso a tu Despacho en Johto, tras la reunión de C.Trigal (Johto).",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 729
+  },
+  {
+    "dex_num": 379,
+    "name": "REGISTEEL",
+    "method": "Regalo de Andra, al tener acceso a tu Despacho en Johto, tras la reunión de C.Trigal (Johto).",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 731
+  },
+  {
+    "dex_num": 386,
+    "name": "DEOXYS",
+    "method": "Regalo de Giovanni, al tener acceso a tu Despacho en Johto, tras la reunión de C.Trigal (Johto)..",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 740
+  },
+  {
+    "dex_num": 387,
+    "name": "TURTWIG",
+    "method": "Venta en Base Rocket Johto.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 742
+  },
+  {
+    "dex_num": 388,
+    "name": "GROTLE",
+    "method": "Evolución de Turtwig al nv.18",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 744
+  },
+  {
+    "dex_num": 389,
+    "name": "TORTERRA",
+    "method": "Evolución de Grotle al nv.32.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 746
+  },
+  {
+    "dex_num": 390,
+    "name": "CHIMCHAR",
+    "method": "Regalo de Jefe Villano, en misión secundaria de Johto. 1ro hablar con Calvo en el bar de C.Oivo. 2do Derrotar a todos en el subterráneo de C.Trigal.",
+    "tags": [
+      "Regalo",
+      "Misión Secundaria"
+    ],
+    "line": 748
+  },
+  {
+    "dex_num": 391,
+    "name": "MONFERNO",
+    "method": "Evolución de Chinchar al nv.14.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 750
+  },
+  {
+    "dex_num": 392,
+    "name": "INFERNAPE",
+    "method": "Evolución de Monferno al nv.36.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 752
+  },
+  {
+    "dex_num": 393,
+    "name": "PIPLUP",
+    "method": "Premio tras cumplir secundaria recreativos islas.",
+    "tags": [
+      "Misión Secundaria"
+    ],
+    "line": 754
+  },
+  {
+    "dex_num": 394,
+    "name": "PRINPLUP",
+    "method": "Evolución de Piplup al nv.16.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 756
+  },
+  {
+    "dex_num": 395,
+    "name": "EMPOLEON",
+    "method": "Evolución de Prinlup al nv.36.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 758
+  },
+  {
+    "dex_num": 396,
+    "name": "STARLY",
+    "method": "Regalo de Npc que aparece en la Escuela de C.Malva (Johto), después de derrotar al Líder de la ciudad.",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 760
+  },
+  {
+    "dex_num": 397,
+    "name": "STARAVIA",
+    "method": "Evolución de Starly al nv.14.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 762
+  },
+  {
+    "dex_num": 398,
+    "name": "STARAPTOR",
+    "method": "Evolución de Staravia al nv.34.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 764
+  },
+  {
+    "dex_num": 403,
+    "name": "SHINX",
+    "method": "Base Rocket Hoenn: S2. Regalo de Científico.",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 771
+  },
+  {
+    "dex_num": 404,
+    "name": "LUXIO",
+    "method": "Evolución de Shinx al nv.15.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 773
+  },
+  {
+    "dex_num": 405,
+    "name": "LUXRAY",
+    "method": "Evolución de Luxio al nv.30.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 775
+  },
+  {
+    "dex_num": 406,
+    "name": "BUDEW",
+    "method": "Venta en sala Ejecutivos Base Profunda (25000¥).",
+    "tags": [
+      "Otros"
+    ],
+    "line": 777
+  },
+  {
+    "dex_num": 407,
+    "name": "ROSERADE",
+    "method": "Evolución de Roselia usando Piedra Día.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 779
+  },
+  {
+    "dex_num": 408,
+    "name": "CRANIDOS",
+    "method": "Premio tras cumplir misión secundaria de los Recreativos.",
+    "tags": [
+      "Misión Secundaria"
+    ],
+    "line": 781
+  },
+  {
+    "dex_num": 409,
+    "name": "RAMPARDOS",
+    "method": "Evolución de Cranidos al nv.30.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 783
+  },
+  {
+    "dex_num": 410,
+    "name": "SHIELDON",
+    "method": "A la venta en Sala VIP para ejecutivos de Base Profunda.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 785
+  },
+  {
+    "dex_num": 411,
+    "name": "BASTIODON",
+    "method": "Evolución de Shieldon al nv.40.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 787
+  },
+  {
+    "dex_num": 412,
+    "name": "BURMY",
+    "method": "Salvaje en Zona oculta, en misión secundaria que se activa al hablar con Atlas después de entrar por 1ra vez al Hall de la Fama.",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 789
+  },
+  {
+    "dex_num": 413,
+    "name": "WORMADAM",
+    "method": "Evolución de Burmy_F al nv.20.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 791
+  },
+  {
+    "dex_num": 414,
+    "name": "MOTHIM",
+    "method": "Evolución de Burmy_M al nv.20.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 793
+  },
+  {
+    "dex_num": 415,
+    "name": "COMBEE",
+    "method": "Salvaje en Zona oculta, en misión secundaria que se activa al hablar con Atlas después de entrar por 1ra vez al Hall de la Fama.",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 795
+  },
+  {
+    "dex_num": 416,
+    "name": "VESPIQUEN",
+    "method": "Evolución de Combee_F al nv.21.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 797
+  },
+  {
+    "dex_num": 418,
+    "name": "BUIZEL",
+    "method": "Salvaje en Cueva Tesoro (Isla Prima, Sevii). Para activar el lugar, hablar con el Caballero del Centro Pkmn de Isla Prima.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 801
+  },
+  {
+    "dex_num": 419,
+    "name": "FLOATZEL",
+    "method": "Evolución de Buizel al nv.26.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 803
+  },
+  {
+    "dex_num": 422,
+    "name": "SHELLOS",
+    "method": "Salvaje en Cueva Tesoro (Isla Prima, Sevii). Para activar el lugar, hablar con el Caballero del Centro Pkmn de Isla Prima.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 808
+  },
+  {
+    "dex_num": 423,
+    "name": "GASTRODON",
+    "method": "Evolución de Shellos al nv.30.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 810
+  },
+  {
+    "dex_num": 424,
+    "name": "AMBIPOM",
+    "method": "Evolución de Aipom subiendo un nivel con doble golpe (nv.32).",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 812
+  },
+  {
+    "dex_num": 425,
+    "name": "DRIFLOON",
+    "method": "Zona de hierba antes de entrar en Cueva Hypno (Secundaria Isla Tera).",
+    "tags": [
+      "Misión Secundaria"
+    ],
+    "line": 814
+  },
+  {
+    "dex_num": 426,
+    "name": "DRIFBLIM",
+    "method": "Evolución de Drifblim al nv.28.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 816
+  },
+  {
+    "dex_num": 427,
+    "name": "BUNEARY",
+    "method": "Venta en sala Ejecutivos Base Profunda (14000¥).",
+    "tags": [
+      "Otros"
+    ],
+    "line": 818
+  },
+  {
+    "dex_num": 428,
+    "name": "LOPUNNY",
+    "method": "Evolución a Lopunny por felicidad.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 820
+  },
+  {
+    "dex_num": 429,
+    "name": "MISMAGIUS",
+    "method": "Evolución de Misdreavus usando Piedra Noche.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 822
+  },
+  {
+    "dex_num": 430,
+    "name": "HONCHKROW",
+    "method": "Evolución de Murkrow usando Piedra Noche.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 824
+  },
+  {
+    "dex_num": 431,
+    "name": "GLAMEOW",
+    "method": "Venta en Casino Malvalona.",
+    "tags": [
+      "Casino"
+    ],
+    "line": 826
+  },
+  {
+    "dex_num": 432,
+    "name": "PURUGLY",
+    "method": "Evolución de Glameow al nv.38.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 828
+  },
+  {
+    "dex_num": 434,
+    "name": "STUNKY",
+    "method": "Venta en Casino Malvalona.",
+    "tags": [
+      "Casino"
+    ],
+    "line": 832
+  },
+  {
+    "dex_num": 435,
+    "name": "SKUNTANK",
+    "method": "Evolución de Stunky al nv.34.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 834
+  },
+  {
+    "dex_num": 436,
+    "name": "BRONZOR",
+    "method": "Zona de hierba antes de entrar en Cueva Hypno (Secundaria Isla Tera).",
+    "tags": [
+      "Misión Secundaria"
+    ],
+    "line": 836
+  },
+  {
+    "dex_num": 437,
+    "name": "BRONZONG",
+    "method": "Evolución de Bronzor al nv.33.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 838
+  },
+  {
+    "dex_num": 441,
+    "name": "CHATOT",
+    "method": "Regalo al completar secundaria Casa Playa de C.Portual (Hoenn).",
+    "tags": [
+      "Regalo",
+      "Misión Secundaria"
+    ],
+    "line": 844
+  },
+  {
+    "dex_num": 442,
+    "name": "SPIRITOMB",
+    "method": "Salvaje en Cueva Subterranea (solo en S4) en Ruta 50 norte (accesible después 3 misiones DLC).",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 846
+  },
+  {
+    "dex_num": 443,
+    "name": "GIBLE",
+    "method": "Venta en el P3 De la Torre Radio Lavanda (175000¥).",
+    "tags": [
+      "Otros"
+    ],
+    "line": 848
+  },
+  {
+    "dex_num": 444,
+    "name": "GABITE",
+    "method": "Evolución de Gible al nv.24.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 850
+  },
+  {
+    "dex_num": 445,
+    "name": "GARCHOMP",
+    "method": "Evolución de Gabite al nv.48.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 852
+  },
+  {
+    "dex_num": 447,
+    "name": "RIOLU",
+    "method": "Regalo tras derrotar al Líder de C.Olivo (Johto).",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 856
+  },
+  {
+    "dex_num": 448,
+    "name": "LUCARIO",
+    "method": "Evolución de Riolu por felicidad.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 858
+  },
+  {
+    "dex_num": 449,
+    "name": "HIPPOPOTAS",
+    "method": "Venta en sala Ejecutivos Base Profunda (32000¥).",
+    "tags": [
+      "Otros"
+    ],
+    "line": 860
+  },
+  {
+    "dex_num": 450,
+    "name": "HIPPOWDON",
+    "method": "Evolución de Hippopotas al nv.34",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 862
+  },
+  {
+    "dex_num": 451,
+    "name": "SKORUPI",
+    "method": "Premio tras cumplir secundaria recreativos Archi7.",
+    "tags": [
+      "Misión Secundaria"
+    ],
+    "line": 864
+  },
+  {
+    "dex_num": 452,
+    "name": "DRAPION",
+    "method": "Evolución de Skorupi al nv.40.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 866
+  },
+  {
+    "dex_num": 453,
+    "name": "CROAGUNK",
+    "method": "A la venta en Sala VIP para ejecutivos de Base Profunda.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 868
+  },
+  {
+    "dex_num": 454,
+    "name": "TOXICROAK",
+    "method": "Evolución de Croagunk al nv.37.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 870
+  },
+  {
+    "dex_num": 456,
+    "name": "FINNEON",
+    "method": "Haciendo Surf en Cueva Tesoro (Isla Prima, Sevii). Para activar el lugar, hablar con el Caballero del Centro Pkmn de Isla Prima.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 874
+  },
+  {
+    "dex_num": 457,
+    "name": "LUMINEON",
+    "method": "Evolución de Finneon al nv.31.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 876
+  },
+  {
+    "dex_num": 458,
+    "name": "MANTYKE",
+    "method": "Haciendo Surf en Cueva Tesoro (Isla Prima, Sevii). Para activar el lugar, hablar con el Caballero del Centro Pkmn de Isla Prima.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 878
+  },
+  {
+    "dex_num": 459,
+    "name": "SNOVER",
+    "method": "Templo Puntaneva (Sinnoh, 30%). Temporada Hoenn: Misión 5.",
+    "tags": [
+      "Misión Secundaria"
+    ],
+    "line": 880
+  },
+  {
+    "dex_num": 460,
+    "name": "ABOMASNOW",
+    "method": "Evolución de Snover al nv.40.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 882
+  },
+  {
+    "dex_num": 461,
+    "name": "WEAVILE",
+    "method": "Uso de Piedra Link sobre Sneasel.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 884
+  },
+  {
+    "dex_num": 462,
+    "name": "MAGNEZONE",
+    "method": "Uso de Piedra Link sobre Magneton.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 886
+  },
+  {
+    "dex_num": 463,
+    "name": "LICKILICKY",
+    "method": "Uso de Piedra Link sobre Lickitung.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 888
+  },
+  {
+    "dex_num": 464,
+    "name": "RHYPERIOR",
+    "method": "Uso de Piedra Link sobre Rhydon.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 890
+  },
+  {
+    "dex_num": 465,
+    "name": "TANGROWTH",
+    "method": "Uso de Piedra Link sobre Tangela/sabiendo poder pasado.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 892
+  },
+  {
+    "dex_num": 466,
+    "name": "ELECTIVIRE",
+    "method": "Uso de Piedra Link sobre Electabuzz.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 894
+  },
+  {
+    "dex_num": 467,
+    "name": "MAGMORTAR",
+    "method": "Uso de Piedra Link sobre Magmar.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 896
+  },
+  {
+    "dex_num": 468,
+    "name": "TOGEKISS",
+    "method": "Evolución de Togetic usando Piedra Día.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 898
+  },
+  {
+    "dex_num": 469,
+    "name": "YANMEGA",
+    "method": "Evolución de Yanma usando Poder Pasado.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 900
+  },
+  {
+    "dex_num": 470,
+    "name": "LEAFEON",
+    "method": "Evolución de Eevee usando Piedra Hoja.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 902
+  },
+  {
+    "dex_num": 471,
+    "name": "GLACEON",
+    "method": "Evolución de Eevee usando Piedra Hielo.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 904
+  },
+  {
+    "dex_num": 472,
+    "name": "GLISCOR",
+    "method": "Uso de Piedra Link sobre Glider.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 906
+  },
+  {
+    "dex_num": 473,
+    "name": "MAMOSWINE",
+    "method": "Uso de Piedra Link sobre Piloswine.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 908
+  },
+  {
+    "dex_num": 474,
+    "name": "PORYGON_Z",
+    "method": "Evolución de Porygon2 usando Discoxtraño.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 910
+  },
+  {
+    "dex_num": 475,
+    "name": "GALLADE",
+    "method": "Evolución de Kirlia_M usando Piedra Alba.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 912
+  },
+  {
+    "dex_num": 476,
+    "name": "PROBOPASS",
+    "method": "Evolución de Nosepass al nv.49.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 914
+  },
+  {
+    "dex_num": 477,
+    "name": "DUSKNOIR",
+    "method": "Evolución de Dusclops al nv.49.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 916
+  },
+  {
+    "dex_num": 478,
+    "name": "FROSLASS",
+    "method": "Uso de Piedra Alba sobre Snorunt.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 918
+  },
+  {
+    "dex_num": 498,
+    "name": "TEPIG",
+    "method": "Obtención en misión Vías Subterráneas (DLC).",
+    "tags": [
+      "Misión Secundaria"
+    ],
+    "line": 940
+  },
+  {
+    "dex_num": 499,
+    "name": "PIGNITE",
+    "method": "Evolución de Tepic al nv.17",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 942
+  },
+  {
+    "dex_num": 500,
+    "name": "EMBOAR",
+    "method": "Evolución de Pignite al nv.36",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 944
+  },
+  {
+    "dex_num": 501,
+    "name": "OSHAWOTT",
+    "method": "Venta en Base Rocket Hoenn.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 946
+  },
+  {
+    "dex_num": 502,
+    "name": "DEWOTT",
+    "method": "Evolución de Oshawott al nv.17.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 948
+  },
+  {
+    "dex_num": 503,
+    "name": "SAMUROTT",
+    "method": "Evolución de Dewott al nv.36.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 950
+  },
+  {
+    "dex_num": 506,
+    "name": "LILLIPUP",
+    "method": "Regalo de Científico en Torre Radio Trigal, P8.",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 955
+  },
+  {
+    "dex_num": 507,
+    "name": "HERDIER",
+    "method": "Evolución de Llillipup al nv.20.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 957
+  },
+  {
+    "dex_num": 508,
+    "name": "STOUTLAND",
+    "method": "Evolución de Herdier al nv.32.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 959
+  },
+  {
+    "dex_num": 509,
+    "name": "PURRLOIN",
+    "method": "Premio en Casino Malvalona.",
+    "tags": [
+      "Casino"
+    ],
+    "line": 961
+  },
+  {
+    "dex_num": 510,
+    "name": "LIEPARD",
+    "method": "Evolución de Purrloin al nv.20.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 963
+  },
+  {
+    "dex_num": 511,
+    "name": "PANSAGE",
+    "method": "Salvaje en Zona oculta, en misión secundaria que se activa al hablar con Atlas después de entrar por 1ra vez al Hall de la Fama.",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 965
+  },
+  {
+    "dex_num": 512,
+    "name": "SIMISAGE",
+    "method": "Evolución de Pansage usando Piedra Hoja.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 967
+  },
+  {
+    "dex_num": 513,
+    "name": "PANSEAR",
+    "method": "Isla Exta. Salvaje (10%) en Zona oculta tras corrientes al suroeste.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 969
+  },
+  {
+    "dex_num": 514,
+    "name": "SIMISEAR",
+    "method": "Evolución de Pansear usando Piedra Fuego.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 971
+  },
+  {
+    "dex_num": 515,
+    "name": "PANPOUR",
+    "method": "Isla Exta. Salvaje (10%) en Zona oculta tras corrientes al suroeste.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 973
+  },
+  {
+    "dex_num": 516,
+    "name": "SIMIPOUR",
+    "method": "Evolución de Panpour usando Piedra Agua.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 975
+  },
+  {
+    "dex_num": 517,
+    "name": "MUNNA",
+    "method": "Salvaje en Cueva Hypno (Misión secundaria Hypno, en Isla Tera, Sevii).",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 977
+  },
+  {
+    "dex_num": 518,
+    "name": "MUSHARNA",
+    "method": "Evolución de Munna usando Piedra Lunar.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 979
+  },
+  {
+    "dex_num": 519,
+    "name": "PIDOVE",
+    "method": "Isla Exta. Salvaje (10%) en Zona oculta tras corrientes al suroeste.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 981
+  },
+  {
+    "dex_num": 520,
+    "name": "TRANQUILL",
+    "method": "Evoluciona de Pidove al nv.21.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 983
+  },
+  {
+    "dex_num": 521,
+    "name": "UNFEZANT",
+    "method": "Evoluciona de Tranquill al nv.32.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 985
+  },
+  {
+    "dex_num": 522,
+    "name": "BLITZLE",
+    "method": "Venta en Casino Malvalona.",
+    "tags": [
+      "Casino"
+    ],
+    "line": 987
+  },
+  {
+    "dex_num": 523,
+    "name": "ZEBSTRIKA",
+    "method": "Evolución de Blitzle al nv.27.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 989
+  },
+  {
+    "dex_num": 524,
+    "name": "ROGGENROLA",
+    "method": "Usando Golpe Roca en Zona al sur de las vías de Tren.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 991
+  },
+  {
+    "dex_num": 525,
+    "name": "BOLDORE",
+    "method": "Usando Golpe Roca en Zona al sur de las vías de Tren. Evolución de Roggenrola al nv.25.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 993
+  },
+  {
+    "dex_num": 526,
+    "name": "GIGALITH",
+    "method": "Usando Golpe Roca en Zona al sur de las vías de Tren. Evolución de Boldore al nv.49.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 995
+  },
+  {
+    "dex_num": 527,
+    "name": "WOOBAT",
+    "method": "Salvaje en Cueva Subterranea en Ruta 50 norte (accesible después 3 misiones DLC).",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 997
+  },
+  {
+    "dex_num": 528,
+    "name": "SWOOBAT",
+    "method": "Salvaje en Cueva Subterranea en Ruta 50 norte (accesible después 3 misiones DLC).",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 999
+  },
+  {
+    "dex_num": 529,
+    "name": "DRILBUR",
+    "method": "Venta en Base Rocket Hoenn.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1001
+  },
+  {
+    "dex_num": 530,
+    "name": "EXCADRILL",
+    "method": "Evolución de Drilbur al nv.31.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1003
+  },
+  {
+    "dex_num": 531,
+    "name": "AUDINO",
+    "method": "Isla Exta. Salvaje (2%) en Zona oculta tras corrientes al suroeste.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1005
+  },
+  {
+    "dex_num": 532,
+    "name": "TIMBURR",
+    "method": "Venta en Tienda de Base Johto.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1007
+  },
+  {
+    "dex_num": 533,
+    "name": "GURDURR",
+    "method": "Evolución de Timburr al nv.25",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1009
+  },
+  {
+    "dex_num": 534,
+    "name": "CONKELDURR",
+    "method": "Evolución de Gurdurr con Cable Link.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1011
+  },
+  {
+    "dex_num": 535,
+    "name": "TYMPOLE",
+    "method": "Salvaje en Cueva Tesoro (Isla Prima, Sevii). Para activar el lugar, hablar con el Caballero del Centro Pkmn de Isla Prima.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1013
+  },
+  {
+    "dex_num": 536,
+    "name": "PALPITOAD",
+    "method": "Evolución de Tympole al nv.25.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1015
+  },
+  {
+    "dex_num": 537,
+    "name": "SEISMITOAD",
+    "method": "Evolución de Palpitoad al nv.36.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1017
+  },
+  {
+    "dex_num": 538,
+    "name": "THROH",
+    "method": "Zona de hierba alta de Ruta 49.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1019
+  },
+  {
+    "dex_num": 539,
+    "name": "SAWK",
+    "method": "Zona de hierba alta de Ruta 49.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1021
+  },
+  {
+    "dex_num": 540,
+    "name": "SEWADDLE",
+    "method": "Salvaje en Zona oculta, en misión secundaria que se activa al hablar con Atlas después de entrar por 1ra vez al Hall de la Fama.",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 1023
+  },
+  {
+    "dex_num": 541,
+    "name": "SWADLOON",
+    "method": "Evolución de Sewaddle al nv.20.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1025
+  },
+  {
+    "dex_num": 542,
+    "name": "LEAVANNY",
+    "method": "Evolución de Swadloon por felicidad.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1027
+  },
+  {
+    "dex_num": 543,
+    "name": "VENIPEDE",
+    "method": "Salvaje en Bosque Secreto, al norte de Vías de Tren (accesible tras completar primeras 4 misiones DLC).",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 1029
+  },
+  {
+    "dex_num": 544,
+    "name": "WHIRLIPEDE",
+    "method": "Evolución de Venipede al nv.22.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1031
+  },
+  {
+    "dex_num": 545,
+    "name": "SCOLIPEDE",
+    "method": "Evolución de Whirlipede al nv.30.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1033
+  },
+  {
+    "dex_num": 546,
+    "name": "COTTONEE",
+    "method": "Isla Exta. Salvaje (20%) en Zona oculta tras corrientes al suroeste.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1035
+  },
+  {
+    "dex_num": 547,
+    "name": "WHIMSICOTT",
+    "method": "Evolución de Cottonee usando la Piedra Solar.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1037
+  },
+  {
+    "dex_num": 548,
+    "name": "PETILIL",
+    "method": "Isla Exta. Salvaje (20%) en Zona oculta tras corrientes al suroeste.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1039
+  },
+  {
+    "dex_num": 549,
+    "name": "LILLIGANT",
+    "method": "Evolución de Petilil usando la Piedra Solar.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1041
+  },
+  {
+    "dex_num": 550,
+    "name": "BASCULIN",
+    "method": "Isla Exta. Surf o Pesca (100%) en Zona oculta tras corrientes al suroeste.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1043
+  },
+  {
+    "dex_num": 551,
+    "name": "SANDILE",
+    "method": "Salvaje en Cueva Subterranea en Ruta 50 norte (accesible después 3 misiones DLC).",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 1045
+  },
+  {
+    "dex_num": 552,
+    "name": "KROKOROK",
+    "method": "Salvaje en Cueva Subterranea en Ruta 50 norte (accesible después 3 misiones DLC).",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 1047
+  },
+  {
+    "dex_num": 553,
+    "name": "KROOKODILE",
+    "method": "Evolución de Krokorok al nv.40.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1049
+  },
+  {
+    "dex_num": 554,
+    "name": "DARUMAKA",
+    "method": "Regalo de Npc en la única casa del Mt.Plateado (Johto).",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 1051
+  },
+  {
+    "dex_num": 555,
+    "name": "DARMANITAN",
+    "method": "Evolución de Darumaka al nv.35.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1053
+  },
+  {
+    "dex_num": 557,
+    "name": "DWEBBLE",
+    "method": "Salvaje en Ruta 50 norte (accesible después de completar primeras 3 misiones DLC).",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 1057
+  },
+  {
+    "dex_num": 558,
+    "name": "CRUSTLE",
+    "method": "Salvaje en Ruta 50 norte (accesible después de completar primeras 3 misiones DLC).",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 1059
+  },
+  {
+    "dex_num": 559,
+    "name": "SCRAGGY",
+    "method": "Salvaje en Ruta 50 norte (accesible después de completar primeras 3 misiones DLC).",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 1061
+  },
+  {
+    "dex_num": 560,
+    "name": "SCRAFTY",
+    "method": "Evolución de Scraggy al nv.39.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1063
+  },
+  {
+    "dex_num": 561,
+    "name": "SIGILYPH",
+    "method": "Salvaje en Ruta 50 norte (accesible después de completar primeras 3 misiones DLC).",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 1065
+  },
+  {
+    "dex_num": 562,
+    "name": "YAMASK",
+    "method": "Salvaje en el Cementerio del Neo Pueblo Lavanda (DLC).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1067
+  },
+  {
+    "dex_num": 563,
+    "name": "COFAGRIGUS",
+    "method": "Evolución de Yamask al nv.34.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1069
+  },
+  {
+    "dex_num": 564,
+    "name": "TIRTOUGA",
+    "method": "Laboratorio C.IRIS en misión secundaria. La misión se activa tras hablar con NPC en la caseta de Ruinas Alfa.",
+    "tags": [
+      "Misión Secundaria"
+    ],
+    "line": 1071
+  },
+  {
+    "dex_num": 565,
+    "name": "CARRACOSTA",
+    "method": "Evolución de Tirtouga al nv.37.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1073
+  },
+  {
+    "dex_num": 566,
+    "name": "ARCHEN",
+    "method": "Regalo después de cumplir misión secundaria en Laboratorio C.IRIS, volviendo a hablar con NPC ruinas.",
+    "tags": [
+      "Regalo",
+      "Misión Secundaria"
+    ],
+    "line": 1075
+  },
+  {
+    "dex_num": 567,
+    "name": "ARCHEOPS",
+    "method": "Evolución de Archen al nv.37.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1077
+  },
+  {
+    "dex_num": 568,
+    "name": "TRUBBISH",
+    "method": "Venta en Casino Malvalona.",
+    "tags": [
+      "Casino"
+    ],
+    "line": 1079
+  },
+  {
+    "dex_num": 569,
+    "name": "GARBODOR",
+    "method": "Evoluciona de Trubbish al nv.36",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1081
+  },
+  {
+    "dex_num": 570,
+    "name": "ZORUA",
+    "method": "Pueblo Lavanda, Pasadizo que conduce a la secta secreta.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1083
+  },
+  {
+    "dex_num": 571,
+    "name": "ZOROARK",
+    "method": "Evolución de Zorua al nv.30.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1085
+  },
+  {
+    "dex_num": 572,
+    "name": "MINCCINO",
+    "method": "Venta en el S2 de la Base Rocket de Hoenn (28000¥).",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1087
+  },
+  {
+    "dex_num": 573,
+    "name": "CINCCINO",
+    "method": "Evolución de Minccino usando Piedra Día.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1089
+  },
+  {
+    "dex_num": 574,
+    "name": "GOTHITA",
+    "method": "Salvaje en Cueva Hypno (Misión secundaria Hypno, en Isla Tera, Sevii).",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 1091
+  },
+  {
+    "dex_num": 575,
+    "name": "GOTHORITA",
+    "method": "Salvaje en Cueva Hypno (Misión secundaria Hypno, en Isla Tera, Sevii). Evolución de Gothita al nv.32.",
+    "tags": [
+      "Salvaje",
+      "Evolución",
+      "Misión Secundaria"
+    ],
+    "line": 1093
+  },
+  {
+    "dex_num": 576,
+    "name": "GOTHITELLE",
+    "method": "Evolución de Gothorita al nv.41.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1095
+  },
+  {
+    "dex_num": 577,
+    "name": "SOLOSIS",
+    "method": "Salvaje en Cueva Hypno (Misión secundaria Hypno, en Isla Tera, Sevii).",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 1097
+  },
+  {
+    "dex_num": 578,
+    "name": "DUOSION",
+    "method": "Salvaje en Cueva Hypno (Misión secundaria Hypno, en Isla Tera, Sevii). Evolución de Solosis al nv.32.",
+    "tags": [
+      "Salvaje",
+      "Evolución",
+      "Misión Secundaria"
+    ],
+    "line": 1099
+  },
+  {
+    "dex_num": 579,
+    "name": "REUNICLUS",
+    "method": "Evolución de Duosion al nv.41.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1101
+  },
+  {
+    "dex_num": 580,
+    "name": "DUCKLETT",
+    "method": "Haciendo Surf en Zona oculta, en misión secundaria que se activa al hablar con Atlas después de entrar por 1ra vez al Hall de la Fama.",
+    "tags": [
+      "Misión Secundaria"
+    ],
+    "line": 1103
+  },
+  {
+    "dex_num": 581,
+    "name": "SWANNA",
+    "method": "Evolución de Ducklett al nv.35.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1105
+  },
+  {
+    "dex_num": 585,
+    "name": "DEERLING",
+    "method": "Isla Exta. Salvaje (10%) en Zona oculta tras corrientes al suroeste.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1111
+  },
+  {
+    "dex_num": 586,
+    "name": "SAWSBUCK",
+    "method": "Evolución de Deerling al nv.34.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1113
+  },
+  {
+    "dex_num": 587,
+    "name": "EMOLGA",
+    "method": "Isla Exta. Salvaje (10%) en Zona oculta tras corrientes al suroeste.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1115
+  },
+  {
+    "dex_num": 588,
+    "name": "KARRABLAST",
+    "method": "Isla Exta. Salvaje (4%) en Zona oculta tras corrientes al suroeste.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1117
+  },
+  {
+    "dex_num": 589,
+    "name": "ESCAVALIER",
+    "method": "Evoluciona de Karrablast usando la Piedra Link.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1119
+  },
+  {
+    "dex_num": 590,
+    "name": "FOONGUS",
+    "method": "Isla Exta. Usando Golpe Roca (90%) en Zona oculta tras corrientes al suroeste.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1121
+  },
+  {
+    "dex_num": 591,
+    "name": "AMOONGUSS",
+    "method": "Evolución de Foongus al nv.39.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1123
+  },
+  {
+    "dex_num": 592,
+    "name": "FRILLISH",
+    "method": "Pescando con Caña Buena en Zona oculta, en misión secundaria que se activa al hablar con Atlas después de entrar por 1ra vez al Hall de la Fama.",
+    "tags": [
+      "Misión Secundaria"
+    ],
+    "line": 1125
+  },
+  {
+    "dex_num": 593,
+    "name": "JELLICENT",
+    "method": "Evolución de Frillish al nv.40.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1127
+  },
+  {
+    "dex_num": 594,
+    "name": "ALOMOMOLA",
+    "method": "Haciendo surf en Ruta 47 (DLC: Misión 3).",
+    "tags": [
+      "Misión Secundaria"
+    ],
+    "line": 1129
+  },
+  {
+    "dex_num": 595,
+    "name": "JOLTIK",
+    "method": "Salvaje en Zona oculta, en misión secundaria que se activa al hablar con Atlas después de entrar por 1ra vez al Hall de la Fama.",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 1131
+  },
+  {
+    "dex_num": 596,
+    "name": "GALVANTULA",
+    "method": "Evolución de Joltik al nv.36.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1133
+  },
+  {
+    "dex_num": 597,
+    "name": "FERROSEED",
+    "method": "Venta en el P3 De la Torre Radio Lavanda (60000¥).",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1135
+  },
+  {
+    "dex_num": 598,
+    "name": "FERROTHORN",
+    "method": "Evolución de Ferroseed al nv.40.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1137
+  },
+  {
+    "dex_num": 599,
+    "name": "KLINK",
+    "method": "Regalo de Científico en el P2 de la Base Rocket en Johto.",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 1139
+  },
+  {
+    "dex_num": 600,
+    "name": "KLANG",
+    "method": "Evolución de Klink al nv.38.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1141
+  },
+  {
+    "dex_num": 601,
+    "name": "KLINKLANG",
+    "method": "Evolución de Klang al nv.49.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1143
+  },
+  {
+    "dex_num": 602,
+    "name": "TYNAMO",
+    "method": "Regalo de uno de los científicos del S2 de la base rocket en Hoenn.",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 1145
+  },
+  {
+    "dex_num": 603,
+    "name": "EELEKTRIK",
+    "method": "Evolución de Tynamo al nv.39.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1147
+  },
+  {
+    "dex_num": 604,
+    "name": "EELEKTROSS",
+    "method": "Evolución de Eelektrik usando Piedratrueno.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1149
+  },
+  {
+    "dex_num": 605,
+    "name": "ELGYEM",
+    "method": "Salvaje en Cueva Subterranea en Ruta 50 norte (accesible después 3 misiones DLC).",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 1151
+  },
+  {
+    "dex_num": 606,
+    "name": "BEHEEYEM",
+    "method": "Salvaje en Cueva Subterranea en Ruta 50 norte (accesible después 3 misiones DLC).",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 1153
+  },
+  {
+    "dex_num": 607,
+    "name": "LITWICK",
+    "method": "Salvaje en Cueva Hypno (Misión secundaria Hypno, en Isla Tera, Sevii).",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 1155
+  },
+  {
+    "dex_num": 608,
+    "name": "LAMPENT",
+    "method": "Salvaje en Cueva Hypno (Misión secundaria Hypno, en Isla Tera, Sevii). Evolución de Litwik al nv.41.",
+    "tags": [
+      "Salvaje",
+      "Evolución",
+      "Misión Secundaria"
+    ],
+    "line": 1157
+  },
+  {
+    "dex_num": 609,
+    "name": "CHANDELURE",
+    "method": "Evolución de Lampent usando Piedra Noche.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1159
+  },
+  {
+    "dex_num": 610,
+    "name": "AXEW",
+    "method": "Venta en Base Rocket de Johto (140000¥).",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1161
+  },
+  {
+    "dex_num": 611,
+    "name": "FRAXURE",
+    "method": "Evolución de Axew al nv.38.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1163
+  },
+  {
+    "dex_num": 612,
+    "name": "HAXORUS",
+    "method": "Evolución de Fraxure al nv.48.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1165
+  },
+  {
+    "dex_num": 615,
+    "name": "CRYOGONAL",
+    "method": "Venta en Torre Radio Lavanda (105000¥).",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1170
+  },
+  {
+    "dex_num": 616,
+    "name": "SHELMET",
+    "method": "Isla Exta. Salvaje (4%) en Zona oculta tras corrientes al suroeste.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1172
+  },
+  {
+    "dex_num": 617,
+    "name": "ACCELGOR",
+    "method": "Evoluciona de Shelmet usando Piedra Link.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1174
+  },
+  {
+    "dex_num": 619,
+    "name": "MIENFOO",
+    "method": "Salvaje en Zona Hierba Ruta 49.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1178
+  },
+  {
+    "dex_num": 620,
+    "name": "MIENSHAO",
+    "method": "Salvaje en Zona Hierba Ruta 49.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1180
+  },
+  {
+    "dex_num": 622,
+    "name": "GOLETT",
+    "method": "Salvaje en Cámara larvesta Este Archi7.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1184
+  },
+  {
+    "dex_num": 623,
+    "name": "GOLURK",
+    "method": "Evolución de Golett al nv.43.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1186
+  },
+  {
+    "dex_num": 624,
+    "name": "PAWNIARD",
+    "method": "Venta en la Base Rocket de Johto (65000¥).",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1188
+  },
+  {
+    "dex_num": 625,
+    "name": "BISHARP",
+    "method": "Evolución de Pawniard al nv.52.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1190
+  },
+  {
+    "dex_num": 626,
+    "name": "BOUFFALANT",
+    "method": "Venta en el S2 de la Base Rocket de Hoenn (60000¥).",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1192
+  },
+  {
+    "dex_num": 627,
+    "name": "RUFFLET",
+    "method": "Regalo tras derrotar al Líder de C.Malva (Johto).",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 1194
+  },
+  {
+    "dex_num": 628,
+    "name": "BRAVIARY",
+    "method": "Evolución de Rufflet al nv.54.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1196
+  },
+  {
+    "dex_num": 629,
+    "name": "VULLABY",
+    "method": "Regalo tras derrotar al Líder de C.Trigal (Johto).",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 1198
+  },
+  {
+    "dex_num": 630,
+    "name": "MANDIBUZZ",
+    "method": "Evolución de Vullaby al nv.54.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1200
+  },
+  {
+    "dex_num": 631,
+    "name": "HEATMOR",
+    "method": "Salvaje en zona nueva del Mt.Ascuas, accesible en evento obligatorio.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1202
+  },
+  {
+    "dex_num": 633,
+    "name": "DEINO",
+    "method": "Premio en Subterráneo de Trigal (6000 fichas).",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1206
+  },
+  {
+    "dex_num": 634,
+    "name": "ZWEILOUS",
+    "method": "Evolución de Deino al nv.50.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1208
+  },
+  {
+    "dex_num": 635,
+    "name": "HYDREIGON",
+    "method": "Evolución de Zweilous al nv.64.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1210
+  },
+  {
+    "dex_num": 636,
+    "name": "LARVESTA",
+    "method": "Poké Ball en Zona más allá de Ruinas Sete, accesible después de evento en Roca Ombligo.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1212
+  },
+  {
+    "dex_num": 637,
+    "name": "VOLCARONA",
+    "method": "Evolución de Larvesta al nv.59.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1214
+  },
+  {
+    "dex_num": 649,
+    "name": "GENESECT",
+    "method": "Volcán Canela. Interior Laboratorio destruido (DLC: Misión 5).",
+    "tags": [
+      "Misión Secundaria"
+    ],
+    "line": 1228
+  },
+  {
+    "dex_num": 653,
+    "name": "FENNEKIN",
+    "method": "Secundaria Bosque Baya.",
+    "tags": [
+      "Misión Secundaria"
+    ],
+    "line": 1234
+  },
+  {
+    "dex_num": 654,
+    "name": "BRAIXEN",
+    "method": "Evolución de Fennekin al nv.16.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1236
+  },
+  {
+    "dex_num": 655,
+    "name": "DELPHOX",
+    "method": "Evolución de Braixen al nv.36.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1238
+  },
+  {
+    "dex_num": 656,
+    "name": "FROAKIE",
+    "method": "Regalo de Calvo en el Bar de C.Olivo, tras completar su misión secundaria.",
+    "tags": [
+      "Regalo",
+      "Misión Secundaria"
+    ],
+    "line": 1240
+  },
+  {
+    "dex_num": 657,
+    "name": "FROGADIER",
+    "method": "Evolución de Froakie al nv.16.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1242
+  },
+  {
+    "dex_num": 658,
+    "name": "GRENINJA",
+    "method": "Evolución de Frogadier al nv.36.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1244
+  },
+  {
+    "dex_num": 661,
+    "name": "FLETCHLING",
+    "method": "Venta en Base Rocket Johto (18000¥).",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1249
+  },
+  {
+    "dex_num": 662,
+    "name": "FLETCHINDER",
+    "method": "Evolución de Fletchling al nv.17.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1251
+  },
+  {
+    "dex_num": 663,
+    "name": "TALONFLAME",
+    "method": "Evolución de Fletchinder al nv.35.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1253
+  },
+  {
+    "dex_num": 669,
+    "name": "FLABEBE",
+    "method": "Regalo tras derrotar al Líder de C.Iris (Johto). | Salvaje en Ruta 49 (DLC: Misión 3).",
+    "tags": [
+      "Regalo",
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 1261
+  },
+  {
+    "dex_num": 670,
+    "name": "FLOETTE",
+    "method": "Evolución de Flabebe al nv.19.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1263
+  },
+  {
+    "dex_num": 671,
+    "name": "FLORGES",
+    "method": "Evolución de Floette usando Piedra Día.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1265
+  },
+  {
+    "dex_num": 671,
+    "name": "FLOETTE FLOR ETERNA",
+    "method": "Evolución de Flabebe usando Piedra Sagrada.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1267
+  },
+  {
+    "dex_num": 672,
+    "name": "SKIDDO",
+    "method": "Salvaje en hierba alta de Ruta 49.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1269
+  },
+  {
+    "dex_num": 673,
+    "name": "GOGOAT",
+    "method": "Salvaje en hierba alta de Ruta 49.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1271
+  },
+  {
+    "dex_num": 677,
+    "name": "ESPURR",
+    "method": "Venta en el P3 De la Torre Radio Lavanda (30000¥).",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1276
+  },
+  {
+    "dex_num": 678,
+    "name": "MEOWSTIC",
+    "method": "Evolución de Espurr al nv.25.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1278
+  },
+  {
+    "dex_num": 679,
+    "name": "HONEDGE",
+    "method": "Regalo de Npc, dado por monje dentro de Torre Campana (C.Iris, Johto).",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 1280
+  },
+  {
+    "dex_num": 680,
+    "name": "DOUBLADE",
+    "method": "Evolución de Honedge al nv.35.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1282
+  },
+  {
+    "dex_num": 681,
+    "name": "AEGISLASH",
+    "method": "Evolución de Doublade usando Piedra Noche.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1284
+  },
+  {
+    "dex_num": 686,
+    "name": "INKAY",
+    "method": "Regalo de motorista en la Neo Zona Safari. Secundaria de Neo Túnel Roca.",
+    "tags": [
+      "Regalo",
+      "Misión Secundaria"
+    ],
+    "line": 1291
+  },
+  {
+    "dex_num": 687,
+    "name": "MALAMAR",
+    "method": "Evolución de Inkay al nv.30",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1293
+  },
+  {
+    "dex_num": 688,
+    "name": "BINACLE",
+    "method": "Salvaje en Cueva Tesoro (Isla Prima, Sevii). Para activar el lugar, hablar con el Caballero del Centro Pkmn de Isla Prima.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1295
+  },
+  {
+    "dex_num": 689,
+    "name": "BARBARACLE",
+    "method": "Evolución de Binacle al nv.39.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1297
+  },
+  {
+    "dex_num": 690,
+    "name": "SKRELP",
+    "method": "Salvaje en Cueva Tesoro (Isla Prima, Sevii). Para activar el lugar, hablar con el Caballero del Centro Pkmn de Isla Prima.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1299
+  },
+  {
+    "dex_num": 691,
+    "name": "DRAGALGE",
+    "method": "Evolución de Skrelp al nv.48.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1301
+  },
+  {
+    "dex_num": 692,
+    "name": "CLAUNCHER",
+    "method": "Salvaje en Cueva Tesoro (Isla Prima, Sevii). Para activar el lugar, hablar con el Caballero del Centro Pkmn de Isla Prima.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1303
+  },
+  {
+    "dex_num": 693,
+    "name": "CLAWITZER",
+    "method": "Evolución de Clauncher al nv.37.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1305
+  },
+  {
+    "dex_num": 694,
+    "name": "HELIOPTILE",
+    "method": "Regalo de electricista en el S1 de misión secundaria en Johto, activada tras hablar con ancianos en casa al noreste de Pueblo Caoba.",
+    "tags": [
+      "Regalo",
+      "Misión Secundaria"
+    ],
+    "line": 1307
+  },
+  {
+    "dex_num": 695,
+    "name": "HELIOLISK",
+    "method": "Evolución de Helioptile usando Piedra Solar.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1309
+  },
+  {
+    "dex_num": 700,
+    "name": "SYLVEON",
+    "method": "Evolución de Eevee elevando un nivel con movimiento tipo hada + felicidad.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1316
+  },
+  {
+    "dex_num": 702,
+    "name": "DEDENNE",
+    "method": "Salvaje en Torre Dun de Ruta 50 (una de las tres primeras secundarias del DLC).",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 1320
+  },
+  {
+    "dex_num": 703,
+    "name": "CARBINK",
+    "method": "Salvaje en zona nueva de Cueva Punteada, accesible en evento obligatorio.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1322
+  },
+  {
+    "dex_num": 704,
+    "name": "GOOMY",
+    "method": "Salvaje en zona nueva de Cueva Punteada, accesible en evento obligatorio.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1324
+  },
+  {
+    "dex_num": 705,
+    "name": "SLIGGOO",
+    "method": "Salvaje en zona nueva de Cueva Punteada, accesible en evento obligatorio. Evolución de Sliggoo al nv.40.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 1326
+  },
+  {
+    "dex_num": 706,
+    "name": "GOODRA",
+    "method": "Salvaje en zona nueva de Cueva Punteada, accesible en evento obligatorio. Evolución de Goodra al nv.50.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 1328
+  },
+  {
+    "dex_num": 707,
+    "name": "KLEFKI",
+    "method": "Salvaje en Ruta 50 norte (zona accesible después de completar 3 primeras misiones).",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 1330
+  },
+  {
+    "dex_num": 708,
+    "name": "PHANTUMP",
+    "method": "Salvaje en el Cementerio del Neo Pueblo Lavanda (DLC).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1332
+  },
+  {
+    "dex_num": 709,
+    "name": "TREVENANT",
+    "method": "Evolución de Phantump al nv.42.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1334
+  },
+  {
+    "dex_num": 710,
+    "name": "PUMPKABOO",
+    "method": "Salvaje en el Cementerio del Neo Pueblo Lavanda (DLC).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1336
+  },
+  {
+    "dex_num": 711,
+    "name": "GOURGEIST",
+    "method": "Usando la Piedra Noche sobre Pumpkaboo.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1338
+  },
+  {
+    "dex_num": 712,
+    "name": "BERGMITE",
+    "method": "Regalo tras derrotar al Líder de P.Caoba (Johto).",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 1340
+  },
+  {
+    "dex_num": 713,
+    "name": "AVALUGG",
+    "method": "Evolución de Bergmite al nv.37.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1342
+  },
+  {
+    "dex_num": 714,
+    "name": "NOIBAT",
+    "method": "Regalo de NPC importante, tras batalla obligatoria justo después de la séptima medalla en Johto.",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 1344
+  },
+  {
+    "dex_num": 715,
+    "name": "NOIVERN",
+    "method": "Evolución de Noibat al nv.48.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1346
+  },
+  {
+    "dex_num": 725,
+    "name": "LITTEN",
+    "method": "Regalo de JEFE de misión secundaria. 1ro hablar con ancianos en casa al noreste de Pueblo Caoba. 2do volver a casa de Pueblo Azalea y realizar misión.",
+    "tags": [
+      "Regalo",
+      "Misión Secundaria"
+    ],
+    "line": 1358
+  },
+  {
+    "dex_num": 726,
+    "name": "TORRACAT",
+    "method": "Evolución de Litten al nv.17.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1360
+  },
+  {
+    "dex_num": 727,
+    "name": "INCINEROAR",
+    "method": "Evolución de Torracat al nv.34.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1362
+  },
+  {
+    "dex_num": 731,
+    "name": "PIKIPEK",
+    "method": "Regalo al completar secundaria en Casa Playa de C.Portual (Hoenn).",
+    "tags": [
+      "Regalo",
+      "Misión Secundaria"
+    ],
+    "line": 1368
+  },
+  {
+    "dex_num": 732,
+    "name": "TRUMBEAK",
+    "method": "Evolución de Pikipek al nv.14.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1370
+  },
+  {
+    "dex_num": 733,
+    "name": "TOUCANNON",
+    "method": "Evolución de Trumbeak al nv.28.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1372
+  },
+  {
+    "dex_num": 736,
+    "name": "GRUBBIN",
+    "method": "Regalo tras derrotar al Líder de P.Azalea (Johto).",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 1377
+  },
+  {
+    "dex_num": 737,
+    "name": "CHARJABUG",
+    "method": "Evolución de Grubbin al nv.20.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1379
+  },
+  {
+    "dex_num": 738,
+    "name": "VIKAVOLT",
+    "method": "Evolución de Charjabug usando Piedra Trueno.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1381
+  },
+  {
+    "dex_num": 739,
+    "name": "CRABRAWLER",
+    "method": "Usando Golpe Roca en zona oculta. Activar misión secundaria hablando con Anciana que mira el agua en Isla Cuarta (Sevii).",
+    "tags": [
+      "Misión Secundaria"
+    ],
+    "line": 1383
+  },
+  {
+    "dex_num": 740,
+    "name": "CRABOMINABLE",
+    "method": "Evolución de Crabrawler usando Piedra Hielo.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1385
+  },
+  {
+    "dex_num": 742,
+    "name": "CUTIEFLY",
+    "method": "Salvaje en Zona oculta, en misión secundaria que se activa al hablar con Atlas después de entrar por 1ra vez al Hall de la Fama.",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 1389
+  },
+  {
+    "dex_num": 743,
+    "name": "RIBOMBEE",
+    "method": "Evolución de Cutiefly al nv.25.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1391
+  },
+  {
+    "dex_num": 744,
+    "name": "ROCKRUFF",
+    "method": "Venta en Base Rocket Hoenn (15000¥).",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1393
+  },
+  {
+    "dex_num": 745,
+    "name": "LYCANROC",
+    "method": "Evolución de Rockruf, según la piedra usada. | P.Día: Lycanroc Diurno. | P.Noche: Lycanroc Nocturno. | P.Alba: Lycanroc Crepuscular.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1395
+  },
+  {
+    "dex_num": 746,
+    "name": "WISHIWASHI",
+    "method": "Pescando en zona oculta. Activar misión secundaria hablando con Anciana que mira el agua en Isla Cuarta (Sevii).",
+    "tags": [
+      "Misión Secundaria"
+    ],
+    "line": 1397
+  },
+  {
+    "dex_num": 747,
+    "name": "MAREANIE",
+    "method": "Salvaje en Cueva Tesoro (Isla Prima, Sevii). Para activar el lugar, hablar con el Caballero del Centro Pkmn de Isla Prima.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1399
+  },
+  {
+    "dex_num": 748,
+    "name": "TOXAPEX",
+    "method": "Evolución a de Mareanie al nv.38.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1401
+  },
+  {
+    "dex_num": 749,
+    "name": "MUDBRAY",
+    "method": "Venta en Base Rocket Johto (32000¥).",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1403
+  },
+  {
+    "dex_num": 750,
+    "name": "MUDSDALE",
+    "method": "Evolución de Mudbray al nv.30.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1405
+  },
+  {
+    "dex_num": 751,
+    "name": "DEWPIDER",
+    "method": "Haciendo Surf en Zona oculta, en misión secundaria que se activa al hablar con Atlas después de entrar por 1ra vez al Hall de la Fama.",
+    "tags": [
+      "Misión Secundaria"
+    ],
+    "line": 1407
+  },
+  {
+    "dex_num": 752,
+    "name": "ARAQUANID",
+    "method": "Evolución de Dewpider al nv.22.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1409
+  },
+  {
+    "dex_num": 753,
+    "name": "FOMANTIS",
+    "method": "Salvaje en Hierba Alta de Ruta 49.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1411
+  },
+  {
+    "dex_num": 754,
+    "name": "LURANTIS",
+    "method": "Salvaje en Hierba Alta de Ruta 49.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1413
+  },
+  {
+    "dex_num": 757,
+    "name": "SALANDIT",
+    "method": "Regalo Científico P7 Torre Radio Lavanda",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 1418
+  },
+  {
+    "dex_num": 758,
+    "name": "SALAZZLE",
+    "method": "Evolución de Salandit al nv.33.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1420
+  },
+  {
+    "dex_num": 759,
+    "name": "STUFFUL",
+    "method": "Regalo tras derrotar al Líder de C.Orquídea (Johto).",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 1422
+  },
+  {
+    "dex_num": 760,
+    "name": "BEWEAR",
+    "method": "Evolución de Stufful al nv.27.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1424
+  },
+  {
+    "dex_num": 764,
+    "name": "COMFEY",
+    "method": "Salvaje en Zona oculta, en misión secundaria que se activa al hablar con Atlas después de entrar por 1ra vez al Hall de la Fama.",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 1430
+  },
+  {
+    "dex_num": 765,
+    "name": "ORANGURU",
+    "method": "Salvaje en Zona oculta, en misión secundaria que se activa al hablar con Atlas después de entrar por 1ra vez al Hall de la Fama.",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 1432
+  },
+  {
+    "dex_num": 766,
+    "name": "PASSIMIAN",
+    "method": "Salvaje en Zona oculta, en misión secundaria que se activa al hablar con Atlas después de entrar por 1ra vez al Hall de la Fama.",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 1434
+  },
+  {
+    "dex_num": 767,
+    "name": "WIMPOD",
+    "method": "Regalo de Npc, en el Centro Pkmn de P.Azalea (Johto).",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 1436
+  },
+  {
+    "dex_num": 768,
+    "name": "GOLISOPOD",
+    "method": "Evolución de Wimpod al nv.30.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1438
+  },
+  {
+    "dex_num": 771,
+    "name": "PYUKUMUKU",
+    "method": "Salvaje en Cueva Tesoro (Isla Prima, Sevii). Para activar el lugar, hablar con el Caballero del Centro Pkmn de Isla Prima.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1443
+  },
+  {
+    "dex_num": 772,
+    "name": "TYPE_NULL",
+    "method": "Regalo de Giovanni tras Misión obligaría en Laboratorio Isla Canela (DLC).",
+    "tags": [
+      "Regalo",
+      "Misión Secundaria"
+    ],
+    "line": 1445
+  },
+  {
+    "dex_num": 773,
+    "name": "SILVALLY",
+    "method": "Evolución de Type Full al nv.59.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1447
+  },
+  {
+    "dex_num": 774,
+    "name": "MINIOR",
+    "method": "Venta en el S2 de la Base Rocket de Hoenn (90000¥).",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1449
+  },
+  {
+    "dex_num": 775,
+    "name": "KOMALA",
+    "method": "Salvaje en Torre Dun de Ruta 50 (una de las tres primeras secundarias del DLC).",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 1451
+  },
+  {
+    "dex_num": 776,
+    "name": "TURTONATOR",
+    "method": "Salvaje en zona nueva del Mt.Ascuas, accesible en evento obligatorio.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1453
+  },
+  {
+    "dex_num": 778,
+    "name": "MIMIKYU",
+    "method": "Salvaje en el Cementerio del Neo Pueblo Lavanda (DLC).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1456
+  },
+  {
+    "dex_num": 780,
+    "name": "DRAMPA",
+    "method": "Regalo del Monje que se halla paseando en la Guarida Dragón (C.Endrino, Johto).",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 1460
+  },
+  {
+    "dex_num": 782,
+    "name": "JANGMO_O",
+    "method": "Venta en Base Rocket Hoenn (168000¥)",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1464
+  },
+  {
+    "dex_num": 783,
+    "name": "HAKAMO_O",
+    "method": "Evolución de Jangmo-o al nv.35.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1466
+  },
+  {
+    "dex_num": 784,
+    "name": "KOMMO_O",
+    "method": "Evolución de Hakamo-o al nv.45.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1468
+  },
+  {
+    "dex_num": 796,
+    "name": "XURKITREE",
+    "method": "Después evento obligatorio Neo Central Energía (DLC). Regalo del Director.",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 1482
+  },
+  {
+    "dex_num": 799,
+    "name": "GUZZLORD",
+    "method": "Combate singular en Cueva del Tesoro: Misión secundaria Isla Prima. La misión se activa hablando con el Caballero sentado en el Centro Pkmn de Isla Prima (Sevii).",
+    "tags": [
+      "Misión Secundaria",
+      "Legendario / Especial"
+    ],
+    "line": 1487
+  },
+  {
+    "dex_num": 802,
+    "name": "MARSHADOW",
+    "method": "Recoger Amuleto en Cueva Hypno (Secundaria Bosque Baya) y entregarlo a Exorcista en casa oculta, mares al sur de C.Trigal.",
+    "tags": [
+      "Misión Secundaria",
+      "Legendario / Especial"
+    ],
+    "line": 1493
+  },
+  {
+    "dex_num": 803,
+    "name": "POIPOLE",
+    "method": "Regalo de NPC tras misión secundaria en DLC. 1ro ir a casa del noroeste de C.Orquídea y hablar con Npc. 2do ir al Mt.Plateado y hablar con Anciano del Centro Pkmn. 3ro volver a la casa del noroeste de C.Orquídea.",
+    "tags": [
+      "Regalo",
+      "Misión Secundaria",
+      "Legendario / Especial"
+    ],
+    "line": 1495
+  },
+  {
+    "dex_num": 804,
+    "name": "NAGANADEL",
+    "method": "Evolución de Poipole al aprender Pulso Dragón.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1497
+  },
+  {
+    "dex_num": 805,
+    "name": "STAKATAKA",
+    "method": "Dentro del pasadizo que lleva al culto lavanda.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1499
+  },
+  {
+    "dex_num": 806,
+    "name": "BLACEPHALON",
+    "method": "En la Cueva de Hypno, en la zona noroeste.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1501
+  },
+  {
+    "dex_num": 810,
+    "name": "GROOKEY",
+    "method": "Venta en el P3 De la Torre Radio Lavanda (80000¥).",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1507
+  },
+  {
+    "dex_num": 811,
+    "name": "THWACKEY",
+    "method": "Evolución de Grookey al nv.16.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1509
+  },
+  {
+    "dex_num": 812,
+    "name": "RILLABOOM",
+    "method": "Evolución de Thwackey al nv.36.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1511
+  },
+  {
+    "dex_num": 824,
+    "name": "BLIPBUG",
+    "method": "Salvaje en Zona oculta, en misión secundaria que se activa al hablar con Atlas después de entrar por 1ra vez al Hall de la Fama.",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 1525
+  },
+  {
+    "dex_num": 825,
+    "name": "DOTTLER",
+    "method": "Evolución de Blipbug al nv.10.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1527
+  },
+  {
+    "dex_num": 826,
+    "name": "ORBEETLE",
+    "method": "Evolución de Dottler al nv.30.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1529
+  },
+  {
+    "dex_num": 831,
+    "name": "WOOLOO",
+    "method": "Venta en el P3 De la Torre Radio Lavanda (40000¥).",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1536
+  },
+  {
+    "dex_num": 832,
+    "name": "DUBWOOL",
+    "method": "Evolución de Wooloo al nv.24",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1538
+  },
+  {
+    "dex_num": 833,
+    "name": "CHEWTLE",
+    "method": "Salvaje en Cueva Tesoro (Isla Prima, Sevii). Para activar el lugar, hablar con el Caballero del Centro Pkmn de Isla Prima.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1540
+  },
+  {
+    "dex_num": 834,
+    "name": "DREDNAW",
+    "method": "Evolución de Chewtle al nv.22.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1542
+  },
+  {
+    "dex_num": 835,
+    "name": "YAMPER",
+    "method": "Poke ball dorada, al final del S2 de misión secundaria en Johto, activada tras hablar con ancianos en casa al noreste de Pueblo Caoba.",
+    "tags": [
+      "Misión Secundaria"
+    ],
+    "line": 1544
+  },
+  {
+    "dex_num": 836,
+    "name": "BOLTUND",
+    "method": "Evolución de Yamper al nv.25.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1546
+  },
+  {
+    "dex_num": 837,
+    "name": "ROLYCOLY",
+    "method": "Salvaje usando Golpe Roca en zona nueva del Mt.Ascuas, accesible en evento obligatorio.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1548
+  },
+  {
+    "dex_num": 838,
+    "name": "CARKOL",
+    "method": "Evolución de Rolycoly al nv.18.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1550
+  },
+  {
+    "dex_num": 839,
+    "name": "COALOSSAL",
+    "method": "Evolución de Carkol al nv.34.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1552
+  },
+  {
+    "dex_num": 843,
+    "name": "SILICOBRA",
+    "method": "Venta en el S2 de la Base Rocket de Hoenn (50000¥).",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1557
+  },
+  {
+    "dex_num": 844,
+    "name": "SANDACONDA",
+    "method": "Evolución de Silicobra al nv.36.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1559
+  },
+  {
+    "dex_num": 845,
+    "name": "CRAMORANT",
+    "method": "Venta en el P3 De la Torre Radio Lavanda (110000¥).",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1561
+  },
+  {
+    "dex_num": 846,
+    "name": "ARROKUDA",
+    "method": "Haciendo Surf en Zona oculta, en misión secundaria que se activa al hablar con Atlas después de entrar por 1ra vez al Hall de la Fama.",
+    "tags": [
+      "Misión Secundaria"
+    ],
+    "line": 1563
+  },
+  {
+    "dex_num": 847,
+    "name": "BARRASKEWDA",
+    "method": "Evolución de Arrokuda al nv.26.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1565
+  },
+  {
+    "dex_num": 848,
+    "name": "TOXEL",
+    "method": "Venta en el P3 De la Torre Radio Lavanda (57000¥).",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1567
+  },
+  {
+    "dex_num": 849,
+    "name": "TOXTRICITY",
+    "method": "Evolución de Toxel al nv.30.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1569
+  },
+  {
+    "dex_num": 850,
+    "name": "SIZZLIPEDE",
+    "method": "Salvaje usando Golpe Roca en zona nueva del Mt.Ascuas, accesible en evento obligatorio.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1571
+  },
+  {
+    "dex_num": 851,
+    "name": "CENTISKORCH",
+    "method": "Salvaje usando en zona nueva del Mt.Ascuas, accesible en evento obligatorio. Evolución de Sizzlipede al nv.28.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 1573
+  },
+  {
+    "dex_num": 854,
+    "name": "SINISTEA",
+    "method": "Salvaje en el Cementerio del Neo Pueblo Lavanda (DLC).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1578
+  },
+  {
+    "dex_num": 855,
+    "name": "POLTEAGEIST",
+    "method": "Evolución de Sinistea usando Piedra Noche.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1580
+  },
+  {
+    "dex_num": 856,
+    "name": "HATENNA",
+    "method": "Salvaje en Cueva Hypno (Misión secundaria Hypno, en Isla Tera, Sevii).",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 1582
+  },
+  {
+    "dex_num": 857,
+    "name": "HATTREM",
+    "method": "Salvaje en Cueva Hypno (Misión secundaria Hypno, en Isla Tera, Sevii). Evolución de Hatenna al nv.32.",
+    "tags": [
+      "Salvaje",
+      "Evolución",
+      "Misión Secundaria"
+    ],
+    "line": 1584
+  },
+  {
+    "dex_num": 858,
+    "name": "HATTERENE",
+    "method": "Evolución de Hattrem al nv.42.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1586
+  },
+  {
+    "dex_num": 859,
+    "name": "IMPIDIMP",
+    "method": "Salvaje en Ruta 50 norte (zona accesible después de completar 3 primeras misiones).",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 1588
+  },
+  {
+    "dex_num": 860,
+    "name": "MORGREM",
+    "method": "Salvaje en Ruta 50 norte (zona accesible después de completar 3 primeras misiones).",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 1590
+  },
+  {
+    "dex_num": 861,
+    "name": "GRIMMSNARL",
+    "method": "Evolución de Morgrem al nv.42.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1592
+  },
+  {
+    "dex_num": 862,
+    "name": "OBSTAGOON",
+    "method": "Uso de Piedra Sagrada sobre Linoone, conversión en F-Galar y subir al nv.35.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1594
+  },
+  {
+    "dex_num": 864,
+    "name": "CURSOLA",
+    "method": "Uso de Piedra Sagrada sobre Corsola, conversión en Cursola y subir al nv.38.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1598
+  },
+  {
+    "dex_num": 865,
+    "name": "SIRFETCHD",
+    "method": "Uso de Piedra Sagrada sobre Farfetch'D, conversión en Farfetch'D Galar y subir al nv.50.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1600
+  },
+  {
+    "dex_num": 866,
+    "name": "MR_RIME",
+    "method": "Uso de Piedra Sagrada sobre Mr.Mime, conversión en Mr.Mime Galar y subir al nv.42.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1602
+  },
+  {
+    "dex_num": 867,
+    "name": "RUNERIGUS",
+    "method": "Salvaje en Pueblo Lavanda, pasadizo que conduce a secta secreta.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1604
+  },
+  {
+    "dex_num": 868,
+    "name": "MILCERY",
+    "method": "Venta en el S2 de la Base Rocket de Hoenn (35000¥).",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1606
+  },
+  {
+    "dex_num": 869,
+    "name": "ALCREMIE",
+    "method": "Evolución de Milcery al nv.40.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1608
+  },
+  {
+    "dex_num": 871,
+    "name": "PINCURCHIN",
+    "method": "Venta en Base Rocket Johto (52000¥).",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1612
+  },
+  {
+    "dex_num": 872,
+    "name": "SNOM",
+    "method": "Preevolución de Frosmoth",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1614
+  },
+  {
+    "dex_num": 873,
+    "name": "FROSMOTH",
+    "method": "Venta en Torre Radio lavanda",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1616
+  },
+  {
+    "dex_num": 874,
+    "name": "STONJOURNER",
+    "method": "Salvaje en Pueblo Lavanda, pasadizo que conduce a secta secreta.",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1618
+  },
+  {
+    "dex_num": 875,
+    "name": "EISCUE",
+    "method": "Salvaje en zona oculta. Activar misión secundaria hablando con Anciana que mira el agua en Isla Cuarta (Sevii).",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 1620
+  },
+  {
+    "dex_num": 876,
+    "name": "INDEEDEE",
+    "method": "Salvaje en Torre Dun de Ruta 50 (una de las tres primeras secundarias del DLC).",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 1622
+  },
+  {
+    "dex_num": 877,
+    "name": "MORPEKO",
+    "method": "Salvaje en Cueva Subterranea en Ruta 50 norte (accesible después 3 misiones DLC).",
+    "tags": [
+      "Salvaje",
+      "Misión Secundaria"
+    ],
+    "line": 1624
+  },
+  {
+    "dex_num": 884,
+    "name": "DURALUDON",
+    "method": "Secundaria Pilar Recuerdo + Suroeste Isla Exta",
+    "tags": [
+      "Misión Secundaria"
+    ],
+    "line": 1633
+  },
+  {
+    "dex_num": 884,
+    "name": "ARCHALUDON",
+    "method": "Usando Piedra Sagrada sobre Duraludon.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1635
+  },
+  {
+    "dex_num": 885,
+    "name": "DREEPY",
+    "method": "Regalo tras derrotar al Líder de C.Endrino.",
+    "tags": [
+      "Regalo"
+    ],
+    "line": 1637
+  },
+  {
+    "dex_num": 886,
+    "name": "DRAKLOAK",
+    "method": "Evolución de Dreepy al nv.50.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1639
+  },
+  {
+    "dex_num": 887,
+    "name": "DRAGAPULT",
+    "method": "Evolución de Drakloak al nv.60.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1641
+  },
+  {
+    "dex_num": 895,
+    "name": "REGIDRAGO",
+    "method": "Regalo de Maestro Dragon tras completar Misión en Ruta 49 (DLC).",
+    "tags": [
+      "Regalo",
+      "Misión Secundaria"
+    ],
+    "line": 1651
+  },
+  {
+    "dex_num": 896,
+    "name": "GLASTRIER",
+    "method": "Capturable mediante acceso a zona oculta. Activar misión secundaria hablando con Anciana que mira el agua en Isla Cuarta (Sevii).",
+    "tags": [
+      "Misión Secundaria"
+    ],
+    "line": 1653
+  },
+  {
+    "dex_num": 897,
+    "name": "SPECTRIER",
+    "method": "Uno de los cultistas del subterráneo de la secta (zona accesible después de 7ma medalla en Johto). Te lo da en forma de huevo.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1655
+  },
+  {
+    "dex_num": 898,
+    "name": "CALYREX",
+    "method": "Misión secundaria Excampeona Tipo Fantasma. 1ro llegar a Bosque oculto al norte de vías de tren, y hablar con NPC casa oculta. 2do hablar con anciana en Centro Pkmn del Mt.Plateado. 3ro volver a casa oculta en el Bosque.",
+    "tags": [
+      "Misión Secundaria",
+      "Legendario / Especial"
+    ],
+    "line": 1657
+  },
+  {
+    "dex_num": 900,
+    "name": "TRXATU",
+    "method": "Casa secreta al oeste de ruinas sete abiertas tras combatir con Lugia.",
+    "tags": [
+      "Otros"
+    ],
+    "line": 1663
+  },
+  {
+    "dex_num": 901,
+    "name": "ELECTRODE_Y",
+    "method": "Evoluciona de Electrodo con Piedra Rocket.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1665
+  },
+  {
+    "dex_num": 902,
+    "name": "TAUROS_X",
+    "method": "Evoluciona de Tauros con Piedra Rocket.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1667
+  },
+  {
+    "dex_num": 903,
+    "name": "PORYGON3",
+    "method": "Evoluciona de Porygon2 con Piedra Rocket.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1669
+  },
+  {
+    "dex_num": 904,
+    "name": "ELECTIVIRE_X",
+    "method": "Evoluciona de Electivire con Piedra Rocket.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1671
+  },
+  {
+    "dex_num": 905,
+    "name": "MAGMORTAR_Y",
+    "method": "Evoluciona de Magmortar con Piedra Rocket.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1673
+  },
+  {
+    "dex_num": 906,
+    "name": "NIDOQUEEN_Y",
+    "method": "Evoluciona de Nidoqueen con Piedra Rocket.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1675
+  },
+  {
+    "dex_num": 907,
+    "name": "NIDOKING_X",
+    "method": "Evoluciona de Nidoking con Piedra Rocket.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1677
+  },
+  {
+    "dex_num": 962,
+    "name": "KURUSU",
+    "method": "Regalo Pescador, tras completar misión obligatoria en Lago Furia (DLC).",
+    "tags": [
+      "Regalo",
+      "Misión Secundaria"
+    ],
+    "line": 1733
+  },
+  {
+    "dex_num": 963,
+    "name": "AKUA",
+    "method": "Evoluciona de Kurusu al nv.40.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1735
+  },
+  {
+    "dex_num": 964,
+    "name": "AKUERIA",
+    "method": "Evoluciona de Akua al nv.64.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1737
+  },
+  {
+    "dex_num": 965,
+    "name": "BOOHOO",
+    "method": "Evoluciona de Noctowl con Piedra Sagrada.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1739
+  },
+  {
+    "dex_num": 966,
+    "name": "IKARY",
+    "method": "Salvaje a partir del S3 del Lago Furia (5%).",
+    "tags": [
+      "Salvaje"
+    ],
+    "line": 1741
+  },
+  {
+    "dex_num": 967,
+    "name": "PURAKKUSU",
+    "method": "Evoluciona de Pinsir con Piedra Sagrada.",
+    "tags": [
+      "Evolución"
+    ],
+    "line": 1743
+  },
+  {
+    "dex_num": 968,
+    "name": "TAABAN",
+    "method": "Salvaje en interior Lago Furia (1%). Evoluciona de Slowbro con Piedra Sagrada.",
+    "tags": [
+      "Salvaje",
+      "Evolución"
+    ],
+    "line": 1745
+  },
+  {
+    "dex_num": 969,
+    "name": "BOMUSHIKAA",
+    "method": "Regalo de Atlas tras completar su misión secundaria. Desbloqueable tras ingresar por primera vez al Hall de la Fama.",
+    "tags": [
+      "Regalo",
+      "Misión Secundaria"
+    ],
+    "line": 1747
+  },
+  {
+    "dex_num": 970,
+    "name": "MADAAMU",
+    "method": "Regalo artesanos carbón Azalea, tras completar su misión secundaria.",
+    "tags": [
+      "Regalo",
+      "Misión Secundaria"
+    ],
+    "line": 1749
+  }
+]

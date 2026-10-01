@@ -1,0 +1,742 @@
+[
+  {
+    "id": "kanto-1",
+    "act": "kanto",
+    "actTitle": "Acto I: Kanto",
+    "order": 1,
+    "type": "story",
+    "title": "Bautismo Rocket en Isla Inta",
+    "location": "Isla Inta / Cueva Perdida",
+    "description": "Comienzas como recluta novato del Team Rocket. Combate introductorio contra tu Rival Andra y posterior asalto a la Cónsul.",
+    "requirements": "Inicio del juego",
+    "bossId": "boss-1",
+    "questId": null,
+    "pokemonIds": [
+      "Zubat",
+      "Meowth",
+      "Wooper",
+      "Mareep"
+    ],
+    "itemIds": [
+      "Repartir Experiencia"
+    ],
+    "missable": true,
+    "missableWarning": "⚠️ OBJETO PERDIBLE: Tras derrotar a la Cónsul en Cueva Perdida, se le cae el Repartir Experiencia. Asegúrate de recogerlo antes de abandonar la zona marítima.",
+    "difficultyNote": "Sin diferencia documentada en los archivos de combates (mismo equipo Nv. 7-11 registrado)."
+  },
+  {
+    "id": "kanto-2",
+    "act": "kanto",
+    "actTitle": "Acto I: Kanto",
+    "order": 2,
+    "type": "gift",
+    "title": "Robar el Inicial de Planta: Bulbasaur",
+    "location": "Pueblo Pallet (Laboratorio de Oak)",
+    "description": "Infiltrarse en el laboratorio del Profesor Oak y robar a Bulbasaur de la mesa de investigación.",
+    "requirements": "Misión inicial en Kanto continental",
+    "bossId": null,
+    "questId": null,
+    "pokemonIds": [
+      "Bulbasaur"
+    ],
+    "itemIds": [],
+    "missable": false,
+    "missableWarning": null,
+    "difficultyNote": "Sin diferencia documentada."
+  },
+  {
+    "id": "kanto-3",
+    "act": "kanto",
+    "actTitle": "Acto I: Kanto",
+    "order": 3,
+    "type": "sidequest",
+    "title": "Secundaria #1: Las Limonadas del Pilar Recuerdo & Meteorito",
+    "location": "Pilar Recuerdo (Isla Inta)",
+    "description": "Hablar con la persona junto al pilar recuerdo que llora por su Onix. Derrotar al cocinero en el Centro Pokémon de Isla Inta y entregarle las limonadas.",
+    "requirements": "Acceso a Isla Inta",
+    "bossId": null,
+    "questId": "quest-1",
+    "pokemonIds": [
+      "Phanpy"
+    ],
+    "itemIds": [
+      "Meteorito"
+    ],
+    "missable": true,
+    "missableWarning": "⚠️ POKÉMON & OBJETO PERDIBLE: El Phanpy entregado viene equipado con un METEORITO único. NO vendas ni tires este objeto, es el requisito OBLIGATORIO para obtener a Duraludon Nv. 50 en Isla Exta.",
+    "difficultyNote": "Sin diferencia documentada."
+  },
+  {
+    "id": "kanto-4",
+    "act": "kanto",
+    "actTitle": "Acto I: Kanto",
+    "order": 4,
+    "type": "story",
+    "title": "Vía Subterránea Carmín & Asalto al Mt. Moon",
+    "location": "Vía Subterránea / Mt. Moon",
+    "description": "Segundo combate contra Andra en la vía subterránea. En Mt. Moon, extraer los fósiles, vencer al Científico Miguel y al Alto Rango Frank.",
+    "requirements": "Ruta hacia Ciudad Carmín y Mt. Moon",
+    "bossId": "boss-3",
+    "questId": null,
+    "pokemonIds": [
+      "Tentacool",
+      "Teddiursa",
+      "Zubat",
+      "Koffing",
+      "Grimer",
+      "Raticate"
+    ],
+    "itemIds": [
+      "MT46 Ladrón",
+      "Fósil Hélix / Domo"
+    ],
+    "missable": false,
+    "missableWarning": null,
+    "difficultyNote": "Sin diferencia documentada."
+  },
+  {
+    "id": "kanto-5",
+    "act": "kanto",
+    "actTitle": "Acto I: Kanto",
+    "order": 5,
+    "type": "missable",
+    "title": "⚠️ ESTAFA OBLIGATORIA: Comprar el Magikarp en Mt. Moon",
+    "location": "Centro Pokémon de Ruta 10 (Mt. Moon)",
+    "description": "Debes dejarte estafar comprando el Magikarp por 500 pokés del vendedor sospechoso en el Centro Pokémon de Mt. Moon.",
+    "requirements": "Llegar al Centro Pokémon de Mt. Moon",
+    "bossId": null,
+    "questId": "quest-6",
+    "pokemonIds": [
+      "Magikarp",
+      "Charmander",
+      "Snorlax"
+    ],
+    "itemIds": [
+      "200,000 Pokés",
+      "10 Proteínas",
+      "3 Caramelos Raros"
+    ],
+    "missable": true,
+    "missableWarning": "⚠️ EVENTO CRÍTICO PERDIBLE: Si NO compras este Magikarp y no te dejas estafar, NO se activará la misión del Científico de Fucsia ni el combate triple de la Mansión Canela, perdiendo para siempre a Charmander Nv. 5, Snorlax Nv. 30 y 200,000 pokés.",
+    "difficultyNote": "Sin diferencia documentada."
+  },
+  {
+    "id": "kanto-6",
+    "act": "kanto",
+    "actTitle": "Acto I: Kanto",
+    "order": 6,
+    "type": "sidequest",
+    "title": "Secundaria #2: La Encomienda del Pescador de Carmín",
+    "location": "Ciudad Carmín",
+    "description": "Hablar con el pescador de la Caña Vieja en Carmín y cumplir su encomienda para conseguir a Magikarp.",
+    "requirements": "Visitar Carmín",
+    "bossId": null,
+    "questId": "quest-2",
+    "pokemonIds": [
+      "Magikarp"
+    ],
+    "itemIds": [
+      "Caña Vieja"
+    ],
+    "missable": false,
+    "missableWarning": null,
+    "difficultyNote": "Sin diferencia documentada."
+  },
+  {
+    "id": "kanto-7",
+    "act": "kanto",
+    "actTitle": "Acto I: Kanto",
+    "order": 7,
+    "type": "story",
+    "title": "Patente de Teletransporte & Robo en el S.S. Anne",
+    "location": "Cabaña de Bill / S.S. Anne (Carmín)",
+    "description": "Asalto a la cabaña de Bill para robar la patente de transferencia de PC. Derrotar a Bill y Azul. Luego, abordar el S.S. Anne para robar el Frasco del Capitán venciendo a Andra (3er combate).",
+    "requirements": "Completar Mt. Moon",
+    "bossId": "boss-6",
+    "questId": null,
+    "pokemonIds": [
+      "Abra",
+      "Kadabra",
+      "Pidgeotto",
+      "Raticate",
+      "Ivysaur / Charmeleon / Wartortle"
+    ],
+    "itemIds": [
+      "Patente Teletransporte",
+      "Frasco del Capitán"
+    ],
+    "missable": false,
+    "missableWarning": null,
+    "difficultyNote": "Sin diferencia documentada."
+  },
+  {
+    "id": "kanto-8",
+    "act": "kanto",
+    "actTitle": "Acto I: Kanto",
+    "order": 8,
+    "type": "sidequest",
+    "title": "Secundaria #4: Cazabichos de Plateada y Jardín Carmín",
+    "location": "Ciudad Plateada / Norte de Ciudad Carmín",
+    "description": "Hablar con el cazabichos en el jardín de Plateada. Entrar por el pasadizo secreto de la casa sin puerta al norte de Carmín y derrotar al Motorista Florín.",
+    "requirements": "Llegar a Carmín y Plateada",
+    "bossId": "boss-168",
+    "questId": "quest-4",
+    "pokemonIds": [
+      "Ariados",
+      "Croconaw",
+      "Sudowoodo",
+      "Houndoom"
+    ],
+    "itemIds": [
+      "Acceso al Jardín de Bayas reductoras y Mentas de Naturaleza"
+    ],
+    "missable": false,
+    "missableWarning": "Nota de QoL: Las bayas y mentas de este jardín se regeneran con cada misión principal completada.",
+    "difficultyNote": "Sin diferencia documentada."
+  },
+  {
+    "id": "kanto-9",
+    "act": "kanto",
+    "actTitle": "Acto I: Kanto",
+    "order": 9,
+    "type": "story",
+    "title": "La Toma Masiva de SILPH S.A. en Azafrán",
+    "location": "Silph S.A. (Ciudad Azafrán)",
+    "description": "Asalto general a la sede corporativa de Silph S.A. Combates contra la guardia de seguridad, el Científico Miguel y Rival Andra (4to encuentro).",
+    "requirements": "Apertura de Azafrán",
+    "bossId": "boss-12",
+    "questId": null,
+    "pokemonIds": [
+      "Magneton",
+      "Electabuzz",
+      "Porygon",
+      "Golbat",
+      "Ursaring"
+    ],
+    "itemIds": [
+      "Master Ball",
+      "Ascenso a Ejecutivo"
+    ],
+    "missable": false,
+    "missableWarning": null,
+    "difficultyNote": "Sin diferencia documentada."
+  },
+  {
+    "id": "kanto-10",
+    "act": "kanto",
+    "actTitle": "Acto I: Kanto",
+    "order": 10,
+    "type": "sidequest",
+    "title": "Secundaria #7: El Robo de los 5 Eevees en Isla Canela",
+    "location": "Laboratorio de Canela / Subterráneo Ruta 5",
+    "description": "Hablar con el científico frente a la foto de Fuji en Canela. Localizar al Pokemaníaco Matías en el subterráneo de Ruta 5, derrotarlo y devolver los Eevees.",
+    "requirements": "Llegar a Isla Canela",
+    "bossId": "boss-170",
+    "questId": "quest-8",
+    "pokemonIds": [
+      "5 Eevees Nv. 25"
+    ],
+    "itemIds": [],
+    "missable": false,
+    "missableWarning": null,
+    "difficultyNote": "Sin diferencia documentada."
+  },
+  {
+    "id": "kanto-11",
+    "act": "kanto",
+    "actTitle": "Acto I: Kanto",
+    "order": 11,
+    "type": "story",
+    "title": "Las 8 Medallas de Kanto y la Captura de las Tres Aves",
+    "location": "Gimnasios de Kanto / Central Energía / Islas Espuma",
+    "description": "Derrotar a los Líderes oficiales (Erika, Sabrina, Koga, Brock, Misty, Lt. Surge y Blaine). Capturar a Zapdos en Central Energía, Articuno en Islas Espuma y Moltres en Calle Victoria. Vencer al Admin Jefe Atlas en el Gimnasio de Ciudad Verde.",
+    "requirements": "Rango Ejecutivo",
+    "bossId": "boss-25",
+    "questId": null,
+    "pokemonIds": [
+      "Zapdos",
+      "Articuno",
+      "Moltres",
+      "Nidoking",
+      "Nidoqueen",
+      "Tyranitar"
+    ],
+    "itemIds": [
+      "8 Medallas de Gimnasio",
+      "Acceso a Sala de Ejecutivos"
+    ],
+    "missable": false,
+    "missableWarning": null,
+    "difficultyNote": "Sin diferencia documentada."
+  },
+  {
+    "id": "kanto-12",
+    "act": "kanto",
+    "actTitle": "Acto I: Kanto",
+    "order": 12,
+    "type": "boss",
+    "title": "Meseta Añil: Alto Mando, Campeón Rojo y Emperador Lance",
+    "location": "Meseta Añil (Liga Pokémon de Kanto)",
+    "description": "Derrotar consecutivamente a Lorelei (Nv. 61-63), Bruno (Nv. 62-64), Agatha (Nv. 63-65), Lance (Nv. 64-66), al Campeón Rojo (Nv. 66-68) y coronarse venciendo a Emperador Lance (Nv. 67-70).",
+    "requirements": "8 Medallas de Kanto y Calle Victoria",
+    "bossId": "boss-33",
+    "questId": null,
+    "pokemonIds": [
+      "Dragonite",
+      "Salamence",
+      "Garchomp",
+      "Gyarados",
+      "Aerodactyl",
+      "Charizard"
+    ],
+    "itemIds": [
+      "Título de Campeón",
+      "Registro en Hall de la Fama"
+    ],
+    "missable": false,
+    "missableWarning": null,
+    "difficultyNote": "Sin diferencia documentada."
+  },
+  {
+    "id": "archi7-1",
+    "act": "archi7",
+    "actTitle": "Acto II: Archi7 (Islas Sete)",
+    "order": 1,
+    "type": "story",
+    "title": "Desembarco en Sevii y Encuentro con Zeus",
+    "location": "Isla Inta / Isla Sétima / Cueva Cambiante",
+    "description": "Vencer a Azul en Isla Inta y a Andra en Isla Sétima. Localizar al misterioso Viajero Zeus en Cueva Cambiante de Isla Exta.",
+    "requirements": "Entrar al Hall de la Fama de Kanto",
+    "bossId": "boss-47",
+    "questId": null,
+    "pokemonIds": [
+      "Electivire",
+      "Magnezone",
+      "Ampharos"
+    ],
+    "itemIds": [],
+    "missable": false,
+    "missableWarning": null,
+    "difficultyNote": "Sin diferencia documentada."
+  },
+  {
+    "id": "archi7-2",
+    "act": "archi7",
+    "actTitle": "Acto II: Archi7 (Islas Sete)",
+    "order": 2,
+    "type": "missable",
+    "title": "⚠️ ORDEN ESTRICTO: Los 5 Pasos para no atascarse en Islas Sete",
+    "location": "Islas Prima, Cuarta y Exta",
+    "description": "Seguir la secuencia oficial del creador: 1. Hablar con Zeus en Isla Cuarta. 2. Hablar con Magno en Mt. Ascuas (norte Isla Prima). 3. Hablar con Aquiles al sur del Valle Ruinas (sur Isla Exta). 4. Avisar a Zeus en Cueva Cambiante (norte Isla Exta). 5. Evento interior de Mt. Ascuas.",
+    "requirements": "Llegada a Islas Sete",
+    "bossId": "boss-49",
+    "questId": null,
+    "pokemonIds": [
+      "Camerupt",
+      "Groudon",
+      "Sharpedo",
+      "Kyogre"
+    ],
+    "itemIds": [],
+    "missable": true,
+    "missableWarning": "⚠️ ATASCO POTENCIAL: Si no hablas con los NPCs en este orden exacto, los eventos del interior de Mt. Ascuas y Valle Ruinas permanecerán bloqueados según las FAQs oficiales.",
+    "difficultyNote": "Sin diferencia documentada."
+  },
+  {
+    "id": "archi7-3",
+    "act": "archi7",
+    "actTitle": "Acto II: Archi7 (Islas Sete)",
+    "order": 3,
+    "type": "sidequest",
+    "title": "Secundaria #10: El Científico Oculto y Duraludon",
+    "location": "Cabaña oculta al oeste de Isla Exta",
+    "description": "Surfear hacia la izquierda desde el muelle de Isla Exta. En la cabaña secreta, entregarle el METEORITO único de Phanpy.",
+    "requirements": "Conservar el Meteorito de Phanpy",
+    "bossId": null,
+    "questId": "quest-10",
+    "pokemonIds": [
+      "Duraludon Nv. 50"
+    ],
+    "itemIds": [],
+    "missable": true,
+    "missableWarning": "⚠️ POKÉMON PERDIBLE: Duraludon solo se entrega a cambio del Meteorito del Phanpy de Isla Inta. Si se extravió el objeto, es imposible obtenerlo.",
+    "difficultyNote": "Sin diferencia documentada."
+  },
+  {
+    "id": "archi7-4",
+    "act": "archi7",
+    "actTitle": "Acto II: Archi7 (Islas Sete)",
+    "order": 4,
+    "type": "sidequest",
+    "title": "Secundaria #13: Misión de Atlas y Bomushikaa (Beta 97)",
+    "location": "Isla Inta / Isla Sete",
+    "description": "Hablar con Atlas en Isla Inta tras haber entrado al Hall de la Fama. Resolver la encomienda de la anciana en Isla Sete y reportar a Atlas.",
+    "requirements": "Hall de la Fama de Kanto",
+    "bossId": null,
+    "questId": "quest-13",
+    "pokemonIds": [
+      "Bomushikaa Nv. 60"
+    ],
+    "itemIds": [
+      "300,000 Pokés",
+      "Medalla de Gimnasio Sevii"
+    ],
+    "missable": false,
+    "missableWarning": null,
+    "difficultyNote": "Sin diferencia documentada."
+  },
+  {
+    "id": "archi7-5",
+    "act": "archi7",
+    "actTitle": "Acto II: Archi7 (Islas Sete)",
+    "order": 5,
+    "type": "story",
+    "title": "El Culto Lavanda y Despertar de Lugia en Roca Ombligo",
+    "location": "Culto Pueblo Lavanda / Roca Ombligo",
+    "description": "Acceder al Culto Lavanda hablando con Agatha en Torre Pokémon, examinando su tumba y el mapa en la casa del inspector de motes. Derrotar a Ghost, Cultista 'M' y Laireb. Viajar a Roca Ombligo y capturar a Lugia (Nv. 75).",
+    "requirements": "Eventos de Sevii completados",
+    "bossId": "boss-58",
+    "questId": null,
+    "pokemonIds": [
+      "Lugia Nv. 75",
+      "Ghost Nv. 73"
+    ],
+    "itemIds": [],
+    "missable": false,
+    "missableWarning": null,
+    "difficultyNote": "Sin diferencia documentada."
+  },
+  {
+    "id": "archi7-6",
+    "act": "archi7",
+    "actTitle": "Acto II: Archi7 (Islas Sete)",
+    "order": 6,
+    "type": "story",
+    "title": "El Duelo de Giovanni y la Cara Oculta de Mansión Canela",
+    "location": "Base Rocket Profunda / Mansión Canela Cara Oculta",
+    "description": "Desafiar personalmente a Giovanni en su despacho. Investigar la cara oculta de Mansión Canela venciendo a Dalia, Blaine y al mismísimo Investigador Oak.",
+    "requirements": "Derrotar a Lugia",
+    "bossId": "boss-62",
+    "questId": null,
+    "pokemonIds": [
+      "Tauros-X",
+      "Rhyperior",
+      "Nidoking-X",
+      "Aerodactyl-P"
+    ],
+    "itemIds": [
+      "Autorización a Johto"
+    ],
+    "missable": false,
+    "missableWarning": null,
+    "difficultyNote": "Sin diferencia documentada."
+  },
+  {
+    "id": "johto-1",
+    "act": "johto",
+    "actTitle": "Acto III: Johto",
+    "order": 1,
+    "type": "story",
+    "title": "Invasión a Johto: Malva, Unión y Azalea",
+    "location": "Ciudad Malva / Cueva Unión / Pozo Slowpoke / Azalea",
+    "description": "Vencer al Maestro Torre Bellsprout y a Pegaso (Nv. 76). En Cueva Unión neutralizar al Profesor Elm. En Pozo Slowpoke despachar a Louis y en Azalea batir al Líder César.",
+    "requirements": "Desembarco en Johto",
+    "bossId": "boss-67",
+    "questId": null,
+    "pokemonIds": [
+      "Scizor",
+      "Heracross-Y",
+      "Pinsir-X"
+    ],
+    "itemIds": [
+      "Medalla Céfiro",
+      "Medalla Colmena"
+    ],
+    "missable": false,
+    "missableWarning": null,
+    "difficultyNote": "Sin diferencia documentada."
+  },
+  {
+    "id": "johto-2",
+    "act": "johto",
+    "actTitle": "Acto III: Johto",
+    "order": 2,
+    "type": "sidequest",
+    "title": "Secundaria #15: Fósiles de Ruinas Alfa en Laboratorio Iris",
+    "location": "Ruinas Alfa / Puerta sospechosa junto a Torre Quemada",
+    "description": "Hablar con el científico de sprite único en Ruinas Alfa. Entrar al laboratorio secreto a la derecha de Torre Quemada y derrotarlo.",
+    "requirements": "Llegar a Ciudad Iris",
+    "bossId": "boss-178",
+    "questId": "quest-15",
+    "pokemonIds": [
+      "Tirtouga Nv. 30",
+      "Archen Nv. 35"
+    ],
+    "itemIds": [],
+    "missable": false,
+    "missableWarning": null,
+    "difficultyNote": "Sin diferencia documentada."
+  },
+  {
+    "id": "johto-3",
+    "act": "johto",
+    "actTitle": "Acto III: Johto",
+    "order": 3,
+    "type": "story",
+    "title": "5ta Medalla de Johto & Desbloqueo del P2 de la Base",
+    "location": "Ciudad Olivo / Orquídea / Base Rocket Johto P2",
+    "description": "Derrotar a Valeria en Trigal, las 5 Chicas Kimono en Iris, Crom en Olivo y Aníbal en Orquídea. Al ganar la 5ta Medalla, se desbloquea el P2 de la Base Rocket de Johto.",
+    "requirements": "5 Medallas de Johto",
+    "bossId": "boss-78",
+    "questId": null,
+    "pokemonIds": [
+      "Poliwrath-&",
+      "Machamp",
+      "Primeape"
+    ],
+    "itemIds": [
+      "Acceso al modificador de 31 IVs por 100k",
+      "Venta de Bayas EVs",
+      "Primera Piedra Rocket"
+    ],
+    "missable": false,
+    "missableWarning": "Nota de QoL: En el P2 de la Base Johto puedes volver perfecto (31 IVs en todo) a cualquier Pokémon pagando 100,000 pokés.",
+    "difficultyNote": "Sin diferencia documentada."
+  },
+  {
+    "id": "johto-4",
+    "act": "johto",
+    "actTitle": "Acto III: Johto",
+    "order": 4,
+    "type": "missable",
+    "title": "⚠️ ELECCIÓN DE 2 MILLONES: Almacén de los Estafadores",
+    "location": "Almacén sureste de Ciudad Olivo (tras surfear y atraviesa corrientes)",
+    "description": "Requiere haber vencido a los estafadores en la Mansión de Canela. Al dialogar con ellos en el almacén, te ofrecerán un trato.",
+    "requirements": "Mansión Canela completada",
+    "bossId": "boss-182",
+    "questId": "quest-18",
+    "pokemonIds": [],
+    "itemIds": [
+      "2,000,000 de Pokés",
+      "Charizardita-Y",
+      "MT102 Cuerno Certero"
+    ],
+    "missable": true,
+    "missableWarning": "⚠️ RECOMPENSA PERDIBLE: En el diálogo debes seleccionar 'SÍ'. Si seleccionas 'NO', te quedas sin los 2,000,000 de pokés de recompensa.",
+    "difficultyNote": "Sin diferencia documentada."
+  },
+  {
+    "id": "johto-5",
+    "act": "johto",
+    "actTitle": "Acto III: Johto",
+    "order": 5,
+    "type": "story",
+    "title": "Monte Plateado: Rival Andra y Entrenador Rojo",
+    "location": "Ruta 28 / Monte Plateado",
+    "description": "Enfrentamiento en la falda de la montaña contra Andra (Nv. 86) y combate en la cima profunda contra el legendario Entrenador Rojo (Nv. 88).",
+    "requirements": "Acceso a Monte Plateado",
+    "bossId": "boss-81",
+    "questId": null,
+    "pokemonIds": [
+      "Pikachu",
+      "Charizard",
+      "Venusaur",
+      "Blastoise",
+      "Snorlax",
+      "Lapras"
+    ],
+    "itemIds": [],
+    "missable": false,
+    "missableWarning": null,
+    "difficultyNote": "Sin diferencia documentada."
+  },
+  {
+    "id": "johto-6",
+    "act": "johto",
+    "actTitle": "Acto III: Johto",
+    "order": 6,
+    "type": "boss",
+    "title": "El Gran Despertar: Ruinas Alfa y Dios Laireb",
+    "location": "Cámaras Selladas de Ruinas Alfa",
+    "description": "Vencer a los 5 Guardianes, Unown Áureo (Nv. 94), Ho-Oh Primigenio (Nv. 95), Lugia Primigenio (Nv. 95), Zeus (Nv. 95), Rey Unown (Nv. 95) y al Dios Laireb (Nv. 96).",
+    "requirements": "8 Medallas de Johto y Torre Campana",
+    "bossId": "boss-99",
+    "questId": null,
+    "pokemonIds": [
+      "Ho-Oh-P",
+      "Lugia-P",
+      "Rey Unown",
+      "Dios Laireb"
+    ],
+    "itemIds": [
+      "Conclusión de Johto",
+      "Desbloqueo de Temporada 4 (DLC)"
+    ],
+    "missable": false,
+    "missableWarning": null,
+    "difficultyNote": "Sin diferencia documentada."
+  },
+  {
+    "id": "dlc-1",
+    "act": "dlc",
+    "actTitle": "Acto IV: DLC Johto",
+    "order": 1,
+    "type": "story",
+    "title": "Las 3 Misiones Obligatorias del DLC",
+    "location": "Lago Furia / Vías de Tren / Ruta 47 & Torre Dun",
+    "description": "1. Lago: Batir a Admin Amatista y Akueria (recibir Kurusu del pescador). 2. Vías: Batir a Pegaso y Zapdos-P. 3. Ruta 47: Batir a Eusine, Dragón Sagrado, escalar Torre Dun y ver la escena con Tristana al salir de la casa de Eusine en Orquídea.",
+    "requirements": "Inicio del DLC",
+    "bossId": "boss-111",
+    "questId": null,
+    "pokemonIds": [
+      "Kurusu Nv. 40",
+      "Akueria",
+      "Zapdos-P",
+      "Dragón Sagrado"
+    ],
+    "itemIds": [],
+    "missable": true,
+    "missableWarning": "⚠️ BLOQUEO DE HISTORIA: Para que Giovanni te llame a su despacho y continúe el DLC, debes completar al 100% las 3 misiones y salir de la casa de Eusine para presenciar la escena con Tristana.",
+    "difficultyNote": "Sin diferencia documentada."
+  },
+  {
+    "id": "dlc-2",
+    "act": "dlc",
+    "actTitle": "Acto IV: DLC Johto",
+    "order": 2,
+    "type": "sidequest",
+    "title": "Secundaria #24: La Leyenda de Poipole en Ruta 50",
+    "location": "Ruta 50 (Cabaña noroeste)",
+    "description": "Hablar con la anciana en la cabaña noroeste de la Ruta 50 para escuchar la leyenda y recibir a Poipole.",
+    "requirements": "Acceso a Ruta 50 del DLC",
+    "bossId": null,
+    "questId": "quest-24",
+    "pokemonIds": [
+      "Poipole Nv. 50"
+    ],
+    "itemIds": [],
+    "missable": false,
+    "missableWarning": null,
+    "difficultyNote": "Sin diferencia documentada."
+  },
+  {
+    "id": "dlc-3",
+    "act": "dlc",
+    "actTitle": "Acto IV: DLC Johto",
+    "order": 3,
+    "type": "sidequest",
+    "title": "Secundaria #25: Agatha y el Regalo de Calyrex",
+    "location": "Bosque secreto en Vías del Tren",
+    "description": "Tras derrotar a Zapdos Primigenio y a Atlas en las vías del tren, explorar la cabaña del bosque secreto para recibir a Calyrex de Agatha.",
+    "requirements": "Zapdos-P y Atlas vencidos en las vías",
+    "bossId": null,
+    "questId": "quest-25",
+    "pokemonIds": [
+      "Calyrex Nv. 70"
+    ],
+    "itemIds": [
+      "Riendas Unión (casa oculta al oeste de C. Cerezo)"
+    ],
+    "missable": false,
+    "missableWarning": null,
+    "difficultyNote": "Sin diferencia documentada."
+  },
+  {
+    "id": "dlc-4",
+    "act": "dlc",
+    "actTitle": "Acto IV: DLC Johto",
+    "order": 4,
+    "type": "story",
+    "title": "Asedio a los 9 Pisos de la Torre Radio Lavanda",
+    "location": "Torre Radio Lavanda (Pueblo Lavanda)",
+    "description": "Infiltración piso por piso batiendo a Bill, Científico Miguel, Mewtwo Armadura (Nv. 104) y al Líder Giovanni (Nv. 105).",
+    "requirements": "Misión 9 del DLC",
+    "bossId": "boss-136",
+    "questId": null,
+    "pokemonIds": [
+      "Mewtwo Armadura",
+      "Ultimate Project",
+      "Nidoqueen-Y",
+      "Rhyperior-&"
+    ],
+    "itemIds": [
+      "Apertura de Tiendas del Piso 9: Piedras Rocket (2.5M), Master Balls (300k), Mentas (20k)"
+    ],
+    "missable": false,
+    "missableWarning": null,
+    "difficultyNote": "Sin diferencia documentada."
+  },
+  {
+    "id": "hoenn-1",
+    "act": "hoenn",
+    "actTitle": "Acto V: Hoenn & Combate Final",
+    "order": 1,
+    "type": "boss",
+    "title": "Despertar Primigenio: Monte Cenizo & Fosa Abisal",
+    "location": "Monte Cenizo / Fosa Abisal",
+    "description": "Vencer a Groudon Primigenio (Nv. 120), Candela (Nv. 105) y más adelante en Fosa Abisal someter a Kyogre Primigenio (Nv. 120).",
+    "requirements": "Llegada a Hoenn",
+    "bossId": "boss-137",
+    "questId": null,
+    "pokemonIds": [
+      "Groudon Primigenio",
+      "Kyogre Primigenio"
+    ],
+    "itemIds": [
+      "Venta de Supercaramelos (85-95) en Base Hoenn"
+    ],
+    "missable": false,
+    "missableWarning": null,
+    "difficultyNote": "Sin diferencia documentada."
+  },
+  {
+    "id": "hoenn-2",
+    "act": "hoenn",
+    "actTitle": "Acto V: Hoenn & Combate Final",
+    "order": 2,
+    "type": "story",
+    "title": "La Batalla Total de la Cámara Sellada",
+    "location": "Cámara Sellada (Hoenn)",
+    "description": "Desmantelar la alianza Devon: Admin Rubí, As del Frente Valente, combates dobles extremos contra Zafiro y Esmeralda, Miguel y Rasmus, Admin Amatista y la Cronista Tristana (Nv. 112).",
+    "requirements": "Misión 9 de Hoenn",
+    "bossId": "boss-156",
+    "questId": null,
+    "pokemonIds": [
+      "Mega Salamence",
+      "Rayquaza",
+      "Regigigas"
+    ],
+    "itemIds": [
+      "Desbloqueo de Simuladores VR de Oak"
+    ],
+    "missable": false,
+    "missableWarning": null,
+    "difficultyNote": "Sin diferencia documentada."
+  },
+  {
+    "id": "hoenn-3",
+    "act": "hoenn",
+    "actTitle": "Acto V: Hoenn & Combate Final",
+    "order": 3,
+    "type": "boss",
+    "title": "Simuladores VR y el COMBATE FINAL SUPREMO",
+    "location": "Pueblo Pallet (Laboratorio Secreto de Oak)",
+    "description": "Superar los Simuladores VR Niveles 7 a 10, combate doble contra Eusine y Bill, Simulador Nivel Imposible, y el CLÍMAX DEFINITIVO: VS INVESTIGADOR OAK Y JEFE ROCKET GIOVANNI (Combate Doble Nv. 120+ con Arceus Primigenio, Ultimate Project y legendarios vínculo).",
+    "requirements": "Completar la Cámara Sellada",
+    "bossId": "boss-164",
+    "questId": null,
+    "pokemonIds": [
+      "Arceus Primigenio (BST 900)",
+      "Ultimate Project (BST 830)",
+      "Dragonite-&",
+      "Rhyperior-&"
+    ],
+    "itemIds": [
+      "100% de la historia completada",
+      "Título de Leyenda Suprema del Team Rocket"
+    ],
+    "missable": false,
+    "missableWarning": null,
+    "difficultyNote": "Sin diferencia documentada."
+  }
+]

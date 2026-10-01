@@ -1,0 +1,801 @@
+[
+  {
+    "name": "GUILLOTINA",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    }
+  },
+  {
+    "name": "Oficial (Tipo normal):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "siniestro",
+      "power": "170",
+      "accuracy": "90",
+      "effect": "Inmoviliza un turno",
+      "pp": "5"
+    }
+  },
+  {
+    "name": "Oficial (Tipo normal):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "normal",
+      "power": "130",
+      "accuracy": "100",
+      "effect": "Un turno de carga",
+      "pp": "10"
+    }
+  },
+  {
+    "name": "Oficial (Tipo normal):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "bicho",
+      "power": "65",
+      "accuracy": "95",
+      "effect": "50% de bajar un nivel la Defensa",
+      "pp": "30"
+    }
+  },
+  {
+    "name": "Oficial (Tipo volador):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "volador",
+      "power": "90",
+      "accuracy": "95",
+      "effect": "No (Se ejecuta en un solo turno)",
+      "pp": "15"
+    }
+  },
+  {
+    "name": "Oficial (Tipo normal):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "normal",
+      "power": "150",
+      "accuracy": "90",
+      "effect": "50% daño de retroceso",
+      "pp": "5"
+    }
+  },
+  {
+    "name": "Oficial (Tipo bicho):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "bicho",
+      "power": "40",
+      "accuracy": "100",
+      "effect": "Golpea dos veces | 20% de envenenar",
+      "pp": "20"
+    }
+  },
+  {
+    "name": "Oficial (Tipo normal):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "normal",
+      "power": "160",
+      "accuracy": "90",
+      "effect": "Un turno inmovilizado",
+      "pp": "5"
+    }
+  },
+  {
+    "name": "Oficial (Tipo normal):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "roca",
+      "power": "85",
+      "accuracy": "85",
+      "effect": "No",
+      "pp": "15"
+    }
+  },
+  {
+    "name": "Oficial (Tipo planta):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "planta",
+      "power": "30",
+      "accuracy": "100",
+      "effect": "Recupera el 50% del daño causado",
+      "pp": "25"
+    }
+  },
+  {
+    "name": "Oficial (Tipo planta):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "planta",
+      "power": "50",
+      "accuracy": "100",
+      "effect": "Recupera el 50% del daño causado",
+      "pp": "15"
+    }
+  },
+  {
+    "name": "Oficial (Tipo dragón):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "dragón",
+      "power": "70",
+      "accuracy": "100",
+      "effect": "20% de causar retroceso",
+      "pp": "25"
+    }
+  },
+  {
+    "name": "Oficial (Tipo tierra):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "tierra",
+      "power": "130",
+      "accuracy": "90",
+      "effect": "Baja un nivel At y Def del usuario",
+      "pp": "5"
+    }
+  },
+  {
+    "name": "Oficial (Tipo normal):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "normal",
+      "power": "75",
+      "accuracy": "Nunca falla",
+      "effect": "No",
+      "pp": "20"
+    }
+  },
+  {
+    "name": "Oficial (Tipo normal):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "eléctrico",
+      "power": "50",
+      "accuracy": "100",
+      "effect": "Recupera el 75% del daño causado",
+      "pp": "20"
+    }
+  },
+  {
+    "name": "Oficial (Tipo normal):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "normal",
+      "power": "90",
+      "accuracy": "100",
+      "effect": "20% de quemar, congelar o paralizar",
+      "pp": "10"
+    }
+  },
+  {
+    "name": "Oficial (Tipo volador):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "volador",
+      "power": "115",
+      "accuracy": "90",
+      "effect": "+1 índice crítico",
+      "pp": "10"
+    }
+  },
+  {
+    "name": "Oficial (Tipo tierra):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "tierra",
+      "power": "30 (físico)",
+      "accuracy": "100",
+      "effect": "100% bajar precisión rival",
+      "pp": "10"
+    }
+  },
+  {
+    "name": "Oficial (Tipo agua):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "agua",
+      "power": "100",
+      "accuracy": "100",
+      "effect": "50% reducir precisión | Categoría pulso",
+      "pp": "10"
+    }
+  },
+  {
+    "name": "Oficial (Tipo roca):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "roca",
+      "power": "75",
+      "accuracy": "100",
+      "effect": "10% subir todas las estadísticas",
+      "pp": "5"
+    }
+  },
+  {
+    "name": "Oficial (Tipo lucha):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "lucha",
+      "power": "65",
+      "accuracy": "95",
+      "effect": "50% bajar un nivel la defensa rival",
+      "pp": "15"
+    }
+  },
+  {
+    "name": "Oficial (Tipo agua):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "agua",
+      "power": "110 (especial)",
+      "accuracy": "100",
+      "effect": "Ataque en dos turnos",
+      "pp": "5"
+    }
+  },
+  {
+    "name": "Oficial (Tipo fuego):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "fuego",
+      "power": "105",
+      "accuracy": "95",
+      "effect": "No",
+      "pp": "10"
+    }
+  },
+  {
+    "name": "Oficial (Tipo agua):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "agua",
+      "power": "105",
+      "accuracy": "95",
+      "effect": "No",
+      "pp": "10"
+    }
+  },
+  {
+    "name": "Oficial (Tipo planta):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "planta",
+      "power": "105",
+      "accuracy": "95",
+      "effect": "No",
+      "pp": "10"
+    }
+  },
+  {
+    "name": "Oficial (Tipo bicho):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "bicho",
+      "power": "75",
+      "accuracy": "100",
+      "effect": "10% subir todas las estadísticas",
+      "pp": "5"
+    }
+  },
+  {
+    "name": "Oficial (Tipo hielo):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "hielo",
+      "power": "130",
+      "accuracy": "90",
+      "effect": "Baja un nivel ambas defensas",
+      "pp": "5"
+    }
+  },
+  {
+    "name": "Oficial (Tipo volador):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "volador",
+      "power": "75",
+      "accuracy": "Nunca falla",
+      "effect": "No",
+      "pp": "20"
+    }
+  },
+  {
+    "name": "Oficial (Tipo veneno):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "veneno",
+      "power": "90",
+      "accuracy": "100",
+      "effect": "10% envenenar",
+      "pp": "25"
+    }
+  },
+  {
+    "name": "Oficial (Tipo planta):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "planta",
+      "power": "75",
+      "accuracy": "Nunca falla",
+      "effect": "No",
+      "pp": "20"
+    }
+  },
+  {
+    "name": "Oficial (Tipo eléctrico):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "eléctrico",
+      "power": "75",
+      "accuracy": "Nunca falla",
+      "effect": "No",
+      "pp": "20"
+    }
+  },
+  {
+    "name": "Oficial (Tipo agua):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "agua",
+      "power": "75",
+      "accuracy": "100",
+      "effect": "20% de confundir",
+      "pp": "20"
+    }
+  },
+  {
+    "name": "Oficial (Tipo normal):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "normal",
+      "power": "170",
+      "accuracy": "90",
+      "effect": "Inmoviliza un turno",
+      "pp": "5"
+    }
+  },
+  {
+    "name": "Oficial (Tipo roca):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "roca",
+      "power": "165",
+      "accuracy": "90",
+      "effect": "Inmoviliza un turno",
+      "pp": "5"
+    }
+  },
+  {
+    "name": "Oficial (Tipo dragón):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "dragón",
+      "power": "180",
+      "accuracy": "95",
+      "effect": "Baja Velocidad, defensa y def.esp",
+      "pp": "5"
+    }
+  },
+  {
+    "name": "Oficial (Tipo dragón):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "dragón",
+      "power": "115",
+      "accuracy": "90",
+      "effect": "+1 índice crítico",
+      "pp": "10"
+    }
+  },
+  {
+    "name": "Oficial (Tipo fantasma):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "fantasma",
+      "power": "75",
+      "accuracy": "100",
+      "effect": "10% subir todas las estadísticas",
+      "pp": "5"
+    }
+  },
+  {
+    "name": "Oficial (Tipo normal):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "normal",
+      "power": "130",
+      "accuracy": "100",
+      "effect": "25% daño retroceso",
+      "pp": "15"
+    }
+  },
+  {
+    "name": "Oficial (Tipo hielo):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "hielo",
+      "power": "130",
+      "accuracy": "90",
+      "effect": "33% daño retroceso | 10% paralizar",
+      "pp": "10"
+    }
+  },
+  {
+    "name": "Oficial (Tipo hielo):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "hielo",
+      "power": "130",
+      "accuracy": "90",
+      "effect": "33% daño retroceso | 10% quemar",
+      "pp": "10"
+    }
+  },
+  {
+    "name": "Oficial (Tipo hada):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "hada",
+      "power": "140",
+      "accuracy": "90",
+      "effect": "33% daño retroceso",
+      "pp": "10"
+    }
+  },
+  {
+    "name": "Oficial (Tipo agua):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "agua",
+      "power": "120",
+      "accuracy": "85",
+      "effect": "x1,5 con Megadisparador",
+      "pp": "10"
+    }
+  },
+  {
+    "name": "Oficial (Tipo acero):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "acero",
+      "power": "75",
+      "accuracy": "Nunca falla",
+      "effect": "No",
+      "pp": "10"
+    }
+  },
+  {
+    "name": "Oficial (Tipo psíquico):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "psíquico",
+      "power": "175",
+      "accuracy": "100",
+      "effect": "Inmoviliza un turno",
+      "pp": "10"
+    }
+  },
+  {
+    "name": "Oficial (Tipo dragón):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "dragón",
+      "power": "150",
+      "accuracy": "90",
+      "effect": "50% daño de retroceso",
+      "pp": "10"
+    }
+  },
+  {
+    "name": "Oficial (Tipo acero):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "acero",
+      "power": "140",
+      "accuracy": "95",
+      "effect": "50% daño de retroceso",
+      "pp": "10"
+    }
+  },
+  {
+    "name": "Oficial (Tipo volador):",
+    "official": {
+      "type": "No especificado",
+      "power": "-",
+      "accuracy": "-",
+      "effect": "-",
+      "pp": "-"
+    },
+    "hackrom": {
+      "type": "volador",
+      "power": "50",
+      "accuracy": "90",
+      "effect": "Golpea dos veces",
+      "pp": "10"
+    }
+  }
+]

@@ -1,0 +1,1234 @@
+[
+  {
+    "name": "VENUSAUR",
+    "official": "Ps 80, At 82, Def 83, At.esp 100, Def.esp 100, Velocid 80. Total 525",
+    "hackrom": "Ps 90, At 85, Def 93, At.esp 110, Def.esp 110, Velocid 60. Total 548",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "MEGA VENUSAUR",
+    "official": "Ps 80, At 100, Def 123, At.esp 122, Def.esp 120, Velocid 80. Total 625",
+    "hackrom": "Ps 90, At 100, Def 123, At.esp 123, Def.esp 132, Velocid 80. Total 648",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "CHARIZARD",
+    "official": "Ps 78, At 84, Def 78, At.esp 109, Def.esp 85, Velocid 100. Total 534",
+    "hackrom": "Ps 78, At 84, Def 78, At.esp 114, Def.esp 95, Velocid 100. Total 549",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "MEGA CHARIZARD Y",
+    "official": "Ps 78, At 104, Def 78, At.esp 159, Def.esp 115, Velocid 100. Total 634",
+    "hackrom": "Ps 78, At 104, Def 83, At.esp 159, Def.esp 115, Velocid 110. Total 649",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "MEGA CHARIZARD X",
+    "official": "Ps 78, At 130, Def 111, At.esp 130, Def.esp 85, Velocid 100. Total 634",
+    "hackrom": "Ps 78, At 135, Def 111, At.esp 130, Def.esp 95, Velocid 100. Total 649",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "BLASTOISE",
+    "official": "Ps 79, At 83, Def 100, At.esp 85, Def.esp 105, Velocid 78. Total 530",
+    "hackrom": "Ps 99, At 83, Def 120, At.esp 85, Def.esp 105, Velocid 58. Total 550",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "MEGA BLASTOISE",
+    "official": "Ps 79, At 103, Def 120, At.esp 135, Def.esp 115, Velocid 78. Total 630",
+    "hackrom": "Ps 99, At 93, Def 130, At.esp 135, Def.esp 125, Velocid 68. Total 650",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "FEAROW",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": "Adaptable",
+    "notes": null
+  },
+  {
+    "name": "ARBOK",
+    "official": "Ps 60, At 95, Def 69, At.esp 65, Def.esp 79, Velocid 80. Total 448",
+    "hackrom": "Ps 60, At 105, Def 69, At.esp 75, Def.esp 109, Velocid 90. Total 508",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "NIDOQUEEN",
+    "official": "Ps 90, At 92, Def 87, At.esp 75, Def.esp 85, Velocid 76. Total 505",
+    "hackrom": "Ps 100, At 92, Def 92, At.esp 80, Def.esp 90, Velocid 76. Total 530",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "NIDOKING",
+    "official": "Ps 81, At 102, Def 77, At.esp 85, Def.esp 75, Velocid 85. Total 505",
+    "hackrom": "Ps 91, At 102, Def 77, At.esp 90, Def.esp 75, Velocid 95. Total 530",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "MACHAMP",
+    "official": "Ps 90, At 130, Def 80, At.esp 65, Def.esp 85, Velocid 55. Total 505",
+    "hackrom": "Ps 100, At 136, Def 110, At.esp 65, Def.esp 85, Velocid 55. Total 551",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "DEWGONG",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "Habilidades: Sebo/Escama de Hielo/Cuerpo de Hielo",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "GENGAR",
+    "official": "Ps 60, At 65, Def 60, At.esp 130, Def.esp 75, Velocid 110. Total 500",
+    "hackrom": "Ps 70, At 75, Def 60, At.esp 140, Def.esp 97, Velocid 110. Total 552",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "MEGA GENGAR",
+    "official": "Ps 60, At 65, Def 80, At.esp 170, Def.esp 95, Velocid 130. Total 600",
+    "hackrom": "Ps 70, At 75, Def 90, At.esp 170, Def.esp 117, Velocid 130. Total 652",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "HITMONLEE",
+    "official": "Ps 50, At 120, Def 53, At.esp 35, Def.esp 110, Velocid 87. Total 455",
+    "hackrom": "Ps 60, At 120, Def 73, At.esp 35, Def.esp 110, Velocid 87. Total 485",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "HITMONCHAN",
+    "official": "Ps 50, At 105, Def 79, At.esp 35, Def.esp 110, Velocid 76. Total 455",
+    "hackrom": "Ps 60, At 105, Def 99, At.esp 35, Def.esp 110, Velocid 76. Total 485",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "WEEZING",
+    "official": "Ps 65, At 90, Def 120, At.esp 85, Def.esp 70, Velocid 60. Total 490",
+    "hackrom": "Ps 65, At 90, Def 130, At.esp 95, Def.esp 80, Velocid 60. Total 520",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "WEEZING-GALAR",
+    "official": "Ps 65, At 90, Def 120, At.esp 85, Def.esp 70, Velocid 60. Total 490",
+    "hackrom": "Ps 65, At 90, Def 110, At.esp 95, Def.esp 100, Velocid 60. Total 520",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "JYNX",
+    "official": "Ps 65, At 50, Def 35, At.esp 115, Def.esp 95, Velocid 95. Total 455",
+    "hackrom": "Ps 75, At 50, Def 45, At.esp 115, Def.esp 105, Velocid 95. Total 485",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "Habilidades: Despiste/Espejomágico/Piel Seca",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "GYARADOS",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "Tipo Oficial: Agua/Volador",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "Tipo Hackrom: Agua/Dragón",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "LAPRAS",
+    "official": "Ps 130, At 85, Def 85, At.esp 85, Def.esp 95, Velocid 60. Total 535",
+    "hackrom": "Ps 140, At 85, Def 80, At.esp 95, Def.esp 105, Velocid 45. Total 550",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "ARTICUNO",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": "Indefenso",
+    "notes": null
+  },
+  {
+    "name": "ZAPDOS",
+    "official": "Ps 90, At 90, Def 85, At.esp 125, Def.esp 90, Velocid 100. Total 580",
+    "hackrom": "Ps 90, At 85, Def 90, At.esp 125, Def.esp 90, Velocid 100. Total 580",
+    "type": null,
+    "ability": "Descarga",
+    "notes": null
+  },
+  {
+    "name": "MOLTRES",
+    "official": "Ps 90, At 100, Def 90, At.esp 125, Def.esp 85, Velocid 90. Total 580",
+    "hackrom": "Ps 90, At 85, Def 90, At.esp 125, Def.esp 100, Velocid 90. Total 580",
+    "type": null,
+    "ability": "Potencia Bruta",
+    "notes": null
+  },
+  {
+    "name": "MEWTWO",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": "Muro Mágico",
+    "notes": null
+  },
+  {
+    "name": "MEW",
+    "official": "Ps 100, At 100, Def 100, At.esp 100, Def.esp 100, Velocid 100. Total 600",
+    "hackrom": "Ps 100, At 50, Def 100, At.esp 125, Def.esp 125, Velocid 100. Total 600",
+    "type": null,
+    "ability": "Muro Mágico",
+    "notes": null
+  },
+  {
+    "name": "MEGANIUM",
+    "official": "Ps 80, At 82, Def 100, At.esp 83, Def.esp 100, Velocid 80. Total 525",
+    "hackrom": "Ps 90, At 82, Def 112, At.esp 83, Def.esp 116, Velocid 50. Total 533",
+    "type": null,
+    "ability": "Herbogénesis",
+    "notes": null
+  },
+  {
+    "name": "TYPHLOSION",
+    "official": "Ps 78, At 84, Def 78, At.esp 109, Def.esp 85, Velocid 100. Total 534",
+    "hackrom": "Ps 78, At 69, Def 78, At.esp 119, Def.esp 90, Velocid 100. Total 534",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "Tipo Oficial: Fuego",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "Tipo Hackrom: Fuego/Tierra",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "FERALIGATR",
+    "official": "Ps 85, At 105, Def 100, At.esp 79, Def.esp 83, Velocid 78. Total 530",
+    "hackrom": "Ps 95, At 115, Def 100, At.esp 64, Def.esp 83, Velocid 78. Total 535",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "FURRET",
+    "official": "Ps 85, At 76, Def 64, At.esp 45, Def.esp 55, Velocid 90. Total 415",
+    "hackrom": "Ps 85, At 90, Def 70, At.esp 35, Def.esp 70, Velocid 100. Total 450",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "NOCTOWL",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "Tipo Oficial: Normal/Volador",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "Tipo Hackrom: Psíquico/Volador",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "LEDIAN",
+    "official": "Ps 55, At 35, Def 50, At.esp 55, Def.esp 110, Velocid 85. Total 390",
+    "hackrom": "Ps 55, At 45, Def 50, At.esp 55, Def.esp 110, Velocid 95. Total 410",
+    "type": null,
+    "ability": "Potencia",
+    "notes": null
+  },
+  {
+    "name": "ARIADOS",
+    "official": "Ps 70, At 90, Def 70, At.esp 60, Def.esp 70, Velocid 40. Total 400",
+    "hackrom": "Ps 70, At 100, Def 70, At.esp 35, Def.esp 70, Velocid 75. Total 420",
+    "type": null,
+    "ability": "Adaptable",
+    "notes": null
+  },
+  {
+    "name": "JUMPLUFF",
+    "official": "Ps 75, At 55, Def 70, At.esp 55, Def.esp 95, Velocid 110. Total 460",
+    "hackrom": "Ps 75, At 55, Def 70, At.esp 95, Def.esp 95, Velocid 110. Total 500",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "SUNFLORA",
+    "official": "Ps 75, At 75, Def 55, At.esp 105, Def.esp 85, Velocid 30. Total 425",
+    "hackrom": "Ps 75, At 55, Def 75, At.esp 125, Def.esp 115, Velocid 30. Total 475",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "Habilidades: Poder Solar/Absorber Fuego/Madrugar",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "Tipo Oficial: Planta",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "Tipo Hackrom: Planta/Fuego",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "SCIZOR",
+    "official": "Ps 70, At 130, Def 100, At.esp 55, Def.esp 80, Velocid 65. Total 500",
+    "hackrom": "Ps 80, At 130, Def 100, At.esp 55, Def.esp 90, Velocid 75. Total 530",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "MEGA SCIZOR",
+    "official": "Ps 70, At 150, Def 140, At.esp 65, Def.esp 100, Velocid 75. Total 600",
+    "hackrom": "Ps 80, At 155, Def 145, At.esp 65, Def.esp 100, Velocid 85. Total 630",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "URSARING",
+    "official": "Ps 90, At 130, Def 75, At.esp 75, Def.esp 75, Velocid 55. Total 500",
+    "hackrom": "Ps 110, At 130, Def 75, At.esp 50, Def.esp 75, Velocid 70. Total 510",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "MAGCARGO",
+    "official": "Ps 60, At 50, Def 120, At.esp 90, Def.esp 80, Velocid 30. Total 430",
+    "hackrom": "Ps 90, At 50, Def 120, At.esp 90, Def.esp 110, Velocid 30. Total 490",
+    "type": null,
+    "ability": "Roca Sólida",
+    "notes": null
+  },
+  {
+    "name": "HOUNDOOM",
+    "official": "Ps 75, At 90, Def 50, At.esp 110, Def.esp 80, Velocid 95. Total 500",
+    "hackrom": "Ps 85, At 80, Def 60, At.esp 110, Def.esp 80, Velocid 95. Total 510",
+    "type": null,
+    "ability": "Potencia Bruta",
+    "notes": null
+  },
+  {
+    "name": "MEGA HOUNDOOM",
+    "official": "Ps 75, At 90, Def 90, At.esp 140, Def.esp 90, Velocid 115. Total 600",
+    "hackrom": "Ps 85, At 80, Def 90, At.esp 145, Def.esp 95, Velocid 115. Total 610",
+    "type": null,
+    "ability": "Potencia Bruta",
+    "notes": null
+  },
+  {
+    "name": "KINGDRA",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": "Adaptable",
+    "notes": null
+  },
+  {
+    "name": "DONPHAN",
+    "official": "Ps 90, At 120, Def 120, At.esp 60, Def.esp 60, Velocid 50. Total 500",
+    "hackrom": "Ps 90, At 120, Def 120, At.esp 40, Def.esp 60, Velocid 70. Total 500",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "HITMONTOP",
+    "official": "Ps 50, At 95, Def 95, At.esp 35, Def.esp 110, Velocid 70. Total 455",
+    "hackrom": "Ps 60, At 95, Def 115, At.esp 35, Def.esp 110, Velocid 70. Total 485",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "RAIKOU",
+    "official": "Ps 90, At 85, Def 75, At.esp 115, Def.esp 100, Velocid 115. Total 580",
+    "hackrom": "Ps 90, At 75, Def 85, At.esp 115, Def.esp 100, Velocid 115. Total 580",
+    "type": null,
+    "ability": "Potencia Bruta",
+    "notes": null
+  },
+  {
+    "name": "ENTEI",
+    "official": "Ps 115, At 115, Def 85, At.esp 90, Def.esp 75, Velocid 100. Total 580",
+    "hackrom": "Ps 115, At 115, Def 85, At.esp 75, Def.esp 90, Velocid 100. Total 580",
+    "type": null,
+    "ability": "Cabeza Roca",
+    "notes": null
+  },
+  {
+    "name": "SUICUNE",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": "Muro Mágico",
+    "notes": null
+  },
+  {
+    "name": "CELEBI",
+    "official": "Ps 100, At 100, Def 100, At.esp 100, Def.esp 100, Velocid 100. Total 600",
+    "hackrom": "Ps 110, At 50, Def 110, At.esp 110, Def.esp 110, Velocid 110. Total 600",
+    "type": null,
+    "ability": "Herbogénesis",
+    "notes": null
+  },
+  {
+    "name": "MEGA GARDEVOIR",
+    "official": "Ps 68, At 85, Def 65, At.esp 165, Def.esp 135, Velocid 100. Total 618",
+    "hackrom": "Ps 68, At 65, Def 85, At.esp 165, Def.esp 135, Velocid 100. Total 618",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "SHARPEDO",
+    "official": "Ps 70, At 120, Def 40, At.esp 95, Def.esp 40, Velocid 95. Total 460",
+    "hackrom": "Ps 70, At 140, Def 70, At.esp 75, Def.esp 70, Velocid 115. Total 540",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "MEGA SHARPEDO",
+    "official": "Ps 70, At 140, Def 70, At.esp 110, Def.esp 65, Velocid 115. Total 560",
+    "hackrom": "Ps 70, At 155, Def 90, At.esp 110, Def.esp 90, Velocid 125. Total 640",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "WAILORD",
+    "official": "Ps 170, At 90, Def 45, At.esp 90, Def.esp 45, Velocid 60. Total 500",
+    "hackrom": "Ps 170, At 90, Def 90, At.esp 90, Def.esp 90, Velocid 20. Total 550",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "CAMERUPT",
+    "official": "Ps 70, At 100, Def 70, At.esp 105, Def.esp 75, Velocid 40. Total 460",
+    "hackrom": "Ps 70, At 100, Def 100, At.esp 145, Def.esp 105, Velocid 20. Total 540",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "Habilidades: Potencia Bruta/Roca Sólida",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "MEGA CAMERUPT",
+    "official": "Ps 70, At 120, Def 100, At.esp 145, Def.esp 105, Velocid 20. Total 560",
+    "hackrom": "Ps 70, At 120, Def 140, At.esp 175, Def.esp 125, Velocid 10. Total 640",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "TORKOAL",
+    "official": "Ps 70, At 85, Def 140, At.esp 85, Def.esp 70, Velocid 20. Total 470",
+    "hackrom": "Ps 70, At 75, Def 140, At.esp 85, Def.esp 100, Velocid 10. Total 480",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "FLYGON",
+    "official": "Ps 80, At 100, Def 80, At.esp 80, Def.esp 80, Velocid 100. Total 520",
+    "hackrom": "Ps 80, At 100, Def 80, At.esp 100, Def.esp 80, Velocid 110. Total 550",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "ALTARIA",
+    "official": "Ps 75, At 70, Def 90, At.esp 70, Def.esp 105, Velocid 80. Total 490",
+    "hackrom": "Ps 75, At 80, Def 90, At.esp 80, Def.esp 130, Velocid 85. Total 540",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "MEGA ALTARIA",
+    "official": "Ps 75, At 110, Def 110, At.esp 110, Def.esp 105, Velocid 80. Total 590",
+    "hackrom": "Ps 75, At 115, Def 115, At.esp 115, Def.esp 135, Velocid 85. Total 640",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "LUNATONE",
+    "official": "Ps 90, At 55, Def 65, At.esp 95, Def.esp 85, Velocid 70. Total 460",
+    "hackrom": "Ps 100, At 55, Def 95, At.esp 105, Def.esp 95, Velocid 70. Total 510",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "SOLROCK",
+    "official": "Ps 90, At 95, Def 85, At.esp 55, Def.esp 65, Velocid 70. Total 460",
+    "hackrom": "Ps 100, At 105, Def 95, At.esp 55, Def.esp 95, Velocid 70. Total 510",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "MILOTIC",
+    "official": "Ps 95, At 60, Def 79, At.esp 100, Def.esp 125, Velocid 81. Total 540",
+    "hackrom": "Ps 105, At 60, Def 79, At.esp 110, Def.esp 135, Velocid 81. Total 570",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "Tipo Oficial: Agua",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "Tipo Hackrom: Agua/Hada",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "CASTFORM",
+    "official": "Ps 70, At 70, Def 70, At.esp 70, Def.esp 70, Velocid 70. Total 420",
+    "hackrom": "Ps 95, At 105, Def 70, At.esp 105, Def.esp 70, Velocid 105. Total 550",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "TROPIUS",
+    "official": "Ps 99, At 68, Def 83, At.esp 72, Def.esp 87, Velocid 51. Total 460",
+    "hackrom": "Ps 109, At 78, Def 93, At.esp 82, Def.esp 97, Velocid 61. Total 540",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "Tipo Oficial: Planta/Volador",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "Tipo Hackrom: Planta/Dragón",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "Habilidades: Respondón/Adaptable/Poder Solar",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "ABSOL",
+    "official": "Ps 65, At 130, Def 60, At.esp 75, Def.esp 60, Velocid 75. Total 465",
+    "hackrom": "Ps 65, At 130, Def 70, At.esp 95, Def.esp 70, Velocid 115. Total 545",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "MEGA ABSOL",
+    "official": "Ps 65, At 150, Def 60, At.esp 115, Def.esp 60, Velocid 115. Total 565",
+    "hackrom": "Ps 65, At 150, Def 90, At.esp 135, Def.esp 90, Velocid 115. Total 645",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "MEGA GLALIE",
+    "official": "Ps 80, At 120, Def 80, At.esp 120, Def.esp 80, Velocid 100. Total 580",
+    "hackrom": "Ps 80, At 130, Def 90, At.esp 80, Def.esp 90, Velocid 110. Total 580",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "Tipo Oficial: Hielo",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "Tipo Hackrom: Hielo/Fantasma",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "REGIROCK",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": "Adaptable",
+    "notes": null
+  },
+  {
+    "name": "REGICE",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": "Adaptable",
+    "notes": null
+  },
+  {
+    "name": "REGISTEEL",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": "Adaptable",
+    "notes": null
+  },
+  {
+    "name": "MEGA LATIOS",
+    "official": "Ps 80, At 130, Def 100, At.esp 160, Def.esp 120, Velocid 110. Total 700",
+    "hackrom": "Ps 80, At 100, Def 110, At.esp 160, Def.esp 130, Velocid 120. Total 700",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "JIRACHI",
+    "official": "Ps 100, At 100, Def 100, At.esp 100, Def.esp 100, Velocid 100. Total 600",
+    "hackrom": "Ps 100, At 50, Def 125, At.esp 110, Def.esp 125, Velocid 90. Total 600",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "TORTERRA",
+    "official": "Ps 95, At 109, Def 105, At.esp 75, Def.esp 85, Velocid 56. Total 525",
+    "hackrom": "Ps 105, At 119, Def 115, At.esp 65, Def.esp 85, Velocid 46. Total 535",
+    "type": null,
+    "ability": "Audaz",
+    "notes": null
+  },
+  {
+    "name": "INFERNAPE",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "+ 1 PS - TOTAL 535",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "EMPOLEON",
+    "official": "Ps 84, At 86, Def 88, At.esp 111, Def.esp 101, Velocid 60. Total 530",
+    "hackrom": "Ps 84, At 76, Def 103, At.esp 111, Def.esp 101, Velocid 60. Total 535",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "LUXRAY",
+    "official": "Ps 80, At 120, Def 79, At.esp 95, Def.esp 79, Velocid 70. Total 523",
+    "hackrom": "Ps 80, At 120, Def 79, At.esp 95, Def.esp 79, Velocid 90. Total 543",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "Tipo Oficial: Eléctrico",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "Tipo Hackrom: Eléctrico/Siniestro",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "BASTIODON",
+    "official": "Ps 60, At 52, Def 168, At.esp 47, Def.esp 138, Velocid 30. Total 495",
+    "hackrom": "Ps 70, At 62, Def 168, At.esp 27, Def.esp 148, Velocid 20. Total 495",
+    "type": null,
+    "ability": "Acero Templado",
+    "notes": null
+  },
+  {
+    "name": "LOPUNNY",
+    "official": "Ps 65, At 76, Def 84, At.esp 54, Def.esp 96, Velocid 105. Total 480",
+    "hackrom": "Ps 75, At 76, Def 94, At.esp 54, Def.esp 96, Velocid 105. Total 500",
+    "type": null,
+    "ability": "Adaptable (solo en Lopunny, en su mega se mantiene intrépido)",
+    "notes": null
+  },
+  {
+    "name": "MEGA LOPUNNY",
+    "official": "Ps 65, At 136, Def 94, At.esp 54, Def.esp 96, Velocid 135. Total 580",
+    "hackrom": "Ps 75, At 136, Def 104, At.esp 54, Def.esp 96, Velocid 135. Total 600",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "MISMAGIUS",
+    "official": "Ps 60, At 60, Def 60, At.esp 105, Def.esp 105, Velocid 105. Total 495",
+    "hackrom": "Ps 65, At 65, Def 65, At.esp 110, Def.esp 110, Velocid 110. Total 525",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "HONCHCROW",
+    "official": "Ps 100, At 125, Def 52, At.esp 105, Def.esp 52, Velocid 71. Total 505",
+    "hackrom": "Ps 103, At 125, Def 82, At.esp 52, Def.esp 82, Velocid 81. Total 525",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "RHYPERIOR",
+    "official": "Ps 115, At 140, Def 130, At.esp 55, Def.esp 55, Velocid 40. Total 535",
+    "hackrom": "Ps 115, At 145, Def 135, At.esp 40, Def.esp 55, Velocid 55. Total 545",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "TANGROWTH",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "Habilidades: Regeneración/Sebo/Clorofila",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "ELECTIVIRE",
+    "official": "Ps 75, At 123, Def 67, At.esp 95, Def.esp 85, Velocid 95. Total 540",
+    "hackrom": "Ps 75, At 123, Def 85, At.esp 67, Def.esp 95, Velocid 95. Total 540",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "MAGMORTAR",
+    "official": "Ps 75, At 95, Def 67, At.esp 125, Def.esp 95, Velocid 83. Total 540",
+    "hackrom": "Ps 75, At 67, Def 83, At.esp 125, Def.esp 95, Velocid 95. Total 540",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "MAMOSWINE",
+    "official": "Ps 110, At 130, Def 80, At.esp 70, Def.esp 60, Velocid 80. Total 530",
+    "hackrom": "Ps 110, At 130, Def 90, At.esp 60, Def.esp 70, Velocid 80. Total 540",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "PORYGON-Z",
+    "official": "Ps 85, At 80, Def 70, At.esp 135, Def.esp 75, Velocid 90. Total 535",
+    "hackrom": "Ps 85, At 80, Def 70, At.esp 145, Def.esp 75, Velocid 90. Total 545",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "GALLADE",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": "Adaptable",
+    "notes": null
+  },
+  {
+    "name": "PROBOPASS",
+    "official": "Ps 60, At 55, Def 145, At.esp 75, Def.esp 150, Velocid 40. Total 525",
+    "hackrom": "Ps 60, At 25, Def 175, At.esp 75, Def.esp 150, Velocid 40. Total 525",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "DUSKNOIR",
+    "official": "Ps 45, At 100, Def 135, At.esp 65, Def.esp 135, Velocid 45. Total 525",
+    "hackrom": "Ps 55, At 100, Def 140, At.esp 75, Def.esp 140, Velocid 25. Total 535",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "AZELF",
+    "official": "Ps 75, At 125, Def 70, At.esp 125, Def.esp 70, Velocid 115. Total 580",
+    "hackrom": "Ps 75, At 80, Def 70, At.esp 135, Def.esp 95, Velocid 125. Total 580",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "REGIGIGAS",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": "Rompemoldes",
+    "notes": null
+  },
+  {
+    "name": "DARKRAI",
+    "official": "Ps 70, At 90, Def 90, At.esp 135, Def.esp 90, Velocid 125. Total 600",
+    "hackrom": "Ps 90, At 70, Def 90, At.esp 135, Def.esp 90, Velocid 125. Total 600",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "VICTINI",
+    "official": "Ps 100, At 100, Def 100, At.esp 100, Def.esp 100, Velocid 100. Total 600",
+    "hackrom": "Ps 100, At 125, Def 100, At.esp 50, Def.esp 100, Velocid 125. Total 600",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "STOUTLAND",
+    "official": "Ps 85, At 110, Def 90, At.esp 45, Def.esp 90, Velocid 80. Total 500",
+    "hackrom": "Ps 105, At 110, Def 90, At.esp 45, Def.esp 90, Velocid 80. Total 520",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "MUSHARNA",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": "Campo Psíquico",
+    "notes": null
+  },
+  {
+    "name": "DARMANITAN",
+    "official": "Ps 105, At 140, Def 55, At.esp 30, Def.esp 55, Velocid 95. Total 480",
+    "hackrom": "Ps 105, At 140, Def 65, At.esp 30, Def.esp 65, Velocid 95. Total 500",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "Tipo Oficial: Fuego",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "Tipo Hackrom: Fuego/Lucha",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "DARMANITAN ZEN",
+    "official": "Ps 105, At 30, Def 105, At.esp 140, Def.esp 105, Velocid 55. Total 540",
+    "hackrom": "Ps 105, At 30, Def 105, At.esp 160, Def.esp 105, Velocid 55. Total 560",
+    "type": null,
+    "ability": "Potencia bruta",
+    "notes": null
+  },
+  {
+    "name": "DARMANITAN GALAR",
+    "official": "Ps 105, At 140, Def 55, At.esp 30, Def.esp 55, Velocid 95. Total 480",
+    "hackrom": "Ps 105, At 140, Def 65, At.esp 30, Def.esp 65, Velocid 95. Total 500",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "Tipo Oficial: Hielo",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "Tipo Hackrom: Hielo/Lucha",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "DARMANITAN GALAR ZEN",
+    "official": "Ps 105, At 160, Def 55, At.esp 30, Def.esp 55, Velocid 135. Total 540",
+    "hackrom": "Ps 105, At 160, Def 65, At.esp 30, Def.esp 65, Velocid 135. Total 560",
+    "type": null,
+    "ability": "Indefenso",
+    "notes": null
+  },
+  {
+    "name": "GOTHITELLE",
+    "official": "Ps 70, At 55, Def 95, At.esp 95, Def.esp 110, Velocid 65. Total 490",
+    "hackrom": "Ps 80, At 55, Def 105, At.esp 105, Def.esp 110, Velocid 65. Total 520",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "SWANNA",
+    "official": "Ps 75, At 87, Def 63, At.esp 87, Def.esp 63, Velocid 98. Total 473",
+    "hackrom": "Ps 75, At 92, Def 73, At.esp 92, Def.esp 73, Velocid 98. Total 503",
+    "type": null,
+    "ability": "Alas Vendaval",
+    "notes": null
+  },
+  {
+    "name": "JELLICENT",
+    "official": "Ps 100, At 60, Def 70, At.esp 85, Def.esp 105, Velocid 60. Total 480",
+    "hackrom": "Ps 105, At 70, Def 70, At.esp 105, Def.esp 105, Velocid 60. Total 515",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "KLINKLANG",
+    "official": "Ps 60, At 100, Def 115, At.esp 70, Def.esp 85, Velocid 90. Total 520",
+    "hackrom": "Ps 60, At 100, Def 115, At.esp 100, Def.esp 85, Velocid 90. Total 550",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "Habilidades: Indefenso/Cuerpo Puro",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "CHANDELURE",
+    "official": "Ps 60, At 55, Def 90, At.esp 145, Def.esp 90, Velocid 80. Total 520",
+    "hackrom": "Ps 60, At 55, Def 90, At.esp 145, Def.esp 110, Velocid 80. Total 540",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "BRAVIARY:",
+    "official": "Ps 100, At 123, Def 75, At.esp 57, Def.esp 75, Velocid 80. Total 510",
+    "hackrom": "Ps 100, At 123, Def 85, At.esp 58, Def.esp 85, Velocid 90. Total 541",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "Habilidades: Cabeza Roca/Potencia Bruta/Competitivo",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "BRAVIARY HISUI:",
+    "official": "Ps 110, At 83, Def 70, At.esp 112, Def.esp 70, Velocid 65. Total 510",
+    "hackrom": "Ps 110, At 83, Def 85, At.esp 113, Def.esp 85, Velocid 65. Total 541",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "VOLCARONA:",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": "Muro Mágico",
+    "notes": null
+  },
+  {
+    "name": "PYROAR:",
+    "official": "Ps 86, At 68, Def 72, At.esp 109, Def.esp 66, Velocid 106. Total 507",
+    "hackrom": "Ps 96, At 88, Def 72, At.esp 109, Def.esp 76, Velocid 106. Total 547",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "FLORGES",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": "Velo Flor/Campo de Niebla/Simbiosis",
+    "notes": null
+  },
+  {
+    "name": "DRAGALGE",
+    "official": "Ps 65, At 75, Def 90, At.esp 97, Def.esp 123, Velocid 44. Total 494",
+    "hackrom": "Ps 75, At 95, Def 95, At.esp 97, Def.esp 123, Velocid 44. Total 529",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "GOODRA:",
+    "official": null,
+    "hackrom": null,
+    "type": null,
+    "ability": "Campo de Hierba",
+    "notes": null
+  },
+  {
+    "name": "TOUCANNON",
+    "official": "Ps 80, At 120, Def 75, At.esp 75, Def.esp 75, Velocid 60. Total 485",
+    "hackrom": "Ps 100, At 120, Def 85, At.esp 75, Def.esp 85, Velocid 70. Total 535",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "VIKABOLT",
+    "official": "Ps 77, At 70, Def 90, At.esp 145, Def.esp 75, Velocid 43. Total 500",
+    "hackrom": "Ps 77, At 42, Def 105, At.esp 145, Def.esp 75, Velocid 56. Total 500",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "LYCANROC FORMA DIURNA",
+    "official": "Ps 75, At 115, Def 95, At.esp 55, Def.esp 65, Velocid 112. Total 517",
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "LYCANROC FORMA NOCTURNA",
+    "official": "Ps 85, At 115, Def 105, At.esp 55, Def.esp 75, Velocid 82. Total 517",
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "LYCANROC FORMA CREPUSCULAR",
+    "official": "Ps 75, At 117, Def 95, At.esp 55, Def.esp 65, Velocid 110. Total 517",
+    "hackrom": null,
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "DRAMPA",
+    "official": "Ps 78, At 60, Def 85, At.esp 135, Def.esp 91, Velocid 36. Total 485",
+    "hackrom": "Ps 88, At 60, Def 95, At.esp 135, Def.esp 111, Velocid 36. Total 525",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "NIHILEGO",
+    "official": "Ps 109, At 53, Def 47, At.esp 127, Def.esp 131, Velocid 103. Total 570",
+    "hackrom": "Ps 109, At 47, Def 53, At.esp 127, Def.esp 131, Velocid 103. Total 570",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "XURKITREE",
+    "official": "Ps 83, At 89, Def 71, At.esp 173, Def.esp 71, Velocid 83. Total 570",
+    "hackrom": "Ps 83, At 71, Def 89, At.esp 173, Def.esp 71, Velocid 83. Total 570",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "KARTANA",
+    "official": "Ps 59, At 181, Def 131, At.esp 59, Def.esp 31, Velocid 109. Total 570",
+    "hackrom": "Ps 59, At 181, Def 131, At.esp 31, Def.esp 59, Velocid 109. Total 570",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "MAGEARNA",
+    "official": "Ps 80, At 95, Def 115, At.esp 130, Def.esp 115, Velocid 65. Total 600",
+    "hackrom": "Ps 95, At 65, Def 115, At.esp 130, Def.esp 115, Velocid 80. Total 600",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "MARSHADOW",
+    "official": "Ps 90, At 125, Def 80, At.esp 90, Def.esp 90, Velocid 125. Total 600",
+    "hackrom": "Ps 90, At 125, Def 90, At.esp 80, Def.esp 90, Velocid 125. Total 600",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "BLACEPHALON",
+    "official": "Ps 53, At 127, Def 53, At.esp 151, Def.esp 79, Velocid 107. Total 570",
+    "hackrom": "Ps 127, At 53, Def 53, At.esp 151, Def.esp 79, Velocid 107. Total 570",
+    "type": null,
+    "ability": null,
+    "notes": null
+  },
+  {
+    "name": "CURSOLA",
+    "official": "Ps 60, At 95, Def 50, At.esp 145, Def.esp 130, Velocid 30. Total 510",
+    "hackrom": "Ps 60, At 30, Def 95, At.esp 145, Def.esp 130, Velocid 50. Total 510",
+    "type": null,
+    "ability": null,
+    "notes": null
+  }
+]
