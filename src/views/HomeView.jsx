@@ -19,7 +19,7 @@ import {
   Target
 } from 'lucide-react';
 
-export default function HomeView({ setActiveTab, progressStats, resetProgress }) {
+export default function HomeView({ setActiveTab, onOpenGuide100, progressStats, resetProgress }) {
   return (
     <div style={{ padding: '28px 24px', maxWidth: '1280px', margin: '0 auto', width: '100%' }}>
       {/* Hero Banner */}
@@ -210,7 +210,7 @@ export default function HomeView({ setActiveTab, progressStats, resetProgress })
               </ul>
             </div>
             <button
-              onClick={() => setActiveTab('guide-100')}
+              onClick={() => onOpenGuide100 ? onOpenGuide100('easy') : setActiveTab('guide-100')}
               style={{
                 background: '#166534',
                 color: '#fff',
@@ -264,7 +264,7 @@ export default function HomeView({ setActiveTab, progressStats, resetProgress })
               </ul>
             </div>
             <button
-              onClick={() => setActiveTab('guide-100')}
+              onClick={() => onOpenGuide100 ? onOpenGuide100('hard') : setActiveTab('guide-100')}
               style={{
                 background: '#b91c1c',
                 color: '#fff',

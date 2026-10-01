@@ -129,14 +129,29 @@ const CUSTOM_SPRITE_MAP = {
 };
 
 export function getPokemonSprite(name, dexNum = null) {
-  if (!name) return 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/0.png';
+  if (!name && !dexNum) return 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/0.png';
+
+  // If first argument is a number, treat it directly as dexNum
+  if (typeof name === 'number') {
+    if (name > 0 && name <= 1025) {
+      return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${name}.png`;
+    }
+    dexNum = name;
+    name = '';
+  }
+
+  if (dexNum && typeof dexNum === 'number' && dexNum > 0 && dexNum <= 1025) {
+    return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${dexNum}.png`;
+  }
 
   // Normalize name
-  let clean = name.toLowerCase().trim()
+  let clean = String(name || '').toLowerCase().trim()
     .replace(/[♀]/g, '-f')
     .replace(/[♂]/g, '-m')
     .replace(/['’.]/g, '')
     .replace(/\s+/g, '-');
+
+  if (!clean) return 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/0.png';
 
   // Check base forms of variants
   if (clean.includes('-x') || clean.includes('-y') || clean.includes('-z') || clean.includes('-&') || clean.includes('-p') || clean.includes('-m')) {
@@ -152,10 +167,6 @@ export function getPokemonSprite(name, dexNum = null) {
     if (CUSTOM_SPRITE_MAP[baseName]) {
       return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${CUSTOM_SPRITE_MAP[baseName]}.png`;
     }
-  }
-
-  if (dexNum && dexNum > 0 && dexNum <= 1025) {
-    return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${dexNum}.png`;
   }
 
   if (CUSTOM_SPRITE_MAP[clean]) {

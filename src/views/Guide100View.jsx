@@ -38,31 +38,35 @@ export default function Guide100View({
   onSelectBoss, 
   onSelectQuest, 
   onSelectPokemon, 
-  onSelectItem 
+  onSelectItem,
+  initialDifficulty = 'hard'
 }) {
-  const [difficulty, setDifficulty] = useState('hard'); // default to hard as requested
+  const [difficulty, setDifficulty] = useState(initialDifficulty);
   const [activeTabSub, setActiveTabSub] = useState('walkthrough'); // 'walkthrough' | 'missables' | 'differences' | 'trophy'
   const [activeAct, setActiveAct] = useState('all'); // 'all' | 'kanto' | 'archi7' | 'johto' | 'dlc' | 'hoenn'
   const [searchQuery, setSearchQuery] = useState('');
   const [collapsedStages, setCollapsedStages] = useState({});
   const [expandedBossTeams, setExpandedBossTeams] = useState({});
 
-  // Independent LocalStorage for Easy and Hard Mode Walkthrough Progress
-  const [easyChecked, setEasyChecked] = useState(() => {
-    try {
-      return JSON.parse(localStorage.getItem('tre_100_easy_walkthrough')) || {};
-    } catch {
-      return {};
+  useEffect(() => {
+    if (initialDifficulty) {
+      setDifficulty(initialDifficulty);
     }
-  });
+  }, [initialDifficulty]);
 
-  const [hardChecked, setHardChecked] = useState(() => {
+  // Robust parsing of LocalStorage objects
+  const parseStorageObj = (key) => {
     try {
-      return JSON.parse(localStorage.getItem('tre_100_hard_walkthrough')) || {};
+      const val = JSON.parse(localStorage.getItem(key));
+      return val && typeof val === 'object' && !Array.isArray(val) ? val : {};
     } catch {
       return {};
     }
-  });
+  };
+
+  // Independent LocalStorage for Easy and Hard Mode Walkthrough Progress
+  const [easyChecked, setEasyChecked] = useState(() => parseStorageObj('tre_100_easy_walkthrough'));
+  const [hardChecked, setHardChecked] = useState(() => parseStorageObj('tre_100_hard_walkthrough'));
 
   useEffect(() => {
     localStorage.setItem('tre_100_easy_walkthrough', JSON.stringify(easyChecked));
@@ -72,7 +76,7 @@ export default function Guide100View({
     localStorage.setItem('tre_100_hard_walkthrough', JSON.stringify(hardChecked));
   }, [hardChecked]);
 
-  const currentChecked = difficulty === 'easy' ? easyChecked : hardChecked;
+  const currentChecked = (difficulty === 'easy' ? easyChecked : hardChecked) || {};
 
   const toggleCheck = (taskId) => {
     if (difficulty === 'easy') {
@@ -696,12 +700,12 @@ export default function Guide100View({
                                   </button>
 
                                   <img
-                                    src={getPokemonSprite(pkmn.dexNum || pkmn.name)}
+                                    src={getPokemonSprite(pkmn.name, pkmn.dexNum)}
                                     alt={pkmn.name}
                                     className="w-12 h-12 object-contain bg-black/40 rounded-lg p-1 border border-gray-800 shrink-0 cursor-pointer"
                                     onClick={() => onSelectPokemon && onSelectPokemon(pkmn.name)}
                                     onError={(e) => { e.target.style.display = 'none'; }}
-                                  />
+                                />
 
                                   <div className="min-w-0 flex-1">
                                     <div className="flex items-center gap-1.5">
@@ -762,7 +766,7 @@ export default function Guide100View({
                                     </button>
 
                                     <img
-                                      src={getPokemonSprite(gift.dexNum || gift.name)}
+                                      src={getPokemonSprite(gift.name, gift.dexNum)}
                                       alt={gift.name}
                                       className="w-14 h-14 object-contain bg-black/60 rounded-xl p-1.5 border border-amber-800/40 shrink-0 cursor-pointer"
                                       onClick={() => onSelectPokemon && onSelectPokemon(gift.name)}

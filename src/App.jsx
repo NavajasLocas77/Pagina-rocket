@@ -3,6 +3,7 @@ import Sidebar from './components/Sidebar';
 import Header from './components/Header';
 import GlobalSearchModal from './components/GlobalSearchModal';
 import MoveDetailModal from './components/MoveDetailModal';
+import ErrorBoundary from './components/ErrorBoundary';
 
 // Views
 import HomeView from './views/HomeView';
@@ -31,6 +32,7 @@ export default function App() {
   const [targetBossId, setTargetBossId] = useState(null);
   const [targetItemSearch, setTargetItemSearch] = useState('');
   const [targetMoveSearch, setTargetMoveSearch] = useState('');
+  const [guideDifficulty, setGuideDifficulty] = useState('hard');
 
   // Persistent user state in LocalStorage
   const [spoilerMode, setSpoilerMode] = useState(() => {
@@ -152,6 +154,12 @@ export default function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  const handleOpenGuide100 = (diff = 'hard') => {
+    setGuideDifficulty(diff);
+    setActiveTab('guide-100');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   const handleNavigate = (tab, param) => {
     setActiveTab(tab);
     if (tab === 'pokedex') setTargetPokemonSearch(param || '');
@@ -210,23 +218,26 @@ export default function App() {
           setSpoilerMode={setSpoilerMode}
         />
 
-        <main style={{ flex: 1, paddingBottom: '60px' }}>
-          {activeTab === 'home' && (
-            <HomeView
-              setActiveTab={setActiveTab}
-              progressStats={progressStats}
-              resetProgress={resetProgress}
-            />
-          )}
+        <ErrorBoundary>
+          <main style={{ flex: 1, paddingBottom: '60px' }}>
+            {activeTab === 'home' && (
+              <HomeView
+                setActiveTab={setActiveTab}
+                onOpenGuide100={handleOpenGuide100}
+                progressStats={progressStats}
+                resetProgress={resetProgress}
+              />
+            )}
 
-          {activeTab === 'guide-100' && (
-            <Guide100View
-              onSelectBoss={handleSelectBoss}
-              onSelectQuest={handleSelectQuest}
-              onSelectPokemon={handleSelectPokemon}
-              onSelectItem={handleSelectItem}
-            />
-          )}
+            {activeTab === 'guide-100' && (
+              <Guide100View
+                onSelectBoss={handleSelectBoss}
+                onSelectQuest={handleSelectQuest}
+                onSelectPokemon={handleSelectPokemon}
+                onSelectItem={handleSelectItem}
+                initialDifficulty={guideDifficulty}
+              />
+            )}
 
           {activeTab === 'walkthrough' && (
             <WalkthroughView
@@ -317,7 +328,8 @@ export default function App() {
             <CreditsView />
           )}
         </main>
-      </div>
+      </ErrorBoundary>
+    </div>
 
       {/* Global Search Modal */}
       <GlobalSearchModal
